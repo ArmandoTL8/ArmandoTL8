@@ -1,0 +1,150 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/Component.js",
+			"size": 1566,
+			"isDebug": true,
+			"required": [
+				"sap/base/util/ObjectPath.js",
+				"sap/esh/search/ui/i18n.js",
+				"sap/esh/search/ui/library.js",
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/Component.js",
+			"size": 964,
+			"required": [
+				"sap/base/util/ObjectPath.js",
+				"sap/esh/search/ui/i18n.js",
+				"sap/esh/search/ui/library.js",
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 1016,
+			"isDebug": true
+		},
+		{
+			"name": "controller/CEPSearchApp-dbg.controller.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/controller/CEPSearchApp.controller.js",
+			"size": 2054,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/renderers/fiori2/search/util.js"
+			]
+		},
+		{
+			"name": "controller/CEPSearchApp.controller.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/controller/CEPSearchApp.controller.js",
+			"size": 1249,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/renderers/fiori2/search/util.js"
+			]
+		},
+		{
+			"name": "controller/CEPSearchApp.controller.js.map",
+			"size": 1473,
+			"isDebug": true
+		},
+		{
+			"name": "controller/SearchApp-dbg.controller.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/controller/SearchApp.controller.js",
+			"size": 2975,
+			"isDebug": true,
+			"required": [
+				"sap/esh/search/ui/SearchShellHelper.js",
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/renderers/fiori2/search/util.js"
+			]
+		},
+		{
+			"name": "controller/SearchApp.controller.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/controller/SearchApp.controller.js",
+			"size": 1415,
+			"required": [
+				"sap/esh/search/ui/SearchShellHelper.js",
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/renderers/fiori2/search/util.js"
+			]
+		},
+		{
+			"name": "controller/SearchApp.controller.js.map",
+			"size": 1823,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/manifest.json",
+			"size": 670
+		},
+		{
+			"name": "resources.json",
+			"size": 3977
+		},
+		{
+			"name": "view/CEPSearchApp-dbg.view.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/view/CEPSearchApp.view.js",
+			"size": 680,
+			"isDebug": true,
+			"required": [
+				"sap/esh/search/ui/SearchCompositeControl.js",
+				"sap/m/Label.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "view/CEPSearchApp.view.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/view/CEPSearchApp.view.js",
+			"size": 533,
+			"required": [
+				"sap/esh/search/ui/SearchCompositeControl.js",
+				"sap/m/Label.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "view/CEPSearchApp.view.js.map",
+			"size": 497,
+			"isDebug": true
+		},
+		{
+			"name": "view/SearchApp-dbg.view.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/view/SearchApp.view.js",
+			"size": 674,
+			"isDebug": true,
+			"required": [
+				"sap/esh/search/ui/SearchCompositeControl.js",
+				"sap/m/Label.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "view/SearchApp.view.js",
+			"module": "sap/ushell/renderers/fiori2/search/searchComponent/view/SearchApp.view.js",
+			"size": 524,
+			"required": [
+				"sap/esh/search/ui/SearchCompositeControl.js",
+				"sap/m/Label.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "view/SearchApp.view.js.map",
+			"size": 491,
+			"isDebug": true
+		}
+	]
+}

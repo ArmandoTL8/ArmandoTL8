@@ -1,0 +1,122 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 64,
+			"theme": "base"
+		},
+		{
+			"name": "AstExpression.less",
+			"size": 6662,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "DecisionTable.less",
+			"size": 1636,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "DecisionTableCell.less",
+			"size": 575,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "DecisionTableSettings.less",
+			"size": 1502,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "ExpressionAdvanced.less",
+			"size": 409,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "ExpressionBasic.less",
+			"size": 126,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "RuleBuilder.less",
+			"size": 23,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "TextRule.less",
+			"size": 746,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1559,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 240,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 124609,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "img/curlyunderline.gif",
+			"size": 815,
+			"theme": "base"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 8882,
+			"theme": "base"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/rules/ui/themes/base/library-parameters.json",
+			"size": 649,
+			"theme": "base"
+		},
+		{
+			"name": "library.css",
+			"size": 8873,
+			"theme": "base"
+		},
+		{
+			"name": "library.less",
+			"size": 12894,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library.source.less",
+			"size": 641,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 8790,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 8781,
+			"theme": "base"
+		},
+		{
+			"name": "resources.json",
+			"size": 1999
+		}
+	]
+}

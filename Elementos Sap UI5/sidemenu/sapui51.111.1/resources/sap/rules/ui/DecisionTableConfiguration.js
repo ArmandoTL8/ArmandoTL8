@@ -1,0 +1,8 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+		(c) Copyright 2009-2016 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["jquery.sap.global","./library","sap/ui/core/Element"],function(jQuery,e,t){"use strict";var r=t.extend("sap.rules.ui.DecisionTableConfiguration",{metadata:{library:"sap.rules.ui",properties:{cellFormat:{type:"sap.rules.ui.DecisionTableCellFormat",defaultValue:sap.rules.ui.DecisionTableCellFormat.Both,deprecated:true},hitPolicies:{type:"sap.rules.ui.RuleHitPolicy[]",defaultValue:[sap.rules.ui.RuleHitPolicy.FirstMatch,sap.rules.ui.RuleHitPolicy.AllMatch]},enableSettings:{type:"boolean",defaultValue:false},enableSettingResult:{type:"boolean",defaultValue:true},decisionTableFormat:{type:"sap.rules.ui.DecisionTableFormat",defaultValue:sap.rules.ui.DecisionTableFormat.CellFormat},threshold:{type:"int",defaultValue:30},visibleRowCount:{type:"int",defaultValue:30}},events:{change:{parameters:{name:{},value:{}}}}},_handlePropertySetter:function(e,t){var r=this.setProperty(e,t,true);this.fireChange({name:e,value:t});return r},setCellFormat:function(e){return this._handlePropertySetter("cellFormat",e)},setHitPolicies:function(e){return this._handlePropertySetter("hitPolicies",e)},setEnableSettings:function(e){return this._handlePropertySetter("enableSettings",e)},setDecisionTableFormat:function(e){return this._handlePropertySetter("decisionTableFormat",e)},setEnableSettingResult:function(e){return this._handlePropertySetter("enableSettingResult",e)},setThreshold:function(e){return this._handlePropertySetter("threshold",e)},setVisibleRowCount:function(e){return this._handlePropertySetter("visibleRowCount",e)}});return r},true);
+//# sourceMappingURL=DecisionTableConfiguration.js.map

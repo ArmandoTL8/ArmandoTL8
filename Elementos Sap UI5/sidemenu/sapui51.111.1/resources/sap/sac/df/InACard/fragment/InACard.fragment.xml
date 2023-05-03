@@ -1,0 +1,66 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:m="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:eg="sap.sac.df"
+    xmlns:viz="sap.viz.ui5.controls"
+    xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+    xmlns:viz.data="sap.viz.ui5.data"
+    id="cardFrag"
+>
+ <m:VBox
+      id="vb1"
+      height="100%"
+      width="100%"
+      class="sapUiSmallMargin"
+      >
+    <eg:PivotTable
+        id="PivotTable"
+        navigationCmd="onPress"
+        dataProviderName="{ovpCardProperties>/dataProviderName}"
+        visible="{=${ovpCardProperties>/widgetType}==='pivot'}"
+        />
+    <viz:VizFrame
+      id="idVizFrame"
+      selectData="onChartPress"
+      uiConfig="{applicationSet:'fiori'}"
+      vizType="{om>/dataProvider/0/Chart/chartType}"
+      renderComplete="adjustHeight"
+      feeds="{om>/dataProvider/0/Chart/Feeds}"
+      vizProperties="{om>/dataProvider/0/Chart/vizProperties}"
+      visible="{=${ovpCardProperties>/widgetType}!=='pivot'}"
+      width="100%"
+      height="100%">
+    <viz:dataset>
+      <viz.data:FlattenedDataset
+          id="flatDS"
+          data="{om>/dataProvider/0/FlatResultSet}"
+          dimensions="{om>/dataProvider/0/FlatDimensions}"
+          measures="{om>/dataProvider/0/Measures}"
+          >
+        <viz.data:dimensions>
+          <viz.data:DimensionDefinition
+              id="chartViewDimDef"
+              name="{om>Description}"
+              identity="{om>Name}"
+              value="{om>Name}" />
+        </viz.data:dimensions>
+        <viz.data:measures>
+          <viz.data:MeasureDefinition
+              id="chartViewMeasureDef"
+              name="{om>Description}"
+              identity="{om>Name}"
+              value="{om>Name}" />
+        </viz.data:measures>
+      </viz.data:FlattenedDataset>
+    </viz:dataset>
+    <viz:feeds>
+      <viz.feeds:FeedItem
+          uid="{om>uid}"
+          type="{om>type}"
+          values="{om>values}"
+          />
+    </viz:feeds>
+  </viz:VizFrame>
+  </m:VBox>
+</core:FragmentDefinition>

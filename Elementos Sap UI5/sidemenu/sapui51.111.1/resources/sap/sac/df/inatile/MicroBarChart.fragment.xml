@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+    xmlns:m="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:mc="sap.suite.ui.microchart"
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+    id="microBarChart">
+  <mc:ColumnMicroChart
+      size="L"
+      class="sapUiSmallMargin"
+      allowColumnLabels="true"
+      columns="{mc>/columns}"
+  >
+    <mc:columns>
+      <mc:ColumnMicroChartData
+          value="{mc>value}"
+          label="{mc>label}"
+          displayValue="{mc>displayValue}"
+      />
+    </mc:columns>
+  </mc:ColumnMicroChart>
+</core:FragmentDefinition>

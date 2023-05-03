@@ -1,0 +1,111 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 94,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "MicroProcessFlow.less",
+			"size": 597,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "NetworkNode.less",
+			"size": 1139,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "ProcessFlowConnection.less",
+			"size": 1468,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "ProcessFlowConnectionLabel.less",
+			"size": 17904,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "ProcessFlowLaneHeader.less",
+			"size": 3459,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "ProcessFlowNode.less",
+			"size": 21983,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "TimelineItem.less",
+			"size": 2827,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 5600,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 129302,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 128920,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 267002,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/suite/ui/commons/themes/sap_horizon_hcb/library-parameters.json",
+			"size": 2196,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 266637,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 47512,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 520,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 288295,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 287932,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 2072
+		}
+	]
+}

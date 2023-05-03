@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+	xmlns="sap.suite.ui.microchart"
+	xmlns:core="sap.ui.core"
+	xmlns:m="sap.m"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	template:require="{
+		ID: 'sap/fe/core/helpers/StableIdHelper',
+		COMMON: 'sap/fe/macros/CommonHelper',
+		MACRO: 'sap/fe/macros/MacroTemplating',
+		HELPER: 'sap/fe/macros/visualfilters/InteractiveChartHelper'
+	}"
+>
+	<!-- Internal only -->
+	<template:with path="metaPath>" helper="HELPER.getChart" var="chartAnnotation">
+		<template:if test="{= ${chartAnnotation>Measures/0/} &amp;&amp; ${chartAnnotation>Dimensions/0/} }">
+			<template:then>
+				<InteractiveLineChart
+					core:require="{VisualFilterRuntime: 'sap/fe/macros/visualfilters/VisualFilterRuntime'}"
+					showError="{= ${this>showError}}"
+					errorMessageTitle="{= ${this>errorMessageTitle}}"
+					errorMessage="{= ${this>errorMessage}}"
+				/>
+			</template:then>
+		</template:if>
+	</template:with>
+</core:FragmentDefinition>

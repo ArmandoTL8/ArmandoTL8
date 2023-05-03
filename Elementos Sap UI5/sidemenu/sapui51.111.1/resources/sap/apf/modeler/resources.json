@@ -1,0 +1,2821 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/apf/modeler/Component.js",
+			"size": 5750,
+			"isDebug": true,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/core/layeredRepositoryProxy.js",
+				"sap/apf/modeler/core/instance.js",
+				"sap/apf/modeler/ui/utils/APFRouter.js",
+				"sap/apf/modeler/ui/utils/APFTree.js",
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/view/applicationList.view.xml",
+				"sap/m/library.js",
+				"sap/m/routing/RouteMatchedHandler.js",
+				"sap/m/routing/Router.js",
+				"sap/ui/commons/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ui/table/library.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/apf/modeler/Component.js",
+			"size": 2875,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/core/layeredRepositoryProxy.js",
+				"sap/apf/modeler/core/instance.js",
+				"sap/apf/modeler/ui/utils/APFRouter.js",
+				"sap/apf/modeler/ui/utils/APFTree.js",
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/view/applicationList.view.xml",
+				"sap/m/library.js",
+				"sap/m/routing/RouteMatchedHandler.js",
+				"sap/m/routing/Router.js",
+				"sap/ui/commons/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ui/table/library.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 3229,
+			"isDebug": true
+		},
+		{
+			"name": "core/applicationHandler-dbg.js",
+			"module": "sap/apf/modeler/core/applicationHandler.js",
+			"size": 7213,
+			"isDebug": true,
+			"required": [
+				"sap/apf/utils/hashtable.js"
+			]
+		},
+		{
+			"name": "core/applicationHandler.js",
+			"module": "sap/apf/modeler/core/applicationHandler.js",
+			"size": 2041,
+			"required": [
+				"sap/apf/utils/hashtable.js"
+			]
+		},
+		{
+			"name": "core/applicationHandler.js.map",
+			"size": 3167,
+			"isDebug": true
+		},
+		{
+			"name": "core/configurationEditor-dbg.js",
+			"module": "sap/apf/modeler/core/configurationEditor.js",
+			"size": 54473,
+			"isDebug": true,
+			"required": [
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "core/configurationEditor.js",
+			"module": "sap/apf/modeler/core/configurationEditor.js",
+			"size": 13119,
+			"required": [
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "core/configurationEditor.js.map",
+			"size": 18981,
+			"isDebug": true
+		},
+		{
+			"name": "core/configurationHandler-dbg.js",
+			"module": "sap/apf/modeler/core/configurationHandler.js",
+			"size": 16946,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/core/configurationEditor.js",
+				"sap/apf/modeler/core/configurationObjects.js",
+				"sap/apf/utils/hashtable.js",
+				"sap/apf/utils/utils.js"
+			]
+		},
+		{
+			"name": "core/configurationHandler.js",
+			"module": "sap/apf/modeler/core/configurationHandler.js",
+			"size": 4691,
+			"required": [
+				"sap/apf/modeler/core/configurationEditor.js",
+				"sap/apf/modeler/core/configurationObjects.js",
+				"sap/apf/utils/hashtable.js",
+				"sap/apf/utils/utils.js"
+			]
+		},
+		{
+			"name": "core/configurationHandler.js.map",
+			"size": 7379,
+			"isDebug": true
+		},
+		{
+			"name": "core/configurationObjects-dbg.js",
+			"module": "sap/apf/modeler/core/configurationObjects.js",
+			"size": 49356,
+			"isDebug": true
+		},
+		{
+			"name": "core/configurationObjects.js",
+			"module": "sap/apf/modeler/core/configurationObjects.js",
+			"size": 19011
+		},
+		{
+			"name": "core/configurationObjects.js.map",
+			"size": 27541,
+			"isDebug": true
+		},
+		{
+			"name": "core/elementContainer-dbg.js",
+			"module": "sap/apf/modeler/core/elementContainer.js",
+			"size": 11529,
+			"isDebug": true
+		},
+		{
+			"name": "core/elementContainer.js",
+			"module": "sap/apf/modeler/core/elementContainer.js",
+			"size": 3090
+		},
+		{
+			"name": "core/elementContainer.js.map",
+			"size": 4401,
+			"isDebug": true
+		},
+		{
+			"name": "core/facetFilter-dbg.js",
+			"module": "sap/apf/modeler/core/facetFilter.js",
+			"size": 19393,
+			"isDebug": true
+		},
+		{
+			"name": "core/facetFilter.js",
+			"module": "sap/apf/modeler/core/facetFilter.js",
+			"size": 4946
+		},
+		{
+			"name": "core/facetFilter.js.map",
+			"size": 6522,
+			"isDebug": true
+		},
+		{
+			"name": "core/hierarchicalStep-dbg.js",
+			"module": "sap/apf/modeler/core/hierarchicalStep.js",
+			"size": 5332,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/core/step.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "core/hierarchicalStep.js",
+			"module": "sap/apf/modeler/core/hierarchicalStep.js",
+			"size": 1572,
+			"required": [
+				"sap/apf/modeler/core/step.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "core/hierarchicalStep.js.map",
+			"size": 2296,
+			"isDebug": true
+		},
+		{
+			"name": "core/instance-dbg.js",
+			"module": "sap/apf/modeler/core/instance.js",
+			"size": 47762,
+			"isDebug": true,
+			"required": [
+				"sap/apf/cloudFoundry/ajaxHandler.js",
+				"sap/apf/cloudFoundry/modelerProxy.js",
+				"sap/apf/core/ajax.js",
+				"sap/apf/core/configurationFactory.js",
+				"sap/apf/core/constants.js",
+				"sap/apf/core/entityTypeMetadata.js",
+				"sap/apf/core/messageDefinition.js",
+				"sap/apf/core/messageHandler.js",
+				"sap/apf/core/metadata.js",
+				"sap/apf/core/metadataFacade.js",
+				"sap/apf/core/metadataFactory.js",
+				"sap/apf/core/metadataProperty.js",
+				"sap/apf/core/odataProxy.js",
+				"sap/apf/core/odataRequest.js",
+				"sap/apf/core/representationTypes.js",
+				"sap/apf/core/sessionHandler.js",
+				"sap/apf/core/utils/annotationHandler.js",
+				"sap/apf/core/utils/fileExists.js",
+				"sap/apf/core/utils/uriGenerator.js",
+				"sap/apf/modeler/core/applicationHandler.js",
+				"sap/apf/modeler/core/configurationEditor.js",
+				"sap/apf/modeler/core/configurationHandler.js",
+				"sap/apf/modeler/core/configurationObjects.js",
+				"sap/apf/modeler/core/elementContainer.js",
+				"sap/apf/modeler/core/facetFilter.js",
+				"sap/apf/modeler/core/hierarchicalStep.js",
+				"sap/apf/modeler/core/lazyLoader.js",
+				"sap/apf/modeler/core/messageDefinition.js",
+				"sap/apf/modeler/core/navigationTarget.js",
+				"sap/apf/modeler/core/registryWrapper.js",
+				"sap/apf/modeler/core/representation.js",
+				"sap/apf/modeler/core/smartFilterBar.js",
+				"sap/apf/modeler/core/step.js",
+				"sap/apf/modeler/core/textHandler.js",
+				"sap/apf/modeler/core/textPool.js",
+				"sap/apf/utils/hashtable.js",
+				"sap/apf/utils/parseTextPropertyFile.js",
+				"sap/apf/utils/proxyTextHandlerForLocalTexts.js",
+				"sap/apf/utils/startParameter.js",
+				"sap/ui/thirdparty/datajs.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "core/instance.js",
+			"module": "sap/apf/modeler/core/instance.js",
+			"size": 17992,
+			"required": [
+				"sap/apf/cloudFoundry/ajaxHandler.js",
+				"sap/apf/cloudFoundry/modelerProxy.js",
+				"sap/apf/core/ajax.js",
+				"sap/apf/core/configurationFactory.js",
+				"sap/apf/core/constants.js",
+				"sap/apf/core/entityTypeMetadata.js",
+				"sap/apf/core/messageDefinition.js",
+				"sap/apf/core/messageHandler.js",
+				"sap/apf/core/metadata.js",
+				"sap/apf/core/metadataFacade.js",
+				"sap/apf/core/metadataFactory.js",
+				"sap/apf/core/metadataProperty.js",
+				"sap/apf/core/odataProxy.js",
+				"sap/apf/core/odataRequest.js",
+				"sap/apf/core/representationTypes.js",
+				"sap/apf/core/sessionHandler.js",
+				"sap/apf/core/utils/annotationHandler.js",
+				"sap/apf/core/utils/fileExists.js",
+				"sap/apf/core/utils/uriGenerator.js",
+				"sap/apf/modeler/core/applicationHandler.js",
+				"sap/apf/modeler/core/configurationEditor.js",
+				"sap/apf/modeler/core/configurationHandler.js",
+				"sap/apf/modeler/core/configurationObjects.js",
+				"sap/apf/modeler/core/elementContainer.js",
+				"sap/apf/modeler/core/facetFilter.js",
+				"sap/apf/modeler/core/hierarchicalStep.js",
+				"sap/apf/modeler/core/lazyLoader.js",
+				"sap/apf/modeler/core/messageDefinition.js",
+				"sap/apf/modeler/core/navigationTarget.js",
+				"sap/apf/modeler/core/registryWrapper.js",
+				"sap/apf/modeler/core/representation.js",
+				"sap/apf/modeler/core/smartFilterBar.js",
+				"sap/apf/modeler/core/step.js",
+				"sap/apf/modeler/core/textHandler.js",
+				"sap/apf/modeler/core/textPool.js",
+				"sap/apf/utils/hashtable.js",
+				"sap/apf/utils/parseTextPropertyFile.js",
+				"sap/apf/utils/proxyTextHandlerForLocalTexts.js",
+				"sap/apf/utils/startParameter.js",
+				"sap/ui/thirdparty/datajs.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "core/instance.js.map",
+			"size": 25307,
+			"isDebug": true
+		},
+		{
+			"name": "core/lazyLoader-dbg.js",
+			"module": "sap/apf/modeler/core/lazyLoader.js",
+			"size": 5454,
+			"isDebug": true
+		},
+		{
+			"name": "core/lazyLoader.js",
+			"module": "sap/apf/modeler/core/lazyLoader.js",
+			"size": 1509
+		},
+		{
+			"name": "core/lazyLoader.js.map",
+			"size": 2296,
+			"isDebug": true
+		},
+		{
+			"name": "core/messageDefinition-dbg.js",
+			"module": "sap/apf/modeler/core/messageDefinition.js",
+			"size": 6128,
+			"isDebug": true
+		},
+		{
+			"name": "core/messageDefinition.js",
+			"module": "sap/apf/modeler/core/messageDefinition.js",
+			"size": 5387
+		},
+		{
+			"name": "core/messageDefinition.js.map",
+			"size": 2458,
+			"isDebug": true
+		},
+		{
+			"name": "core/navigationTarget-dbg.js",
+			"module": "sap/apf/modeler/core/navigationTarget.js",
+			"size": 11056,
+			"isDebug": true
+		},
+		{
+			"name": "core/navigationTarget.js",
+			"module": "sap/apf/modeler/core/navigationTarget.js",
+			"size": 2319
+		},
+		{
+			"name": "core/navigationTarget.js.map",
+			"size": 3528,
+			"isDebug": true
+		},
+		{
+			"name": "core/registryWrapper-dbg.js",
+			"module": "sap/apf/modeler/core/registryWrapper.js",
+			"size": 3312,
+			"isDebug": true
+		},
+		{
+			"name": "core/registryWrapper.js",
+			"module": "sap/apf/modeler/core/registryWrapper.js",
+			"size": 774
+		},
+		{
+			"name": "core/registryWrapper.js.map",
+			"size": 1011,
+			"isDebug": true
+		},
+		{
+			"name": "core/representation-dbg.js",
+			"module": "sap/apf/modeler/core/representation.js",
+			"size": 26733,
+			"isDebug": true
+		},
+		{
+			"name": "core/representation.js",
+			"module": "sap/apf/modeler/core/representation.js",
+			"size": 5526
+		},
+		{
+			"name": "core/representation.js.map",
+			"size": 7728,
+			"isDebug": true
+		},
+		{
+			"name": "core/smartFilterBar-dbg.js",
+			"module": "sap/apf/modeler/core/smartFilterBar.js",
+			"size": 1631,
+			"isDebug": true
+		},
+		{
+			"name": "core/smartFilterBar.js",
+			"module": "sap/apf/modeler/core/smartFilterBar.js",
+			"size": 530
+		},
+		{
+			"name": "core/smartFilterBar.js.map",
+			"size": 735,
+			"isDebug": true
+		},
+		{
+			"name": "core/step-dbg.js",
+			"module": "sap/apf/modeler/core/step.js",
+			"size": 35634,
+			"isDebug": true
+		},
+		{
+			"name": "core/step.js",
+			"module": "sap/apf/modeler/core/step.js",
+			"size": 8493
+		},
+		{
+			"name": "core/step.js.map",
+			"size": 12122,
+			"isDebug": true
+		},
+		{
+			"name": "core/textHandler-dbg.js",
+			"module": "sap/apf/modeler/core/textHandler.js",
+			"size": 1677,
+			"isDebug": true
+		},
+		{
+			"name": "core/textHandler.js",
+			"module": "sap/apf/modeler/core/textHandler.js",
+			"size": 645
+		},
+		{
+			"name": "core/textHandler.js.map",
+			"size": 858,
+			"isDebug": true
+		},
+		{
+			"name": "core/textPool-dbg.js",
+			"module": "sap/apf/modeler/core/textPool.js",
+			"size": 12957,
+			"isDebug": true
+		},
+		{
+			"name": "core/textPool.js",
+			"module": "sap/apf/modeler/core/textPool.js",
+			"size": 4676
+		},
+		{
+			"name": "core/textPool.js.map",
+			"size": 7293,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/apf/modeler/manifest.json",
+			"size": 3584
+		},
+		{
+			"name": "resources.json",
+			"size": 80278
+		},
+		{
+			"name": "resources/css/configModeler.css",
+			"size": 4590
+		},
+		{
+			"name": "resources/i18n/texts.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts.properties",
+			"size": 16410,
+			"locale": "",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ar.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ar.properties",
+			"size": 39575,
+			"locale": "ar",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_bg.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_bg.properties",
+			"size": 53118,
+			"locale": "bg",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ca.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ca.properties",
+			"size": 15370,
+			"locale": "ca",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_cs.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_cs.properties",
+			"size": 15933,
+			"locale": "cs",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_cy.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_cy.properties",
+			"size": 13579,
+			"locale": "cy",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_da.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_da.properties",
+			"size": 12953,
+			"locale": "da",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_de.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_de.properties",
+			"size": 14330,
+			"locale": "de",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_el.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_el.properties",
+			"size": 53268,
+			"locale": "el",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_en.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_en.properties",
+			"size": 12612,
+			"locale": "en",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_en_GB.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_en_GB.properties",
+			"size": 12602,
+			"locale": "en_GB",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_en_US_sappsd.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_en_US_sappsd.properties",
+			"size": 64207,
+			"locale": "en_US_sappsd",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_en_US_saprigi.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_en_US_saprigi.properties",
+			"size": 88243,
+			"locale": "en_US_saprigi",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_en_US_saptrc.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_en_US_saptrc.properties",
+			"size": 18828,
+			"locale": "en_US_saptrc",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_es.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_es.properties",
+			"size": 15321,
+			"locale": "es",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_es_MX.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_es_MX.properties",
+			"size": 15274,
+			"locale": "es_MX",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_et.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_et.properties",
+			"size": 13622,
+			"locale": "et",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_fi.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_fi.properties",
+			"size": 13800,
+			"locale": "fi",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_fr.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_fr.properties",
+			"size": 15986,
+			"locale": "fr",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_fr_CA.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_fr_CA.properties",
+			"size": 16328,
+			"locale": "fr_CA",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_hi.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_hi.properties",
+			"size": 47612,
+			"locale": "hi",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_hr.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_hr.properties",
+			"size": 13716,
+			"locale": "hr",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_hu.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_hu.properties",
+			"size": 18111,
+			"locale": "hu",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_id.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_id.properties",
+			"size": 12750,
+			"locale": "id",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_it.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_it.properties",
+			"size": 14301,
+			"locale": "it",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_iw.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_iw.properties",
+			"size": 35470,
+			"locale": "iw",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ja.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ja.properties",
+			"size": 28266,
+			"locale": "ja",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_kk.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_kk.properties",
+			"size": 48867,
+			"locale": "kk",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ko.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ko.properties",
+			"size": 22673,
+			"locale": "ko",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_lt.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_lt.properties",
+			"size": 15710,
+			"locale": "lt",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_lv.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_lv.properties",
+			"size": 16874,
+			"locale": "lv",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ms.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ms.properties",
+			"size": 12515,
+			"locale": "ms",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_nl.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_nl.properties",
+			"size": 12100,
+			"locale": "nl",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_no.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_no.properties",
+			"size": 12909,
+			"locale": "no",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_pl.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_pl.properties",
+			"size": 15627,
+			"locale": "pl",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_pt.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_pt.properties",
+			"size": 15944,
+			"locale": "pt",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_pt_PT.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_pt_PT.properties",
+			"size": 16006,
+			"locale": "pt_PT",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ro.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ro.properties",
+			"size": 15489,
+			"locale": "ro",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_ru.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_ru.properties",
+			"size": 50771,
+			"locale": "ru",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_sh.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_sh.properties",
+			"size": 13563,
+			"locale": "sh",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_sk.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_sk.properties",
+			"size": 16142,
+			"locale": "sk",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_sl.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_sl.properties",
+			"size": 13576,
+			"locale": "sl",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_sv.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_sv.properties",
+			"size": 13404,
+			"locale": "sv",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_th.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_th.properties",
+			"size": 49769,
+			"locale": "th",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_tr.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_tr.properties",
+			"size": 16516,
+			"locale": "tr",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_uk.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_uk.properties",
+			"size": 50446,
+			"locale": "uk",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_vi.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_vi.properties",
+			"size": 25574,
+			"locale": "vi",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_zh_CN.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_zh_CN.properties",
+			"size": 17819,
+			"locale": "zh_CN",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "resources/i18n/texts_zh_TW.properties",
+			"module": "sap/apf/modeler/resources/i18n/texts_zh_TW.properties",
+			"size": 17704,
+			"locale": "zh_TW",
+			"raw": "resources/i18n/texts.properties"
+		},
+		{
+			"name": "ui/controller/applicationList-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/applicationList.controller.js",
+			"size": 17292,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/helper.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Input.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/Filter.js"
+			]
+		},
+		{
+			"name": "ui/controller/applicationList.controller.js",
+			"module": "sap/apf/modeler/ui/controller/applicationList.controller.js",
+			"size": 10079,
+			"required": [
+				"sap/apf/modeler/ui/utils/helper.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Input.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/Filter.js"
+			]
+		},
+		{
+			"name": "ui/controller/applicationList.controller.js.map",
+			"size": 12572,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/catalogService-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/catalogService.controller.js",
+			"size": 3607,
+			"isDebug": true,
+			"required": [
+				"sap/apf/utils/utils.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/Filter.js",
+				"sap/ui/model/FilterOperator.js",
+				"sap/ui/model/odata/v2/ODataModel.js"
+			]
+		},
+		{
+			"name": "ui/controller/catalogService.controller.js",
+			"module": "sap/apf/modeler/ui/controller/catalogService.controller.js",
+			"size": 1639,
+			"required": [
+				"sap/apf/utils/utils.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/Filter.js",
+				"sap/ui/model/FilterOperator.js",
+				"sap/ui/model/odata/v2/ODataModel.js"
+			]
+		},
+		{
+			"name": "ui/controller/catalogService.controller.js.map",
+			"size": 2171,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/category-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/category.controller.js",
+			"size": 6336,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/category.controller.js",
+			"module": "sap/apf/modeler/ui/controller/category.controller.js",
+			"size": 2771,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/category.controller.js.map",
+			"size": 4137,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/configuration-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/configuration.controller.js",
+			"size": 11068,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/configuration.controller.js",
+			"module": "sap/apf/modeler/ui/controller/configuration.controller.js",
+			"size": 5767,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/configuration.controller.js.map",
+			"size": 7011,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/configurationList-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/configurationList.controller.js",
+			"size": 123480,
+			"isDebug": true,
+			"required": [
+				"sap/apf/cloudFoundry/uiHandler.js",
+				"sap/apf/modeler/ui/utils/APFTree.js",
+				"sap/apf/modeler/ui/utils/helper.js",
+				"sap/apf/modeler/ui/utils/navigationHandler.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/ui/core/syncStyleClass.js",
+				"sap/ui/core/util/File.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ui/util/openWindow.js"
+			]
+		},
+		{
+			"name": "ui/controller/configurationList.controller.js",
+			"module": "sap/apf/modeler/ui/controller/configurationList.controller.js",
+			"size": 58730,
+			"required": [
+				"sap/apf/cloudFoundry/uiHandler.js",
+				"sap/apf/modeler/ui/utils/APFTree.js",
+				"sap/apf/modeler/ui/utils/helper.js",
+				"sap/apf/modeler/ui/utils/navigationHandler.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/ui/core/syncStyleClass.js",
+				"sap/ui/core/util/File.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ui/util/openWindow.js"
+			]
+		},
+		{
+			"name": "ui/controller/configurationList.controller.js.map",
+			"size": 67287,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/cornerTexts-dbg.js",
+			"module": "sap/apf/modeler/ui/controller/cornerTexts.js",
+			"size": 5063,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/textPoolHelper.js"
+			]
+		},
+		{
+			"name": "ui/controller/cornerTexts.js",
+			"module": "sap/apf/modeler/ui/controller/cornerTexts.js",
+			"size": 2350,
+			"required": [
+				"sap/apf/modeler/ui/utils/textPoolHelper.js"
+			]
+		},
+		{
+			"name": "ui/controller/cornerTexts.js.map",
+			"size": 2964,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/editApplication-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/editApplication.controller.js",
+			"size": 4428,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/editApplication.controller.js",
+			"module": "sap/apf/modeler/ui/controller/editApplication.controller.js",
+			"size": 2607,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/editApplication.controller.js.map",
+			"size": 3109,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/facetFilter-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/facetFilter.controller.js",
+			"size": 34153,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/facetFilter.controller.js",
+			"module": "sap/apf/modeler/ui/controller/facetFilter.controller.js",
+			"size": 16620,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/facetFilter.controller.js.map",
+			"size": 19482,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/facetFilterFRR-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/facetFilterFRR.controller.js",
+			"size": 5152,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js"
+			]
+		},
+		{
+			"name": "ui/controller/facetFilterFRR.controller.js",
+			"module": "sap/apf/modeler/ui/controller/facetFilterFRR.controller.js",
+			"size": 2630,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js"
+			]
+		},
+		{
+			"name": "ui/controller/facetFilterFRR.controller.js.map",
+			"size": 3164,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/facetFilterVHR-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/facetFilterVHR.controller.js",
+			"size": 8600,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js"
+			]
+		},
+		{
+			"name": "ui/controller/facetFilterVHR.controller.js",
+			"module": "sap/apf/modeler/ui/controller/facetFilterVHR.controller.js",
+			"size": 4796,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js"
+			]
+		},
+		{
+			"name": "ui/controller/facetFilterVHR.controller.js.map",
+			"size": 5604,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/hierarchicalStepRequest-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/hierarchicalStepRequest.controller.js",
+			"size": 9125,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/stepRequest.controller.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/hierarchicalStepRequest.controller.js",
+			"module": "sap/apf/modeler/ui/controller/hierarchicalStepRequest.controller.js",
+			"size": 4707,
+			"required": [
+				"sap/apf/modeler/ui/controller/stepRequest.controller.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/hierarchicalStepRequest.controller.js.map",
+			"size": 5733,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/importDeliveredContent-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/importDeliveredContent.controller.js",
+			"size": 5561,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/overwriteExistingConfiguration.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/importDeliveredContent.controller.js",
+			"module": "sap/apf/modeler/ui/controller/importDeliveredContent.controller.js",
+			"size": 2967,
+			"required": [
+				"sap/apf/modeler/ui/controller/overwriteExistingConfiguration.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/importDeliveredContent.controller.js.map",
+			"size": 4222,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/importFiles-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/importFiles.controller.js",
+			"size": 8819,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/overwriteExistingConfiguration.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/controller/importFiles.controller.js",
+			"module": "sap/apf/modeler/ui/controller/importFiles.controller.js",
+			"size": 4173,
+			"required": [
+				"sap/apf/modeler/ui/controller/overwriteExistingConfiguration.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/controller/importFiles.controller.js.map",
+			"size": 5860,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/messageHandler-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/messageHandler.controller.js",
+			"size": 4671,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/security/encodeXML.js",
+				"sap/m/MessageBox.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/messageHandler.controller.js",
+			"module": "sap/apf/modeler/ui/controller/messageHandler.controller.js",
+			"size": 2345,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/security/encodeXML.js",
+				"sap/m/MessageBox.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/messageHandler.controller.js.map",
+			"size": 3522,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/navTargetContextMapping-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/navTargetContextMapping.controller.js",
+			"size": 4455,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js"
+			]
+		},
+		{
+			"name": "ui/controller/navTargetContextMapping.controller.js",
+			"module": "sap/apf/modeler/ui/controller/navTargetContextMapping.controller.js",
+			"size": 2938,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js"
+			]
+		},
+		{
+			"name": "ui/controller/navTargetContextMapping.controller.js.map",
+			"size": 3379,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/navigationTarget-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/navigationTarget.controller.js",
+			"size": 20441,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/staticValuesBuilder.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js",
+				"sap/m/MessageBox.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/navigationTarget.controller.js",
+			"module": "sap/apf/modeler/ui/controller/navigationTarget.controller.js",
+			"size": 9846,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/staticValuesBuilder.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js",
+				"sap/m/MessageBox.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/navigationTarget.controller.js.map",
+			"size": 13673,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/navigationTargetParameter-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/navigationTargetParameter.controller.js",
+			"size": 5412,
+			"format": "raw",
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/navigationTargetParameter.controller.js",
+			"module": "sap/apf/modeler/ui/controller/navigationTargetParameter.controller.js",
+			"size": 3347,
+			"format": "raw"
+		},
+		{
+			"name": "ui/controller/navigationTargetParameter.controller.js.map",
+			"size": 3539,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/newApplication-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/newApplication.controller.js",
+			"size": 3805,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/controller/newApplication.controller.js",
+			"module": "sap/apf/modeler/ui/controller/newApplication.controller.js",
+			"size": 2170,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/controller/newApplication.controller.js.map",
+			"size": 2613,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/overwriteExistingConfiguration-dbg.js",
+			"module": "sap/apf/modeler/ui/controller/overwriteExistingConfiguration.js",
+			"size": 4141,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/overwriteExistingConfiguration.js",
+			"module": "sap/apf/modeler/ui/controller/overwriteExistingConfiguration.js",
+			"size": 3060,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/overwriteExistingConfiguration.js.map",
+			"size": 2509,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/previewContent-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/previewContent.controller.js",
+			"size": 12518,
+			"isDebug": true,
+			"required": [
+				"sap/apf/ui/utils/constants.js",
+				"sap/apf/ui/utils/wrappedChartWithCornerTexts.js",
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			],
+			"dynRequired": true
+		},
+		{
+			"name": "ui/controller/previewContent.controller.js",
+			"module": "sap/apf/modeler/ui/controller/previewContent.controller.js",
+			"size": 5591,
+			"required": [
+				"sap/apf/ui/utils/constants.js",
+				"sap/apf/ui/utils/wrappedChartWithCornerTexts.js",
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			],
+			"dynRequired": true
+		},
+		{
+			"name": "ui/controller/previewContent.controller.js.map",
+			"size": 9252,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/propertyType-dbg.js",
+			"module": "sap/apf/modeler/ui/controller/propertyType.js",
+			"size": 25878,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/propertyType.js",
+			"module": "sap/apf/modeler/ui/controller/propertyType.js",
+			"size": 10469,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/propertyType.js.map",
+			"size": 13744,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/propertyTypeHandler-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/propertyTypeHandler.controller.js",
+			"size": 10880,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/propertyTypeFactory.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js",
+				"sap/apf/modeler/ui/utils/propertyTypeState.js"
+			]
+		},
+		{
+			"name": "ui/controller/propertyTypeHandler.controller.js",
+			"module": "sap/apf/modeler/ui/controller/propertyTypeHandler.controller.js",
+			"size": 4553,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/propertyTypeFactory.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js",
+				"sap/apf/modeler/ui/utils/propertyTypeState.js"
+			]
+		},
+		{
+			"name": "ui/controller/propertyTypeHandler.controller.js.map",
+			"size": 5938,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representation-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representation.controller.js",
+			"size": 23141,
+			"isDebug": true,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/representationBasicDataHandler.js",
+				"sap/apf/modeler/ui/utils/representationHandler.js",
+				"sap/apf/modeler/ui/utils/sortDataHandler.js",
+				"sap/apf/modeler/ui/utils/stepPropertyMetadataHandler.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js",
+				"sap/apf/ui/utils/constants.js",
+				"sap/apf/ui/utils/representationTypesHandler.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/representation.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representation.controller.js",
+			"size": 9424,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/representationBasicDataHandler.js",
+				"sap/apf/modeler/ui/utils/representationHandler.js",
+				"sap/apf/modeler/ui/utils/sortDataHandler.js",
+				"sap/apf/modeler/ui/utils/stepPropertyMetadataHandler.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js",
+				"sap/apf/ui/utils/constants.js",
+				"sap/apf/ui/utils/representationTypesHandler.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "ui/controller/representation.controller.js.map",
+			"size": 14262,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationCornerTexts-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationCornerTexts.controller.js",
+			"size": 4273,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/cornerTexts.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationCornerTexts.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationCornerTexts.controller.js",
+			"size": 2098,
+			"required": [
+				"sap/apf/modeler/ui/controller/cornerTexts.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationCornerTexts.controller.js.map",
+			"size": 3094,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationDimension-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationDimension.controller.js",
+			"size": 9951,
+			"isDebug": true,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationDimension.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationDimension.controller.js",
+			"size": 5196,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationDimension.controller.js.map",
+			"size": 6444,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationHierarchyProperty-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationHierarchyProperty.controller.js",
+			"size": 5766,
+			"isDebug": true,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/treeTableDisplayOptionsValueBuilder.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationHierarchyProperty.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationHierarchyProperty.controller.js",
+			"size": 2994,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/treeTableDisplayOptionsValueBuilder.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationHierarchyProperty.controller.js.map",
+			"size": 4448,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationLegend-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationLegend.controller.js",
+			"size": 5047,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/representationDimension.controller.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationLegend.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationLegend.controller.js",
+			"size": 2888,
+			"required": [
+				"sap/apf/modeler/ui/controller/representationDimension.controller.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationLegend.controller.js.map",
+			"size": 3755,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationMeasure-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationMeasure.controller.js",
+			"size": 7852,
+			"isDebug": true,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationMeasure.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationMeasure.controller.js",
+			"size": 4396,
+			"required": [
+				"sap/apf/core/constants.js",
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationMeasure.controller.js.map",
+			"size": 5640,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationProperty-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationProperty.controller.js",
+			"size": 5004,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationProperty.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationProperty.controller.js",
+			"size": 2914,
+			"required": [
+				"sap/apf/modeler/ui/controller/propertyType.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/utils/utils.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationProperty.controller.js.map",
+			"size": 3947,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/representationSortPropertyType-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationSortPropertyType.controller.js",
+			"size": 4335,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/sortPropertyType.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationSortPropertyType.controller.js",
+			"module": "sap/apf/modeler/ui/controller/representationSortPropertyType.controller.js",
+			"size": 2743,
+			"required": [
+				"sap/apf/modeler/ui/controller/sortPropertyType.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/representationSortPropertyType.controller.js.map",
+			"size": 3444,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/requestOptions-dbg.js",
+			"module": "sap/apf/modeler/ui/controller/requestOptions.js",
+			"size": 21904,
+			"isDebug": true,
+			"required": [
+				"sap/apf/cloudFoundry/uiHandler.js",
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/requestOptions.js",
+			"module": "sap/apf/modeler/ui/controller/requestOptions.js",
+			"size": 10643,
+			"required": [
+				"sap/apf/cloudFoundry/uiHandler.js",
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/requestOptions.js.map",
+			"size": 12355,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/smartFilterBar-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/smartFilterBar.controller.js",
+			"size": 3124,
+			"format": "raw",
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/smartFilterBar.controller.js",
+			"module": "sap/apf/modeler/ui/controller/smartFilterBar.controller.js",
+			"size": 1207,
+			"format": "raw"
+		},
+		{
+			"name": "ui/controller/smartFilterBar.controller.js.map",
+			"size": 1600,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/smartFilterBarRequest-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/smartFilterBarRequest.controller.js",
+			"size": 3165,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js"
+			]
+		},
+		{
+			"name": "ui/controller/smartFilterBarRequest.controller.js",
+			"module": "sap/apf/modeler/ui/controller/smartFilterBarRequest.controller.js",
+			"size": 1657,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js"
+			]
+		},
+		{
+			"name": "ui/controller/smartFilterBarRequest.controller.js.map",
+			"size": 2033,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/sortPropertyType-dbg.js",
+			"module": "sap/apf/modeler/ui/controller/sortPropertyType.js",
+			"size": 13404,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/staticValuesBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/utils/utils.js"
+			]
+		},
+		{
+			"name": "ui/controller/sortPropertyType.js",
+			"module": "sap/apf/modeler/ui/controller/sortPropertyType.js",
+			"size": 6056,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/staticValuesBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/utils/utils.js"
+			]
+		},
+		{
+			"name": "ui/controller/sortPropertyType.js.map",
+			"size": 7981,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/step-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/step.controller.js",
+			"size": 27567,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/sortDataHandler.js",
+				"sap/apf/modeler/ui/utils/stepPropertyMetadataHandler.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/step.controller.js",
+			"module": "sap/apf/modeler/ui/controller/step.controller.js",
+			"size": 13102,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+				"sap/apf/modeler/ui/utils/sortDataHandler.js",
+				"sap/apf/modeler/ui/utils/stepPropertyMetadataHandler.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/apf/modeler/ui/utils/viewValidator.js"
+			]
+		},
+		{
+			"name": "ui/controller/step.controller.js.map",
+			"size": 17385,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/stepCornerTexts-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepCornerTexts.controller.js",
+			"size": 2578,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/cornerTexts.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepCornerTexts.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepCornerTexts.controller.js",
+			"size": 1448,
+			"required": [
+				"sap/apf/modeler/ui/controller/cornerTexts.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepCornerTexts.controller.js.map",
+			"size": 1955,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/stepFilterMapping-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepFilterMapping.controller.js",
+			"size": 14060,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepFilterMapping.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepFilterMapping.controller.js",
+			"size": 8303,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepFilterMapping.controller.js.map",
+			"size": 9572,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/stepRequest-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepRequest.controller.js",
+			"size": 15882,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepRequest.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepRequest.controller.js",
+			"size": 9207,
+			"required": [
+				"sap/apf/modeler/ui/controller/requestOptions.js",
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js",
+				"sap/apf/modeler/ui/utils/textPoolHelper.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepRequest.controller.js.map",
+			"size": 10674,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/stepSortPropertyType-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepSortPropertyType.controller.js",
+			"size": 3268,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/controller/sortPropertyType.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepSortPropertyType.controller.js",
+			"module": "sap/apf/modeler/ui/controller/stepSortPropertyType.controller.js",
+			"size": 2009,
+			"required": [
+				"sap/apf/modeler/ui/controller/sortPropertyType.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "ui/controller/stepSortPropertyType.controller.js.map",
+			"size": 2616,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/titleBreadCrumb-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/titleBreadCrumb.controller.js",
+			"size": 553,
+			"format": "raw",
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/titleBreadCrumb.controller.js",
+			"module": "sap/apf/modeler/ui/controller/titleBreadCrumb.controller.js",
+			"size": 329,
+			"format": "raw"
+		},
+		{
+			"name": "ui/controller/titleBreadCrumb.controller.js.map",
+			"size": 351,
+			"isDebug": true
+		},
+		{
+			"name": "ui/controller/toolbar-dbg.controller.js",
+			"module": "sap/apf/modeler/ui/controller/toolbar.controller.js",
+			"size": 49428,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/syncStyleClass.js"
+			]
+		},
+		{
+			"name": "ui/controller/toolbar.controller.js",
+			"module": "sap/apf/modeler/ui/controller/toolbar.controller.js",
+			"size": 24450,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/syncStyleClass.js"
+			]
+		},
+		{
+			"name": "ui/controller/toolbar.controller.js.map",
+			"size": 29001,
+			"isDebug": true
+		},
+		{
+			"name": "ui/fragment/addMenu.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/addMenu.fragment.xml",
+			"size": 918,
+			"required": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js"
+			]
+		},
+		{
+			"name": "ui/fragment/deleteConfirmationDialog.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/deleteConfirmationDialog.fragment.xml",
+			"size": 523,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js"
+			]
+		},
+		{
+			"name": "ui/fragment/dialogWithTwoButtons.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/dialogWithTwoButtons.fragment.xml",
+			"size": 600,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Label.js"
+			]
+		},
+		{
+			"name": "ui/fragment/existingStepDialog.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/existingStepDialog.fragment.xml",
+			"size": 469,
+			"required": [
+				"sap/m/SelectDialog.js",
+				"sap/m/StandardListItem.js"
+			]
+		},
+		{
+			"name": "ui/fragment/exportConfiguration.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/exportConfiguration.fragment.xml",
+			"size": 744,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/HBox.js",
+				"sap/m/Link.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/fragment/mandatoryDialog.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/mandatoryDialog.fragment.xml",
+			"size": 746,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js"
+			]
+		},
+		{
+			"name": "ui/fragment/overwriteConfirmation.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/overwriteConfirmation.fragment.xml",
+			"size": 1357,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/fragment/textpoolCleanupConfirmationDialog.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/textpoolCleanupConfirmationDialog.fragment.xml",
+			"size": 567,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js"
+			]
+		},
+		{
+			"name": "ui/fragment/unsavedDataConfirmationDialog.fragment.xml",
+			"module": "sap/apf/modeler/ui/fragment/unsavedDataConfirmationDialog.fragment.xml",
+			"size": 586,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js"
+			]
+		},
+		{
+			"name": "ui/utils/APFRouter-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/APFRouter.js",
+			"size": 5716,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/APFRouter.js",
+			"module": "sap/apf/modeler/ui/utils/APFRouter.js",
+			"size": 2604
+		},
+		{
+			"name": "ui/utils/APFRouter.js.map",
+			"size": 3712,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/APFTree-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/APFTree.js",
+			"size": 34136,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/m/Tree.js",
+				"sap/m/TreeRenderer.js"
+			]
+		},
+		{
+			"name": "ui/utils/APFTree.js",
+			"module": "sap/apf/modeler/ui/utils/APFTree.js",
+			"size": 13810,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/m/Tree.js",
+				"sap/m/TreeRenderer.js"
+			]
+		},
+		{
+			"name": "ui/utils/APFTree.js.map",
+			"size": 16761,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/constants-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/constants.js",
+			"size": 2767,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/constants.js",
+			"module": "sap/apf/modeler/ui/utils/constants.js",
+			"size": 2251
+		},
+		{
+			"name": "ui/utils/constants.js.map",
+			"size": 2027,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/displayOptionsValueBuilder-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+			"size": 2165,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/utils/displayOptionsValueBuilder.js",
+			"module": "sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js",
+			"size": 1571,
+			"required": [
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/utils/displayOptionsValueBuilder.js.map",
+			"size": 1648,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/helper-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/helper.js",
+			"size": 418,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/helper.js",
+			"module": "sap/apf/modeler/ui/utils/helper.js",
+			"size": 270
+		},
+		{
+			"name": "ui/utils/helper.js.map",
+			"size": 291,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/labelForRepresentationTypes-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/labelForRepresentationTypes.js",
+			"size": 3637,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/labelForRepresentationTypes.js",
+			"module": "sap/apf/modeler/ui/utils/labelForRepresentationTypes.js",
+			"size": 2429
+		},
+		{
+			"name": "ui/utils/labelForRepresentationTypes.js.map",
+			"size": 2493,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/navigationHandler-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/navigationHandler.js",
+			"size": 10470,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/navigationHandler.js",
+			"module": "sap/apf/modeler/ui/utils/navigationHandler.js",
+			"size": 3707
+		},
+		{
+			"name": "ui/utils/navigationHandler.js.map",
+			"size": 4447,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/nullObjectChecker-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/nullObjectChecker.js",
+			"size": 1556,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/nullObjectChecker.js",
+			"module": "sap/apf/modeler/ui/utils/nullObjectChecker.js",
+			"size": 964
+		},
+		{
+			"name": "ui/utils/nullObjectChecker.js.map",
+			"size": 1137,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/optionsValueModelBuilder-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+			"size": 2030,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/utils/optionsValueModelBuilder.js",
+			"module": "sap/apf/modeler/ui/utils/optionsValueModelBuilder.js",
+			"size": 711,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/utils/optionsValueModelBuilder.js.map",
+			"size": 1114,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/propertyTypeFactory-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/propertyTypeFactory.js",
+			"size": 2606,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js"
+			]
+		},
+		{
+			"name": "ui/utils/propertyTypeFactory.js",
+			"module": "sap/apf/modeler/ui/utils/propertyTypeFactory.js",
+			"size": 1671,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js"
+			]
+		},
+		{
+			"name": "ui/utils/propertyTypeFactory.js.map",
+			"size": 1571,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/propertyTypeOrchestration-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/propertyTypeOrchestration.js",
+			"size": 17710,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js"
+			]
+		},
+		{
+			"name": "ui/utils/propertyTypeOrchestration.js",
+			"module": "sap/apf/modeler/ui/utils/propertyTypeOrchestration.js",
+			"size": 5933,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js"
+			]
+		},
+		{
+			"name": "ui/utils/propertyTypeOrchestration.js.map",
+			"size": 8300,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/propertyTypeState-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/propertyTypeState.js",
+			"size": 3181,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/utils/propertyTypeState.js",
+			"module": "sap/apf/modeler/ui/utils/propertyTypeState.js",
+			"size": 2028,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/utils/propertyTypeState.js.map",
+			"size": 2400,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/representationBasicDataHandler-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/representationBasicDataHandler.js",
+			"size": 9005,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js"
+			]
+		},
+		{
+			"name": "ui/utils/representationBasicDataHandler.js",
+			"module": "sap/apf/modeler/ui/utils/representationBasicDataHandler.js",
+			"size": 3513,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js"
+			]
+		},
+		{
+			"name": "ui/utils/representationBasicDataHandler.js.map",
+			"size": 4551,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/representationHandler-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/representationHandler.js",
+			"size": 5688,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/representationHandler.js",
+			"module": "sap/apf/modeler/ui/utils/representationHandler.js",
+			"size": 2830
+		},
+		{
+			"name": "ui/utils/representationHandler.js.map",
+			"size": 3892,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/sortDataHandler-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/sortDataHandler.js",
+			"size": 3683,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js"
+			]
+		},
+		{
+			"name": "ui/utils/sortDataHandler.js",
+			"module": "sap/apf/modeler/ui/utils/sortDataHandler.js",
+			"size": 2014,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js",
+				"sap/apf/modeler/ui/utils/propertyTypeOrchestration.js"
+			]
+		},
+		{
+			"name": "ui/utils/sortDataHandler.js.map",
+			"size": 2686,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/staticValuesBuilder-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/staticValuesBuilder.js",
+			"size": 1752,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/utils/staticValuesBuilder.js",
+			"module": "sap/apf/modeler/ui/utils/staticValuesBuilder.js",
+			"size": 830,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js",
+				"sap/apf/modeler/ui/utils/textManipulator.js"
+			]
+		},
+		{
+			"name": "ui/utils/staticValuesBuilder.js.map",
+			"size": 954,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/stepPropertyMetadataHandler-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/stepPropertyMetadataHandler.js",
+			"size": 4433,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js"
+			]
+		},
+		{
+			"name": "ui/utils/stepPropertyMetadataHandler.js",
+			"module": "sap/apf/modeler/ui/utils/stepPropertyMetadataHandler.js",
+			"size": 2093,
+			"required": [
+				"sap/apf/modeler/ui/utils/constants.js"
+			]
+		},
+		{
+			"name": "ui/utils/stepPropertyMetadataHandler.js.map",
+			"size": 3135,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/textManipulator-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/textManipulator.js",
+			"size": 1478,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/textManipulator.js",
+			"module": "sap/apf/modeler/ui/utils/textManipulator.js",
+			"size": 439
+		},
+		{
+			"name": "ui/utils/textManipulator.js.map",
+			"size": 706,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/textPoolHelper-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/textPoolHelper.js",
+			"size": 3433,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js"
+			]
+		},
+		{
+			"name": "ui/utils/textPoolHelper.js",
+			"module": "sap/apf/modeler/ui/utils/textPoolHelper.js",
+			"size": 1889,
+			"required": [
+				"sap/apf/modeler/ui/utils/optionsValueModelBuilder.js"
+			]
+		},
+		{
+			"name": "ui/utils/textPoolHelper.js.map",
+			"size": 2464,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/treeTableDisplayOptionsValueBuilder-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/treeTableDisplayOptionsValueBuilder.js",
+			"size": 1677,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js"
+			]
+		},
+		{
+			"name": "ui/utils/treeTableDisplayOptionsValueBuilder.js",
+			"module": "sap/apf/modeler/ui/utils/treeTableDisplayOptionsValueBuilder.js",
+			"size": 1255,
+			"required": [
+				"sap/apf/modeler/ui/utils/displayOptionsValueBuilder.js"
+			]
+		},
+		{
+			"name": "ui/utils/treeTableDisplayOptionsValueBuilder.js.map",
+			"size": 1465,
+			"isDebug": true
+		},
+		{
+			"name": "ui/utils/viewValidator-dbg.js",
+			"module": "sap/apf/modeler/ui/utils/viewValidator.js",
+			"size": 5953,
+			"isDebug": true,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/utils/viewValidator.js",
+			"module": "sap/apf/modeler/ui/utils/viewValidator.js",
+			"size": 2420,
+			"required": [
+				"sap/apf/modeler/ui/utils/nullObjectChecker.js"
+			]
+		},
+		{
+			"name": "ui/utils/viewValidator.js.map",
+			"size": 3289,
+			"isDebug": true
+		},
+		{
+			"name": "ui/view/application.view.xml",
+			"module": "sap/apf/modeler/ui/view/application.view.xml",
+			"size": 184,
+			"required": [
+				"sap/m/Button.js"
+			]
+		},
+		{
+			"name": "ui/view/applicationList.view.xml",
+			"module": "sap/apf/modeler/ui/view/applicationList.view.xml",
+			"size": 3582,
+			"required": [
+				"sap/apf/modeler/ui/controller/applicationList.controller.js",
+				"sap/m/App.js",
+				"sap/m/Button.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/SearchField.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/Toolbar.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/InvisibleText.js"
+			]
+		},
+		{
+			"name": "ui/view/catalogService.view.xml",
+			"module": "sap/apf/modeler/ui/view/catalogService.view.xml",
+			"size": 550,
+			"required": [
+				"sap/apf/modeler/ui/controller/catalogService.controller.js",
+				"sap/m/SelectDialog.js",
+				"sap/m/StandardListItem.js"
+			]
+		},
+		{
+			"name": "ui/view/category.view.xml",
+			"module": "sap/apf/modeler/ui/view/category.view.xml",
+			"size": 1348,
+			"required": [
+				"sap/apf/modeler/ui/controller/category.controller.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/configuration.view.xml",
+			"module": "sap/apf/modeler/ui/view/configuration.view.xml",
+			"size": 2600,
+			"required": [
+				"sap/apf/modeler/ui/controller/configuration.controller.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/configurationList.view.xml",
+			"module": "sap/apf/modeler/ui/view/configurationList.view.xml",
+			"size": 2406,
+			"required": [
+				"sap/apf/modeler/ui/controller/configurationList.controller.js",
+				"sap/apf/modeler/ui/utils/APFTree.js",
+				"sap/m/Bar.js",
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Page.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/StandardTreeItem.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/layout/Grid.js"
+			]
+		},
+		{
+			"name": "ui/view/cornerTexts.view.xml",
+			"module": "sap/apf/modeler/ui/view/cornerTexts.view.xml",
+			"size": 3098,
+			"required": [
+				"sap/m/Input.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/editApplication.view.xml",
+			"module": "sap/apf/modeler/ui/view/editApplication.view.xml",
+			"size": 1125,
+			"required": [
+				"sap/apf/modeler/ui/controller/editApplication.controller.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/view/facetFilter.view.xml",
+			"module": "sap/apf/modeler/ui/view/facetFilter.view.xml",
+			"size": 5973,
+			"required": [
+				"sap/apf/modeler/ui/controller/facetFilter.controller.js",
+				"sap/m/CheckBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/MultiInput.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/Select.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/importDeliveredContent.view.xml",
+			"module": "sap/apf/modeler/ui/view/importDeliveredContent.view.xml",
+			"size": 1300,
+			"required": [
+				"sap/apf/modeler/ui/controller/importDeliveredContent.controller.js",
+				"sap/m/Button.js",
+				"sap/m/ComboBox.js",
+				"sap/m/Dialog.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/ListItem.js"
+			]
+		},
+		{
+			"name": "ui/view/importFiles.view.xml",
+			"module": "sap/apf/modeler/ui/view/importFiles.view.xml",
+			"size": 1663,
+			"required": [
+				"sap/apf/modeler/ui/controller/importFiles.controller.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/VBox.js",
+				"sap/ui/unified/FileUploader.js"
+			]
+		},
+		{
+			"name": "ui/view/messageHandler.view.xml",
+			"module": "sap/apf/modeler/ui/view/messageHandler.view.xml",
+			"size": 140,
+			"required": [
+				"sap/apf/modeler/ui/controller/messageHandler.controller.js"
+			]
+		},
+		{
+			"name": "ui/view/navigationTarget.view.xml",
+			"module": "sap/apf/modeler/ui/view/navigationTarget.view.xml",
+			"size": 3761,
+			"required": [
+				"sap/apf/modeler/ui/controller/navigationTarget.controller.js",
+				"sap/m/Button.js",
+				"sap/m/CheckBox.js",
+				"sap/m/ComboBox.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/MultiComboBox.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/Select.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/navigationTargetParameter.view.xml",
+			"module": "sap/apf/modeler/ui/view/navigationTargetParameter.view.xml",
+			"size": 1643,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/newApplication.view.xml",
+			"module": "sap/apf/modeler/ui/view/newApplication.view.xml",
+			"size": 1371,
+			"required": [
+				"sap/apf/modeler/ui/controller/newApplication.controller.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/view/previewContent.view.xml",
+			"module": "sap/apf/modeler/ui/view/previewContent.view.xml",
+			"size": 1004,
+			"required": [
+				"sap/apf/modeler/ui/controller/previewContent.controller.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/view/propertyType.view.xml",
+			"module": "sap/apf/modeler/ui/view/propertyType.view.xml",
+			"size": 2569,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/Select.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/propertyTypeHandler.view.xml",
+			"module": "sap/apf/modeler/ui/view/propertyTypeHandler.view.xml",
+			"size": 252,
+			"required": [
+				"sap/apf/modeler/ui/controller/propertyTypeHandler.controller.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/view/representation.view.xml",
+			"module": "sap/apf/modeler/ui/view/representation.view.xml",
+			"size": 3215,
+			"required": [
+				"sap/apf/modeler/ui/controller/representation.controller.js",
+				"sap/m/Label.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/Select.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/requestOptions.view.xml",
+			"module": "sap/apf/modeler/ui/view/requestOptions.view.xml",
+			"size": 2711,
+			"required": [
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/MultiComboBox.js",
+				"sap/m/Select.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/smartFilterBar.view.xml",
+			"module": "sap/apf/modeler/ui/view/smartFilterBar.view.xml",
+			"size": 497,
+			"required": [
+				"sap/apf/modeler/ui/controller/smartFilterBar.controller.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "ui/view/sortPropertyType.view.xml",
+			"module": "sap/apf/modeler/ui/view/sortPropertyType.view.xml",
+			"size": 2217,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Select.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/step.view.xml",
+			"module": "sap/apf/modeler/ui/view/step.view.xml",
+			"size": 5459,
+			"required": [
+				"sap/apf/modeler/ui/controller/step.controller.js",
+				"sap/m/CheckBox.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/MultiComboBox.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/ScrollContainer.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "ui/view/titleBreadCrumb.view.xml",
+			"module": "sap/apf/modeler/ui/view/titleBreadCrumb.view.xml",
+			"size": 677,
+			"required": [
+				"sap/apf/modeler/ui/controller/titleBreadCrumb.controller.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/layout/HorizontalLayout.js"
+			]
+		},
+		{
+			"name": "ui/view/toolbar.view.xml",
+			"module": "sap/apf/modeler/ui/view/toolbar.view.xml",
+			"size": 1559,
+			"required": [
+				"sap/apf/modeler/ui/controller/toolbar.controller.js",
+				"sap/m/Button.js",
+				"sap/m/FlexBox.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/Toolbar.js"
+			]
+		}
+	]
+}

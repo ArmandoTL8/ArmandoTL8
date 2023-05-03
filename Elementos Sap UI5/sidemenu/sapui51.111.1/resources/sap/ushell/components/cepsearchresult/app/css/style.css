@@ -1,0 +1,17 @@
+.sapUiCEPSRAppScroll {
+  overflow: auto;
+}
+
+.sapUiCEPSRApp .sapUiCEPSRAppHeaderTB {
+  background-color: var(--sapUiShellNavigationBackground);
+  border-bottom: none !important;
+  box-shadow: var(--_sap_m_IconTabBar_ShellHeaderShadow);
+  z-index: 1;
+  position: relative;
+  height: var(--sapUiElementLineHeight);
+}
+
+.sapUiCEPSRApp .sapUiCEPSRAppHeaderTB .sapMITH{
+  box-shadow: none;
+  border-bottom: none !important;
+}

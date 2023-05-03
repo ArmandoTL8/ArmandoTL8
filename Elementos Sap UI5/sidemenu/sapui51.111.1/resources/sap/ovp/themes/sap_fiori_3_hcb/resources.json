@@ -1,0 +1,105 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 94,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "BarListCard.less",
+			"size": 888,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "Card.less",
+			"size": 4783,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "LinkListCard.less",
+			"size": 253,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "OVPApp.less",
+			"size": 1222,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "ObjectStream.less",
+			"size": 2062,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "StackPlaceHolder.less",
+			"size": 469,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 762,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 123550,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 123180,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 58436,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/ovp/themes/sap_fiori_3_hcb/library-parameters.json",
+			"size": 238,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 58419,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 10561,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 497,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 62199,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 62182,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 1889
+		}
+	]
+}

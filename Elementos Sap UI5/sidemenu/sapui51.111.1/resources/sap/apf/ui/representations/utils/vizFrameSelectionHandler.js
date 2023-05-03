@@ -1,0 +1,8 @@
+/*!
+
+ * SAP APF Analysis Path Framework
+ *
+ * (c) Copyright 2012-2019 SAP SE. All rights reserved
+ */
+sap.ui.define(["sap/apf/ui/representations/utils/chartDataSetHelper"],function(t){"use strict";function r(t,r){this.oParameter=t;this.oApi=r}var e=r.prototype;e.constructor=r;var a={isFilterMatch:function(t){var r=t.filterValue;var e=t.dataRow;var a=t.sRequiredProperty;var i=t.fieldForOriginalValue;return r==e[a]||r==e[i]},determine1Selection:function(t){var r=t.dataRow;var e=t.sRequiredProperty;var i=t.aDataPoint;if(a.isFilterMatch(t)){var n={data:{}};n.data[e]=r[e];i.push(n)}}};function i(t,r){var e=[];r.forEach(function(r){var a={data:{}};a.data[t]=r.data?r.data[t]:r;e.push(a)});return e}function n(t){return t.filter(function(t,r,e){return e.indexOf(t)===r})}e.getSelectionInfoFromEvent=function(t,r,e){var a,o,u=this;var f=u.oParameter.requiredFilters[0];var c=t.mParameters.data.map(function(t){return t.data[f]});var l=e.map(function(t){return t.data[f]});if(r){o=n(l).filter(function(t){return c.indexOf(t)===-1})}else{o=n(c.concat(l))}a=i(f,o);return{dataPointsFromSelection:a,aUniqueFilterValueFromChart:o}};e.getSelectionInfoFromFilter=function(t,r,e){var i=[];var n=this.oParameter.requiredFilters[0];var o=sap.apf.ui.representations.utils.ChartDataSetHelper.getFieldNameForOriginalContentOfProperty(n);if(n){r.forEach(function(r){t.forEach(function(t){a.determine1Selection({dataRow:r,filterValue:t,sRequiredProperty:n,aDataPoint:i,fieldForOriginalValue:o})})})}return i};function o(){return a}sap.apf.ui.representations.utils.VizFrameSelectionHandler=r;return{constructor:r,_getLocal:o}},true);
+//# sourceMappingURL=vizFrameSelectionHandler.js.map

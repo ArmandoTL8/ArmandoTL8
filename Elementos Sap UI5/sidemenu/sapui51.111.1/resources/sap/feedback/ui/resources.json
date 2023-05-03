@@ -1,0 +1,1649 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".library",
+			"size": 958
+		},
+		{
+			"name": ".theming",
+			"size": 98
+		},
+		{
+			"name": "flpplugin/Component-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/Component.js",
+			"size": 11937,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/feedback/ui/flpplugin/config/StartupConfig.js",
+				"sap/feedback/ui/flpplugin/controller/PluginController.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/InitDetection.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/m/library.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/library.js"
+			]
+		},
+		{
+			"name": "flpplugin/Component-preload.js",
+			"module": "sap/feedback/ui/flpplugin/Component-preload.js",
+			"size": 155381,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/base/util/extend.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/FormattedText.js",
+				"sap/m/library.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/EventBus.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/library.js",
+				"sap/ushell/services/AppConfiguration.js"
+			],
+			"included": [
+				"sap/feedback/ui/flpplugin/Component.js",
+				"sap/feedback/ui/flpplugin/config/CentralConfig.js",
+				"sap/feedback/ui/flpplugin/config/ConfigurationLoader.js",
+				"sap/feedback/ui/flpplugin/config/PushConfig.js",
+				"sap/feedback/ui/flpplugin/config/StartupConfig.js",
+				"sap/feedback/ui/flpplugin/controller/ContextDataController.js",
+				"sap/feedback/ui/flpplugin/controller/PluginController.js",
+				"sap/feedback/ui/flpplugin/controller/WebAppFeedbackLoader.js",
+				"sap/feedback/ui/flpplugin/data/AppContextData.js",
+				"sap/feedback/ui/flpplugin/data/PushContextData.js",
+				"sap/feedback/ui/flpplugin/data/TelemetryData.js",
+				"sap/feedback/ui/flpplugin/data/UserState.js",
+				"sap/feedback/ui/flpplugin/push/DynamicPushTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/FeaturePushConfig.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/RecurringTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerFactory.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+				"sap/feedback/ui/flpplugin/push/state/FeaturePushState.js",
+				"sap/feedback/ui/flpplugin/survey/Balancer.js",
+				"sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+				"sap/feedback/ui/flpplugin/survey/PresentationController.js",
+				"sap/feedback/ui/flpplugin/survey/RequestDispatcher.js",
+				"sap/feedback/ui/flpplugin/survey/RequestHandler.js",
+				"sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+				"sap/feedback/ui/flpplugin/survey/ValidationHandler.js",
+				"sap/feedback/ui/flpplugin/ui/PopOverVisual.js",
+				"sap/feedback/ui/flpplugin/ui/ShellBarButton.js",
+				"sap/feedback/ui/flpplugin/ui/SurveyInvitationDialog.js",
+				"sap/feedback/ui/flpplugin/ui/Ui5ControlFactory.js",
+				"sap/feedback/ui/flpplugin/ui/UiFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/InitDetection.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Storage.js",
+				"sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/feedback/ui/flpplugin/config/CentralConfigSample.json",
+				"sap/feedback/ui/flpplugin/config/PushConfigSample.json",
+				"sap/feedback/ui/flpplugin/extensionDocu.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ar.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_bg.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ca.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_cs.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_cy.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_da.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_de.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_el.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_en.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_en_GB.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_en_US_sappsd.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_en_US_saprigi.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_en_US_saptrc.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_es.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_es_MX.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_et.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_fi.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_fr.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_fr_CA.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_hi.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_hr.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_hu.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_id.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_it.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_iw.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ja.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_kk.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ko.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_lt.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_lv.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ms.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_nl.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_no.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_pl.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_pt.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_pt_PT.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ro.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_ru.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_sh.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_sk.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_sl.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_sv.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_th.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_tr.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_uk.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_vi.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_zh_CN.properties",
+				"sap/feedback/ui/flpplugin/i18n/i18n_zh_TW.properties",
+				"sap/feedback/ui/flpplugin/manifest.json"
+			]
+		},
+		{
+			"name": "flpplugin/Component-preload.js.map",
+			"size": 92169,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/Component.js",
+			"module": "sap/feedback/ui/flpplugin/Component.js",
+			"size": 5203,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/feedback/ui/flpplugin/config/StartupConfig.js",
+				"sap/feedback/ui/flpplugin/controller/PluginController.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/InitDetection.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/m/library.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/library.js"
+			]
+		},
+		{
+			"name": "flpplugin/Component.js.map",
+			"size": 5550,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/config/CentralConfig-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/config/CentralConfig.js",
+			"size": 676,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/config/PushConfig.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/CentralConfig.js",
+			"module": "sap/feedback/ui/flpplugin/config/CentralConfig.js",
+			"size": 382,
+			"required": [
+				"sap/feedback/ui/flpplugin/config/PushConfig.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/CentralConfig.js.map",
+			"size": 407,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/config/CentralConfigSample.json",
+			"module": "sap/feedback/ui/flpplugin/config/CentralConfigSample.json",
+			"size": 7286
+		},
+		{
+			"name": "flpplugin/config/ConfigurationLoader-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/config/ConfigurationLoader.js",
+			"size": 2159,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/config/PushConfig.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/ConfigurationLoader.js",
+			"module": "sap/feedback/ui/flpplugin/config/ConfigurationLoader.js",
+			"size": 1096,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/config/PushConfig.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/ConfigurationLoader.js.map",
+			"size": 1241,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/config/PushConfig-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/config/PushConfig.js",
+			"size": 9016,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/FeaturePushConfig.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerFactory.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/PushConfig.js",
+			"module": "sap/feedback/ui/flpplugin/config/PushConfig.js",
+			"size": 4321,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/FeaturePushConfig.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerFactory.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/PushConfig.js.map",
+			"size": 4535,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/config/PushConfigSample.json",
+			"module": "sap/feedback/ui/flpplugin/config/PushConfigSample.json",
+			"size": 31497
+		},
+		{
+			"name": "flpplugin/config/StartupConfig-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/config/StartupConfig.js",
+			"size": 2585,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/StartupConfig.js",
+			"module": "sap/feedback/ui/flpplugin/config/StartupConfig.js",
+			"size": 1812,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/config/StartupConfig.js.map",
+			"size": 2272,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/controller/ContextDataController-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/controller/ContextDataController.js",
+			"size": 10667,
+			"isDebug": true,
+			"required": [
+				"sap/base/util/extend.js",
+				"sap/feedback/ui/flpplugin/data/AppContextData.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/controller/ContextDataController.js",
+			"module": "sap/feedback/ui/flpplugin/controller/ContextDataController.js",
+			"size": 4663,
+			"required": [
+				"sap/base/util/extend.js",
+				"sap/feedback/ui/flpplugin/data/AppContextData.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/controller/ContextDataController.js.map",
+			"size": 6048,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/controller/PluginController-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/controller/PluginController.js",
+			"size": 10216,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/controller/ContextDataController.js",
+				"sap/feedback/ui/flpplugin/controller/WebAppFeedbackLoader.js",
+				"sap/feedback/ui/flpplugin/push/DynamicPushTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+				"sap/feedback/ui/flpplugin/survey/RequestDispatcher.js",
+				"sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+				"sap/feedback/ui/flpplugin/ui/PopOverVisual.js",
+				"sap/feedback/ui/flpplugin/ui/ShellBarButton.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Storage.js",
+				"sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/controller/PluginController.js",
+			"module": "sap/feedback/ui/flpplugin/controller/PluginController.js",
+			"size": 6125,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/controller/ContextDataController.js",
+				"sap/feedback/ui/flpplugin/controller/WebAppFeedbackLoader.js",
+				"sap/feedback/ui/flpplugin/push/DynamicPushTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+				"sap/feedback/ui/flpplugin/survey/RequestDispatcher.js",
+				"sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+				"sap/feedback/ui/flpplugin/ui/PopOverVisual.js",
+				"sap/feedback/ui/flpplugin/ui/ShellBarButton.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Storage.js",
+				"sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/controller/PluginController.js.map",
+			"size": 6625,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/controller/WebAppFeedbackLoader-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/controller/WebAppFeedbackLoader.js",
+			"size": 2766,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/controller/WebAppFeedbackLoader.js",
+			"module": "sap/feedback/ui/flpplugin/controller/WebAppFeedbackLoader.js",
+			"size": 1223,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/controller/WebAppFeedbackLoader.js.map",
+			"size": 1459,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/data/AppContextData-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/data/AppContextData.js",
+			"size": 7232,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js",
+				"sap/ushell/services/AppConfiguration.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/AppContextData.js",
+			"module": "sap/feedback/ui/flpplugin/data/AppContextData.js",
+			"size": 2982,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js",
+				"sap/ushell/services/AppConfiguration.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/AppContextData.js.map",
+			"size": 3611,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/data/PushContextData-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/data/PushContextData.js",
+			"size": 2339,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/PushContextData.js",
+			"module": "sap/feedback/ui/flpplugin/data/PushContextData.js",
+			"size": 1105,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/PushContextData.js.map",
+			"size": 1363,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/data/TelemetryData-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/data/TelemetryData.js",
+			"size": 1129,
+			"isDebug": true,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/TelemetryData.js",
+			"module": "sap/feedback/ui/flpplugin/data/TelemetryData.js",
+			"size": 952,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/TelemetryData.js.map",
+			"size": 990,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/data/UserState-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/data/UserState.js",
+			"size": 9079,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/push/state/FeaturePushState.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/UserState.js",
+			"module": "sap/feedback/ui/flpplugin/data/UserState.js",
+			"size": 3616,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/push/state/FeaturePushState.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/data/UserState.js.map",
+			"size": 4385,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/extensionDocu.properties",
+			"module": "sap/feedback/ui/flpplugin/extensionDocu.properties",
+			"size": 0
+		},
+		{
+			"name": "flpplugin/i18n/i18n.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n.properties",
+			"size": 963,
+			"locale": "",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ar.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ar.properties",
+			"size": 1312,
+			"locale": "ar",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_bg.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_bg.properties",
+			"size": 1736,
+			"locale": "bg",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ca.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ca.properties",
+			"size": 551,
+			"locale": "ca",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_cs.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_cs.properties",
+			"size": 661,
+			"locale": "cs",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_cy.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_cy.properties",
+			"size": 479,
+			"locale": "cy",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_da.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_da.properties",
+			"size": 485,
+			"locale": "da",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_de.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_de.properties",
+			"size": 517,
+			"locale": "de",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_el.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_el.properties",
+			"size": 1240,
+			"locale": "el",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_en.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_en.properties",
+			"size": 463,
+			"locale": "en",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_en_GB.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_en_GB.properties",
+			"size": 463,
+			"locale": "en_GB",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_en_US_sappsd.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_en_US_sappsd.properties",
+			"size": 2048,
+			"locale": "en_US_sappsd",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_en_US_saprigi.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_en_US_saprigi.properties",
+			"size": 3483,
+			"locale": "en_US_saprigi",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_en_US_saptrc.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_en_US_saptrc.properties",
+			"size": 706,
+			"locale": "en_US_saptrc",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_es.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_es.properties",
+			"size": 533,
+			"locale": "es",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_es_MX.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_es_MX.properties",
+			"size": 548,
+			"locale": "es_MX",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_et.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_et.properties",
+			"size": 532,
+			"locale": "et",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_fi.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_fi.properties",
+			"size": 545,
+			"locale": "fi",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_fr.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_fr.properties",
+			"size": 533,
+			"locale": "fr",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_fr_CA.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_fr_CA.properties",
+			"size": 542,
+			"locale": "fr_CA",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_hi.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_hi.properties",
+			"size": 1504,
+			"locale": "hi",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_hr.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_hr.properties",
+			"size": 647,
+			"locale": "hr",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_hu.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_hu.properties",
+			"size": 653,
+			"locale": "hu",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_id.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_id.properties",
+			"size": 517,
+			"locale": "id",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_it.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_it.properties",
+			"size": 492,
+			"locale": "it",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_iw.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_iw.properties",
+			"size": 1196,
+			"locale": "iw",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ja.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ja.properties",
+			"size": 977,
+			"locale": "ja",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_kk.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_kk.properties",
+			"size": 1517,
+			"locale": "kk",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ko.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ko.properties",
+			"size": 817,
+			"locale": "ko",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_lt.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_lt.properties",
+			"size": 673,
+			"locale": "lt",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_lv.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_lv.properties",
+			"size": 593,
+			"locale": "lv",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ms.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ms.properties",
+			"size": 537,
+			"locale": "ms",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_nl.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_nl.properties",
+			"size": 470,
+			"locale": "nl",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_no.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_no.properties",
+			"size": 509,
+			"locale": "no",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_pl.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_pl.properties",
+			"size": 659,
+			"locale": "pl",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_pt.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_pt.properties",
+			"size": 530,
+			"locale": "pt",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_pt_PT.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_pt_PT.properties",
+			"size": 524,
+			"locale": "pt_PT",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ro.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ro.properties",
+			"size": 553,
+			"locale": "ro",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_ru.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_ru.properties",
+			"size": 1498,
+			"locale": "ru",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_sh.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_sh.properties",
+			"size": 634,
+			"locale": "sh",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_sk.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_sk.properties",
+			"size": 653,
+			"locale": "sk",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_sl.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_sl.properties",
+			"size": 592,
+			"locale": "sl",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_sv.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_sv.properties",
+			"size": 545,
+			"locale": "sv",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_th.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_th.properties",
+			"size": 1476,
+			"locale": "th",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_tr.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_tr.properties",
+			"size": 607,
+			"locale": "tr",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_uk.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_uk.properties",
+			"size": 1669,
+			"locale": "uk",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_vi.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_vi.properties",
+			"size": 918,
+			"locale": "vi",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_zh_CN.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_zh_CN.properties",
+			"size": 684,
+			"locale": "zh_CN",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/i18n/i18n_zh_TW.properties",
+			"module": "sap/feedback/ui/flpplugin/i18n/i18n_zh_TW.properties",
+			"size": 646,
+			"locale": "zh_TW",
+			"raw": "flpplugin/i18n/i18n.properties"
+		},
+		{
+			"name": "flpplugin/manifest.json",
+			"module": "sap/feedback/ui/flpplugin/manifest.json",
+			"size": 1105
+		},
+		{
+			"name": "flpplugin/push/DynamicPushTrigger-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/DynamicPushTrigger.js",
+			"size": 3698,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/DynamicPushTrigger.js",
+			"module": "sap/feedback/ui/flpplugin/push/DynamicPushTrigger.js",
+			"size": 2409,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/DynamicPushTrigger.js.map",
+			"size": 2173,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/FeaturePushConfig-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/FeaturePushConfig.js",
+			"size": 4048,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/FeaturePushConfig.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/FeaturePushConfig.js",
+			"size": 2134,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/FeaturePushConfig.js.map",
+			"size": 2661,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/BaseTrigger-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+			"size": 1511,
+			"isDebug": true,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/BaseTrigger.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+			"size": 1047,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/BaseTrigger.js.map",
+			"size": 1233,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/RecurringTrigger-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/RecurringTrigger.js",
+			"size": 1395,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/RecurringTrigger.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/RecurringTrigger.js",
+			"size": 768,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/RecurringTrigger.js.map",
+			"size": 964,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/ThemeChangedTrigger-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+			"size": 4034,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+			"size": 1876,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/ThemeChangedTrigger.js.map",
+			"size": 2431,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/ThemeTimeSlotTrigger-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js",
+			"size": 4723,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js",
+			"size": 2090,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js.map",
+			"size": 2892,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/TriggerFactory-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/TriggerFactory.js",
+			"size": 1143,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/RecurringTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/TriggerFactory.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/TriggerFactory.js",
+			"size": 477,
+			"required": [
+				"sap/feedback/ui/flpplugin/push/config/trigger/RecurringTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/config/trigger/TriggerFactory.js.map",
+			"size": 575,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/TriggerType-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+			"size": 278,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/config/trigger/TriggerType.js",
+			"module": "sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+			"size": 260
+		},
+		{
+			"name": "flpplugin/push/config/trigger/TriggerType.js.map",
+			"size": 299,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/push/state/FeaturePushState-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/push/state/FeaturePushState.js",
+			"size": 2696,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/state/FeaturePushState.js",
+			"module": "sap/feedback/ui/flpplugin/push/state/FeaturePushState.js",
+			"size": 1901,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/push/state/FeaturePushState.js.map",
+			"size": 2229,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/Balancer-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/Balancer.js",
+			"size": 1896,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/Balancer.js",
+			"module": "sap/feedback/ui/flpplugin/survey/Balancer.js",
+			"size": 738,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/Balancer.js.map",
+			"size": 932,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/DateCalculator-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+			"size": 2735,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/DateCalculator.js",
+			"module": "sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+			"size": 944,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/DateCalculator.js.map",
+			"size": 1204,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/PresentationController-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/PresentationController.js",
+			"size": 12880,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/data/PushContextData.js",
+				"sap/feedback/ui/flpplugin/data/TelemetryData.js",
+				"sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+				"sap/feedback/ui/flpplugin/ui/UiFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/PresentationController.js",
+			"module": "sap/feedback/ui/flpplugin/survey/PresentationController.js",
+			"size": 4802,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/data/PushContextData.js",
+				"sap/feedback/ui/flpplugin/data/TelemetryData.js",
+				"sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+				"sap/feedback/ui/flpplugin/ui/UiFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/PresentationController.js.map",
+			"size": 6391,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/RequestDispatcher-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/RequestDispatcher.js",
+			"size": 7218,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+				"sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+				"sap/feedback/ui/flpplugin/survey/RequestHandler.js",
+				"sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/RequestDispatcher.js",
+			"module": "sap/feedback/ui/flpplugin/survey/RequestDispatcher.js",
+			"size": 3267,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+				"sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+				"sap/feedback/ui/flpplugin/survey/RequestHandler.js",
+				"sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/RequestDispatcher.js.map",
+			"size": 3843,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/RequestHandler-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/RequestHandler.js",
+			"size": 3558,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/EventBus.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/RequestHandler.js",
+			"module": "sap/feedback/ui/flpplugin/survey/RequestHandler.js",
+			"size": 1811,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/EventBus.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/RequestHandler.js.map",
+			"size": 1876,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/SurveyFactory-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+			"size": 1558,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/config/CentralConfig.js",
+				"sap/feedback/ui/flpplugin/config/ConfigurationLoader.js",
+				"sap/feedback/ui/flpplugin/survey/Balancer.js",
+				"sap/feedback/ui/flpplugin/survey/PresentationController.js",
+				"sap/feedback/ui/flpplugin/survey/ValidationHandler.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/SurveyFactory.js",
+			"module": "sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+			"size": 542,
+			"required": [
+				"sap/feedback/ui/flpplugin/config/CentralConfig.js",
+				"sap/feedback/ui/flpplugin/config/ConfigurationLoader.js",
+				"sap/feedback/ui/flpplugin/survey/Balancer.js",
+				"sap/feedback/ui/flpplugin/survey/PresentationController.js",
+				"sap/feedback/ui/flpplugin/survey/ValidationHandler.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/SurveyFactory.js.map",
+			"size": 635,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/survey/ValidationHandler-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/survey/ValidationHandler.js",
+			"size": 8469,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/ValidationHandler.js",
+			"module": "sap/feedback/ui/flpplugin/survey/ValidationHandler.js",
+			"size": 2517,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/survey/ValidationHandler.js.map",
+			"size": 3674,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/ui/PopOverVisual-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/ui/PopOverVisual.js",
+			"size": 588,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/PopOverVisual.js",
+			"module": "sap/feedback/ui/flpplugin/ui/PopOverVisual.js",
+			"size": 456,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/PopOverVisual.js.map",
+			"size": 561,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/ui/ShellBarButton-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/ui/ShellBarButton.js",
+			"size": 2210,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/InvisibleText.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/ShellBarButton.js",
+			"module": "sap/feedback/ui/flpplugin/ui/ShellBarButton.js",
+			"size": 1610,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/InvisibleText.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/ShellBarButton.js.map",
+			"size": 1727,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/ui/SurveyInvitationDialog-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/ui/SurveyInvitationDialog.js",
+			"size": 2273,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/ui/Ui5ControlFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/SurveyInvitationDialog.js",
+			"module": "sap/feedback/ui/flpplugin/ui/SurveyInvitationDialog.js",
+			"size": 1700,
+			"required": [
+				"sap/feedback/ui/flpplugin/ui/Ui5ControlFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/SurveyInvitationDialog.js.map",
+			"size": 1945,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/ui/Ui5ControlFactory-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/ui/Ui5ControlFactory.js",
+			"size": 517,
+			"isDebug": true,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/FormattedText.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/Ui5ControlFactory.js",
+			"module": "sap/feedback/ui/flpplugin/ui/Ui5ControlFactory.js",
+			"size": 361,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/FormattedText.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/Ui5ControlFactory.js.map",
+			"size": 463,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/ui/UiFactory-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/ui/UiFactory.js",
+			"size": 309,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/ui/SurveyInvitationDialog.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/UiFactory.js",
+			"module": "sap/feedback/ui/flpplugin/ui/UiFactory.js",
+			"size": 249,
+			"required": [
+				"sap/feedback/ui/flpplugin/ui/SurveyInvitationDialog.js"
+			]
+		},
+		{
+			"name": "flpplugin/ui/UiFactory.js.map",
+			"size": 300,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/Constants-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/utils/Constants.js",
+			"size": 3693,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/Constants.js",
+			"module": "sap/feedback/ui/flpplugin/utils/Constants.js",
+			"size": 3260
+		},
+		{
+			"name": "flpplugin/utils/Constants.js.map",
+			"size": 3010,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/InitDetection-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/utils/InitDetection.js",
+			"size": 857,
+			"isDebug": true,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/InitDetection.js",
+			"module": "sap/feedback/ui/flpplugin/utils/InitDetection.js",
+			"size": 570,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/InitDetection.js.map",
+			"size": 751,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/ScopeCheck-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+			"size": 1977,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/ScopeCheck.js",
+			"module": "sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+			"size": 1382,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/ScopeCheck.js.map",
+			"size": 1708,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/Storage-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/utils/Storage.js",
+			"size": 4628,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/data/UserState.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/Storage.js",
+			"module": "sap/feedback/ui/flpplugin/utils/Storage.js",
+			"size": 2630,
+			"required": [
+				"sap/base/Log.js",
+				"sap/feedback/ui/flpplugin/data/UserState.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/Storage.js.map",
+			"size": 3412,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/UI5Utils-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+			"size": 679,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/UI5Utils.js",
+			"module": "sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+			"size": 619
+		},
+		{
+			"name": "flpplugin/utils/UI5Utils.js.map",
+			"size": 644,
+			"isDebug": true
+		},
+		{
+			"name": "flpplugin/utils/Utils-dbg.js",
+			"module": "sap/feedback/ui/flpplugin/utils/Utils.js",
+			"size": 4123,
+			"isDebug": true,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/Utils.js",
+			"module": "sap/feedback/ui/flpplugin/utils/Utils.js",
+			"size": 2393,
+			"required": [
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "flpplugin/utils/Utils.js.map",
+			"size": 3225,
+			"isDebug": true
+		},
+		{
+			"name": "library-dbg.js",
+			"module": "sap/feedback/ui/library.js",
+			"size": 645,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/library.js"
+			]
+		},
+		{
+			"name": "library-preload.js",
+			"module": "sap/feedback/ui/library-preload.js",
+			"size": 78842,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/base/util/extend.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/FormattedText.js",
+				"sap/m/library.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/EventBus.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/library.js",
+				"sap/ushell/services/AppConfiguration.js"
+			],
+			"included": [
+				"sap/feedback/ui/flpplugin/Component.js",
+				"sap/feedback/ui/flpplugin/config/CentralConfig.js",
+				"sap/feedback/ui/flpplugin/config/ConfigurationLoader.js",
+				"sap/feedback/ui/flpplugin/config/PushConfig.js",
+				"sap/feedback/ui/flpplugin/config/StartupConfig.js",
+				"sap/feedback/ui/flpplugin/controller/ContextDataController.js",
+				"sap/feedback/ui/flpplugin/controller/PluginController.js",
+				"sap/feedback/ui/flpplugin/controller/WebAppFeedbackLoader.js",
+				"sap/feedback/ui/flpplugin/data/AppContextData.js",
+				"sap/feedback/ui/flpplugin/data/PushContextData.js",
+				"sap/feedback/ui/flpplugin/data/TelemetryData.js",
+				"sap/feedback/ui/flpplugin/data/UserState.js",
+				"sap/feedback/ui/flpplugin/push/DynamicPushTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/FeaturePushConfig.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/BaseTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/RecurringTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeChangedTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/ThemeTimeSlotTrigger.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerFactory.js",
+				"sap/feedback/ui/flpplugin/push/config/trigger/TriggerType.js",
+				"sap/feedback/ui/flpplugin/push/state/FeaturePushState.js",
+				"sap/feedback/ui/flpplugin/survey/Balancer.js",
+				"sap/feedback/ui/flpplugin/survey/DateCalculator.js",
+				"sap/feedback/ui/flpplugin/survey/PresentationController.js",
+				"sap/feedback/ui/flpplugin/survey/RequestDispatcher.js",
+				"sap/feedback/ui/flpplugin/survey/RequestHandler.js",
+				"sap/feedback/ui/flpplugin/survey/SurveyFactory.js",
+				"sap/feedback/ui/flpplugin/survey/ValidationHandler.js",
+				"sap/feedback/ui/flpplugin/ui/PopOverVisual.js",
+				"sap/feedback/ui/flpplugin/ui/ShellBarButton.js",
+				"sap/feedback/ui/flpplugin/ui/SurveyInvitationDialog.js",
+				"sap/feedback/ui/flpplugin/ui/Ui5ControlFactory.js",
+				"sap/feedback/ui/flpplugin/ui/UiFactory.js",
+				"sap/feedback/ui/flpplugin/utils/Constants.js",
+				"sap/feedback/ui/flpplugin/utils/InitDetection.js",
+				"sap/feedback/ui/flpplugin/utils/ScopeCheck.js",
+				"sap/feedback/ui/flpplugin/utils/Storage.js",
+				"sap/feedback/ui/flpplugin/utils/UI5Utils.js",
+				"sap/feedback/ui/flpplugin/utils/Utils.js",
+				"sap/feedback/ui/library.js",
+				"sap/feedback/ui/flpplugin/manifest.json",
+				"sap/feedback/ui/manifest.json"
+			]
+		},
+		{
+			"name": "library-preload.js.map",
+			"size": 92983,
+			"isDebug": true
+		},
+		{
+			"name": "library.js",
+			"module": "sap/feedback/ui/library.js",
+			"size": 336,
+			"required": [
+				"sap/ui/core/library.js"
+			]
+		},
+		{
+			"name": "library.js.map",
+			"size": 386,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/feedback/ui/manifest.json",
+			"size": 962
+		},
+		{
+			"name": "resources.json",
+			"size": 50773
+		}
+	]
+}

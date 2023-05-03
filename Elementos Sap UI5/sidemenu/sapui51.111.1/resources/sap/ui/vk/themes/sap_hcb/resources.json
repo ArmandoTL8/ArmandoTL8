@@ -1,0 +1,87 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 128,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "ContainerBase.less",
+			"size": 172,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "ListPanelStack.less",
+			"size": 212,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "MapContainer.less",
+			"size": 177,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 206,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 109695,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 109395,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 50675,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/ui/vk/themes/sap_hcb/library-parameters.json",
+			"size": 2,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 50672,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 1091,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 319,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 52523,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 52520,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 1450
+		}
+	]
+}

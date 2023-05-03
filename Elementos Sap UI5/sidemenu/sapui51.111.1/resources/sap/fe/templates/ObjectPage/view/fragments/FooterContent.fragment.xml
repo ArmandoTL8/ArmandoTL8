@@ -1,0 +1,125 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:unittest="http://schemas.sap.com/sapui5/preprocessorextension/sap.fe.unittesting/1"
+	xmlns:messages="sap.fe.macros.messages"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	template:require="{
+							 ID: 'sap/fe/core/helpers/StableIdHelper',
+							 MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+							 OP: 'sap/fe/templates/ObjectPage/ObjectPageTemplating',
+							 COMMON: 'sap/fe/macros/CommonHelper',
+							 UI: 'sap/fe/core/templating/UIFormatters',
+							 CRIT: 'sap/fe/core/templating/CriticalityFormatters'
+							}"
+>
+	<OverflowToolbar
+		unittest:id="OverflowToolbarTest"
+		id="fe::FooterBar"
+		asyncMode="true"
+		visible="{= OP.getFooterVisible(${converterContext>footerActions}, ${entityType>./@com.sap.vocabularies.UI.v1.Identification})}"
+	>
+		<core:InvisibleText
+			id="fe::FooterBar::MessageButton::AriaText"
+			text="{sap.fe.i18n>C_COMMON_SAPFE_ERROR_MESSAGES_PAGE_BUTTON_ARIA_TEXT}"
+		/>
+		<messages:MessageButton
+			id="fe::FooterBar::MessageButton"
+			messageChange="_getFooterVisibility"
+			ariaLabelledBy="fe::FooterBar::MessageButton::AriaText"
+			type="Emphasized"
+			ariaHasPopup="Dialog"
+		/>
+		<ToolbarSpacer />
+		<template:if
+			test="{= ${entitySet>@com.sap.vocabularies.Common.v1.DraftRoot} || ${entitySet>@com.sap.vocabularies.Common.v1.DraftNode}
+			 					|| COMMON.isDraftParentEntityForContainment(${entitySet>$ContainsTarget}, undefined, ${converterContext>}) }"
+		>
+			<DraftIndicator state="{ui>/draftStatus}" visible="{ui>/isEditable}" />
+		</template:if>
+		<template:if test="{converterContext>footerActions}">
+			<template:repeat list="{converterContext>footerActions}" var="footerAction">
+				<template:if test="{= ${footerAction>type} === 'DefaultApply'}">
+					<template:then>
+						<Button
+							unittest:id="ApplyActionTest"
+							id="fe::FooterBar::StandardAction::Apply"
+							text="{sap.fe.i18n>T_COMMON_OBJECT_PAGE_APPLY_DRAFT}"
+							type="{path: 'entitySet>./@com.sap.vocabularies.UI.v1.Identification', formatter: 'OP.buildEmphasizedButtonExpression'}"
+							enabled="true"
+							press="._applyDocument(${$view>/getBindingContext})"
+							visible="{ui>/isEditable}"
+						/>
+					</template:then>
+					<template:elseif test="{= ${footerAction>type} === 'ForAction'}">
+						<template:with path="footerAction>annotationPath" var="dataField">
+							<template:if test="{= !(${dataField>./@com.sap.vocabularies.UI.v1.Hidden} === true) }">
+								<template:if
+									test="{= ${dataField>$Type} === 'com.sap.vocabularies.UI.v1.DataFieldForAction' &amp;&amp; ${dataField>Determining} === true}"
+								>
+									<template:with path="dataField>Action" helper="COMMON.getActionContext" var="actionContext">
+										<template:with path="dataField>Action" helper="COMMON.getPathToBoundActionOverload" var="isBound">
+											<template:if
+												test="{= ${isBound>$IsBound} !== true || ${actionContext>@Org.OData.Core.V1.OperationAvailable} !== false }"
+											>
+												<Button
+													unittest:id="AnnotationActionTest"
+													id="{= ID.generate(['fe', 'FooterBar', ${dataField>@@UI.getDataModelObjectPath}] )}"
+													text="{dataField>Label}"
+													ariaHasPopup="{actionContext>@@COMMON.isDialog}"
+													press="{= ${footerAction>command} ? ('cmd:' + ${footerAction>command}) : OP.getPressExpressionForFooterAnnotationAction(${dataField>}, ${entitySet>@sapui.name}, ${footerAction>}) }"
+													visible="{footerAction>visible}"
+													enabled="{footerAction>enabled}"
+													type="{= CRIT.buildExpressionForCriticalityButtonType(${dataField>@@UI.getDataModelObjectPath}) }"
+												/>
+											</template:if>
+										</template:with>
+									</template:with>
+								</template:if>
+							</template:if>
+						</template:with>
+					</template:elseif>
+					<template:elseif test="{= ${footerAction>type} === 'Primary'}">
+						<Button
+							unittest:id="PrimaryActionTest"
+							id="fe::FooterBar::StandardAction::Save"
+							text="{= OP.getExpressionForSaveButton(${viewData>}, ${fullContextPath>@@UI.getDataModelObjectPath})}"
+							tooltip="{= COMMON.getTooltipForKeyboardShortcuts(${sap.fe.i18n>T_KEYBOARD_SHORTCUT_SAVE_WIN}, ${sap.fe.i18n>T_KEYBOARD_SHORTCUT_SAVE_MAC})}"
+							type="{path: 'entitySet>./@com.sap.vocabularies.UI.v1.Identification', formatter: 'OP.buildEmphasizedButtonExpression'}"
+							visible="{ui>/isEditable}"
+							enabled="true"
+							press="cmd:Save"
+						/>
+					</template:elseif>
+					<template:elseif test="{= ${footerAction>type} === 'Secondary'}">
+						<Button
+							unittest:id="SecondaryActionTest"
+							id="fe::FooterBar::StandardAction::Cancel"
+							text="{= ${entitySet>@com.sap.vocabularies.Common.v1.DraftRoot} ? ${sap.fe.i18n>C_COMMON_OBJECT_PAGE_DISCARD_DRAFT} : ${sap.fe.i18n>C_COMMON_OBJECT_PAGE_CANCEL} }"
+							press="cmd:Cancel"
+							visible="{ui>/isEditable}"
+							ariaHasPopup="Dialog"
+							enabled="true"
+						>
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow" />
+							</layoutData>
+						</Button>
+					</template:elseif>
+					<template:elseif test="{= OP.isManifestAction(${footerAction>}) }">
+						<Button
+							unittest:id="ManifestActionTest"
+							core:require="{FPM: 'sap/fe/core/helpers/FPMHelper'}"
+							id="{= ID.generate(['fe','FooterBar',${footerAction>id}])}"
+							text="{footerAction>text}"
+							press="{= ${footerAction>command} ? ('cmd:' + ${footerAction>command}) : COMMON.buildActionWrapper(${footerAction>})}"
+							type="Transparent"
+							visible="{footerAction>visible}"
+							enabled="{footerAction>enabled}"
+						/>
+					</template:elseif>
+				</template:if>
+			</template:repeat>
+		</template:if>
+	</OverflowToolbar>
+</core:FragmentDefinition>

@@ -1,0 +1,8 @@
+/*!
+ * SAPUI5
+
+		(c) Copyright 2009-2020 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["sap/ui/base/Object","./Ui5ControlFactory","../utils/Constants"],function(t,i,e){"use strict";return t.extend("sap.feedback.ui.flpplugin.ui.SurveyInvitationDialog",{_oResourceBundle:null,_oSurveyInvitationDialog:null,_fnDialogCallback:null,_oAskLaterButton:null,constructor:function(t){this._oResourceBundle=t},_dialogCallBack:function(t){this._oSurveyInvitationDialog.close();this._fnDialogCallback(t)},show:function(t,o){if(!this._oSurveyInvitationDialog||this._oSurveyInvitationDialog&&!this._oSurveyInvitationDialog.isOpen()){this._fnDialogCallback=t}if(!this._oSurveyInvitationDialog){this._oProvideButton=i.createButton({id:"ProvideButton",type:sap.m.ButtonType.Emphasized,text:this._getText("YOUR_OPINION_PROVIDEBUTTON"),press:function(){this._dialogCallBack(true)}.bind(this)});this._oAskLaterButton=i.createButton({id:"AskLaterButton",press:function(){this._dialogCallBack(false)}.bind(this)});this._oSurveyInvitationDialog=i.createDialog({type:sap.m.DialogType.Message,title:this._getText("YOUR_OPINION_TITLE"),content:i.createFormattedText({htmlText:this._getText("YOUR_OPINION_TEXT")}),beginButton:this._oProvideButton,endButton:this._oAskLaterButton,escapeHandler:function(t){t.resolve();this._fnDialogCallback(false)}.bind(this)})}if(!this._oSurveyInvitationDialog.isOpen()){var n=this._getText("YOUR_OPINION_NOTNOW");if(o===e.E_PUSH_SRC_TYPE.dynamic){n=this._getText("YOUR_OPINION_ASKLATERBUTTON")}this._oAskLaterButton.setText(n);this._oSurveyInvitationDialog.open()}},_getText:function(t){var i=this._oResourceBundle.getText(t);return i}})});
+//# sourceMappingURL=SurveyInvitationDialog.js.map

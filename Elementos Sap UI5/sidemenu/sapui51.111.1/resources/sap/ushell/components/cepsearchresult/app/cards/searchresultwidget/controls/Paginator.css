@@ -1,0 +1,9 @@
+.sapUiCEPCatPag .sapMBtnDisabled.sapUiCEPCatPagNumber {
+  opacity: 1 !important;
+}
+
+.sapUiCEPCatPag .sapMBtnDisabled.sapUiCEPCatPagNumber .sapMBtnText{
+  background-color: var(--sapUiButtonBackground) !important;
+  color: var(--sapUiBaseText) !important;
+  border-color: transparent;
+}

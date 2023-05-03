@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ * 
+ * (c) Copyright 2012-2014 SAP AG. All rights reserved
+ */
+(function(){"use strict";function e(e,t){var r={},n;if(e.orderby&&e.orderby.length&&e.orderby[0].ascending!==undefined){n=e.orderby[0].ascending}if(e.orderby&&e.orderby.length>1){r=undefined}else if(e.orderby&&e.orderby.length==1){r=e.orderby[0].property}else{r=undefined;n=true}t.setSortDescending(!n);t.setSelectedSortItem(r)}function t(e,t){var r;if(e.getParameters().sortItem&&e.getParameters().sortItem.getKey()){r=e.getParameters().sortItem.getKey()}else{return false}var n={property:r,ascending:!e.getParameters().sortDescending};var i={property:t._oPreviousState.sortItem?t._oPreviousState.sortItem.getKey():undefined,ascending:!t._oPreviousState.sortDescending};if(i.property===n.property&&i.ascending===n.ascending){return false}return true}sap.ui.controller("sap.apf.ui.reuse.controller.viewSetting",{onInit:function(){var t=this;this.oViewSettingDialog=t.getView().getContent()[0];this.oSelectedRepresentation=t.getView().getViewData().oTableInstance;e(this.oSelectedRepresentation,this.oViewSettingDialog)},handleConfirmForSort:function(e){if(!t(e,this.oViewSettingDialog)){return}if(this.oSelectedRepresentation){this.oSelectedRepresentation.resetPaginationForTable()}this.oSelectedRepresentation.oApi.selectionChanged(true)},handleCancel:function(e){this.oViewSettingDialog.destroy();this.oSelectedRepresentation.oViewSettingDialog=undefined}})})();
+//# sourceMappingURL=viewSetting.controller.js.map

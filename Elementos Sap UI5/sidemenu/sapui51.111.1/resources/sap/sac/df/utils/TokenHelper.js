@@ -1,0 +1,7 @@
+/*
+ * SAPUI5
+    (c) Copyright 2009-2021 SAP SE. All rights reserved
+  
+ */
+sap.ui.define("sap/sac/df/utils/TokenHelper",["sap/m/Token","sap/ui/core/CustomData","sap/sac/df/types/ComparisonOperator","sap/sac/df/thirdparty/lodash"],function(e,t,n,r){"use strict";function o(e,t){if(e){if(e==="<"){return t?n.LESS_EQUAL:n.LESS}else{return t?n.GREATER_EQUAL:n.GREATER}}else{return n.EQUAL}}function a(e){return new Date(e)}function i(e){if(typeof e!=="object"){throw new Error("Invalid date")}var t=e.getDate();var n=e.getMonth()+1;var r=e.getFullYear();return""+r+"-"+(n<=9?"0"+n:n)+"-"+(t<=9?"0"+t:t)}function s(){var s=this;s.dateToYMD=i;s.datsToDate=a;s.rangeToToken=function(n){return new e({key:n.Low,text:n.Text,customData:r.map(n,function(e,n){return new t({key:n,value:e})})})};this.tokenToRange=function(e){var t=e.data();if(t.ComparisonOperator){return{ComparisonOperator:t.ComparisonOperator,High:t.High,IsExcluding:t.IsExcluding,Low:e.getKey(),Text:e.getText()}}else{return{ComparisonOperator:n.EQUAL,Low:e.getKey(),IsExcluding:false,Text:e.getText()}}};this.stringToTokens=function(e){return r.map(e.split(","),this.stringToToken)};this.stringToToken=function(e){var t=null;var r=e.match(/(!)?(.+) - (.+)/);if(r){t={Low:r[2],High:r[3],IsExcluding:!!r[1],Text:e,ComparisonOperator:n.BETWEEN}}else{r=e.match(/(!)?(<|>)?(=)?(.+)/);if(r){t={Low:r[4],Text:e,IsExcluding:!!r[1],ComparisonOperator:o(r[2],r[3])}}}return s.rangeToToken(t)}}return new s});
+//# sourceMappingURL=TokenHelper.js.map

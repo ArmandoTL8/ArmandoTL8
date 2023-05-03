@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ *
+ * (c) Copyright 2012-2014 SAP SE. All rights reserved
+ */
+sap.ui.define([],function(){"use strict";sap.apf.ui.representations.utils.TimeAxisDateConverter=function(){this.oConversionDate={};this.oDimensionInfo={}};sap.apf.ui.representations.utils.TimeAxisDateConverter.prototype.constructor=sap.apf.ui.representations.utils.TimeAxisDateConverter;sap.apf.ui.representations.utils.TimeAxisDateConverter.prototype.bIsConversionToDateRequired=function(e,t){if(!this.oDimensionInfo||!this.oDimensionInfo[e]){return false}if(this.oDimensionInfo[e].conversionEvaluated){return this.oDimensionInfo[e].conversionRequired}this.oDimensionInfo[e].conversionEvaluated=true;if(this.oDimensionInfo[e].dataType==="date"&&t.getPropertyMetadata(e).semantics==="yearmonthday"){this.oDimensionInfo[e].conversionRequired=true;return true}this.oDimensionInfo[e].conversionRequired=false;return false};sap.apf.ui.representations.utils.TimeAxisDateConverter.prototype.setConvertedDateLookUp=function(e){this.oConversionDate=e};sap.apf.ui.representations.utils.TimeAxisDateConverter.prototype.getConvertedDateLookUp=function(){return this.oConversionDate};sap.apf.ui.representations.utils.TimeAxisDateConverter.prototype.createPropertyInfo=function(e){var t=this;e.forEach(function(e){t.oDimensionInfo[e.fieldName]=e})}});
+//# sourceMappingURL=timeAxisDateConverter.js.map

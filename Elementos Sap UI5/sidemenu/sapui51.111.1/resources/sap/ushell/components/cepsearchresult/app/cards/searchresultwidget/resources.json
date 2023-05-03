@@ -1,0 +1,734 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Component.js",
+			"size": 2575,
+			"isDebug": true,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/integration/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/cepsearchresult/app/Component.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.view.xml",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Component-preload.js",
+			"size": 57565,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Avatar.js",
+				"sap/m/Button.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/List.js",
+				"sap/m/ListRenderer.js",
+				"sap/m/ObjectIdentifier.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToggleButton.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/ResizeHandler.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ui/integration/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/cepsearchresult/app/Component.js",
+				"sap/ushell/components/cepsearchresult/app/util/SearchResultManager.js",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js",
+				"sap/ushell/services/VisualizationInstantiation.js"
+			],
+			"included": [
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Component.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.controller.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.view.xml",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Highlighter.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Paginator.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/SearchResultList.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Tile.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ar.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_bg.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ca.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_cs.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_cy.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_da.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_de.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_el.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_GB.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_US_sappsd.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_US_saprigi.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_US_saptrc.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_es.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_es_MX.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_et.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_fi.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_fr.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_fr_CA.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_hi.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_hr.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_hu.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_id.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_it.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_iw.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ja.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_kk.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ko.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_lt.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_lv.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ms.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_nl.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_no.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_pl.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_pt.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_pt_PT.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ro.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ru.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sh.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sk.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sl.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sv.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_th.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_tr.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_uk.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_vi.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_zh_CN.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_zh_TW.properties",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/manifest.json",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/appTile.fragment.xml",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/default.fragment.xml",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/peopleCard.fragment.xml",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/peopleList.fragment.xml"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 26299,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Component.js",
+			"size": 911,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/integration/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/cepsearchresult/app/Component.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.view.xml",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 918,
+			"isDebug": true
+		},
+		{
+			"name": "Main-dbg.controller.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.controller.js",
+			"size": 4311,
+			"isDebug": true,
+			"required": [
+				"sap/m/HBox.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/SearchResultList.js",
+				"sap/ushell/components/cepsearchresult/app/util/SearchResultManager.js"
+			]
+		},
+		{
+			"name": "Main.controller.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.controller.js",
+			"size": 2614,
+			"required": [
+				"sap/m/HBox.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/SearchResultList.js",
+				"sap/ushell/components/cepsearchresult/app/util/SearchResultManager.js"
+			]
+		},
+		{
+			"name": "Main.controller.js.map",
+			"size": 3022,
+			"isDebug": true
+		},
+		{
+			"name": "Main.view.xml",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.view.xml",
+			"size": 356,
+			"required": [
+				"sap/m/VBox.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/Main.controller.js"
+			]
+		},
+		{
+			"name": "controls/Highlighter-dbg.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Highlighter.js",
+			"size": 11514,
+			"isDebug": true
+		},
+		{
+			"name": "controls/Highlighter.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Highlighter.js",
+			"size": 5274
+		},
+		{
+			"name": "controls/Highlighter.js.map",
+			"size": 7127,
+			"isDebug": true
+		},
+		{
+			"name": "controls/Paginator-dbg.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Paginator.js",
+			"size": 5571,
+			"isDebug": true,
+			"required": [
+				"sap/m/ToggleButton.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js"
+			]
+		},
+		{
+			"name": "controls/Paginator.css",
+			"size": 286
+		},
+		{
+			"name": "controls/Paginator.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Paginator.js",
+			"size": 3007,
+			"required": [
+				"sap/m/ToggleButton.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/delegate/ItemNavigation.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js"
+			]
+		},
+		{
+			"name": "controls/Paginator.js.map",
+			"size": 3757,
+			"isDebug": true
+		},
+		{
+			"name": "controls/SearchResultList-dbg.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/SearchResultList.js",
+			"size": 15759,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/List.js",
+				"sap/m/ListRenderer.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/ResizeHandler.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Highlighter.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Paginator.js",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js"
+			]
+		},
+		{
+			"name": "controls/SearchResultList.css",
+			"size": 6516
+		},
+		{
+			"name": "controls/SearchResultList.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/SearchResultList.js",
+			"size": 8810,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/List.js",
+				"sap/m/ListRenderer.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/ResizeHandler.js",
+				"sap/ui/dom/includeStylesheet.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Highlighter.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Paginator.js",
+				"sap/ushell/components/cepsearchresult/app/util/appendStyleVars.js"
+			]
+		},
+		{
+			"name": "controls/SearchResultList.js.map",
+			"size": 9538,
+			"isDebug": true
+		},
+		{
+			"name": "controls/Tile-dbg.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Tile.js",
+			"size": 1650,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Control.js",
+				"sap/ushell/services/VisualizationInstantiation.js"
+			]
+		},
+		{
+			"name": "controls/Tile.js",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Tile.js",
+			"size": 1002,
+			"required": [
+				"sap/ui/core/Control.js",
+				"sap/ushell/services/VisualizationInstantiation.js"
+			]
+		},
+		{
+			"name": "controls/Tile.js.map",
+			"size": 1296,
+			"isDebug": true
+		},
+		{
+			"name": "css/style.css",
+			"size": 322
+		},
+		{
+			"name": "i18n/i18n.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n.properties",
+			"size": 372,
+			"locale": "",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ar.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ar.properties",
+			"size": 7363,
+			"locale": "ar",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_bg.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_bg.properties",
+			"size": 564,
+			"locale": "bg",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ca.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ca.properties",
+			"size": 152,
+			"locale": "ca",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_cs.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_cs.properties",
+			"size": 207,
+			"locale": "cs",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_cy.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_cy.properties",
+			"size": 156,
+			"locale": "cy",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_da.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_da.properties",
+			"size": 147,
+			"locale": "da",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_de.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_de.properties",
+			"size": 149,
+			"locale": "de",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_el.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_el.properties",
+			"size": 553,
+			"locale": "el",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en.properties",
+			"size": 137,
+			"locale": "en",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_GB.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_GB.properties",
+			"size": 137,
+			"locale": "en_GB",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_sappsd.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_US_sappsd.properties",
+			"size": 536,
+			"locale": "en_US_sappsd",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_saprigi.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_US_saprigi.properties",
+			"size": 971,
+			"locale": "en_US_saprigi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_saptrc.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_en_US_saptrc.properties",
+			"size": 206,
+			"locale": "en_US_saptrc",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_es.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_es.properties",
+			"size": 181,
+			"locale": "es",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_es_MX.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_es_MX.properties",
+			"size": 174,
+			"locale": "es_MX",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_et.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_et.properties",
+			"size": 143,
+			"locale": "et",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fi.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_fi.properties",
+			"size": 152,
+			"locale": "fi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fr.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_fr.properties",
+			"size": 180,
+			"locale": "fr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fr_CA.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_fr_CA.properties",
+			"size": 161,
+			"locale": "fr_CA",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hi.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_hi.properties",
+			"size": 373,
+			"locale": "hi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hr.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_hr.properties",
+			"size": 181,
+			"locale": "hr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hu.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_hu.properties",
+			"size": 202,
+			"locale": "hu",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_id.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_id.properties",
+			"size": 148,
+			"locale": "id",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_it.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_it.properties",
+			"size": 153,
+			"locale": "it",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_iw.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_iw.properties",
+			"size": 392,
+			"locale": "iw",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ja.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ja.properties",
+			"size": 233,
+			"locale": "ja",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_kk.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_kk.properties",
+			"size": 520,
+			"locale": "kk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ko.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ko.properties",
+			"size": 204,
+			"locale": "ko",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_lt.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_lt.properties",
+			"size": 187,
+			"locale": "lt",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_lv.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_lv.properties",
+			"size": 228,
+			"locale": "lv",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ms.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ms.properties",
+			"size": 139,
+			"locale": "ms",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_nl.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_nl.properties",
+			"size": 150,
+			"locale": "nl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_no.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_no.properties",
+			"size": 148,
+			"locale": "no",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pl.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_pl.properties",
+			"size": 171,
+			"locale": "pl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pt.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_pt.properties",
+			"size": 164,
+			"locale": "pt",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pt_PT.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_pt_PT.properties",
+			"size": 160,
+			"locale": "pt_PT",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ro.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ro.properties",
+			"size": 185,
+			"locale": "ro",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ru.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_ru.properties",
+			"size": 535,
+			"locale": "ru",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sh.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sh.properties",
+			"size": 182,
+			"locale": "sh",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sk.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sk.properties",
+			"size": 228,
+			"locale": "sk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sl.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sl.properties",
+			"size": 168,
+			"locale": "sl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sv.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_sv.properties",
+			"size": 147,
+			"locale": "sv",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_th.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_th.properties",
+			"size": 441,
+			"locale": "th",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_tr.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_tr.properties",
+			"size": 176,
+			"locale": "tr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_uk.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_uk.properties",
+			"size": 547,
+			"locale": "uk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_vi.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_vi.properties",
+			"size": 244,
+			"locale": "vi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_zh_CN.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_zh_CN.properties",
+			"size": 233,
+			"locale": "zh_CN",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_zh_TW.properties",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/i18n/i18n_zh_TW.properties",
+			"size": 216,
+			"locale": "zh_TW",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/manifest.json",
+			"size": 3252
+		},
+		{
+			"name": "resources.json",
+			"size": 26957
+		},
+		{
+			"name": "templates/appTile.fragment.xml",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/appTile.fragment.xml",
+			"size": 304,
+			"required": [
+				"sap/m/CustomListItem.js",
+				"sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/controls/Tile.js"
+			]
+		},
+		{
+			"name": "templates/default.fragment.xml",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/default.fragment.xml",
+			"size": 1881,
+			"required": [
+				"sap/m/Avatar.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/HBox.js",
+				"sap/m/Link.js",
+				"sap/m/ObjectIdentifier.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/CustomData.js"
+			]
+		},
+		{
+			"name": "templates/peopleCard.fragment.xml",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/peopleCard.fragment.xml",
+			"size": 2394,
+			"required": [
+				"sap/m/Avatar.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/ObjectIdentifier.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/CustomData.js"
+			]
+		},
+		{
+			"name": "templates/peopleList.fragment.xml",
+			"module": "sap/ushell/components/cepsearchresult/app/cards/searchresultwidget/templates/peopleList.fragment.xml",
+			"size": 2583,
+			"required": [
+				"sap/m/Avatar.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/ObjectIdentifier.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/CustomData.js"
+			]
+		}
+	]
+}

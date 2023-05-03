@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+(c) Copyright 2009-2013 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/landvisz/library","sap/ui/core/Control","./HeaderListRenderer"],function(t,e,i){"use strict";var o=e.extend("sap.landvisz.internal.HeaderList",{metadata:{library:"sap.landvisz",properties:{headerTooltip:{type:"string",group:"Data",defaultValue:null},entitySize:{type:"string",group:"Dimension",defaultValue:null},selected:{type:"boolean",group:"Identification",defaultValue:false},type:{type:"sap.landvisz.LandscapeObject",group:"Identification",defaultValue:null}},events:{press:{}}}});o.prototype.init=function(){this.initializationDone=false;this.lastBtn=true;this.onFocus=true;this.inDisplay=false};o.prototype.exit=function(){this.customAction&&this.customAction.destroy();this.oToolBarBtn&&this.oToolBarBtn.destroy();this.oActToolBar&&this.oActToolBar.destroy()};o.prototype.initControls=function(){this.oToolBarBtn;this.oActToolBar;this.oHLayoutBtn;this.parentContainer;this.headerWidth;this.btnEventController};o.prototype.press=function(t){this.firePress()};o.prototype.onclick=function(t){this.firePress()};o.prototype.onsapenter=function(t){this.firePress()};return o});
+//# sourceMappingURL=HeaderList.js.map

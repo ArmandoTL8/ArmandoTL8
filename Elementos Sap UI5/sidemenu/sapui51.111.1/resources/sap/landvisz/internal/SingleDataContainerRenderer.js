@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+(c) Copyright 2009-2013 SAP AG. All rights reserved
+ */
+sap.ui.define([],function(){"use strict";var e={};e.render=function(e,i){if(!this.initializationDone){i.initControls();i.initializationDone=true;e.write("<div");e.writeControlData(i);e.addClass("sapLandviszSMVContainerAllSizes");e.addClass("svmContainer");e.writeClasses();e.write(">");e.write("<div");e.writeControlData(i);e.addClass("sapLandviszSvmHeader");e.writeClasses();e.write(">");i.headerLabel.setText(i.getHeader());i.headerLabel.setTooltip(i.getHeader());i.headerLabel.addStyleClass("sapLandviszSvmHeaderLabel");e.renderControl(i.headerLabel);e.write("<div");e.writeAttributeEscaped("id","closeVM");e.addClass("sapLandviszSvmSectorCloseBtn");e.writeClasses();var t=sap.ui.getCore().getLibraryResourceBundle("sap.landvisz");var r=t.getText("CLOSE");e.writeAttributeEscaped("title",r);e.write("></div>");e.write("</div>");e.write("<div");e.addClass("sapLandviszSvmDataContainer");e.writeClasses();e.write(">");var a=i.getProperties();var s;for(var d=0;d<a.length;d++){s=a[d];if(s.getRenderingSize())s.setRenderingSize(i.getRenderingSize());e.renderControl(s)}e.write("</div>");e.write("</div>");i.isModelOpen=true}};return e},true);
+//# sourceMappingURL=SingleDataContainerRenderer.js.map

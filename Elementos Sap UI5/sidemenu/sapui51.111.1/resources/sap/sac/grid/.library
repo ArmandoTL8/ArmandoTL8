@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+  <name>sap.sac.grid</name>
+  <vendor>SAP SE</vendor>
+  <version>1.111.0</version>
+  <copyright>SAPUI5
+  (c) Copyright 2009-2020 SAP SE. All rights reserved</copyright>
+  <title>{{title}}</title>
+  <documentation>{{sap.sac.grid}}</documentation>
+  <appData>
+    <jsdoc xmlns="http://www.sap.com/ui5/buildext/jsdoc">
+      <exclude name="sap/sac/grid/thirdparty/**" />
+    </jsdoc>
+    <manifest xmlns="http://www.sap.com/ui5/buildext/manifest">
+      <i18n>messagebundle.properties</i18n>
+      <offline>false</offline>
+      <deviceTypes desktop="true" phone="true" tablet="true" />
+      <contentDensities cozy="false" compact="true" />
+    </manifest>
+    <ownership xmlns="http://www.sap.com/ui5/buildext/ownership">
+      <component>LOD-ANA-TAB</component>
+    </ownership>
+
+    <packaging xmlns="http://www.sap.com/ui5/buildext/packaging" version="2.0" >
+      <all-in-one>
+          <exclude name="sap/sac/grid/thirdparty/" />
+      </all-in-one>
+    </packaging>
+
+    <thirdparty xmlns="http://www.sap.com/ui5/buildext/thirdparty">
+      <lib name="React" displayName="React" version="v16.13.1" homepage="https://github.com/facebook/react/" id="73554900106100048810">
+        <license url="https://github.com/facebook/react/blob/master/LICENSE" type="MIT"/>
+        <copyright>Facebook, Inc. and its affiliates.</copyright>
+        <pattern>sap/sac/grid/thirdparty/sac.internal.grid.vendor.js</pattern>
+      </lib>
+    </thirdparty>
+
+  </appData>
+  <dependencies>
+    <dependency>
+      <libraryName>sap.m</libraryName>
+      <lazy>false</lazy>
+    </dependency>
+    <dependency>
+      <libraryName>sap.ui.core</libraryName>
+      <lazy>false</lazy>
+    </dependency>
+  </dependencies>
+</library>

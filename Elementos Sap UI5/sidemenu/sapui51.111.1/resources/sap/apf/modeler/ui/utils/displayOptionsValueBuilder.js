@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ * 
+ * (c) Copyright 2012-2014 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/apf/modeler/ui/utils/textManipulator"],function(e){"use strict";sap.apf.modeler.ui.utils.DisplayOptionsValueBuilder=function(e,t){this.oTextReader=e;this.oOptionsValueModelBuilder=t};sap.apf.modeler.ui.utils.DisplayOptionsValueBuilder.prototype.constructor=sap.apf.modeler.ui.utils.DisplayOptionsValueBuilder;sap.apf.modeler.ui.utils.DisplayOptionsValueBuilder.prototype.getLabelDisplayOptions=function(){var e=[{key:"key",name:this.oTextReader("key")},{key:"text",name:this.oTextReader("text")},{key:"keyAndText",name:this.oTextReader("keyAndText")}];return this.oOptionsValueModelBuilder.prepareModel(e,e.length)};sap.apf.modeler.ui.utils.DisplayOptionsValueBuilder.prototype.getMeasureDisplayOptions=function(){var e=[{key:"line",name:this.oTextReader("line")},{key:"bar",name:this.oTextReader("column")}];return this.oOptionsValueModelBuilder.prepareModel(e,e.length)};sap.apf.modeler.ui.utils.DisplayOptionsValueBuilder.prototype.getValidatedLabelDisplayOptions=function(){var e=sap.apf.modeler.ui.utils.textManipulator;var t=[{key:"key",name:this.oTextReader("key")},{key:e.addPrefixText(["text"],this.oTextReader)[0],name:e.addPrefixText([this.oTextReader("text")],this.oTextReader)[0]},{key:e.addPrefixText(["keyAndText"],this.oTextReader)[0],name:e.addPrefixText([this.oTextReader("keyAndText")],this.oTextReader)[0]}];return this.oOptionsValueModelBuilder.prepareModel(t,t.length)}});
+//# sourceMappingURL=displayOptionsValueBuilder.js.map

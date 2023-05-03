@@ -1,0 +1,8 @@
+/*!
+ * SAPUI5
+
+		(c) Copyright 2009-2020 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["sap/ui/base/Object","sap/base/Log","sap/ui/core/InvisibleText","../utils/Constants"],function(e,t,i,n){"use strict";return e.extend("sap.feedback.ui.flpplugin.ui.ShellBarButton",{_fnRendererPromise:null,_oResourceBundle:null,_oInvisibleSurveyButton:null,_oHeaderItemOptions:{},_oHeaderItem:null,_fnDialogCallback:null,_bIsButtonHidden:false,constructor:function(e,i,s){if(!e){t.error("Renderer expected",null,n.S_PLUGIN_UI_SHELLBARBUTTON_NAME)}if(!i){t.error("Dialog callback expected",null,n.S_PLUGIN_UI_SHELLBARBUTTON_NAME)}if(!s){t.error("ResourceBundle expected",null,n.S_PLUGIN_UI_SHELLBARBUTTON_NAME)}this._fnRendererPromise=e;this._fnDialogCallback=i;this._oResourceBundle=s},init:function(){this._createInvisibleText();this._defineButtonOptions();return this._fnRendererPromise.then(function(e){this._oHeaderItem=e.addHeaderEndItem("sap.ushell.ui.shell.ShellHeadItem",this._oHeaderItemOptions,true)}.bind(this))},_createInvisibleText:function(){this._oInvisibleSurveyButton=new i({id:n.S_INVISIBLE_ITEM_ID,text:this._getText("SHELLBAR_BUTTON_TOOLTIP")}).toStatic()},_defineButtonOptions:function(){this._oHeaderItemOptions={id:n.S_SHELL_BTN_ID,icon:"sap-icon://feedback",tooltip:this._getText("SHELLBAR_BUTTON_TOOLTIP"),ariaLabel:this._getText("SHELLBAR_BUTTON_TOOLTIP"),text:this._getText("SHELLBAR_BUTTON_TOOLTIP"),press:this._fnDialogCallback.bind(this)}},_getText:function(e){if(this._oResourceBundle){var t=this._oResourceBundle.getText(e);return t}return e}})});
+//# sourceMappingURL=ShellBarButton.js.map

@@ -1,0 +1,293 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/shell/SearchCEP/Component.js",
+			"size": 6132,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/components/shell/SearchCEP/SearchCEP.controller.js",
+				"sap/ushell/renderers/fiori2/search/util.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/ui/shell/ShellHeadItem.js"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/shell/SearchCEP/Component-preload.js",
+			"size": 36594,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/base/util/UriParameters.js",
+				"sap/m/Button.js",
+				"sap/m/List.js",
+				"sap/m/Popover.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/m/StandardListItem.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/renderers/fiori2/search/util.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/ui/shell/ShellHeadItem.js",
+				"sap/ushell/utils/UrlParsing.js",
+				"sap/ushell/utils/WindowUtils.js"
+			],
+			"included": [
+				"sap/ushell/components/shell/SearchCEP/Component.js",
+				"sap/ushell/components/shell/SearchCEP/ProvidersExecuter.js",
+				"sap/ushell/components/shell/SearchCEP/SearchCEP.controller.js",
+				"sap/ushell/components/shell/SearchCEP/SearchFieldFragment.fragment.xml",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 34136,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/shell/SearchCEP/Component.js",
+			"size": 3505,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SearchField.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/components/shell/SearchCEP/SearchCEP.controller.js",
+				"sap/ushell/renderers/fiori2/search/util.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/ui/shell/ShellHeadItem.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 4012,
+			"isDebug": true
+		},
+		{
+			"name": "ProvidersExecuter-dbg.js",
+			"module": "sap/ushell/components/shell/SearchCEP/ProvidersExecuter.js",
+			"size": 2395,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "ProvidersExecuter.js",
+			"module": "sap/ushell/components/shell/SearchCEP/ProvidersExecuter.js",
+			"size": 1092,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "ProvidersExecuter.js.map",
+			"size": 1267,
+			"isDebug": true
+		},
+		{
+			"name": "SearchCEP-dbg.controller.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchCEP.controller.js",
+			"size": 40757,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/UriParameters.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils/UrlParsing.js",
+				"sap/ushell/utils/WindowUtils.js"
+			]
+		},
+		{
+			"name": "SearchCEP.controller.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchCEP.controller.js",
+			"size": 21352,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/UriParameters.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils/UrlParsing.js",
+				"sap/ushell/utils/WindowUtils.js"
+			]
+		},
+		{
+			"name": "SearchCEP.controller.js.map",
+			"size": 22351,
+			"isDebug": true
+		},
+		{
+			"name": "SearchFieldFragment.fragment.xml",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchFieldFragment.fragment.xml",
+			"size": 4979,
+			"required": [
+				"sap/m/List.js",
+				"sap/m/Popover.js",
+				"sap/m/SearchField.js",
+				"sap/m/StandardListItem.js"
+			]
+		},
+		{
+			"name": "SearchProviders/FrequentActivityProvider-dbg.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+			"size": 3216,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "SearchProviders/FrequentActivityProvider.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/FrequentActivityProvider.js",
+			"size": 1366,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "SearchProviders/FrequentActivityProvider.js.map",
+			"size": 1620,
+			"isDebug": true
+		},
+		{
+			"name": "SearchProviders/NavigationSvcSearchProvider-dbg.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+			"size": 5650,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "SearchProviders/NavigationSvcSearchProvider.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/NavigationSvcSearchProvider.js",
+			"size": 2577,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "SearchProviders/NavigationSvcSearchProvider.js.map",
+			"size": 2595,
+			"isDebug": true
+		},
+		{
+			"name": "SearchProviders/RecentSearchProvider-dbg.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+			"size": 1971,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "SearchProviders/RecentSearchProvider.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/RecentSearchProvider.js",
+			"size": 843,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js"
+			]
+		},
+		{
+			"name": "SearchProviders/RecentSearchProvider.js.map",
+			"size": 985,
+			"isDebug": true
+		},
+		{
+			"name": "SearchProviders/SearchProvider-dbg.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js",
+			"size": 766,
+			"isDebug": true
+		},
+		{
+			"name": "SearchProviders/SearchProvider.js",
+			"module": "sap/ushell/components/shell/SearchCEP/SearchProviders/SearchProvider.js",
+			"size": 504
+		},
+		{
+			"name": "SearchProviders/SearchProvider.js.map",
+			"size": 576,
+			"isDebug": true
+		},
+		{
+			"name": "resources.json",
+			"size": 9418
+		}
+	]
+}

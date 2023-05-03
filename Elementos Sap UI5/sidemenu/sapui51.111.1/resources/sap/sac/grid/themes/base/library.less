@@ -1,0 +1,156 @@
+/* NOTE: This file was generated as an optimized version of "library.source.less" for the Theme Designer. */
+
+/*!
+ * SAPUI5
+  (c) Copyright 2009-2020 SAP SE. All rights reserved
+ */
+ @import "../../../../../../Base/baseLib/baseTheme/base.less"; /* ORIGINAL IMPORT PATH: "../../../../../sap/ui/core/themes/base/base.less" */
+
+ @import "../../../../../sap/ui/core/themes/base/global.less";
+ /* START "variables.less" */
+@sapUiFontBoldFamily: "72-Bold", "72-Boldfull", "72", "72full", Arial, Helvetica, sans-serif;
+@sapUiFontLightFamily: "72-Light", "72-Lightfull", "72", "72full", Arial, Helvetica, sans-serif;
+@sapUiContentIconFontFamily: "SAP-icons";
+
+// Icons
+@sapUiSacGridExpandedAboveIcon: "\e1f0";
+@sapUiSacGridExpandedBelowIcon: "\e1ef";
+@sapUiSacGridCollapsedIcon: "\e1ed";
+
+// Cursor
+@sapUiSacGridCursorPointer: pointer !important;
+@sapUiSacGridNoDataCursorPointer: auto !important;
+
+// Text decoration
+@sapUiSacGridTextDecoration: underline !important;
+@sapUiSacGridNoDataTextDecoration: none !important;
+
+// CellBorder
+@sapUiSacGridCellBorder: 1px solid @sapUiNeutral;
+@sapUiSacGridCellBorderCollapse: separate;
+
+@sapUiSacGridOverflow: auto !important;
+@sapUiSacGrid100PerCent: 100%;
+@sapUiSacGridCellNoFlex: none;
+
+// Column Headers Bottom Borders
+@sapUiSacGridAbsoluteVariance: rgb(88, 153, 218); // light blue (#5899da) was sapUiChartSequence1
+@sapUiSacGridPercentageVariance: rgb(47, 100, 151); // dark blue (#2f6497) was sapUiChart11
+
+// Selection Border in Spreadsheet style
+@sapUiSacGridSpreadsheetSelectionBorderStyle: dotted;
+@sapUiSacGridSpreadsheetSelectionBorderWidth: 3px;
+/* END "variables.less" */
+
+ /* START "Grid.less" */
+/* ====================================== */
+/* CSS for control sap.sac.grid.Grid */
+/* Base theme                             */
+/* ====================================== */
+
+.sapUiSACReactNode {
+  background-color: @sapUiGlobalBackgroundColor;
+  overflow: @sapUiSacGridOverflow;
+  height: @sapUiSacGrid100PerCent;
+  width: @sapUiSacGrid100PerCent;
+}
+
+.reactTableComponent .tableContainer .reactTable .tableCell {
+  color: @sapUiBaseText !important;
+  flex: @sapUiSacGridCellNoFlex !important;
+  &:hover {
+    text-decoration: @sapUiSacGridTextDecoration;
+    cursor: @sapUiSacGridCursorPointer;
+  }
+}
+
+.icon.hierarchyIcon.expandedAboveIcon {
+  &:before {
+    font-family: @sapUiContentIconFontFamily;
+    color: @sapUiBaseText;
+    content: @sapUiSacGridExpandedAboveIcon !important;
+  }
+  &:hover {
+    cursor: @sapUiSacGridCursorPointer;
+  }
+}
+
+.icon.hierarchyIcon.expandedBelowIcon {
+  &:before {
+    font-family: @sapUiContentIconFontFamily;
+    color: @sapUiBaseText;
+    content: @sapUiSacGridExpandedBelowIcon !important;
+  }
+  &:hover {
+    cursor: @sapUiSacGridCursorPointer;
+  }
+}
+
+.icon.hierarchyIcon.collapsedIcon {
+  &:before {
+    font-family: @sapUiContentIconFontFamily;
+    color: @sapUiBaseText;
+    content: @sapUiSacGridCollapsedIcon !important;
+  }
+  &:hover {
+    cursor: @sapUiSacGridCursorPointer;
+  }
+}
+
+.reactTableComponent.noDataInTable .tableContainer .reactTable .cellValue {
+  color: @sapUiBaseText;
+  flex: @sapUiSacGridCellNoFlex !important;
+  &:hover {
+    text-decoration: @sapUiSacGridNoDataTextDecoration;
+    cursor: @sapUiSacGridNoDataCursorPointer;
+  }
+}
+
+.reactTableComponent .tableContainer .overlayBorder {
+  border-color: @sapUiContentSelectedForegroundColor !important;
+}
+
+.reactTableComponent .tableContainer .selectionDragger {
+  visibility: hidden;
+}
+
+.reactTableComponent.sapSacGridTheming .tableContainer .resizeInfo {
+  color: @sapUiBaseText;
+  border: 1px solid @sapUiBaseText;
+  background-color: @sapUiGlobalBackgroundColor;
+}
+
+.reactTableComponent.sapSacGridTheming .tableContainer .rowResizeIndicator,
+.reactTableComponent.sapSacGridTheming .tableContainer .titleResizeIndicator {
+  border-top: 1px dashed @sapUiBaseText;
+}
+
+.reactTableComponent.sapSacGridTheming .tableContainer .columnResizeIndicator {
+  border-left: 1px dashed @sapUiBaseText;
+}
+/* END "Grid.less" */
+
+ /* START "GridExcel.less" */
+/* ====================================== */
+/* CSS for control sap.sac.grid.Grid */
+/* Excel Style Adaptions                  */
+/* ====================================== */
+
+.reactTableComponent .tableContainer .htmlTableWrapper.showGrid {
+    .tableDivCell {
+        border-top: @sapUiSacGridCellBorder !important;
+        border-left: @sapUiSacGridCellBorder !important;
+        border-right: @sapUiSacGridCellBorder !important;
+        border-bottom: @sapUiSacGridCellBorder !important;
+        border-collapse: @sapUiSacGridCellBorderCollapse;
+    }
+    .overlayBorder {
+        border-style: @sapUiSacGridSpreadsheetSelectionBorderStyle !important;
+        border-width: @sapUiSacGridSpreadsheetSelectionBorderWidth !important;
+    }
+}
+/* END "GridExcel.less" */
+
+ /* START "GridBusiness.less" */
+
+/* END "GridBusiness.less" */

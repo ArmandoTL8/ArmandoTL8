@@ -1,0 +1,1388 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/Component.js",
+			"size": 8958,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Core.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/shell/Settings/ProfilingLoader.js",
+				"sap/ushell/components/shell/Settings/appearance/AppearanceEntry.js",
+				"sap/ushell/components/shell/Settings/homepage/HomepageEntry.js",
+				"sap/ushell/components/shell/Settings/notifications/NotificationsEntry.js",
+				"sap/ushell/components/shell/Settings/spaces/SpacesEntry.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountEntry.js",
+				"sap/ushell/components/shell/Settings/userActivities/UserActivitiesEntry.js",
+				"sap/ushell/components/shell/Settings/userDefaults/UserDefaultsEntry.js",
+				"sap/ushell/components/shell/Settings/userLanguageRegion/UserLanguageRegionEntry.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UserProfilingEntry.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/ui/shell/ShellHeadItem.js",
+				"sap/ushell/utils.js"
+			],
+			"condRequired": [
+				"sap/ushell/components/shell/Settings/search/SearchEntry.js"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/shell/Settings/Component-preload.js",
+			"size": 120639,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/UriParameters.js",
+				"sap/base/util/deepClone.js",
+				"sap/base/util/deepEqual.js",
+				"sap/base/util/deepExtend.js",
+				"sap/base/util/extend.js",
+				"sap/base/util/includes.js",
+				"sap/m/Bar.js",
+				"sap/m/Button.js",
+				"sap/m/CheckBox.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/FlexBox.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/IconTabBar.js",
+				"sap/m/IconTabFilter.js",
+				"sap/m/Input.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/List.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageItem.js",
+				"sap/m/MessagePopover.js",
+				"sap/m/MessageToast.js",
+				"sap/m/ObjectHeader.js",
+				"sap/m/ObjectIdentifier.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Panel.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/SplitApp.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/Switch.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToggleButton.js",
+				"sap/m/Token.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/comp/smartfield/SmartField.js",
+				"sap/ui/comp/smartfield/SmartLabel.js",
+				"sap/ui/comp/smartform/Group.js",
+				"sap/ui/comp/smartform/GroupElement.js",
+				"sap/ui/comp/smartform/SmartForm.js",
+				"sap/ui/comp/smartvariants/PersonalizableInfo.js",
+				"sap/ui/comp/smartvariants/SmartVariantManagement.js",
+				"sap/ui/comp/valuehelpdialog/ValueHelpDialog.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ui/core/Locale.js",
+				"sap/ui/core/LocaleData.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/layout/form/SimpleForm.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v2/ODataModel.js",
+				"sap/ui/performance/Measurement.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/User.js",
+				"sap/ushell/components/SharedComponentUtils.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/services/DarkModeSupport.js",
+				"sap/ushell/ui/footerbar/ContactSupportButton.js",
+				"sap/ushell/ui/shell/ShellHeadItem.js",
+				"sap/ushell/utils.js",
+				"sap/ushell/utils/WindowUtils.js"
+			],
+			"condRequired": [
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js",
+				"sap/esh/search/ui/userpref/SearchPrefsModel.js"
+			],
+			"included": [
+				"sap/ushell/components/shell/Settings/Component.js",
+				"sap/ushell/components/shell/Settings/ContentWrapper.fragment.xml",
+				"sap/ushell/components/shell/Settings/ErrorContent.fragment.xml",
+				"sap/ushell/components/shell/Settings/ErrorMessageHelper.js",
+				"sap/ushell/components/shell/Settings/ProfilingLoader.js",
+				"sap/ushell/components/shell/Settings/UserSettings.controller.js",
+				"sap/ushell/components/shell/Settings/UserSettings.view.xml",
+				"sap/ushell/components/shell/Settings/UserSettingsErrorMessagePopover.fragment.xml",
+				"sap/ushell/components/shell/Settings/UserSettingsErrorMessagePopover.js",
+				"sap/ushell/components/shell/Settings/appearance/Appearance.controller.js",
+				"sap/ushell/components/shell/Settings/appearance/Appearance.view.xml",
+				"sap/ushell/components/shell/Settings/appearance/AppearanceEntry.js",
+				"sap/ushell/components/shell/Settings/homepage/HomepageEntry.js",
+				"sap/ushell/components/shell/Settings/homepage/HomepageSetting.view.xml",
+				"sap/ushell/components/shell/Settings/notifications/NotificationsEntry.js",
+				"sap/ushell/components/shell/Settings/notifications/NotificationsSetting.controller.js",
+				"sap/ushell/components/shell/Settings/notifications/NotificationsSetting.view.xml",
+				"sap/ushell/components/shell/Settings/search/Search.controller.js",
+				"sap/ushell/components/shell/Settings/search/Search.view.xml",
+				"sap/ushell/components/shell/Settings/search/SearchEntry.js",
+				"sap/ushell/components/shell/Settings/spaces/SpacesEntry.js",
+				"sap/ushell/components/shell/Settings/spaces/SpacesSetting.controller.js",
+				"sap/ushell/components/shell/Settings/spaces/SpacesSetting.view.xml",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountEntry.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountImgConsentSelector.fragment.xml",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.controller.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.view.xml",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSetting.fragment.xml",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSetting.view.xml",
+				"sap/ushell/components/shell/Settings/userActivities/UserActivitiesEntry.js",
+				"sap/ushell/components/shell/Settings/userActivities/UserActivitiesSetting.controller.js",
+				"sap/ushell/components/shell/Settings/userActivities/UserActivitiesSetting.view.xml",
+				"sap/ushell/components/shell/Settings/userDefaults/Component.js",
+				"sap/ushell/components/shell/Settings/userDefaults/UserDefaultsEntry.js",
+				"sap/ushell/components/shell/Settings/userDefaults/UserDefaultsForm.js",
+				"sap/ushell/components/shell/Settings/userDefaults/controller/ExtendedValueDialog.controller.js",
+				"sap/ushell/components/shell/Settings/userDefaults/controller/UserDefaultsSetting.controller.js",
+				"sap/ushell/components/shell/Settings/userDefaults/manifest.json",
+				"sap/ushell/components/shell/Settings/userDefaults/view/ExtendedValueDialog.fragment.xml",
+				"sap/ushell/components/shell/Settings/userDefaults/view/UserDefaultsSetting.view.xml",
+				"sap/ushell/components/shell/Settings/userLanguageRegion/LanguageRegionSelector.controller.js",
+				"sap/ushell/components/shell/Settings/userLanguageRegion/LanguageRegionSelector.view.xml",
+				"sap/ushell/components/shell/Settings/userLanguageRegion/UserLanguageRegionEntry.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsProfiling.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsSelector.controller.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsSelector.view.xml",
+				"sap/ushell/components/shell/Settings/userProfiling/UserProfiling.controller.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UserProfiling.view.xml",
+				"sap/ushell/components/shell/Settings/userProfiling/UserProfilingEntry.js"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 107514,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/shell/Settings/Component.js",
+			"size": 4076,
+			"required": [
+				"sap/ui/core/Core.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/shell/Settings/ProfilingLoader.js",
+				"sap/ushell/components/shell/Settings/appearance/AppearanceEntry.js",
+				"sap/ushell/components/shell/Settings/homepage/HomepageEntry.js",
+				"sap/ushell/components/shell/Settings/notifications/NotificationsEntry.js",
+				"sap/ushell/components/shell/Settings/spaces/SpacesEntry.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountEntry.js",
+				"sap/ushell/components/shell/Settings/userActivities/UserActivitiesEntry.js",
+				"sap/ushell/components/shell/Settings/userDefaults/UserDefaultsEntry.js",
+				"sap/ushell/components/shell/Settings/userLanguageRegion/UserLanguageRegionEntry.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UserProfilingEntry.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/ui/shell/ShellHeadItem.js",
+				"sap/ushell/utils.js"
+			],
+			"condRequired": [
+				"sap/ushell/components/shell/Settings/search/SearchEntry.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 4193,
+			"isDebug": true
+		},
+		{
+			"name": "ContentWrapper.fragment.xml",
+			"module": "sap/ushell/components/shell/Settings/ContentWrapper.fragment.xml",
+			"size": 1055,
+			"required": [
+				"sap/m/IconTabBar.js",
+				"sap/m/IconTabFilter.js",
+				"sap/m/ObjectHeader.js",
+				"sap/m/Page.js",
+				"sap/ui/core/CustomData.js"
+			]
+		},
+		{
+			"name": "ErrorContent.fragment.xml",
+			"module": "sap/ushell/components/shell/Settings/ErrorContent.fragment.xml",
+			"size": 279,
+			"required": [
+				"sap/m/FlexBox.js",
+				"sap/m/Text.js"
+			]
+		},
+		{
+			"name": "ErrorMessageHelper-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/ErrorMessageHelper.js",
+			"size": 1588,
+			"isDebug": true
+		},
+		{
+			"name": "ErrorMessageHelper.js",
+			"module": "sap/ushell/components/shell/Settings/ErrorMessageHelper.js",
+			"size": 596
+		},
+		{
+			"name": "ErrorMessageHelper.js.map",
+			"size": 870,
+			"isDebug": true
+		},
+		{
+			"name": "ProfilingLoader-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/ProfilingLoader.js",
+			"size": 1381,
+			"isDebug": true,
+			"required": [
+				"sap/ushell/Config.js"
+			],
+			"condRequired": [
+				"sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsProfiling.js"
+			]
+		},
+		{
+			"name": "ProfilingLoader.js",
+			"module": "sap/ushell/components/shell/Settings/ProfilingLoader.js",
+			"size": 624,
+			"required": [
+				"sap/ushell/Config.js"
+			],
+			"condRequired": [
+				"sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsProfiling.js"
+			]
+		},
+		{
+			"name": "ProfilingLoader.js.map",
+			"size": 810,
+			"isDebug": true
+		},
+		{
+			"name": "UserSettings-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/UserSettings.controller.js",
+			"size": 37889,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/deepClone.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/shell/Settings/ErrorMessageHelper.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils/WindowUtils.js"
+			],
+			"condRequired": [
+				"sap/m/MessageToast.js"
+			]
+		},
+		{
+			"name": "UserSettings.controller.js",
+			"module": "sap/ushell/components/shell/Settings/UserSettings.controller.js",
+			"size": 13226,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/deepClone.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/shell/Settings/ErrorMessageHelper.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils/WindowUtils.js"
+			],
+			"condRequired": [
+				"sap/m/MessageToast.js"
+			]
+		},
+		{
+			"name": "UserSettings.controller.js.map",
+			"size": 16219,
+			"isDebug": true
+		},
+		{
+			"name": "UserSettings.view.xml",
+			"module": "sap/ushell/components/shell/Settings/UserSettings.view.xml",
+			"size": 4560,
+			"required": [
+				"sap/m/Bar.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/List.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/SplitApp.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/Title.js",
+				"sap/m/ToggleButton.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ushell/components/shell/Settings/UserSettings.controller.js"
+			]
+		},
+		{
+			"name": "UserSettingsErrorMessagePopover-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/UserSettingsErrorMessagePopover.js",
+			"size": 1395,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Fragment.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/ui/footerbar/ContactSupportButton.js"
+			]
+		},
+		{
+			"name": "UserSettingsErrorMessagePopover.fragment.xml",
+			"module": "sap/ushell/components/shell/Settings/UserSettingsErrorMessagePopover.fragment.xml",
+			"size": 751,
+			"required": [
+				"sap/m/Link.js",
+				"sap/m/MessageItem.js",
+				"sap/m/MessagePopover.js"
+			]
+		},
+		{
+			"name": "UserSettingsErrorMessagePopover.js",
+			"module": "sap/ushell/components/shell/Settings/UserSettingsErrorMessagePopover.js",
+			"size": 683,
+			"required": [
+				"sap/ui/core/Fragment.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/ui/footerbar/ContactSupportButton.js"
+			]
+		},
+		{
+			"name": "UserSettingsErrorMessagePopover.js.map",
+			"size": 853,
+			"isDebug": true
+		},
+		{
+			"name": "appearance/Appearance-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/appearance/Appearance.controller.js",
+			"size": 27491,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/User.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/services/DarkModeSupport.js"
+			]
+		},
+		{
+			"name": "appearance/Appearance.controller.js",
+			"module": "sap/ushell/components/shell/Settings/appearance/Appearance.controller.js",
+			"size": 11896,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/User.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/services/DarkModeSupport.js"
+			]
+		},
+		{
+			"name": "appearance/Appearance.controller.js.map",
+			"size": 13865,
+			"isDebug": true
+		},
+		{
+			"name": "appearance/Appearance.view.xml",
+			"module": "sap/ushell/components/shell/Settings/appearance/Appearance.view.xml",
+			"size": 6288,
+			"required": [
+				"sap/m/CheckBox.js",
+				"sap/m/CustomListItem.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/IconTabBar.js",
+				"sap/m/IconTabFilter.js",
+				"sap/m/Label.js",
+				"sap/m/List.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ui/core/Icon.js",
+				"sap/ushell/components/shell/Settings/appearance/Appearance.controller.js"
+			]
+		},
+		{
+			"name": "appearance/AppearanceEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/appearance/AppearanceEntry.js",
+			"size": 3410,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "appearance/AppearanceEntry.js",
+			"module": "sap/ushell/components/shell/Settings/appearance/AppearanceEntry.js",
+			"size": 1492,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "appearance/AppearanceEntry.js.map",
+			"size": 1832,
+			"isDebug": true
+		},
+		{
+			"name": "homepage/HomepageEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/homepage/HomepageEntry.js",
+			"size": 4539,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/components/SharedComponentUtils.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "homepage/HomepageEntry.js",
+			"module": "sap/ushell/components/shell/Settings/homepage/HomepageEntry.js",
+			"size": 2036,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/components/SharedComponentUtils.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "homepage/HomepageEntry.js.map",
+			"size": 2097,
+			"isDebug": true
+		},
+		{
+			"name": "homepage/HomepageSetting.view.xml",
+			"module": "sap/ushell/components/shell/Settings/homepage/HomepageSetting.view.xml",
+			"size": 1692,
+			"required": [
+				"sap/m/Label.js",
+				"sap/m/RadioButton.js",
+				"sap/m/RadioButtonGroup.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "notifications/NotificationsEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/notifications/NotificationsEntry.js",
+			"size": 1941,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "notifications/NotificationsEntry.js",
+			"module": "sap/ushell/components/shell/Settings/notifications/NotificationsEntry.js",
+			"size": 1059,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "notifications/NotificationsEntry.js.map",
+			"size": 1007,
+			"isDebug": true
+		},
+		{
+			"name": "notifications/NotificationsSetting-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/notifications/NotificationsSetting.controller.js",
+			"size": 10565,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/deepClone.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "notifications/NotificationsSetting.controller.js",
+			"module": "sap/ushell/components/shell/Settings/notifications/NotificationsSetting.controller.js",
+			"size": 4235,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/deepClone.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "notifications/NotificationsSetting.controller.js.map",
+			"size": 4516,
+			"isDebug": true
+		},
+		{
+			"name": "notifications/NotificationsSetting.view.xml",
+			"module": "sap/ushell/components/shell/Settings/notifications/NotificationsSetting.view.xml",
+			"size": 3360,
+			"required": [
+				"sap/m/CheckBox.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/ObjectIdentifier.js",
+				"sap/m/Switch.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ushell/components/shell/Settings/notifications/NotificationsSetting.controller.js"
+			]
+		},
+		{
+			"name": "resources.json",
+			"size": 43147
+		},
+		{
+			"name": "search/Search-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/search/Search.controller.js",
+			"size": 1041,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "search/Search.controller.js",
+			"module": "sap/ushell/components/shell/Settings/search/Search.controller.js",
+			"size": 645,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "search/Search.controller.js.map",
+			"size": 675,
+			"isDebug": true
+		},
+		{
+			"name": "search/Search.view.xml",
+			"module": "sap/ushell/components/shell/Settings/search/Search.view.xml",
+			"size": 227,
+			"required": [
+				"sap/m/VBox.js",
+				"sap/ushell/components/shell/Settings/search/Search.controller.js"
+			]
+		},
+		{
+			"name": "search/SearchEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/search/SearchEntry.js",
+			"size": 4278,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js",
+				"sap/esh/search/ui/userpref/SearchPrefsModel.js"
+			]
+		},
+		{
+			"name": "search/SearchEntry.js",
+			"module": "sap/ushell/components/shell/Settings/search/SearchEntry.js",
+			"size": 1635,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js",
+				"sap/esh/search/ui/userpref/SearchPrefsModel.js"
+			]
+		},
+		{
+			"name": "search/SearchEntry.js.map",
+			"size": 1911,
+			"isDebug": true
+		},
+		{
+			"name": "spaces/SpacesEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/spaces/SpacesEntry.js",
+			"size": 4394,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js"
+			]
+		},
+		{
+			"name": "spaces/SpacesEntry.js",
+			"module": "sap/ushell/components/shell/Settings/spaces/SpacesEntry.js",
+			"size": 1882,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js"
+			]
+		},
+		{
+			"name": "spaces/SpacesEntry.js.map",
+			"size": 2102,
+			"isDebug": true
+		},
+		{
+			"name": "spaces/SpacesSetting-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/spaces/SpacesSetting.controller.js",
+			"size": 7966,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js"
+			]
+		},
+		{
+			"name": "spaces/SpacesSetting.controller.js",
+			"module": "sap/ushell/components/shell/Settings/spaces/SpacesSetting.controller.js",
+			"size": 3431,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js"
+			]
+		},
+		{
+			"name": "spaces/SpacesSetting.controller.js.map",
+			"size": 4055,
+			"isDebug": true
+		},
+		{
+			"name": "spaces/SpacesSetting.view.xml",
+			"module": "sap/ushell/components/shell/Settings/spaces/SpacesSetting.view.xml",
+			"size": 2499,
+			"required": [
+				"sap/m/CheckBox.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/CustomData.js",
+				"sap/ushell/components/shell/Settings/spaces/SpacesSetting.controller.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountEntry.js",
+			"size": 2468,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountEntry.js",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountEntry.js",
+			"size": 1356,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountEntry.js.map",
+			"size": 1424,
+			"isDebug": true
+		},
+		{
+			"name": "userAccount/UserAccountImgConsentSelector.fragment.xml",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountImgConsentSelector.fragment.xml",
+			"size": 503,
+			"required": [
+				"sap/m/CheckBox.js",
+				"sap/m/Panel.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountSelector-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.controller.js",
+			"size": 7610,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js",
+				"sap/ushell/utils/WindowUtils.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountSelector.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.controller.js",
+			"size": 3771,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js",
+				"sap/ushell/utils/WindowUtils.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountSelector.controller.js.map",
+			"size": 4240,
+			"isDebug": true
+		},
+		{
+			"name": "userAccount/UserAccountSelector.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.view.xml",
+			"size": 930,
+			"required": [
+				"sap/m/IconTabBar.js",
+				"sap/m/IconTabFilter.js",
+				"sap/m/ObjectHeader.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountImgConsentSelector.fragment.xml",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.controller.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSetting.fragment.xml"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountSetting.fragment.xml",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountSetting.fragment.xml",
+			"size": 1306,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Label.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/layout/form/SimpleForm.js"
+			]
+		},
+		{
+			"name": "userAccount/UserAccountSetting.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userAccount/UserAccountSetting.view.xml",
+			"size": 534,
+			"required": [
+				"sap/m/ObjectHeader.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSelector.controller.js",
+				"sap/ushell/components/shell/Settings/userAccount/UserAccountSetting.fragment.xml"
+			]
+		},
+		{
+			"name": "userActivities/UserActivitiesEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userActivities/UserActivitiesEntry.js",
+			"size": 2112,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userActivities/UserActivitiesEntry.js",
+			"module": "sap/ushell/components/shell/Settings/userActivities/UserActivitiesEntry.js",
+			"size": 1182,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userActivities/UserActivitiesEntry.js.map",
+			"size": 1142,
+			"isDebug": true
+		},
+		{
+			"name": "userActivities/UserActivitiesSetting-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userActivities/UserActivitiesSetting.controller.js",
+			"size": 4596,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/components/SharedComponentUtils.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/MessageToast.js"
+			]
+		},
+		{
+			"name": "userActivities/UserActivitiesSetting.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userActivities/UserActivitiesSetting.controller.js",
+			"size": 1989,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/components/SharedComponentUtils.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/MessageToast.js"
+			]
+		},
+		{
+			"name": "userActivities/UserActivitiesSetting.controller.js.map",
+			"size": 1987,
+			"isDebug": true
+		},
+		{
+			"name": "userActivities/UserActivitiesSetting.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userActivities/UserActivitiesSetting.view.xml",
+			"size": 655,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/CheckBox.js",
+				"sap/m/VBox.js",
+				"sap/ui/layout/form/SimpleForm.js",
+				"sap/ushell/components/shell/Settings/userActivities/UserActivitiesSetting.controller.js"
+			]
+		},
+		{
+			"name": "userDefaults/Component-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/Component.js",
+			"size": 1288,
+			"isDebug": true,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/layout/library.js",
+				"sap/ushell/components/shell/Settings/userDefaults/view/UserDefaultsSetting.view.xml"
+			]
+		},
+		{
+			"name": "userDefaults/Component.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/Component.js",
+			"size": 515,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/layout/library.js",
+				"sap/ushell/components/shell/Settings/userDefaults/view/UserDefaultsSetting.view.xml"
+			]
+		},
+		{
+			"name": "userDefaults/Component.js.map",
+			"size": 550,
+			"isDebug": true
+		},
+		{
+			"name": "userDefaults/UserDefaultsEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/UserDefaultsEntry.js",
+			"size": 4168,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/includes.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userDefaults/UserDefaultsEntry.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/UserDefaultsEntry.js",
+			"size": 1654,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/includes.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userDefaults/UserDefaultsEntry.js.map",
+			"size": 1930,
+			"isDebug": true
+		},
+		{
+			"name": "userDefaults/UserDefaultsForm-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/UserDefaultsForm.js",
+			"size": 5682,
+			"isDebug": true,
+			"required": [
+				"sap/base/util/deepExtend.js",
+				"sap/ui/comp/smartform/SmartForm.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "userDefaults/UserDefaultsForm.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/UserDefaultsForm.js",
+			"size": 2077,
+			"required": [
+				"sap/base/util/deepExtend.js",
+				"sap/ui/comp/smartform/SmartForm.js",
+				"sap/ui/core/Control.js"
+			]
+		},
+		{
+			"name": "userDefaults/UserDefaultsForm.js.map",
+			"size": 2656,
+			"isDebug": true
+		},
+		{
+			"name": "userDefaults/controller/ExtendedValueDialog-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/controller/ExtendedValueDialog.controller.js",
+			"size": 4445,
+			"isDebug": true,
+			"required": [
+				"sap/m/Token.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "userDefaults/controller/ExtendedValueDialog.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/controller/ExtendedValueDialog.controller.js",
+			"size": 2015,
+			"required": [
+				"sap/m/Token.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "userDefaults/controller/ExtendedValueDialog.controller.js.map",
+			"size": 3025,
+			"isDebug": true
+		},
+		{
+			"name": "userDefaults/controller/UserDefaultsSetting-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/controller/UserDefaultsSetting.controller.js",
+			"size": 44050,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/deepEqual.js",
+				"sap/base/util/deepExtend.js",
+				"sap/base/util/extend.js",
+				"sap/m/Button.js",
+				"sap/m/FlexBox.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/Input.js",
+				"sap/m/MessageBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/comp/smartfield/SmartField.js",
+				"sap/ui/comp/smartfield/SmartLabel.js",
+				"sap/ui/comp/smartform/Group.js",
+				"sap/ui/comp/smartform/GroupElement.js",
+				"sap/ui/comp/smartvariants/PersonalizableInfo.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v2/ODataModel.js",
+				"sap/ushell/components/shell/Settings/userDefaults/controller/ExtendedValueDialog.controller.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userDefaults/controller/UserDefaultsSetting.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/controller/UserDefaultsSetting.controller.js",
+			"size": 14401,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/deepEqual.js",
+				"sap/base/util/deepExtend.js",
+				"sap/base/util/extend.js",
+				"sap/m/Button.js",
+				"sap/m/FlexBox.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/Input.js",
+				"sap/m/MessageBox.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/comp/smartfield/SmartField.js",
+				"sap/ui/comp/smartfield/SmartLabel.js",
+				"sap/ui/comp/smartform/Group.js",
+				"sap/ui/comp/smartform/GroupElement.js",
+				"sap/ui/comp/smartvariants/PersonalizableInfo.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/layout/GridData.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/odata/v2/ODataModel.js",
+				"sap/ushell/components/shell/Settings/userDefaults/controller/ExtendedValueDialog.controller.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userDefaults/controller/UserDefaultsSetting.controller.js.map",
+			"size": 18360,
+			"isDebug": true
+		},
+		{
+			"name": "userDefaults/manifest.json",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/manifest.json",
+			"size": 2185
+		},
+		{
+			"name": "userDefaults/view/ExtendedValueDialog.fragment.xml",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/view/ExtendedValueDialog.fragment.xml",
+			"size": 601,
+			"required": [
+				"sap/ui/comp/valuehelpdialog/ValueHelpDialog.js"
+			]
+		},
+		{
+			"name": "userDefaults/view/UserDefaultsSetting.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userDefaults/view/UserDefaultsSetting.view.xml",
+			"size": 1662,
+			"required": [
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Select.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/comp/smartvariants/SmartVariantManagement.js",
+				"sap/ui/core/ListItem.js",
+				"sap/ushell/components/shell/Settings/userDefaults/UserDefaultsForm.js",
+				"sap/ushell/components/shell/Settings/userDefaults/controller/UserDefaultsSetting.controller.js"
+			]
+		},
+		{
+			"name": "userLanguageRegion/LanguageRegionSelector-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userLanguageRegion/LanguageRegionSelector.controller.js",
+			"size": 20479,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/UriParameters.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/Locale.js",
+				"sap/ui/core/LocaleData.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/performance/Measurement.js"
+			]
+		},
+		{
+			"name": "userLanguageRegion/LanguageRegionSelector.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userLanguageRegion/LanguageRegionSelector.controller.js",
+			"size": 7927,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/UriParameters.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/Locale.js",
+				"sap/ui/core/LocaleData.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/performance/Measurement.js"
+			]
+		},
+		{
+			"name": "userLanguageRegion/LanguageRegionSelector.controller.js.map",
+			"size": 8785,
+			"isDebug": true
+		},
+		{
+			"name": "userLanguageRegion/LanguageRegionSelector.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userLanguageRegion/LanguageRegionSelector.view.xml",
+			"size": 3752,
+			"required": [
+				"sap/m/Label.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Select.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Item.js",
+				"sap/ui/layout/form/SimpleForm.js",
+				"sap/ushell/components/shell/Settings/userLanguageRegion/LanguageRegionSelector.controller.js"
+			]
+		},
+		{
+			"name": "userLanguageRegion/UserLanguageRegionEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userLanguageRegion/UserLanguageRegionEntry.js",
+			"size": 2556,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/Locale.js",
+				"sap/ui/core/LocaleData.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userLanguageRegion/UserLanguageRegionEntry.js",
+			"module": "sap/ushell/components/shell/Settings/userLanguageRegion/UserLanguageRegionEntry.js",
+			"size": 1300,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/Locale.js",
+				"sap/ui/core/LocaleData.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userLanguageRegion/UserLanguageRegionEntry.js.map",
+			"size": 1407,
+			"isDebug": true
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsProfiling-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsProfiling.js",
+			"size": 1730,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsProfiling.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsProfiling.js",
+			"size": 930,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsProfiling.js.map",
+			"size": 825,
+			"isDebug": true
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsSelector-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsSelector.controller.js",
+			"size": 1343,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsSelector.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsSelector.controller.js",
+			"size": 998,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsSelector.controller.js.map",
+			"size": 1098,
+			"isDebug": true
+		},
+		{
+			"name": "userProfiling/UsageAnalyticsSelector.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsSelector.view.xml",
+			"size": 489,
+			"required": [
+				"sap/m/CheckBox.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UsageAnalyticsSelector.controller.js"
+			]
+		},
+		{
+			"name": "userProfiling/UserProfiling-dbg.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UserProfiling.controller.js",
+			"size": 2912,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Title.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/Config.js"
+			]
+		},
+		{
+			"name": "userProfiling/UserProfiling.controller.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UserProfiling.controller.js",
+			"size": 1391,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/Title.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/Config.js"
+			]
+		},
+		{
+			"name": "userProfiling/UserProfiling.controller.js.map",
+			"size": 1571,
+			"isDebug": true
+		},
+		{
+			"name": "userProfiling/UserProfiling.view.xml",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UserProfiling.view.xml",
+			"size": 262,
+			"required": [
+				"sap/m/VBox.js",
+				"sap/ushell/components/shell/Settings/userProfiling/UserProfiling.controller.js"
+			]
+		},
+		{
+			"name": "userProfiling/UserProfilingEntry-dbg.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UserProfilingEntry.js",
+			"size": 2418,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userProfiling/UserProfilingEntry.js",
+			"module": "sap/ushell/components/shell/Settings/userProfiling/UserProfilingEntry.js",
+			"size": 1169,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/resources.js"
+			]
+		},
+		{
+			"name": "userProfiling/UserProfilingEntry.js.map",
+			"size": 1191,
+			"isDebug": true
+		}
+	]
+}

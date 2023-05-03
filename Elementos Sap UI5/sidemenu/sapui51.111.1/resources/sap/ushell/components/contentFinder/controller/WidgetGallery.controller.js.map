@@ -1,0 +1,1 @@
+{"version":3,"file":"WidgetGallery.controller.js","names":["sap","ui","define","ContentFinderController","extend","onInit"],"sources":["WidgetGallery-dbg.controller.js"],"mappings":";AAMAA,IAAIC,GAAGC,OAAO,CACV,oCACD,SACCC,GAEA,aAaA,OAAOA,EAAwBC,OAAO,+DAAgE,CAMlGC,OAAQ,WAAa,GAE7B"}

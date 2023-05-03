@@ -1,0 +1,452 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/contentFinderAppSearch/Component.js",
+			"size": 982,
+			"isDebug": true,
+			"required": [
+				"sap/f/library.js",
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/contentFinderAppSearch/view/ContentFinderAppSearch.view.xml"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/contentFinderAppSearch/Component.js",
+			"size": 352,
+			"required": [
+				"sap/f/library.js",
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/contentFinderAppSearch/view/ContentFinderAppSearch.view.xml"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 402,
+			"isDebug": true
+		},
+		{
+			"name": "controller/ContentFinderAppSearch-dbg.controller.js",
+			"module": "sap/ushell/components/contentFinderAppSearch/controller/ContentFinderAppSearch.controller.js",
+			"size": 21831,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/f/GridContainerItemLayoutData.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/Filter.js",
+				"sap/ui/model/FilterOperator.js",
+				"sap/ushell/ui/contentFinder/AppBox.js"
+			]
+		},
+		{
+			"name": "controller/ContentFinderAppSearch.controller.js",
+			"module": "sap/ushell/components/contentFinderAppSearch/controller/ContentFinderAppSearch.controller.js",
+			"size": 7241,
+			"required": [
+				"sap/base/Log.js",
+				"sap/f/GridContainerItemLayoutData.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/Filter.js",
+				"sap/ui/model/FilterOperator.js",
+				"sap/ushell/ui/contentFinder/AppBox.js"
+			]
+		},
+		{
+			"name": "controller/ContentFinderAppSearch.controller.js.map",
+			"size": 7559,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/components/contentFinderAppSearch/manifest.json",
+			"size": 1288
+		},
+		{
+			"name": "resources.json",
+			"size": 14650
+		},
+		{
+			"name": "resources/resources.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources.properties",
+			"size": 2095,
+			"locale": "",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ar.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ar.properties",
+			"size": 3070,
+			"locale": "ar",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_bg.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_bg.properties",
+			"size": 3679,
+			"locale": "bg",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ca.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ca.properties",
+			"size": 1709,
+			"locale": "ca",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_cs.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_cs.properties",
+			"size": 1890,
+			"locale": "cs",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_cy.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_cy.properties",
+			"size": 1643,
+			"locale": "cy",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_da.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_da.properties",
+			"size": 1637,
+			"locale": "da",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_de.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_de.properties",
+			"size": 1713,
+			"locale": "de",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_el.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_el.properties",
+			"size": 3870,
+			"locale": "el",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_en.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_en.properties",
+			"size": 1553,
+			"locale": "en",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_en_GB.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_en_GB.properties",
+			"size": 1555,
+			"locale": "en_GB",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_en_US_sappsd.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_en_US_sappsd.properties",
+			"size": 3814,
+			"locale": "en_US_sappsd",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_en_US_saprigi.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_en_US_saprigi.properties",
+			"size": 8672,
+			"locale": "en_US_saprigi",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_en_US_saptrc.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_en_US_saptrc.properties",
+			"size": 2119,
+			"locale": "en_US_saptrc",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_es.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_es.properties",
+			"size": 1776,
+			"locale": "es",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_es_MX.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_es_MX.properties",
+			"size": 1781,
+			"locale": "es_MX",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_et.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_et.properties",
+			"size": 1709,
+			"locale": "et",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_fi.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_fi.properties",
+			"size": 1762,
+			"locale": "fi",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_fr.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_fr.properties",
+			"size": 1805,
+			"locale": "fr",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_fr_CA.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_fr_CA.properties",
+			"size": 1815,
+			"locale": "fr_CA",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_hi.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_hi.properties",
+			"size": 3286,
+			"locale": "hi",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_hr.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_hr.properties",
+			"size": 1677,
+			"locale": "hr",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_hu.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_hu.properties",
+			"size": 1948,
+			"locale": "hu",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_id.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_id.properties",
+			"size": 1666,
+			"locale": "id",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_it.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_it.properties",
+			"size": 1674,
+			"locale": "it",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_iw.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_iw.properties",
+			"size": 2949,
+			"locale": "iw",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ja.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ja.properties",
+			"size": 2382,
+			"locale": "ja",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_kk.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_kk.properties",
+			"size": 3787,
+			"locale": "kk",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ko.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ko.properties",
+			"size": 2210,
+			"locale": "ko",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_lt.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_lt.properties",
+			"size": 1821,
+			"locale": "lt",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_lv.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_lv.properties",
+			"size": 1839,
+			"locale": "lv",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ms.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ms.properties",
+			"size": 1608,
+			"locale": "ms",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_nl.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_nl.properties",
+			"size": 1650,
+			"locale": "nl",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_no.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_no.properties",
+			"size": 1615,
+			"locale": "no",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_pl.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_pl.properties",
+			"size": 1714,
+			"locale": "pl",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_pt.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_pt.properties",
+			"size": 1786,
+			"locale": "pt",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_pt_PT.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_pt_PT.properties",
+			"size": 1813,
+			"locale": "pt_PT",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ro.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ro.properties",
+			"size": 1756,
+			"locale": "ro",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_ru.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_ru.properties",
+			"size": 3401,
+			"locale": "ru",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_sh.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_sh.properties",
+			"size": 1661,
+			"locale": "sh",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_sk.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_sk.properties",
+			"size": 1952,
+			"locale": "sk",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_sl.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_sl.properties",
+			"size": 1685,
+			"locale": "sl",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_sv.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_sv.properties",
+			"size": 1646,
+			"locale": "sv",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_th.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_th.properties",
+			"size": 3351,
+			"locale": "th",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_tr.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_tr.properties",
+			"size": 1903,
+			"locale": "tr",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_uk.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_uk.properties",
+			"size": 3471,
+			"locale": "uk",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_vi.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_vi.properties",
+			"size": 2258,
+			"locale": "vi",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_zh_CN.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_zh_CN.properties",
+			"size": 1932,
+			"locale": "zh_CN",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "resources/resources_zh_TW.properties",
+			"module": "sap/ushell/components/contentFinderAppSearch/resources/resources_zh_TW.properties",
+			"size": 1934,
+			"locale": "zh_TW",
+			"raw": "resources/resources.properties"
+		},
+		{
+			"name": "view/ContentFinderAppBoxContainer.fragment.xml",
+			"module": "sap/ushell/components/contentFinderAppSearch/view/ContentFinderAppBoxContainer.fragment.xml",
+			"size": 5164,
+			"required": [
+				"sap/f/GridContainer.js",
+				"sap/f/GridContainerSettings.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/OverflowToolbarLayoutData.js",
+				"sap/m/Page.js",
+				"sap/m/SearchField.js",
+				"sap/m/SegmentedButton.js",
+				"sap/m/SegmentedButtonItem.js",
+				"sap/m/Title.js",
+				"sap/m/ToggleButton.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/ushell/library.js"
+			]
+		},
+		{
+			"name": "view/ContentFinderAppSearch.view.xml",
+			"module": "sap/ushell/components/contentFinderAppSearch/view/ContentFinderAppSearch.view.xml",
+			"size": 2190,
+			"required": [
+				"sap/base/strings/formatMessage.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ushell/components/contentFinderAppSearch/controller/ContentFinderAppSearch.controller.js",
+				"sap/ushell/components/contentFinderAppSearch/view/ContentFinderAppBoxContainer.fragment.xml"
+			]
+		}
+	]
+}

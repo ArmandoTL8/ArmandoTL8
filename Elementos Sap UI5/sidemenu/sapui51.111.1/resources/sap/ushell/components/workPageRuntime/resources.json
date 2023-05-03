@@ -1,0 +1,200 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/workPageRuntime/Component.js",
+			"size": 1998,
+			"isDebug": true,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ushell/components/workPageRuntime/view/WorkPageRuntime.view.xml"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/workPageRuntime/Component-preload.js",
+			"size": 14785,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/base/util/deepExtend.js",
+				"sap/m/MessagePage.js",
+				"sap/m/NavContainer.js",
+				"sap/m/Page.js",
+				"sap/m/library.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/pages/controller/PagesAndSpaceId.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils/HttpClient.js"
+			],
+			"condRequired": [
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js"
+			],
+			"included": [
+				"sap/ushell/components/workPageRuntime/Component.js",
+				"sap/ushell/components/workPageRuntime/controller/WorkPageRuntime.controller.js",
+				"sap/ushell/components/workPageRuntime/manifest.json",
+				"sap/ushell/components/workPageRuntime/services/NavigationResolver.js",
+				"sap/ushell/components/workPageRuntime/services/WorkPage.js",
+				"sap/ushell/components/workPageRuntime/view/WorkPageRuntime.view.xml"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 15111,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/workPageRuntime/Component.js",
+			"size": 533,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ushell/components/workPageRuntime/view/WorkPageRuntime.view.xml"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 597,
+			"isDebug": true
+		},
+		{
+			"name": "controller/WorkPageRuntime-dbg.controller.js",
+			"module": "sap/ushell/components/workPageRuntime/controller/WorkPageRuntime.controller.js",
+			"size": 17500,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/base/util/deepExtend.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/pages/controller/PagesAndSpaceId.js",
+				"sap/ushell/components/workPageRuntime/services/WorkPage.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js"
+			]
+		},
+		{
+			"name": "controller/WorkPageRuntime.controller.js",
+			"module": "sap/ushell/components/workPageRuntime/controller/WorkPageRuntime.controller.js",
+			"size": 6600,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/base/util/deepExtend.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/EventHub.js",
+				"sap/ushell/components/pages/controller/PagesAndSpaceId.js",
+				"sap/ushell/components/workPageRuntime/services/WorkPage.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js"
+			]
+		},
+		{
+			"name": "controller/WorkPageRuntime.controller.js.map",
+			"size": 7347,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/components/workPageRuntime/manifest.json",
+			"size": 1168
+		},
+		{
+			"name": "resources.json",
+			"size": 5455
+		},
+		{
+			"name": "services/NavigationResolver-dbg.js",
+			"module": "sap/ushell/components/workPageRuntime/services/NavigationResolver.js",
+			"size": 3840,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/ui/core/Core.js",
+				"sap/ushell/Config.js"
+			]
+		},
+		{
+			"name": "services/NavigationResolver.js",
+			"module": "sap/ushell/components/workPageRuntime/services/NavigationResolver.js",
+			"size": 1676,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/ui/core/Core.js",
+				"sap/ushell/Config.js"
+			]
+		},
+		{
+			"name": "services/NavigationResolver.js.map",
+			"size": 1948,
+			"isDebug": true
+		},
+		{
+			"name": "services/WorkPage-dbg.js",
+			"module": "sap/ushell/components/workPageRuntime/services/WorkPage.js",
+			"size": 11973,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/ui/core/Core.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/utils/HttpClient.js"
+			]
+		},
+		{
+			"name": "services/WorkPage.js",
+			"module": "sap/ushell/components/workPageRuntime/services/WorkPage.js",
+			"size": 4047,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/ObjectPath.js",
+				"sap/ui/core/Core.js",
+				"sap/ushell/Config.js",
+				"sap/ushell/utils/HttpClient.js"
+			]
+		},
+		{
+			"name": "services/WorkPage.js.map",
+			"size": 4706,
+			"isDebug": true
+		},
+		{
+			"name": "view/WorkPageRuntime.view.xml",
+			"module": "sap/ushell/components/workPageRuntime/view/WorkPageRuntime.view.xml",
+			"size": 854,
+			"required": [
+				"sap/m/MessagePage.js",
+				"sap/m/NavContainer.js",
+				"sap/m/Page.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ushell/components/workPageRuntime/controller/WorkPageRuntime.controller.js"
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+/*!
+ * SAPUI5
+    (c) Copyright 2009-2021 SAP SE. All rights reserved
+  
+ */
+sap.ui.define(["jquery.sap.global","sap/base/Log","sap/ui/core/mvc/Controller"],function(jQuery,e,t){"use strict";t.extend("sap.sac.df.InACard.controller.InACard",{resizeCard:function(e){var t=this.getView();var n=jQuery(t.byId("ovpCardContentContainer").getDomRef());n.css("visibility","visible");if(e.showOnlyHeader){n.addClass("sapOvpContentHidden")}else{n.removeClass("sapOvpContentHidden")}n.height(e.rowSpan*e.iRowHeightPx-2*e.iCardBorderPx)},onPress:function(t){var n=this;n.getView().setBusy(t.getParameter("navigationCmdType")!=="CellClick");var i=n.getView().getModel("om");i.clearMessages();return Promise.resolve(null).then(t.getParameter("cmd")).then(function(){if(sap.ushell&&sap.ushell.Container){sap.ushell.Container.setDirtyFlag(false)}}).catch(function(t){e.error(t)}).then(function(){n.getView().setBusy(false)})},onAfterRendering:function(){this.adjustHeight()},adjustHeight:function(){var e=this.getView().getDomRef();if(e){jQuery(e).height(jQuery(this.getOwnerComponent().getRootControl().byId("vb1").getDomRef()).height());jQuery(this.getOwnerComponent().getRootControl().byId("vb1").getDomRef()).children().css("height","100%")}},getItemHeight:function(){try{return jQuery(this.getView().byId(this.getView().getId()+"--ovpCardControl").getInnerCard().getItems()[1].getDomRef()).height()}catch(t){e.error(t);return 0}}})});
+//# sourceMappingURL=InACard.controller.js.map

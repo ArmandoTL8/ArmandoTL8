@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+
+    <name>sap.ndc</name>
+    <vendor>SAP SE</vendor>
+    <copyright>SAPUI5
+ * (c) Copyright 2009-2023 SAP SE. All rights reserved.</copyright>
+    <version>1.111.1</version>
+
+    <documentation>SAPUI5 library with controls with native device capabilities.</documentation>
+
+    <dependencies>
+        <dependency>
+            <libraryName>sap.ui.core</libraryName>
+        </dependency>
+        <dependency>
+            <libraryName>sap.m</libraryName>
+        </dependency>
+    </dependencies>
+
+    <appData>
+        <!-- package name for selenium -->
+        <selenium xmlns="http://www.sap.com/ui5/buildext/selenium" package="com.sap.ui5.selenium.ndc"/>
+        <!-- excludes for the JSDoc -->
+        <jsdoc xmlns="http://www.sap.com/ui5/buildext/jsdoc">
+            <exclude name="sap.ndc.thirdparty."/>
+        </jsdoc>
+        <!-- excludes for the JSCoverage -->
+        <jscoverage xmlns="http://www.sap.com/ui5/buildext/jscoverage">
+            <exclude name="sap.ndc.thirdparty."/>
+        </jscoverage>
+
+        <!-- excludes for the default preload files -->
+        <packaging xmlns="http://www.sap.com/ui5/buildext/packaging" version="2.0" >
+            <all-in-one>
+                <exclude name="sap/ndc/thirdparty/" />
+            </all-in-one>
+        </packaging>
+
+        <!-- Thirdparty references -->
+        <thirdparty xmlns="http://www.sap.com/ui5/buildext/thirdparty" >
+            <lib name="@zxing/library" displayName="ZXing" npmName="@zxing/library" version="0.17.1" hash="79570fa03328b5b34c67123245d74925" homepage="https://zxing-js.github.io/library/" id="73554900106100054816">
+               <license url="https://github.com/zxing-js/library/blob/master/LICENSE" type="MIT" />
+               <copyright>2018 ZXing for JS</copyright>
+               <pattern>sap/ndc/thirdparty/ZXing.js</pattern>
+            </lib>
+            <lib name="opencv / opencv" displayName="OpenCV" version="4.6.0" hash="8f686056f59deb574749eefe0bec4093" homepage="https://github.com/opencv/opencv" id="73555000106100109584">
+                <license url="https://github.com/opencv/opencv/blob/master/LICENSE" type="Apache License 2.0"/>
+                <copyright>2015-2022, OpenCV Foundation, all rights reserved.</copyright>
+                <pattern>sap/ndc/thirdparty/opencv/*</pattern>
+            </lib>
+            <lib name="zxing-cpp/zxing-cpp" displayName="ZXing-C++" version="1.4.0" hash="e2cd2d8468e4eadf1b53885e55927ab0" homepage="https://github.com/zxing-cpp/zxing-cpp" id="73555000106100110089">
+               <license url="https://github.com/zxing-cpp/zxing-cpp/blob/master/LICENSE" type="Apache License 2.0" />
+               <copyright>2016 ZXing authors</copyright>
+               <pattern>sap/ndc/thirdparty/zxingcpp/*</pattern>
+            </lib>
+        </thirdparty>
+
+        <documentation xmlns="http://www.sap.com/ui5/buildext/documentation"
+                       indexUrl="../../../test-resources/sap/ndc/demokit/docuindex.json"
+                       resolve="lib"/>
+        <releasenotes xmlns="http://www.sap.com/ui5/buildext/releasenotes"
+                      url="../../../test-resources/sap/ndc/relnotes/changes-{major}.{minor}.json"
+                      resolve="lib" />
+        <ownership xmlns="http://www.sap.com/ui5/buildext/ownership">
+            <component>MOB-SDK-UI5</component><!-- default component for library, embedded text as a shortcut for <name>text</name> -->
+        </ownership>
+    </appData>
+
+</library>

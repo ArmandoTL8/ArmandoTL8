@@ -1,0 +1,22 @@
+{
+	"items": [
+	{
+	"src": "sap-icon://globe",
+	"title": "Español",
+	"targetSrc": "https://www.sap.com/index.html",
+	"target": "_blank"
+	},
+	{
+	"src": "sap-icon://globe",
+	"title": "Inglés",
+	"targetSrc": "https://listserv.sap.com/mailman/listinfo/ui5.announce",
+	"target": "_blank"
+	},
+	{
+	"src": "sap-icon://globe",
+	"title": "Portugués",
+	"targetSrc": "https://community.sap.com/topics/ui5",
+	"target": "_blank"
+	}
+	]
+	}

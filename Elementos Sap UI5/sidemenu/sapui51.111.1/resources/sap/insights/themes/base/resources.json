@@ -1,0 +1,75 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 64,
+			"theme": "base"
+		},
+		{
+			"name": "base.less",
+			"size": 469,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 115,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 234,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 11,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 646,
+			"theme": "base"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/insights/themes/base/library-parameters.json",
+			"size": 2,
+			"theme": "base"
+		},
+		{
+			"name": "library.css",
+			"size": 645,
+			"theme": "base"
+		},
+		{
+			"name": "library.less",
+			"size": 744,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library.source.less",
+			"size": 138,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 531,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 530,
+			"theme": "base"
+		},
+		{
+			"name": "resources.json",
+			"size": 1182
+		}
+	]
+}

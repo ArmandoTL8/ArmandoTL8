@@ -1,0 +1,1 @@
+{"version":3,"file":"DataSourceType.js","names":["sap","ui","define","DataSourceType","query","view","inamodel","infoprovider","cdsprojectionview"],"sources":["DataSourceType-dbg.js"],"mappings":";;;;;AAOAA,IAAIC,GAAGC,OACL,kCACA,GAEA,WAQE,IAAIC,EAAiB,CAKnBC,MAAO,QAKPC,KAAM,OAKNC,SAAU,WAKVC,aAAc,eAKdC,kBAAmB,qBAErB,OAAOL,CACT"}

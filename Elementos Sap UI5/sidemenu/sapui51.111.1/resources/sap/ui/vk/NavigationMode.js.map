@@ -1,0 +1,1 @@
+{"version":3,"file":"NavigationMode.js","names":["sap","ui","define","NavigationMode","NoChange","Turntable","Orbit","Pan","Zoom"],"sources":["NavigationMode-dbg.js"],"mappings":";;;;;;AAQAA,IAAIC,GAAGC,OAAO,GAAI,WACjB,aASA,IAAIC,EAAiB,CAKpBC,SAAU,WAKVC,UAAW,YAKXC,MAAO,QAKPC,IAAK,MAKLC,KAAM,QAGP,OAAOL,CACR,EAAkB"}

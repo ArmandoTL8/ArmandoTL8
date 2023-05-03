@@ -1,0 +1,87 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 90,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Card.less",
+			"size": 2997,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "OVPApp.less",
+			"size": 1596,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ObjectStream.less",
+			"size": 808,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 780,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 128779,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 128417,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 56411,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/ovp/themes/sap_horizon/library-parameters.json",
+			"size": 238,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.css",
+			"size": 56395,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.less",
+			"size": 5982,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.source.less",
+			"size": 306,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 58640,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 58624,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "resources.json",
+			"size": 1494
+		}
+	]
+}

@@ -1,0 +1,147 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 93,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "AreaMicroChart.less",
+			"size": 377,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "BulletMicroChart.less",
+			"size": 1389,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "ColumnMicroChart.less",
+			"size": 545,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "ComparisonMicroChart.less",
+			"size": 1169,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "DeltaMicroChart.less",
+			"size": 427,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "HarveyBallMicroChart.less",
+			"size": 547,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "InteractiveBarChart.less",
+			"size": 2335,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "InteractiveDonutChart.less",
+			"size": 2976,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "InteractiveLineChart.less",
+			"size": 2741,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "LineMicroChart.less",
+			"size": 332,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "RadialMicroChart.less",
+			"size": 906,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "SharedStyles.less",
+			"size": 329,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "StackedBarMicroChart.less",
+			"size": 350,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 4509,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 127843,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 127463,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 70055,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/suite/ui/microchart/themes/sap_belize_hcw/library-parameters.json",
+			"size": 1939,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library.css",
+			"size": 70043,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library.less",
+			"size": 15846,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library.source.less",
+			"size": 708,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 76159,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 76147,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "resources.json",
+			"size": 2732
+		}
+	]
+}

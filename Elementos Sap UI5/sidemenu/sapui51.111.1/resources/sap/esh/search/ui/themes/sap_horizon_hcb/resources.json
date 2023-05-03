@@ -1,0 +1,81 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 94,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "SearchFieldGroup.less",
+			"size": 1051,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "SearchPieChart.less",
+			"size": 365,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1059,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 123137,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 122755,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 62332,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/esh/search/ui/themes/sap_horizon_hcb/library-parameters.json",
+			"size": 361,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 62325,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 2016,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 330,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 63716,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 63709,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 1474
+		}
+	]
+}

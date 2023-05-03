@@ -1,0 +1,8 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+		(c) Copyright 2009-2015 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["./BaseShape","./BaseRectangle","sap/gantt/misc/Format","sap/ui/core/Core"],function(t,e,i,a){"use strict";var r=t.extend("sap.gantt.simple.UtilizationChart",{metadata:{library:"sap.gantt",abstract:true,properties:{height:{type:"sap.gantt.SVGLength",defaultValue:"inherit"},overConsumptionMargin:{type:"float",defaultValue:25},overConsumptionColor:{type:"sap.gantt.ValueSVGPaintServer",defaultValue:"red"},remainCapacityColor:{type:"sap.gantt.ValueSVGPaintServer",defaultValue:"lightgray"}}},renderer:{apiVersion:2}});r.prototype.getX=function(){var t=a.getConfiguration().getRTL();return t?this.getXByTime(this.getEndTime()):this.getXByTime(this.getTime())};r.prototype.getWidth=function(){var t=a.getConfiguration().getRTL();return t?Math.abs(this.getXByTime(this.getTime())-this.getXByTime(this.getEndTime())):Math.abs(this.getXByTime(this.getEndTime())-this.getXByTime(this.getTime()))};r.prototype.getHeight=function(){return e.prototype.getHeight.apply(this)};r.prototype.toX=function(t){return this.getAxisTime().timeToView(i.abapTimestampToDate(t))};r.prototype.renderRectangleWithAttributes=function(t,e,i){t.openStart("rect");Object.keys(e).forEach(function(i){t.attr(i,e[i])});t.openEnd();if(i){t.openStart("title").openEnd();t.text(i,true);t.close("title")}t.close("rect")};return r},true);
+//# sourceMappingURL=UtilizationChart.js.map

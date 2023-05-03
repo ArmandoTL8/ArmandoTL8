@@ -1,0 +1,6 @@
+/*
+ * SAPUI5
+ * (c) Copyright 2009-2023 SAP SE. All rights reserved.
+ */
+sap.ui.define("sap/ui/comp/smartfield/LifecycleUtil",["sap/base/util/Deferred"],function(e){"use strict";var t={};t._getNextModeRenderedPromise=function(){var e;e=new Promise(function(e){var t={onAfterRendering:function(n){var i=this._oControl[this.getMode()];if(i&&i.getFocusDomRef()){this.removeEventDelegate(t);e()}}.bind(this)};this.addEventDelegate(t)}.bind(this));return e};t._createICRenderedDeferred=function(){var t;t=new e;this._oRenderedWithContext=t;Promise.all([new Promise(function(e){var t={onAfterRendering:function(n){var i=this._oControl[this.getMode()],r=this.getAggregation("_content");if(!i){return}if(i.getDomRef()&&i.getFocusDomRef()&&i===r){this.removeEventDelegate(t);e()}}.bind(this)};this.addEventDelegate(t)}.bind(this))]).then(function(){t.resolve()})};t._getICRenderedPromise=function(){var e=this._oRenderedWithContext;return e?e.promise:undefined};return t},true);
+//# sourceMappingURL=LifecycleUtil.js.map

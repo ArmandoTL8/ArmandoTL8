@@ -1,0 +1,2 @@
+sap.ui.loader.config({async:true,shim:{"sap/sac/df/thirdparty/ff-data-export.main":{amd:true,exports:"sapDataExport"}}});sap.ui.define("sap/sac/df/thirdparty/DataExport",["sap/sac/df/thirdparty/ff-data-export.main"],function(a){return a});
+//# sourceMappingURL=DataExport.js.map

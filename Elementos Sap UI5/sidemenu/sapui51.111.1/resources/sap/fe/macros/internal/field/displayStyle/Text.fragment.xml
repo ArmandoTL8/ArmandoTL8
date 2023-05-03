@@ -1,0 +1,67 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:control="sap.fe.core.controls"
+	template:require="{
+							FIELD: 'sap/fe/macros/field/FieldHelper',
+							MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+							UI: 'sap/fe/core/templating/UIFormatters',
+							Property: 'sap/fe/core/templating/PropertyFormatters'
+						 }"
+>
+	<template:if
+		test="{= (${property>$Path/$Type} === 'Edm.String') &amp;&amp;	${property>$Path@com.sap.vocabularies.UI.v1.MultiLineText} }"
+	>
+		<template:then>
+			<Text
+				id="{this>noWrapperId}"
+				visible="{this>displayVisible}"
+				text="{this>text}"
+				width="100%"
+				wrapping="{this>wrap}"
+				emptyIndicatorMode="{this>emptyIndicatorMode}"
+				renderWhitespace="true"
+			/>
+		</template:then>
+		<template:elseif test="{= ${this>formatOptions/isAnalytics} &amp;&amp; ${property>@@Property.hasUnitOrCurrency} }">
+			<control:ConditionalWrapper
+				visible="{this>displayVisible}"
+				condition="{= UI.hasValidAnalyticalCurrencyOrUnit(${property>$Path@@UI.getDataModelObjectPath})}"
+			>
+				<control:contentTrue>
+					<Text
+						id="{this>noWrapperId}"
+						text="{this>text}"
+						emptyIndicatorMode="{this>emptyIndicatorMode}"
+						renderWhitespace="true"
+						wrapping="{this>wrap}"
+					/>
+				</control:contentTrue>
+				<control:contentFalse>
+					<Text id="{this>noWrapperId}" text="*" />
+				</control:contentFalse>
+			</control:ConditionalWrapper>
+		</template:elseif>
+		<template:elseif test="{= ${this>formatOptions/retrieveTextFromValueList} }">
+			<Text
+				id="{this>noWrapperId}"
+				visible="{this>displayVisible}"
+				text="{= FIELD.retrieveTextFromValueList( ${this>entitySet}, ${propertyPath>}, ${this>formatOptions} ) }"
+				core:require="{FieldRuntime: 'sap/fe/macros/field/FieldRuntime'}"
+				emptyIndicatorMode="{this>emptyIndicatorMode}"
+				renderWhitespace="true"
+			/>
+		</template:elseif>
+		<template:else>
+			<Text
+				id="{this>noWrapperId}"
+				visible="{this>displayVisible}"
+				text="{this>text}"
+				wrapping="{this>wrap}"
+				emptyIndicatorMode="{this>emptyIndicatorMode}"
+				renderWhitespace="true"
+			/>
+		</template:else>
+	</template:if>
+</core:FragmentDefinition>

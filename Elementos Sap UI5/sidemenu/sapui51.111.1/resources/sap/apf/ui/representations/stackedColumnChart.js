@@ -1,0 +1,7 @@
+/*!
+* SAP APF Analysis Path Framework
+*
+ * (c) Copyright 2012-2014 SAP SE. All rights reserved
+*/
+sap.ui.define(["sap/apf/ui/representations/BaseVizFrameChartRepresentation","sap/apf/core/constants","sap/apf/ui/utils/constants"],function(e,t,a){"use strict";function i(t,i){e.apply(this,[t,i]);this.type=a.representationTypes.STACKED_COLUMN_CHART;this.chartType=a.vizFrameChartTypes.STACKED_COLUMN;this._addDefaultKind()}i.prototype=Object.create(e.prototype);i.prototype.constructor=i;i.prototype._addDefaultKind=function(){this.parameter.measures.forEach(function(e){if(e.kind===undefined){e.kind=t.representationMetadata.kind.YAXIS}});this.parameter.dimensions.forEach(function(e,a){if(e.kind===undefined){e.kind=a===0?t.representationMetadata.kind.XAXIS:sap.apf.core.constants.representationMetadata.kind.LEGEND}})};function n(e){if(!e){return}e.setVizProperties({plotArea:{animation:{dataLoading:false,dataUpdating:false}}})}i.prototype.setVizPropsForSpecificRepresentation=function(){n(this.chart)};i.prototype.setVizPropsOfThumbnailForSpecificRepresentation=function(){n(this.thumbnailChart)};i.prototype.getAxisFeedItemId=function(e){var a=t.representationMetadata.kind;var i;switch(e){case a.XAXIS:i=t.vizFrame.feedItemTypes.CATEGORYAXIS;break;case a.YAXIS:i=t.vizFrame.feedItemTypes.VALUEAXIS;break;case a.LEGEND:i=t.vizFrame.feedItemTypes.COLOR;break;default:break}return i};sap.apf.ui.representations.stackedColumnChart=i;return i},true);
+//# sourceMappingURL=stackedColumnChart.js.map

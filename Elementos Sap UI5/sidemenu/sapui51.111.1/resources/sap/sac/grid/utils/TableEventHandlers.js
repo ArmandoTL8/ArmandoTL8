@@ -1,0 +1,6 @@
+/*
+ * SAPUI5
+  (c) Copyright 2009-2020 SAP SE. All rights reserved
+ */
+sap.ui.define(["sap/sac/grid/utils/Utilities"],function(e){"use strict";function t(){var t=this;t.onDrillIconClicked=function(e,t){var i=r(e,t);var n=e.row>t.getRowLimit();if(n){t.mergeNewDataWithExisitngData=true}if(i){t.fireEvent("drill",{cell:i,keepOffset:n})}};t.onCellClicked=function(e,t){var i=r(e,t);var n=e.event.srcElement;if(i&&n){t.fireEvent("rightClick",{cell:i,link:n})}};t.requestMoreRows=function(t,r){var i=t.getFixedRows();var n=t.rowCount-i;var f=t.getVirtualRows();var o=e.isScrollDown(t);var s=n<f;var a=t.getRowLimit();t.rowOffset=t.rowOffset?t.rowOffset:0;t.rowOffsetEnd=t.rowOffsetEnd?t.rowOffsetEnd:a;if(o&&s&&e.nextBatchDataFetchNeeded(t,r)){t.rowOffsetEnd=t.rowOffsetEnd+a;t.rowOffset=t.rowOffset+a;t.mergeNewDataWithExisitngData=true;t.fireEvent("requestMoreRows",{currentRow:t.rowOffset})}else{e.updateTableData(t)}};function r(e,t){if(t.gridCells){var r=parseInt(e.col);var i=parseInt(e.row);return t.gridCells[i][r]}return null}}return new t});
+//# sourceMappingURL=TableEventHandlers.js.map

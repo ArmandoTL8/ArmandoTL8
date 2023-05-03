@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:control="sap.fe.core.controls"
+	template:require="{
+		FIELD: 'sap/fe/macros/field/FieldHelper',
+		MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+		UI: 'sap/fe/core/templating/UIFormatters',
+		Property: 'sap/fe/core/templating/PropertyFormatters'
+	}"
+>
+	<ExpandableText
+		id="{this>noWrapperId}"
+		visible="{this>displayVisible}"
+		text="{this>text}"
+		overflowMode="{this>formatOptions/textExpandBehaviorDisplay}"
+		maxCharacters="{this>formatOptions/textMaxCharactersDisplay}"
+		emptyIndicatorMode="{this>emptyIndicatorMode}"
+	/>
+</core:FragmentDefinition>

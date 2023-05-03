@@ -1,0 +1,96 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/shell/UserImage/Component.js",
+			"size": 9209,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Button.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/Dialog.js",
+				"sap/m/FlexBox.js",
+				"sap/m/Link.js",
+				"sap/m/Text.js",
+				"sap/ui/layout/form/VerticalLayout.js"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/shell/UserImage/Component-preload.js",
+			"size": 3985,
+			"merged": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Button.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/Dialog.js",
+				"sap/m/FlexBox.js",
+				"sap/m/Link.js",
+				"sap/m/Text.js",
+				"sap/ui/layout/form/VerticalLayout.js"
+			],
+			"included": [
+				"sap/ushell/components/shell/UserImage/Component.js"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 4819,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/shell/UserImage/Component.js",
+			"size": 3806,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/m/Button.js",
+				"sap/m/library.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Configuration.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/m/Dialog.js",
+				"sap/m/FlexBox.js",
+				"sap/m/Link.js",
+				"sap/m/Text.js",
+				"sap/ui/layout/form/VerticalLayout.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 4514,
+			"isDebug": true
+		},
+		{
+			"name": "resources.json",
+			"size": 2193
+		}
+	]
+}

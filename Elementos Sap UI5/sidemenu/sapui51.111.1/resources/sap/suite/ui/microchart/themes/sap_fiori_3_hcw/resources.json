@@ -1,0 +1,147 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 94,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "AreaMicroChart.less",
+			"size": 377,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "BulletMicroChart.less",
+			"size": 1389,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "ColumnMicroChart.less",
+			"size": 545,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "ComparisonMicroChart.less",
+			"size": 1168,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "DeltaMicroChart.less",
+			"size": 427,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "HarveyBallMicroChart.less",
+			"size": 547,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "InteractiveBarChart.less",
+			"size": 2423,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "InteractiveDonutChart.less",
+			"size": 2975,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "InteractiveLineChart.less",
+			"size": 3032,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "LineMicroChart.less",
+			"size": 332,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "RadialMicroChart.less",
+			"size": 888,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "SharedStyles.less",
+			"size": 329,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "StackedBarMicroChart.less",
+			"size": 346,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 4509,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 127866,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 127484,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 70172,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/suite/ui/microchart/themes/sap_fiori_3_hcw/library-parameters.json",
+			"size": 1920,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library.css",
+			"size": 70159,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library.less",
+			"size": 16204,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library.source.less",
+			"size": 710,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 76330,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 76317,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "resources.json",
+			"size": 2757
+		}
+	]
+}

@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ *
+ * (c) Copyright 2012-2018 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/apf/core/utils/checkForTimeout","sap/ui/model/odata/ODataUtils"],function(e,s){"use strict";function n(n){var a=n.instances&&n.instances.messageHandler;var t=jQuery.extend(true,{},n);if(t.functions&&t.functions.ajax){delete t.functions.ajax}if(t.functions&&t.functions.getSapSystem){delete t.functions.getSapSystem}if(t.instances&&t.instances.messageHandler){delete t.instances.messageHandler}if(t.suppressSapSystem){delete t.suppressSapSystem}var r=t.beforeSend;var i=t.success;var c=t.error;var u;var f;var o=n.functions&&n.functions.ajax||jQuery.ajax;t.beforeSend=function(e,s){if(r){r(e,s)}};if(n.functions&&n.functions.getSapSystem&&n.functions.getSapSystem()&&!n.suppressSapSystem){t.url=s.setOrigin(t.url,{force:true,alias:n.functions.getSapSystem()})}var p=function(s,n,a){var t;try{t=e(a);if(t){c(s,"error",undefined,t)}else{i(s,n,a)}}catch(e){l(e)}};var d=function(s,n,a){var t;try{t=e(s);if(t){c(s,n,a,t)}else{c(s,n,a)}}catch(e){l(e)}};if(t.async!==undefined&&t.async===false){t.success=p;t.error=d;f=o(t);if(a&&a.isOwnException(u)){throw new Error(u&&u.message||"")}}else{delete t.success;delete t.error;f=o(t).done(function(e,s,n){p(e,s,n)}).fail(function(e,s,n){d(e,s,n)})}return f;function l(e){var s;var n;u=e;if(!a.isOwnException(e)){s=e&&e.message||"";n=a.createMessageObject({code:"5042",aParameters:[s]});a.putMessage(n)}}}sap.apf.core.ajax=n;return n},true);
+//# sourceMappingURL=ajax.js.map

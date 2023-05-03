@@ -1,0 +1,69 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 64,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 151581,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 234,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 170526,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 1200321,
+			"theme": "base"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/fiori/themes/base/library-parameters.json",
+			"size": 113063,
+			"theme": "base"
+		},
+		{
+			"name": "library.css",
+			"size": 1199649,
+			"theme": "base"
+		},
+		{
+			"name": "library.less",
+			"size": 566,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library.source.less",
+			"size": 498,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 1141397,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 1140726,
+			"theme": "base"
+		},
+		{
+			"name": "resources.json",
+			"size": 1116
+		}
+	]
+}

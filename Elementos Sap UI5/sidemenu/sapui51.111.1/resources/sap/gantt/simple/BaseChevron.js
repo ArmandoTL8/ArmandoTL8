@@ -1,0 +1,8 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+		(c) Copyright 2009-2015 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["sap/ui/core/Core","./BaseRectangle","./BasePath","sap/gantt/library"],function(e,t,i,a){"use strict";var r=a.simple.shapes.ShapeAlignment;var n=t.extend("sap.gantt.simple.BaseChevron",{metadata:{library:"sap.gantt",properties:{headWidth:{type:"sap.gantt.SVGLength",defaultValue:10},tailWidth:{type:"sap.gantt.SVGLength",defaultValue:10},title:{type:"string",group:"Appearance",defaultValue:null},showTitle:{type:"boolean",group:"Appearance",defaultValue:false}}}});n.prototype.getD=function(){var t=e.getConfiguration().getRTL();var i=this.getHeadWidth(),a=this.getTailWidth();var n=this.getX(),h=this.getWidth(),l=this.getHeight(),s=this.getRowYCenter(),p=1;var g=function(){var e="";for(var t=0;t<arguments.length;t++){e+=arguments[t]+" "}return e};if(this._iBaseRowHeight!=undefined){if(this.getAlignShape()==r.Top){s=this.getRowYCenter()-this._iBaseRowHeight/2+l/2+p}else if(this.getAlignShape()==r.Bottom){s=this.getRowYCenter()+this._iBaseRowHeight/2-l/2-p}s=parseInt(s,10)}if(!t){if(h-i<0){return g("M",n+h/2,s,"l",-h/2,-l/2,"h",h/2,"l",h/2,l/2,"l",-h/2,l/2,"h",-h/2)+"Z"}return g("M",n+a,s,"l",-a,-l/2,"h",h-i,"l",i,l/2,"l",-i,l/2,"h",i-h)+"Z"}else{if(h-i<0){return g("M",n,s,"l",h/2,-l/2,"h",h/2,"l",-h/2,l/2,"l",h/2,l/2,"h",-h/2)+"Z"}return g("M",n,s,"l",i,-l/2,"h",h-i,"l",-a,l/2,"l",a,l/2,"h",i-h)+"Z"}};n.prototype.renderElement=function(){if(this._isValid()){i.prototype.renderElement.apply(this,arguments)}};return n},true);
+//# sourceMappingURL=BaseChevron.js.map

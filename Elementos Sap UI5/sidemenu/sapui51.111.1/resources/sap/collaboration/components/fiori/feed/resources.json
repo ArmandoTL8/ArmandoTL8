@@ -1,0 +1,373 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/collaboration/components/fiori/feed/Component.js",
+			"size": 10906,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/CommonUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ui/model/odata/ODataModel.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/collaboration/components/fiori/feed/Component.js",
+			"size": 4020,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/CommonUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ui/model/odata/ODataModel.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 4222,
+			"isDebug": true
+		},
+		{
+			"name": "app/App-dbg.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/app/App.controller.js",
+			"size": 13207,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/CommonUtil.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "app/App-dbg.view.js",
+			"module": "sap/collaboration/components/fiori/feed/app/App.view.js",
+			"size": 1373,
+			"isDebug": true,
+			"required": [
+				"sap/m/App.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "app/App.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/app/App.controller.js",
+			"size": 5476,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/CommonUtil.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "app/App.controller.js.map",
+			"size": 6539,
+			"isDebug": true
+		},
+		{
+			"name": "app/App.view.js",
+			"module": "sap/collaboration/components/fiori/feed/app/App.view.js",
+			"size": 508,
+			"required": [
+				"sap/m/App.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "app/App.view.js.map",
+			"size": 475,
+			"isDebug": true
+		},
+		{
+			"name": "commons/Detail-dbg.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/commons/Detail.controller.js",
+			"size": 4353,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "commons/Detail-dbg.view.js",
+			"module": "sap/collaboration/components/fiori/feed/commons/Detail.view.js",
+			"size": 1854,
+			"isDebug": true,
+			"required": [
+				"sap/m/Page.js",
+				"sap/m/ScrollContainer.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "commons/Detail.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/commons/Detail.controller.js",
+			"size": 1973,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "commons/Detail.controller.js.map",
+			"size": 2051,
+			"isDebug": true
+		},
+		{
+			"name": "commons/Detail.view.js",
+			"module": "sap/collaboration/components/fiori/feed/commons/Detail.view.js",
+			"size": 803,
+			"required": [
+				"sap/m/Page.js",
+				"sap/m/ScrollContainer.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "commons/Detail.view.js.map",
+			"size": 803,
+			"isDebug": true
+		},
+		{
+			"name": "dialog/Component-dbg.js",
+			"module": "sap/collaboration/components/fiori/feed/dialog/Component.js",
+			"size": 24083,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/collaboration/components/utils/CommonUtil.js",
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/collaboration/library.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ui/model/odata/ODataModel.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "dialog/Component.js",
+			"module": "sap/collaboration/components/fiori/feed/dialog/Component.js",
+			"size": 8466,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/isEmptyObject.js",
+				"sap/collaboration/components/utils/CommonUtil.js",
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/collaboration/library.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/View.js",
+				"sap/ui/model/odata/ODataModel.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "dialog/Component.js.map",
+			"size": 10104,
+			"isDebug": true
+		},
+		{
+			"name": "resources.json",
+			"size": 9820
+		},
+		{
+			"name": "splitApp/FeedTypeMaster-dbg.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/FeedTypeMaster.controller.js",
+			"size": 4885,
+			"isDebug": true,
+			"required": [
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "splitApp/FeedTypeMaster-dbg.view.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/FeedTypeMaster.view.js",
+			"size": 2954,
+			"isDebug": true,
+			"required": [
+				"sap/m/List.js",
+				"sap/m/Page.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/library.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "splitApp/FeedTypeMaster.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/FeedTypeMaster.controller.js",
+			"size": 1888,
+			"required": [
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/library.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "splitApp/FeedTypeMaster.controller.js.map",
+			"size": 1944,
+			"isDebug": true
+		},
+		{
+			"name": "splitApp/FeedTypeMaster.view.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/FeedTypeMaster.view.js",
+			"size": 1342,
+			"required": [
+				"sap/m/List.js",
+				"sap/m/Page.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/library.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "splitApp/FeedTypeMaster.view.js.map",
+			"size": 1275,
+			"isDebug": true
+		},
+		{
+			"name": "splitApp/GroupMaster-dbg.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/GroupMaster.controller.js",
+			"size": 5211,
+			"isDebug": true,
+			"required": [
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/collaboration/library.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "splitApp/GroupMaster-dbg.view.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/GroupMaster.view.js",
+			"size": 1677,
+			"isDebug": true,
+			"required": [
+				"sap/m/List.js",
+				"sap/m/Page.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "splitApp/GroupMaster.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/GroupMaster.controller.js",
+			"size": 2669,
+			"required": [
+				"sap/collaboration/components/utils/JamUtil.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/collaboration/library.js",
+				"sap/m/StandardListItem.js",
+				"sap/m/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "splitApp/GroupMaster.controller.js.map",
+			"size": 3005,
+			"isDebug": true
+		},
+		{
+			"name": "splitApp/GroupMaster.view.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/GroupMaster.view.js",
+			"size": 743,
+			"required": [
+				"sap/m/List.js",
+				"sap/m/Page.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "splitApp/GroupMaster.view.js.map",
+			"size": 741,
+			"isDebug": true
+		},
+		{
+			"name": "splitApp/SplitApp-dbg.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/SplitApp.controller.js",
+			"size": 5969,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "splitApp/SplitApp-dbg.view.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/SplitApp.view.js",
+			"size": 1503,
+			"isDebug": true,
+			"required": [
+				"sap/m/SplitApp.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "splitApp/SplitApp.controller.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/SplitApp.controller.js",
+			"size": 2576,
+			"required": [
+				"sap/base/Log.js",
+				"sap/collaboration/components/utils/OdataUtil.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/View.js"
+			]
+		},
+		{
+			"name": "splitApp/SplitApp.controller.js.map",
+			"size": 2872,
+			"isDebug": true
+		},
+		{
+			"name": "splitApp/SplitApp.view.js",
+			"module": "sap/collaboration/components/fiori/feed/splitApp/SplitApp.view.js",
+			"size": 553,
+			"required": [
+				"sap/m/SplitApp.js",
+				"sap/ui/core/mvc/JSView.js"
+			]
+		},
+		{
+			"name": "splitApp/SplitApp.view.js.map",
+			"size": 498,
+			"isDebug": true
+		}
+	]
+}

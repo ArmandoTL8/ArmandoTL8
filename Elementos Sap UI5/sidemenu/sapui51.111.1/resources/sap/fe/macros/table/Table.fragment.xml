@@ -1,0 +1,285 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:core="sap.ui.core"
+	template:require="{
+		COMMON: 'sap/fe/macros/CommonHelper',
+		TABLE: 'sap/fe/macros/table/TableHelper',
+		ACTIONHELPER: 'sap/fe/macros/internal/helpers/ActionHelper',
+		ID: 'sap/fe/core/helpers/StableIdHelper',
+		MACRO: 'sap/fe/macros/MacroTemplating',
+		UI: 'sap/fe/core/templating/UIFormatters'
+	}"
+>
+	<macroTable:TableAPI
+		xmlns="sap.m"
+		xmlns:mdc="sap.ui.mdc"
+		xmlns:plugins="sap.m.plugins"
+		xmlns:mdcTable="sap.ui.mdc.table"
+		xmlns:macroTable="sap.fe.macros.table"
+		xmlns:mdcat="sap.ui.mdc.actiontoolbar"
+		xmlns:macro="sap.fe.macros"
+		xmlns:core="sap.ui.core"
+		xmlns:control="sap.fe.core.controls"
+		xmlns:dt="sap.ui.dt"
+		xmlns:fl="sap.ui.fl"
+		xmlns:variant="sap.ui.fl.variants"
+		xmlns:p13n="sap.ui.mdc.p13n"
+		xmlns:internalMacro="sap.fe.macros.internal"
+		xmlns:unittest="http://schemas.sap.com/sapui5/preprocessorextension/sap.fe.unittesting/1"
+		xmlns:macrodata="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+		id="{this>_apiId}"
+		tableDefinition="{tableDefinition>path}"
+		metaPath="{metaPath>@@MACRO.getPath}"
+		contextPath="{contextPath>@@MACRO.getPath}"
+		stateChange="{this>stateChange}"
+		selectionChange="{this>selectionChange}"
+		readOnly="{this>readOnly}"
+		filterBar="{this>filterBar}"
+		macrodata:tableAPILocalId="{this>_apiId}"
+		enableAutoColumnWidth="{this>enableAutoColumnWidth}"
+		isOptimizedForSmallDevice="{this>isOptimizedForSmallDevice}"
+	>
+		<macroTable:layoutData>
+			<FlexItemData maxWidth="100%" />
+		</macroTable:layoutData>
+		<template:with path="collection>" helper="COMMON.getTargetCollection" var="targetCollection">
+			<template:with path="metaPath>" helper="TABLE.getUiLineItem" var="lineItem">
+				<!-- macrodata has to be an expression binding if it needs to be set as attribute via change handler during templating -->
+				<mdc:Table
+					binding="{= '{internal>controls/' + ${this>id} + '}' }"
+					unittest:id="TableMacroFragment"
+					core:require="{TableRuntime: 'sap/fe/macros/table/TableRuntime', API: 'sap/fe/macros/table/TableAPI'}"
+					fl:flexibility="{this>fl:flexibility}"
+					sortConditions="{tableDefinition>annotation/sortConditions}"
+					groupConditions="{= COMMON.stringifyObject(${tableDefinition>annotation/groupConditions})}"
+					aggregateConditions="{= COMMON.stringifyObject(${tableDefinition>annotation/aggregateConditions})}"
+					dt:designtime="{= ${this>variantManagement} === 'None' ? 'not-adaptable' : undefined}"
+					macrodata:kind="{collection>$kind}"
+					macrodata:navigationPath="{this>navigationPath}"
+					id="{this>id}"
+					busy="{this>busy}"
+					busyIndicatorDelay="0"
+					enableExport="{this>enableExport}"
+					delegate="{= ${this>tableDelegate} || TABLE.getDelegate(${tableDefinition>}, ${this>isAlp}, ${tableDefinition>annotation/entityName}) }"
+					rowPress="{this>rowPress}"
+					height="100%"
+					autoBindOnInit="{= ${this>autoBindOnInit} &amp;&amp; !${this>filterBar} }"
+					selectionMode="{= ${this>selectionMode} || 'None'}"
+					selectionChange="{= 'TableRuntime.setContexts(${$source>/}, \'' + ${targetCollection>@Org.OData.Capabilities.V1.DeleteRestrictions/Deletable/$Path} + '\', \'' + ${collection>@com.sap.vocabularies.Common.v1.DraftRoot} + '\', \'' + ${tableDefinition>operationAvailableMap} + '\', \'' + ${lineItem>@@TABLE.getNavigationAvailableMap} + '\', \'' + ${lineItem>@@ACTIONHELPER.getMultiSelectDisabledActions} + '\', \'' + ${this>updatablePropertyPath} + '\')' }"
+					showRowCount="{this>showRowCount}"
+					header="{this>header}"
+					headerVisible="{this>headerBindingExpression}"
+					headerLevel="{this>headerLevel}"
+					threshold="{tableDefinition>annotation/threshold}"
+					noData="{this>noDataText}"
+					p13nMode="{this>personalization}"
+					filter="{this>filterBarId}"
+					paste="API.onPaste($event, $controller)"
+					beforeExport="API.onBeforeExport($event)"
+					class="{= ${tableDefinition>control/useCondensedTableLayout} === true ? 'sapUiSizeCondensed' : undefined }"
+					multiSelectMode="{= ${tableDefinition>control/multiSelectMode} }"
+					showPasteButton="{tableDefinition>annotation/standardActions/actions/paste/visible}"
+					enablePaste="{tableDefinition>annotation/standardActions/actions/paste/enabled}"
+					macrodata:rowsBindingInfo="{= TABLE.getRowsBindingInfo(${this>}) }"
+					macrodata:enableAnalytics="{tableDefinition>enableAnalytics}"
+					macrodata:creationMode="{this>creationMode}"
+					macrodata:inlineCreationRowCount="{this>inlineCreationRowCount}"
+					macrodata:showCreate="{this>showCreate}"
+					macrodata:createAtEnd="{this>createAtEnd}"
+					macrodata:enableAutoScroll="{this>enableAutoScroll}"
+					macrodata:displayModePropertyBinding="{this>readOnly}"
+					macrodata:tableType="{this>tableType}"
+					macrodata:targetCollectionPath="{collection>@@COMMON.getContextPath}"
+					macrodata:entityType="{= ${collection>@@COMMON.getContextPath} + '/' }"
+					macrodata:metaPath="{collection>@@COMMON.getMetaPath}"
+					macrodata:onChange="{this>onChange}"
+					macrodata:hiddenFilters="{=TABLE.formatHiddenFilters(${tableDefinition>control/filters/hiddenFilters})}"
+					macrodata:requestGroupId="$auto.Workers"
+					macrodata:segmentedButtonId="{= ID.generate([${this>id}, 'SegmentedButton', 'TemplateContentView']) }"
+					macrodata:enablePaste="{this>enablePaste}"
+					macrodata:operationAvailableMap="{= COMMON.stringifyCustomData(${tableDefinition>operationAvailableMap})}"
+					visible="{this>visible}"
+				>
+					<mdc:dataStateIndicator>
+						<plugins:DataStateIndicator
+							filter="{this>dataStateIndicatorFilter}"
+							enableFiltering="true"
+							dataStateChange="API.onDataStateChange"
+						/>
+					</mdc:dataStateIndicator>
+					<mdc:type>
+						<template:if test="{= ${this>tableType} === 'GridTable' }">
+							<template:then>
+								<mdcTable:GridTableType
+									rowCountMode="{tableDefinition>control/rowCountMode}"
+									rowCount="{tableDefinition>control/rowCount}"
+									selectionLimit="{this>selectionLimit}"
+								/>
+							</template:then>
+							<template:elseif test="{= ${this>tableType} === 'TreeTable' }">
+								<mdcTable:TreeTableType
+									rowCountMode="{tableDefinition>control/rowCountMode}"
+									rowCount="{tableDefinition>control/rowCount}"
+								/>
+							</template:elseif>
+							<template:else>
+								<mdcTable:ResponsiveTableType
+									showDetailsButton="true"
+									detailsButtonSetting="{=['Low', 'Medium', 'None']}"
+									growingMode="{= ${collection>$kind} === 'EntitySet' ? 'Scroll' : undefined }"
+								/>
+							</template:else>
+						</template:if>
+					</mdc:type>
+					<mdc:dependents>
+						<template:if test="{= !${this>readOnly} &amp;&amp; ${tableDefinition>columns} }">
+							<template:repeat list="{tableDefinition>columns}" var="column">
+								<template:if test="{= ${column>availability} === 'Default' &amp;&amp; ${column>type} === 'Annotation'}">
+									<template:with path="column>annotationPath" var="dataField">
+										<core:Fragment fragmentName="sap.fe.macros.table.ValueHelp" type="XML" />
+									</template:with>
+								</template:if>
+							</template:repeat>
+						</template:if>
+						<template:with path="tableDefinition>annotation/standardActions/actions" var="standardActions">
+							<template:if test="{tableDefinition>annotation/standardActions/isInsertUpdateTemplated}">
+								<template:if test="{standardActions>create/isTemplated}">
+									<control:CommandExecution
+										execute="{= TABLE.pressEventForCreateButton(${this>}, true)}"
+										visible="{standardActions>create/visible}"
+										enabled="{standardActions>create/enabled}"
+										command="Create"
+									/>
+								</template:if>
+							</template:if>
+							<template:if test="{standardActions>delete/isTemplated}">
+								<template:with path="targetCollection>./@com.sap.vocabularies.UI.v1.HeaderInfo" var="headerInfo">
+									<control:CommandExecution
+										execute="{= TABLE.pressEventForDeleteButton(${this>}, ${collection>@sapui.name}, ${headerInfo>@@UI.getConverterContext}, ${collection>@@UI.getDataModelObjectPath})}"
+										visible="{standardActions>delete/visible}"
+										enabled="{standardActions>delete/enabled}"
+										command="DeleteEntry"
+									/>
+								</template:with>
+							</template:if>
+						</template:with>
+						<template:repeat list="{tableDefinition>commandActions}" var="action">
+							<template:with path="action>annotationPath" var="dataField">
+								<template:with path="dataField>Action" helper="COMMON.getActionContext" var="actionContext">
+									<template:with path="dataField>Action" helper="COMMON.getPathToBoundActionOverload" var="isBound">
+										<template:if
+											test="{= ${action>type} === 'ForAction' ? (${isBound>$IsBound} !== true || ${actionContext>@Org.OData.Core.V1.OperationAvailable} !== false) : true }"
+										>
+											<internalMacro:ActionCommand
+												action="{action>}"
+												onExecuteAction="{= TABLE.pressEventDataFieldForActionButton(${this>}, ${dataField>}, ${collection>@sapui.name}, ${tableDefinition>operationAvailableMap}, ${actionContext>},${action>isNavigable}, ${action>enableAutoScroll}, ${action>defaultValuesExtensionFunction}) }"
+												onExecuteIBN="{= COMMON.getPressHandlerForDataFieldForIBN(${dataField>}, '${internal>selectedContexts}', !${tableDefinition>enableAnalytics} )}"
+												onExecuteManifest="{= ${action>noWrap} ? ${action>press} : COMMON.buildActionWrapper(${action>}, ${this>})}"
+												isIBNEnabled="{= ${action>enabled} !== undefined ? ${action>enabled} : TABLE.isDataFieldForActionEnabled(${this>}, ${dataField>}, ${dataField>RequiresContext}, true, undefined, ${dataField>NavigationAvailable@@MODEL.value})}"
+												isActionEnabled="{= ${action>enabled} !== undefined ? ${action>enabled} : TABLE.isDataFieldForActionEnabled(${this>},${dataField>},${isBound>$IsBound}, false, ${actionContext>}, ${action>enableOnSelect})}"
+											/>
+										</template:if>
+									</template:with>
+								</template:with>
+							</template:with>
+						</template:repeat>
+						<control:CommandExecution execute="TableRuntime.displayTableSettings" command="TableSettings" />
+						<template:if test="{= ${this>variantManagement} === 'None'}">
+							<!-- Persistence provider offers persisting personalization changes without variant management -->
+							<p13n:PersistenceProvider id="{= ID.generate([${this>id}, 'PersistenceProvider']) }" for="{this>id}" />
+						</template:if>
+					</mdc:dependents>
+					<mdc:actions>
+						<template:if test="{this>onSegmentedButtonPressed}">
+							<mdcat:ActionToolbarAction
+								layoutInformation="{
+										aggregationName: 'end',
+										alignment: 'End'
+									}"
+								visible="{= ${pageInternal>alpContentView} === 'Table' }"
+							>
+								<SegmentedButton
+									id="{= ID.generate([${this>id}, 'SegmentedButton', 'TemplateContentView']) }"
+									select="{this>onSegmentedButtonPressed}"
+									selectedKey="{pageInternal>alpContentView}"
+								>
+									<items>
+										<template:if test="{= COMMON.isDesktop() }">
+											<SegmentedButtonItem
+												tooltip="{sap.fe.i18n>M_COMMON_HYBRID_SEGMENTED_BUTTON_ITEM_TOOLTIP}"
+												key="Hybrid"
+												icon="sap-icon://chart-table-view"
+											/>
+										</template:if>
+										<SegmentedButtonItem
+											tooltip="{sap.fe.i18n>M_COMMON_CHART_SEGMENTED_BUTTON_ITEM_TOOLTIP}"
+											key="Chart"
+											icon="sap-icon://bar-chart"
+										/>
+										<SegmentedButtonItem
+											tooltip="{sap.fe.i18n>M_COMMON_TABLE_SEGMENTED_BUTTON_ITEM_TOOLTIP}"
+											key="Table"
+											icon="sap-icon://table-view"
+										/>
+									</items>
+								</SegmentedButton>
+							</mdcat:ActionToolbarAction>
+						</template:if>
+						<core:Fragment fragmentName="sap.fe.macros.table.Actions" type="XML" />
+					</mdc:actions>
+					<mdc:rowSettings>
+						<mdcTable:RowSettings
+							navigated="{tableDefinition>annotation/row/rowNavigated}"
+							highlight="{tableDefinition>annotation/row/rowHighlighting}"
+						>
+							<template:if test="{= ${this>rowAction} === 'Navigation'}">
+								<mdcTable:rowActions>
+									<mdcTable:RowActionItem
+										type="{this>rowAction}"
+										press="{= ${this>tableType} === 'ResponsiveTable' ? undefined : ${this>rowPress} }"
+										visible="{tableDefinition>annotation/row/visible}"
+									/>
+								</mdcTable:rowActions>
+							</template:if>
+						</mdcTable:RowSettings>
+					</mdc:rowSettings>
+
+					<mdc:columns>
+						<core:Fragment fragmentName="sap.fe.macros.table.Columns" type="XML" />
+					</mdc:columns>
+					<template:if test="{= ${this>creationMode} === 'CreationRow'}">
+						<mdc:creationRow>
+							<core:Fragment fragmentName="sap.fe.macros.table.CreationRow" type="XML" />
+						</mdc:creationRow>
+					</template:if>
+					<template:if test="{= ${this>variantManagement} === 'Control'}">
+						<mdc:variant>
+							<variant:VariantManagement
+								id="{= ID.generate([${this>id}, 'VM']) }"
+								for="{this>id}"
+								showSetAsDefault="true"
+								select="{this>variantSelected}"
+								headerLevel="{this>headerLevel}"
+								save="{this>variantSaved}"
+							/>
+						</mdc:variant>
+					</template:if>
+					<template:if test="{tableDefinition>control/filters/quickFilters}">
+						<template:with path="tableDefinition>control/filters/quickFilters" var="quickFilters">
+							<mdc:quickFilter>
+								<macroTable:QuickFilterContainer
+									id="{= ID.generate([${this>id}, 'QuickFilterContainer']) }"
+									entitySet="{collection>@@COMMON.getMetaPath}"
+									parentEntityType="{parentEntitySet>$Type}"
+									showCounts="{= ${quickFilters>showCounts} === true}"
+									macrodata:filters="{=TABLE.formatHiddenFilters(${tableDefinition>control/filters/quickFilters})}"
+									batchGroupId="$auto.Workers"
+								/>
+							</mdc:quickFilter>
+						</template:with>
+					</template:if>
+				</mdc:Table>
+			</template:with>
+		</template:with>
+	</macroTable:TableAPI>
+</core:FragmentDefinition>

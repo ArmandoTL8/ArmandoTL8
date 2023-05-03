@@ -1,0 +1,93 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 93,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "SearchFacet.less",
+			"size": 0,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "SearchFieldGroup.less",
+			"size": 0,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "SearchPieChart.less",
+			"size": 235,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "SearchTileContainer.less",
+			"size": 0,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1059,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 123611,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 123231,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 61446,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/esh/search/ui/themes/sap_belize_hcb/library-parameters.json",
+			"size": 361,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 61439,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 972,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 392,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 62775,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 62768,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 1676
+		}
+	]
+}

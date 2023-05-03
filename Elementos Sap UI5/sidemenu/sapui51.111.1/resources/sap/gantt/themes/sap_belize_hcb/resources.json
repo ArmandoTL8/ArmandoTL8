@@ -1,0 +1,75 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 93,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "Gantt.less",
+			"size": 1160,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1064,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 123554,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 123186,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 17522,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/gantt/themes/sap_belize_hcb/library-parameters.json",
+			"size": 389,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 17509,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 1687,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 312,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 19165,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 19152,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 1330
+		}
+	]
+}

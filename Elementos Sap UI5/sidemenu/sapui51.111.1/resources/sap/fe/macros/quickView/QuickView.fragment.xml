@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mdc="sap.ui.mdc"
+	template:require="{
+				FIELD: 'sap/fe/macros/field/FieldHelper'
+				}"
+>
+	<mdc:Link delegate="{this>delegateConfiguration}">
+		<template:if test="{= FIELD.hasSemanticObjectsWithPath(${semanticObjectsToResolve>}) }">
+			<mdc:customData>
+				<template:repeat list="{semanticObjectsToResolve>}" var="semanticObject">
+					<core:CustomData key="{semanticObject>key}" value="{semanticObject>value}" />
+				</template:repeat>
+			</mdc:customData>
+		</template:if>
+	</mdc:Link>
+</core:FragmentDefinition>

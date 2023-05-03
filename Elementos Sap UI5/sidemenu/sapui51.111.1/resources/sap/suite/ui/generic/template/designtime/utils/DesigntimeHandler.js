@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/base/Object","sap/base/util/extend"],function(t,e){"use strict";function n(t){var e;function n(n){if(t.bStateHandlingSuspended){return}e=n;if(!e){t.oApplicationProxy.setStates(true)}t.bStateHandlingSuspended=true}function i(){t.bStateHandlingSuspended=false;if(!e){t.oApplicationProxy.setStates(false)}}return{start:n,stop:i}}return t.extend("sap.suite.ui.generic.template.designtime.utils.DesigntimeHandler",{constructor:function(t){e(this,n(t))}})});
+//# sourceMappingURL=DesigntimeHandler.js.map

@@ -1,0 +1,99 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 95,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "ActionsStrip.less",
+			"size": 81,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "ListContent.less",
+			"size": 668,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "ObjectContent.less",
+			"size": 555,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "Paginator.less",
+			"size": 235,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "TableContent.less",
+			"size": 818,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1640,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 126747,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 126369,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 22360,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/ui/integration/themes/sap_horizon_dark/library-parameters.json",
+			"size": 637,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library.css",
+			"size": 22353,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library.less",
+			"size": 3201,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library.source.less",
+			"size": 480,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 23494,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 23487,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "resources.json",
+			"size": 1811
+		}
+	]
+}

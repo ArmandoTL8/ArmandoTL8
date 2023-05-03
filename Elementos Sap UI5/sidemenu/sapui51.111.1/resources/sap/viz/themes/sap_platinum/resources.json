@@ -1,0 +1,75 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 91,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 2238,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 125353,
+			"designtime": true,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 125051,
+			"designtime": true,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 21121,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/viz/themes/sap_platinum/library-parameters.json",
+			"size": 816,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library.css",
+			"size": 21103,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library.less",
+			"size": 521,
+			"designtime": true,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library.source.less",
+			"size": 66,
+			"designtime": true,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 21916,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 21898,
+			"theme": "sap_platinum"
+		},
+		{
+			"name": "resources.json",
+			"size": 1300
+		},
+		{
+			"name": "shared.less",
+			"size": 323,
+			"designtime": true,
+			"theme": "sap_platinum"
+		}
+	]
+}

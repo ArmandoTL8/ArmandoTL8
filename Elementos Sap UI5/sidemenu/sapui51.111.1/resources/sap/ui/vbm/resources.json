@@ -1,0 +1,4034 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".library",
+			"size": 1763
+		},
+		{
+			"name": ".theming",
+			"size": 74
+		},
+		{
+			"name": "Adapter-dbg.js",
+			"module": "sap/ui/vbm/Adapter.js",
+			"size": 55222,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Adapter.js",
+			"module": "sap/ui/vbm/Adapter.js",
+			"size": 23587,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Adapter.js.map",
+			"size": 33197,
+			"isDebug": true
+		},
+		{
+			"name": "Adapter3D-dbg.js",
+			"module": "sap/ui/vbm/Adapter3D.js",
+			"size": 39402,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Link.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/base/ManagedObjectObserver.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js",
+				"sap/ui/vbm/Viewport.js",
+				"sap/ui/vbm/adapter3d/DragDropHandler.js",
+				"sap/ui/vbm/adapter3d/ObjectFactory.js",
+				"sap/ui/vbm/adapter3d/SceneBuilder.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/VBIJSONParser.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Adapter3D.js",
+			"module": "sap/ui/vbm/Adapter3D.js",
+			"size": 18964,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Link.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ui/base/ManagedObjectObserver.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js",
+				"sap/ui/vbm/Viewport.js",
+				"sap/ui/vbm/adapter3d/DragDropHandler.js",
+				"sap/ui/vbm/adapter3d/ObjectFactory.js",
+				"sap/ui/vbm/adapter3d/SceneBuilder.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/VBIJSONParser.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Adapter3D.js.map",
+			"size": 25730,
+			"isDebug": true
+		},
+		{
+			"name": "AnalyticMap-dbg.js",
+			"module": "sap/ui/vbm/AnalyticMap.js",
+			"size": 29925,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/vbm/AnalyticMapRenderer.js",
+				"sap/ui/vbm/GeoMap.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "AnalyticMap.js",
+			"module": "sap/ui/vbm/AnalyticMap.js",
+			"size": 12066,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/vbm/AnalyticMapRenderer.js",
+				"sap/ui/vbm/GeoMap.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "AnalyticMap.js.map",
+			"size": 17398,
+			"isDebug": true
+		},
+		{
+			"name": "AnalyticMapRenderer-dbg.js",
+			"module": "sap/ui/vbm/AnalyticMapRenderer.js",
+			"size": 863,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/GeoMapRenderer.js"
+			]
+		},
+		{
+			"name": "AnalyticMapRenderer.js",
+			"module": "sap/ui/vbm/AnalyticMapRenderer.js",
+			"size": 332,
+			"required": [
+				"sap/ui/vbm/GeoMapRenderer.js"
+			]
+		},
+		{
+			"name": "AnalyticMapRenderer.js.map",
+			"size": 402,
+			"isDebug": true
+		},
+		{
+			"name": "Area-dbg.js",
+			"module": "sap/ui/vbm/Area.js",
+			"size": 4653,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Area.js",
+			"module": "sap/ui/vbm/Area.js",
+			"size": 1357,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Area.js.map",
+			"size": 1988,
+			"isDebug": true
+		},
+		{
+			"name": "Areas-dbg.js",
+			"module": "sap/ui/vbm/Areas.js",
+			"size": 8561,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Areas.js",
+			"module": "sap/ui/vbm/Areas.js",
+			"size": 3805,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Areas.js.map",
+			"size": 4906,
+			"isDebug": true
+		},
+		{
+			"name": "Box-dbg.js",
+			"module": "sap/ui/vbm/Box.js",
+			"size": 3228,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Box.js",
+			"module": "sap/ui/vbm/Box.js",
+			"size": 1115,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Box.js.map",
+			"size": 1581,
+			"isDebug": true
+		},
+		{
+			"name": "Boxes-dbg.js",
+			"module": "sap/ui/vbm/Boxes.js",
+			"size": 5647,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Boxes.js",
+			"module": "sap/ui/vbm/Boxes.js",
+			"size": 2401,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Boxes.js.map",
+			"size": 3145,
+			"isDebug": true
+		},
+		{
+			"name": "Circle-dbg.js",
+			"module": "sap/ui/vbm/Circle.js",
+			"size": 2726,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Circle.js",
+			"module": "sap/ui/vbm/Circle.js",
+			"size": 1093,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Circle.js.map",
+			"size": 1507,
+			"isDebug": true
+		},
+		{
+			"name": "Circles-dbg.js",
+			"module": "sap/ui/vbm/Circles.js",
+			"size": 6011,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Circles.js",
+			"module": "sap/ui/vbm/Circles.js",
+			"size": 2572,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Circles.js.map",
+			"size": 3405,
+			"isDebug": true
+		},
+		{
+			"name": "Cluster-dbg.js",
+			"module": "sap/ui/vbm/Cluster.js",
+			"size": 4754,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/vbm/ClusterRenderer.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Cluster.js",
+			"module": "sap/ui/vbm/Cluster.js",
+			"size": 1440,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/vbm/ClusterRenderer.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Cluster.js.map",
+			"size": 1857,
+			"isDebug": true
+		},
+		{
+			"name": "ClusterBase-dbg.js",
+			"module": "sap/ui/vbm/ClusterBase.js",
+			"size": 18814,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/ClusterContainer.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterBase.js",
+			"module": "sap/ui/vbm/ClusterBase.js",
+			"size": 7016,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/ClusterContainer.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterBase.js.map",
+			"size": 9061,
+			"isDebug": true
+		},
+		{
+			"name": "ClusterContainer-dbg.js",
+			"module": "sap/ui/vbm/ClusterContainer.js",
+			"size": 2685,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/Container.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterContainer.js",
+			"module": "sap/ui/vbm/ClusterContainer.js",
+			"size": 898,
+			"required": [
+				"sap/ui/vbm/Container.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterContainer.js.map",
+			"size": 1199,
+			"isDebug": true
+		},
+		{
+			"name": "ClusterDistance-dbg.js",
+			"module": "sap/ui/vbm/ClusterDistance.js",
+			"size": 2532,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterDistance.js",
+			"module": "sap/ui/vbm/ClusterDistance.js",
+			"size": 586,
+			"required": [
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterDistance.js.map",
+			"size": 727,
+			"isDebug": true
+		},
+		{
+			"name": "ClusterGrid-dbg.js",
+			"module": "sap/ui/vbm/ClusterGrid.js",
+			"size": 3453,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterGrid.js",
+			"module": "sap/ui/vbm/ClusterGrid.js",
+			"size": 1133,
+			"required": [
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterGrid.js.map",
+			"size": 1449,
+			"isDebug": true
+		},
+		{
+			"name": "ClusterRenderer-dbg.js",
+			"module": "sap/ui/vbm/ClusterRenderer.js",
+			"size": 5006,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/IconPool.js"
+			]
+		},
+		{
+			"name": "ClusterRenderer.js",
+			"module": "sap/ui/vbm/ClusterRenderer.js",
+			"size": 3125,
+			"required": [
+				"sap/ui/core/IconPool.js"
+			]
+		},
+		{
+			"name": "ClusterRenderer.js.map",
+			"size": 3063,
+			"isDebug": true
+		},
+		{
+			"name": "ClusterTree-dbg.js",
+			"module": "sap/ui/vbm/ClusterTree.js",
+			"size": 2019,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterTree.js",
+			"module": "sap/ui/vbm/ClusterTree.js",
+			"size": 600,
+			"required": [
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "ClusterTree.js.map",
+			"size": 751,
+			"isDebug": true
+		},
+		{
+			"name": "Container-dbg.js",
+			"module": "sap/ui/vbm/Container.js",
+			"size": 3033,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Container.js",
+			"module": "sap/ui/vbm/Container.js",
+			"size": 886,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Container.js.map",
+			"size": 1212,
+			"isDebug": true
+		},
+		{
+			"name": "Containers-dbg.js",
+			"module": "sap/ui/vbm/Containers.js",
+			"size": 6902,
+			"isDebug": true,
+			"required": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Containers.js",
+			"module": "sap/ui/vbm/Containers.js",
+			"size": 3090,
+			"required": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Containers.js.map",
+			"size": 4287,
+			"isDebug": true
+		},
+		{
+			"name": "DragSource-dbg.js",
+			"module": "sap/ui/vbm/DragSource.js",
+			"size": 1202,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "DragSource.js",
+			"module": "sap/ui/vbm/DragSource.js",
+			"size": 376,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "DragSource.js.map",
+			"size": 396,
+			"isDebug": true
+		},
+		{
+			"name": "DropTarget-dbg.js",
+			"module": "sap/ui/vbm/DropTarget.js",
+			"size": 1202,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "DropTarget.js",
+			"module": "sap/ui/vbm/DropTarget.js",
+			"size": 376,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "DropTarget.js.map",
+			"size": 396,
+			"isDebug": true
+		},
+		{
+			"name": "Feature-dbg.js",
+			"module": "sap/ui/vbm/Feature.js",
+			"size": 3200,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Feature.js",
+			"module": "sap/ui/vbm/Feature.js",
+			"size": 763,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Feature.js.map",
+			"size": 971,
+			"isDebug": true
+		},
+		{
+			"name": "FeatureCollection-dbg.js",
+			"module": "sap/ui/vbm/FeatureCollection.js",
+			"size": 6634,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/vbm/GeoJsonLayer.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "FeatureCollection.js",
+			"module": "sap/ui/vbm/FeatureCollection.js",
+			"size": 1867,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/vbm/GeoJsonLayer.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "FeatureCollection.js.map",
+			"size": 2836,
+			"isDebug": true
+		},
+		{
+			"name": "GeoCircle-dbg.js",
+			"module": "sap/ui/vbm/GeoCircle.js",
+			"size": 3276,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoCircle.js",
+			"module": "sap/ui/vbm/GeoCircle.js",
+			"size": 1217,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoCircle.js.map",
+			"size": 1727,
+			"isDebug": true
+		},
+		{
+			"name": "GeoCircles-dbg.js",
+			"module": "sap/ui/vbm/GeoCircles.js",
+			"size": 6062,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoCircles.js",
+			"module": "sap/ui/vbm/GeoCircles.js",
+			"size": 2586,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoCircles.js.map",
+			"size": 3416,
+			"isDebug": true
+		},
+		{
+			"name": "GeoJsonLayer-dbg.js",
+			"module": "sap/ui/vbm/GeoJsonLayer.js",
+			"size": 26793,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoJsonLayer.js",
+			"module": "sap/ui/vbm/GeoJsonLayer.js",
+			"size": 10045,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoJsonLayer.js.map",
+			"size": 14543,
+			"isDebug": true
+		},
+		{
+			"name": "GeoMap-dbg.js",
+			"module": "sap/ui/vbm/GeoMap.js",
+			"size": 84900,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/vbm/GeoMapRenderer.js",
+				"sap/ui/vbm/VBI.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoMap.js",
+			"module": "sap/ui/vbm/GeoMap.js",
+			"size": 48610,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/vbm/GeoMapRenderer.js",
+				"sap/ui/vbm/VBI.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "GeoMap.js.map",
+			"size": 37395,
+			"isDebug": true
+		},
+		{
+			"name": "GeoMapRenderer-dbg.js",
+			"module": "sap/ui/vbm/GeoMapRenderer.js",
+			"size": 980,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VBIRenderer.js"
+			]
+		},
+		{
+			"name": "GeoMapRenderer.js",
+			"module": "sap/ui/vbm/GeoMapRenderer.js",
+			"size": 353,
+			"required": [
+				"sap/ui/vbm/VBIRenderer.js"
+			]
+		},
+		{
+			"name": "GeoMapRenderer.js.map",
+			"size": 469,
+			"isDebug": true
+		},
+		{
+			"name": "HeatPoint-dbg.js",
+			"module": "sap/ui/vbm/HeatPoint.js",
+			"size": 2621,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "HeatPoint.js",
+			"module": "sap/ui/vbm/HeatPoint.js",
+			"size": 1007,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "HeatPoint.js.map",
+			"size": 1494,
+			"isDebug": true
+		},
+		{
+			"name": "Heatmap-dbg.js",
+			"module": "sap/ui/vbm/Heatmap.js",
+			"size": 6549,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAbstract.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Heatmap.js",
+			"module": "sap/ui/vbm/Heatmap.js",
+			"size": 2195,
+			"required": [
+				"sap/ui/vbm/VoAbstract.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Heatmap.js.map",
+			"size": 2854,
+			"isDebug": true
+		},
+		{
+			"name": "Legend-dbg.js",
+			"module": "sap/ui/vbm/Legend.js",
+			"size": 6493,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Legend.js",
+			"module": "sap/ui/vbm/Legend.js",
+			"size": 2769,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Legend.js.map",
+			"size": 3973,
+			"isDebug": true
+		},
+		{
+			"name": "LegendItem-dbg.js",
+			"module": "sap/ui/vbm/LegendItem.js",
+			"size": 3727,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "LegendItem.js",
+			"module": "sap/ui/vbm/LegendItem.js",
+			"size": 1395,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "LegendItem.js.map",
+			"size": 1874,
+			"isDebug": true
+		},
+		{
+			"name": "Pie-dbg.js",
+			"module": "sap/ui/vbm/Pie.js",
+			"size": 3270,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Pie.js",
+			"module": "sap/ui/vbm/Pie.js",
+			"size": 1056,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Pie.js.map",
+			"size": 1656,
+			"isDebug": true
+		},
+		{
+			"name": "PieItem-dbg.js",
+			"module": "sap/ui/vbm/PieItem.js",
+			"size": 1665,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "PieItem.js",
+			"module": "sap/ui/vbm/PieItem.js",
+			"size": 492,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "PieItem.js.map",
+			"size": 542,
+			"isDebug": true
+		},
+		{
+			"name": "Pies-dbg.js",
+			"module": "sap/ui/vbm/Pies.js",
+			"size": 5678,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Pies.js",
+			"module": "sap/ui/vbm/Pies.js",
+			"size": 2388,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Pies.js.map",
+			"size": 2960,
+			"isDebug": true
+		},
+		{
+			"name": "Region-dbg.js",
+			"module": "sap/ui/vbm/Region.js",
+			"size": 3415,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Region.js",
+			"module": "sap/ui/vbm/Region.js",
+			"size": 1045,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Region.js.map",
+			"size": 1139,
+			"isDebug": true
+		},
+		{
+			"name": "Resource-dbg.js",
+			"module": "sap/ui/vbm/Resource.js",
+			"size": 2260,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Resource.js",
+			"module": "sap/ui/vbm/Resource.js",
+			"size": 474,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Resource.js.map",
+			"size": 500,
+			"isDebug": true
+		},
+		{
+			"name": "Route-dbg.js",
+			"module": "sap/ui/vbm/Route.js",
+			"size": 9852,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Route.js",
+			"module": "sap/ui/vbm/Route.js",
+			"size": 3511,
+			"required": [
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Route.js.map",
+			"size": 5505,
+			"isDebug": true
+		},
+		{
+			"name": "Routes-dbg.js",
+			"module": "sap/ui/vbm/Routes.js",
+			"size": 9332,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Routes.js",
+			"module": "sap/ui/vbm/Routes.js",
+			"size": 3843,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Routes.js.map",
+			"size": 5263,
+			"isDebug": true
+		},
+		{
+			"name": "Spot-dbg.js",
+			"module": "sap/ui/vbm/Spot.js",
+			"size": 8410,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Spot.js",
+			"module": "sap/ui/vbm/Spot.js",
+			"size": 2970,
+			"required": [
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Spot.js.map",
+			"size": 4236,
+			"isDebug": true
+		},
+		{
+			"name": "Spots-dbg.js",
+			"module": "sap/ui/vbm/Spots.js",
+			"size": 9762,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Spots.js",
+			"module": "sap/ui/vbm/Spots.js",
+			"size": 4031,
+			"required": [
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Spots.js.map",
+			"size": 5546,
+			"isDebug": true
+		},
+		{
+			"name": "VBI-dbg.js",
+			"module": "sap/ui/vbm/VBI.js",
+			"size": 36767,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/RenderManager.js",
+				"sap/ui/vbm/VBIRenderer.js",
+				"sap/ui/vbm/lib/sapactions.js",
+				"sap/ui/vbm/lib/sapautomations.js",
+				"sap/ui/vbm/lib/sapconfig.js",
+				"sap/ui/vbm/lib/sapdataprovider.js",
+				"sap/ui/vbm/lib/sapevents.js",
+				"sap/ui/vbm/lib/sapgeolocation.js",
+				"sap/ui/vbm/lib/sapgeomath.js",
+				"sap/ui/vbm/lib/sapgeotool.js",
+				"sap/ui/vbm/lib/sapheatmap.js",
+				"sap/ui/vbm/lib/saplabels.js",
+				"sap/ui/vbm/lib/saplassotrack.js",
+				"sap/ui/vbm/lib/sapmaplayer.js",
+				"sap/ui/vbm/lib/sapmapmanager.js",
+				"sap/ui/vbm/lib/sapmapprovider.js",
+				"sap/ui/vbm/lib/sapnavigation.js",
+				"sap/ui/vbm/lib/sapparsing.js",
+				"sap/ui/vbm/lib/sappositioning.js",
+				"sap/ui/vbm/lib/sapprojection.js",
+				"sap/ui/vbm/lib/saprecttrack.js",
+				"sap/ui/vbm/lib/sapresources.js",
+				"sap/ui/vbm/lib/sapscale.js",
+				"sap/ui/vbm/lib/sapscene.js",
+				"sap/ui/vbm/lib/saputilities.js",
+				"sap/ui/vbm/lib/sapvbcluster.js",
+				"sap/ui/vbm/lib/sapvbi.js",
+				"sap/ui/vbm/lib/sapvbicontext.js",
+				"sap/ui/vbm/lib/sapvbmenu.js",
+				"sap/ui/vbm/lib/sapvobase.js",
+				"sap/ui/vbm/lib/sapvoutils.js",
+				"sap/ui/vbm/lib/sapwindow.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VBI.js",
+			"module": "sap/ui/vbm/VBI.js",
+			"size": 12681,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/RenderManager.js",
+				"sap/ui/vbm/VBIRenderer.js",
+				"sap/ui/vbm/lib/sapactions.js",
+				"sap/ui/vbm/lib/sapautomations.js",
+				"sap/ui/vbm/lib/sapconfig.js",
+				"sap/ui/vbm/lib/sapdataprovider.js",
+				"sap/ui/vbm/lib/sapevents.js",
+				"sap/ui/vbm/lib/sapgeolocation.js",
+				"sap/ui/vbm/lib/sapgeomath.js",
+				"sap/ui/vbm/lib/sapgeotool.js",
+				"sap/ui/vbm/lib/sapheatmap.js",
+				"sap/ui/vbm/lib/saplabels.js",
+				"sap/ui/vbm/lib/saplassotrack.js",
+				"sap/ui/vbm/lib/sapmaplayer.js",
+				"sap/ui/vbm/lib/sapmapmanager.js",
+				"sap/ui/vbm/lib/sapmapprovider.js",
+				"sap/ui/vbm/lib/sapnavigation.js",
+				"sap/ui/vbm/lib/sapparsing.js",
+				"sap/ui/vbm/lib/sappositioning.js",
+				"sap/ui/vbm/lib/sapprojection.js",
+				"sap/ui/vbm/lib/saprecttrack.js",
+				"sap/ui/vbm/lib/sapresources.js",
+				"sap/ui/vbm/lib/sapscale.js",
+				"sap/ui/vbm/lib/sapscene.js",
+				"sap/ui/vbm/lib/saputilities.js",
+				"sap/ui/vbm/lib/sapvbcluster.js",
+				"sap/ui/vbm/lib/sapvbi.js",
+				"sap/ui/vbm/lib/sapvbicontext.js",
+				"sap/ui/vbm/lib/sapvbmenu.js",
+				"sap/ui/vbm/lib/sapvobase.js",
+				"sap/ui/vbm/lib/sapvoutils.js",
+				"sap/ui/vbm/lib/sapwindow.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VBI.js.map",
+			"size": 15079,
+			"isDebug": true
+		},
+		{
+			"name": "VBIRenderer-dbg.js",
+			"module": "sap/ui/vbm/VBIRenderer.js",
+			"size": 3657,
+			"isDebug": true
+		},
+		{
+			"name": "VBIRenderer.js",
+			"module": "sap/ui/vbm/VBIRenderer.js",
+			"size": 1754
+		},
+		{
+			"name": "VBIRenderer.js.map",
+			"size": 2131,
+			"isDebug": true
+		},
+		{
+			"name": "Viewport-dbg.js",
+			"module": "sap/ui/vbm/Viewport.js",
+			"size": 19953,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/ResizeHandler.js",
+				"sap/ui/vbm/ViewportRenderer.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/OrbitControls.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Viewport.js",
+			"module": "sap/ui/vbm/Viewport.js",
+			"size": 10634,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/ResizeHandler.js",
+				"sap/ui/vbm/ViewportRenderer.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/OrbitControls.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "Viewport.js.map",
+			"size": 14255,
+			"isDebug": true
+		},
+		{
+			"name": "ViewportRenderer-dbg.js",
+			"module": "sap/ui/vbm/ViewportRenderer.js",
+			"size": 599,
+			"isDebug": true
+		},
+		{
+			"name": "ViewportRenderer.js",
+			"module": "sap/ui/vbm/ViewportRenderer.js",
+			"size": 434
+		},
+		{
+			"name": "ViewportRenderer.js.map",
+			"size": 549,
+			"isDebug": true
+		},
+		{
+			"name": "VoAbstract-dbg.js",
+			"module": "sap/ui/vbm/VoAbstract.js",
+			"size": 5547,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VoAbstract.js",
+			"module": "sap/ui/vbm/VoAbstract.js",
+			"size": 2151,
+			"required": [
+				"sap/ui/core/Element.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VoAbstract.js.map",
+			"size": 3297,
+			"isDebug": true
+		},
+		{
+			"name": "VoAggregation-dbg.js",
+			"module": "sap/ui/vbm/VoAggregation.js",
+			"size": 27755,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/VoAbstract.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VoAggregation.js",
+			"module": "sap/ui/vbm/VoAggregation.js",
+			"size": 12597,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/vbm/VoAbstract.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VoAggregation.js.map",
+			"size": 18209,
+			"isDebug": true
+		},
+		{
+			"name": "VoBase-dbg.js",
+			"module": "sap/ui/vbm/VoBase.js",
+			"size": 16026,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VoBase.js",
+			"module": "sap/ui/vbm/VoBase.js",
+			"size": 5035,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "VoBase.js.map",
+			"size": 7207,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/DragDropHandler-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/DragDropHandler.js",
+			"size": 30700,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/DragDropHandler.js",
+			"module": "sap/ui/vbm/adapter3d/DragDropHandler.js",
+			"size": 17399,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/DragDropHandler.js.map",
+			"size": 24182,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/ModelHandler-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/ModelHandler.js",
+			"size": 20234,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/ColladaLoader.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/ModelHandler.js",
+			"module": "sap/ui/vbm/adapter3d/ModelHandler.js",
+			"size": 8346,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/ColladaLoader.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/ModelHandler.js.map",
+			"size": 11748,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/ObjectFactory-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/ObjectFactory.js",
+			"size": 19679,
+			"isDebug": true,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "adapter3d/ObjectFactory.js",
+			"module": "sap/ui/vbm/adapter3d/ObjectFactory.js",
+			"size": 4520,
+			"required": [
+				"sap/ui/base/Object.js"
+			]
+		},
+		{
+			"name": "adapter3d/ObjectFactory.js.map",
+			"size": 6427,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/PolygonHandler-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/PolygonHandler.js",
+			"size": 26536,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/PolygonHandler.js",
+			"module": "sap/ui/vbm/adapter3d/PolygonHandler.js",
+			"size": 9462,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/PolygonHandler.js.map",
+			"size": 13838,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/SceneBuilder-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/SceneBuilder.js",
+			"size": 44640,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/ModelHandler.js",
+				"sap/ui/vbm/adapter3d/PolygonHandler.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/DecalGeometry.js",
+				"sap/ui/vbm/adapter3d/thirdparty/html2canvas.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/SceneBuilder.js",
+			"module": "sap/ui/vbm/adapter3d/SceneBuilder.js",
+			"size": 19119,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/ModelHandler.js",
+				"sap/ui/vbm/adapter3d/PolygonHandler.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/thirdparty/DecalGeometry.js",
+				"sap/ui/vbm/adapter3d/thirdparty/html2canvas.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/SceneBuilder.js.map",
+			"size": 27590,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/Utilities-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/Utilities.js",
+			"size": 23714,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/Utilities.js",
+			"module": "sap/ui/vbm/adapter3d/Utilities.js",
+			"size": 9435,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			]
+		},
+		{
+			"name": "adapter3d/Utilities.js.map",
+			"size": 15985,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/VBIJSONParser-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/VBIJSONParser.js",
+			"size": 42758,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/ObjectFactory.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "adapter3d/VBIJSONParser.js",
+			"module": "sap/ui/vbm/adapter3d/VBIJSONParser.js",
+			"size": 14610,
+			"required": [
+				"sap/base/Log.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/vbm/adapter3d/ObjectFactory.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/library.js"
+			]
+		},
+		{
+			"name": "adapter3d/VBIJSONParser.js.map",
+			"size": 20074,
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/thirdparty/ColladaLoader.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/ColladaLoader.js",
+			"size": 82753,
+			"format": "raw"
+		},
+		{
+			"name": "adapter3d/thirdparty/DecalGeometry.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/DecalGeometry.js",
+			"size": 8618,
+			"format": "raw"
+		},
+		{
+			"name": "adapter3d/thirdparty/OrbitControls.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/OrbitControls.js",
+			"size": 30509,
+			"format": "raw"
+		},
+		{
+			"name": "adapter3d/thirdparty/html2canvas-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/html2canvas.js",
+			"size": 331191,
+			"format": "raw",
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/thirdparty/html2canvas.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/html2canvas.js",
+			"size": 166138,
+			"format": "raw"
+		},
+		{
+			"name": "adapter3d/thirdparty/three-dbg.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/three.js",
+			"size": 1162185,
+			"format": "raw",
+			"isDebug": true
+		},
+		{
+			"name": "adapter3d/thirdparty/three.js",
+			"module": "sap/ui/vbm/adapter3d/thirdparty/three.js",
+			"size": 613987,
+			"format": "raw"
+		},
+		{
+			"name": "i18n/messagebundle.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle.properties",
+			"size": 1152,
+			"locale": "",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ar.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ar.properties",
+			"size": 1298,
+			"locale": "ar",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_bg.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_bg.properties",
+			"size": 1582,
+			"locale": "bg",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ca.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ca.properties",
+			"size": 533,
+			"locale": "ca",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_cs.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_cs.properties",
+			"size": 583,
+			"locale": "cs",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_cy.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_cy.properties",
+			"size": 478,
+			"locale": "cy",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_da.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_da.properties",
+			"size": 454,
+			"locale": "da",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_de.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_de.properties",
+			"size": 534,
+			"locale": "de",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_el.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_el.properties",
+			"size": 1344,
+			"locale": "el",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_en.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_en.properties",
+			"size": 417,
+			"locale": "en",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_en_GB.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_en_GB.properties",
+			"size": 417,
+			"locale": "en_GB",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_en_US_sappsd.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_en_US_sappsd.properties",
+			"size": 1680,
+			"locale": "en_US_sappsd",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_en_US_saprigi.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_en_US_saprigi.properties",
+			"size": 3783,
+			"locale": "en_US_saprigi",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_en_US_saptrc.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_en_US_saptrc.properties",
+			"size": 693,
+			"locale": "en_US_saptrc",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_es.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_es.properties",
+			"size": 525,
+			"locale": "es",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_es_MX.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_es_MX.properties",
+			"size": 505,
+			"locale": "es_MX",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_et.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_et.properties",
+			"size": 442,
+			"locale": "et",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_fi.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_fi.properties",
+			"size": 484,
+			"locale": "fi",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_fr.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_fr.properties",
+			"size": 577,
+			"locale": "fr",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_fr_CA.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_fr_CA.properties",
+			"size": 558,
+			"locale": "fr_CA",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_hi.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_hi.properties",
+			"size": 1298,
+			"locale": "hi",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_hr.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_hr.properties",
+			"size": 513,
+			"locale": "hr",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_hu.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_hu.properties",
+			"size": 620,
+			"locale": "hu",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_id.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_id.properties",
+			"size": 488,
+			"locale": "id",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_it.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_it.properties",
+			"size": 480,
+			"locale": "it",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_iw.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_iw.properties",
+			"size": 1119,
+			"locale": "iw",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ja.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ja.properties",
+			"size": 752,
+			"locale": "ja",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_kk.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_kk.properties",
+			"size": 1347,
+			"locale": "kk",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ko.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ko.properties",
+			"size": 777,
+			"locale": "ko",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_lt.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_lt.properties",
+			"size": 580,
+			"locale": "lt",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_lv.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_lv.properties",
+			"size": 631,
+			"locale": "lv",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ms.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ms.properties",
+			"size": 449,
+			"locale": "ms",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_nl.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_nl.properties",
+			"size": 473,
+			"locale": "nl",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_no.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_no.properties",
+			"size": 464,
+			"locale": "no",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_pl.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_pl.properties",
+			"size": 582,
+			"locale": "pl",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_pt.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_pt.properties",
+			"size": 521,
+			"locale": "pt",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_pt_PT.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_pt_PT.properties",
+			"size": 518,
+			"locale": "pt_PT",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ro.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ro.properties",
+			"size": 526,
+			"locale": "ro",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_ru.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_ru.properties",
+			"size": 1633,
+			"locale": "ru",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_sh.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_sh.properties",
+			"size": 507,
+			"locale": "sh",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_sk.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_sk.properties",
+			"size": 643,
+			"locale": "sk",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_sl.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_sl.properties",
+			"size": 504,
+			"locale": "sl",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_sv.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_sv.properties",
+			"size": 520,
+			"locale": "sv",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_th.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_th.properties",
+			"size": 1354,
+			"locale": "th",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_tr.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_tr.properties",
+			"size": 599,
+			"locale": "tr",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_uk.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_uk.properties",
+			"size": 1609,
+			"locale": "uk",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_vi.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_vi.properties",
+			"size": 830,
+			"locale": "vi",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_zh_CN.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_zh_CN.properties",
+			"size": 548,
+			"locale": "zh_CN",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "i18n/messagebundle_zh_TW.properties",
+			"module": "sap/ui/vbm/i18n/messagebundle_zh_TW.properties",
+			"size": 536,
+			"locale": "zh_TW",
+			"raw": "i18n/messagebundle.properties"
+		},
+		{
+			"name": "lib/sapactions-dbg.js",
+			"module": "sap/ui/vbm/lib/sapactions.js",
+			"size": 5425,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapactions.js",
+			"module": "sap/ui/vbm/lib/sapactions.js",
+			"size": 2150,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapactions.js.map",
+			"size": 3332,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapautomations-dbg.js",
+			"module": "sap/ui/vbm/lib/sapautomations.js",
+			"size": 10477,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapautomations.js",
+			"module": "sap/ui/vbm/lib/sapautomations.js",
+			"size": 5132,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapautomations.js.map",
+			"size": 7779,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapconfig-dbg.js",
+			"module": "sap/ui/vbm/lib/sapconfig.js",
+			"size": 1297,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapconfig.js",
+			"module": "sap/ui/vbm/lib/sapconfig.js",
+			"size": 575,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapconfig.js.map",
+			"size": 821,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapdataprovider-dbg.js",
+			"module": "sap/ui/vbm/lib/sapdataprovider.js",
+			"size": 63755,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapdataprovider.js",
+			"module": "sap/ui/vbm/lib/sapdataprovider.js",
+			"size": 24901,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapdataprovider.js.map",
+			"size": 34802,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapevents-dbg.js",
+			"module": "sap/ui/vbm/lib/sapevents.js",
+			"size": 63309,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapevents.js",
+			"module": "sap/ui/vbm/lib/sapevents.js",
+			"size": 28173,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapevents.js.map",
+			"size": 37454,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapgeolocation-dbg.js",
+			"module": "sap/ui/vbm/lib/sapgeolocation.js",
+			"size": 2649,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapgeolocation.js",
+			"module": "sap/ui/vbm/lib/sapgeolocation.js",
+			"size": 1368,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapgeolocation.js.map",
+			"size": 1830,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapgeomath-dbg.js",
+			"module": "sap/ui/vbm/lib/sapgeomath.js",
+			"size": 11126,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapgeomath.js",
+			"module": "sap/ui/vbm/lib/sapgeomath.js",
+			"size": 3484,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapgeomath.js.map",
+			"size": 7306,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapgeotool-dbg.js",
+			"module": "sap/ui/vbm/lib/sapgeotool.js",
+			"size": 6765,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapgeotool.js",
+			"module": "sap/ui/vbm/lib/sapgeotool.js",
+			"size": 1895,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapgeotool.js.map",
+			"size": 3687,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapheatmap-dbg.js",
+			"module": "sap/ui/vbm/lib/sapheatmap.js",
+			"size": 18280,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapheatmap.js",
+			"module": "sap/ui/vbm/lib/sapheatmap.js",
+			"size": 11402,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapheatmap.js.map",
+			"size": 14059,
+			"isDebug": true
+		},
+		{
+			"name": "lib/saplabels-dbg.js",
+			"module": "sap/ui/vbm/lib/saplabels.js",
+			"size": 18829,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/IconPool.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saplabels.js",
+			"module": "sap/ui/vbm/lib/saplabels.js",
+			"size": 8540,
+			"required": [
+				"sap/ui/core/IconPool.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saplabels.js.map",
+			"size": 14563,
+			"isDebug": true
+		},
+		{
+			"name": "lib/saplassotrack-dbg.js",
+			"module": "sap/ui/vbm/lib/saplassotrack.js",
+			"size": 5123,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saplassotrack.js",
+			"module": "sap/ui/vbm/lib/saplassotrack.js",
+			"size": 3178,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saplassotrack.js.map",
+			"size": 3780,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapmaplayer-dbg.js",
+			"module": "sap/ui/vbm/lib/sapmaplayer.js",
+			"size": 7664,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapmaplayer.js",
+			"module": "sap/ui/vbm/lib/sapmaplayer.js",
+			"size": 3385,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapmaplayer.js.map",
+			"size": 4785,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapmapmanager-dbg.js",
+			"module": "sap/ui/vbm/lib/sapmapmanager.js",
+			"size": 26309,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapmapmanager.js",
+			"module": "sap/ui/vbm/lib/sapmapmanager.js",
+			"size": 10983,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapmapmanager.js.map",
+			"size": 17101,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapmapprovider-dbg.js",
+			"module": "sap/ui/vbm/lib/sapmapprovider.js",
+			"size": 14170,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapmapprovider.js",
+			"module": "sap/ui/vbm/lib/sapmapprovider.js",
+			"size": 6299,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapmapprovider.js.map",
+			"size": 9677,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapnavigation-dbg.js",
+			"module": "sap/ui/vbm/lib/sapnavigation.js",
+			"size": 23311,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapnavigation.js",
+			"module": "sap/ui/vbm/lib/sapnavigation.js",
+			"size": 17697,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapnavigation.js.map",
+			"size": 17942,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapparsing-dbg.js",
+			"module": "sap/ui/vbm/lib/sapparsing.js",
+			"size": 8538,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapparsing.js",
+			"module": "sap/ui/vbm/lib/sapparsing.js",
+			"size": 4792,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapparsing.js.map",
+			"size": 7552,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sappositioning-dbg.js",
+			"module": "sap/ui/vbm/lib/sappositioning.js",
+			"size": 13283,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sappositioning.js",
+			"module": "sap/ui/vbm/lib/sappositioning.js",
+			"size": 5069,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sappositioning.js.map",
+			"size": 9087,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapprojection-dbg.js",
+			"module": "sap/ui/vbm/lib/sapprojection.js",
+			"size": 3584,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapprojection.js",
+			"module": "sap/ui/vbm/lib/sapprojection.js",
+			"size": 2046,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapprojection.js.map",
+			"size": 3118,
+			"isDebug": true
+		},
+		{
+			"name": "lib/saprecttrack-dbg.js",
+			"module": "sap/ui/vbm/lib/saprecttrack.js",
+			"size": 9203,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saprecttrack.js",
+			"module": "sap/ui/vbm/lib/saprecttrack.js",
+			"size": 5118,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saprecttrack.js.map",
+			"size": 6668,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapresources-dbg.js",
+			"module": "sap/ui/vbm/lib/sapresources.js",
+			"size": 6643,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapresources.js",
+			"module": "sap/ui/vbm/lib/sapresources.js",
+			"size": 4344,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapresources.js.map",
+			"size": 2834,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapscale-dbg.js",
+			"module": "sap/ui/vbm/lib/sapscale.js",
+			"size": 7252,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapscale.js",
+			"module": "sap/ui/vbm/lib/sapscale.js",
+			"size": 3801,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapscale.js.map",
+			"size": 5344,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapscene-dbg.js",
+			"module": "sap/ui/vbm/lib/sapscene.js",
+			"size": 147886,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/Popup.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			],
+			"condRequired": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js"
+			]
+		},
+		{
+			"name": "lib/sapscene.js",
+			"module": "sap/ui/vbm/lib/sapscene.js",
+			"size": 68220,
+			"required": [
+				"sap/ui/core/Popup.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			],
+			"condRequired": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js"
+			]
+		},
+		{
+			"name": "lib/sapscene.js.map",
+			"size": 100663,
+			"isDebug": true
+		},
+		{
+			"name": "lib/saputilities-dbg.js",
+			"module": "sap/ui/vbm/lib/saputilities.js",
+			"size": 60875,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saputilities.js",
+			"module": "sap/ui/vbm/lib/saputilities.js",
+			"size": 28454,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/saputilities.js.map",
+			"size": 46569,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvbcluster-dbg.js",
+			"module": "sap/ui/vbm/lib/sapvbcluster.js",
+			"size": 69290,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvbcluster.js",
+			"module": "sap/ui/vbm/lib/sapvbcluster.js",
+			"size": 32050,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvbcluster.js.map",
+			"size": 60491,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvbi-dbg.js",
+			"module": "sap/ui/vbm/lib/sapvbi.js",
+			"size": 7385,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvbi.js",
+			"module": "sap/ui/vbm/lib/sapvbi.js",
+			"size": 2866
+		},
+		{
+			"name": "lib/sapvbi.js.map",
+			"size": 3813,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvbicontext-dbg.js",
+			"module": "sap/ui/vbm/lib/sapvbicontext.js",
+			"size": 11897,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvbicontext.js",
+			"module": "sap/ui/vbm/lib/sapvbicontext.js",
+			"size": 5170,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvbicontext.js.map",
+			"size": 7714,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvbmenu-dbg.js",
+			"module": "sap/ui/vbm/lib/sapvbmenu.js",
+			"size": 4601,
+			"isDebug": true,
+			"required": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvbmenu.js",
+			"module": "sap/ui/vbm/lib/sapvbmenu.js",
+			"size": 2630,
+			"required": [
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvbmenu.js.map",
+			"size": 4237,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvobase-dbg.js",
+			"module": "sap/ui/vbm/lib/sapvobase.js",
+			"size": 227554,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/IconPool.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvobase.js",
+			"module": "sap/ui/vbm/lib/sapvobase.js",
+			"size": 101511,
+			"required": [
+				"sap/ui/core/IconPool.js",
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvobase.js.map",
+			"size": 155696,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapvoutils-dbg.js",
+			"module": "sap/ui/vbm/lib/sapvoutils.js",
+			"size": 27008,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvoutils.js",
+			"module": "sap/ui/vbm/lib/sapvoutils.js",
+			"size": 11444,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapvoutils.js.map",
+			"size": 16862,
+			"isDebug": true
+		},
+		{
+			"name": "lib/sapwindow-dbg.js",
+			"module": "sap/ui/vbm/lib/sapwindow.js",
+			"size": 37518,
+			"isDebug": true,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapwindow.js",
+			"module": "sap/ui/vbm/lib/sapwindow.js",
+			"size": 17114,
+			"required": [
+				"sap/ui/vbm/lib/sapvbi.js"
+			]
+		},
+		{
+			"name": "lib/sapwindow.js.map",
+			"size": 23911,
+			"isDebug": true
+		},
+		{
+			"name": "library-dbg.js",
+			"module": "sap/ui/vbm/library.js",
+			"size": 6285,
+			"isDebug": true,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/library.js",
+				"sap/ui/unified/library.js"
+			]
+		},
+		{
+			"name": "library-preload.js",
+			"module": "sap/ui/vbm/library-preload.js",
+			"size": 735336,
+			"merged": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/m/Button.js",
+				"sap/m/HBox.js",
+				"sap/m/Image.js",
+				"sap/m/Link.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/m/library.js",
+				"sap/ui/base/ManagedObjectObserver.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Control.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Element.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/Popup.js",
+				"sap/ui/core/RenderManager.js",
+				"sap/ui/core/ResizeHandler.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/theming/Parameters.js",
+				"sap/ui/unified/Menu.js",
+				"sap/ui/unified/MenuItem.js",
+				"sap/ui/unified/library.js",
+				"sap/ui/vbm/adapter3d/thirdparty/ColladaLoader.js",
+				"sap/ui/vbm/adapter3d/thirdparty/DecalGeometry.js",
+				"sap/ui/vbm/adapter3d/thirdparty/OrbitControls.js",
+				"sap/ui/vbm/adapter3d/thirdparty/html2canvas.js",
+				"sap/ui/vbm/adapter3d/thirdparty/three.js"
+			],
+			"included": [
+				"sap/ui/vbm/Adapter.js",
+				"sap/ui/vbm/Adapter3D.js",
+				"sap/ui/vbm/AnalyticMap.js",
+				"sap/ui/vbm/AnalyticMapRenderer.js",
+				"sap/ui/vbm/Area.js",
+				"sap/ui/vbm/Areas.js",
+				"sap/ui/vbm/Box.js",
+				"sap/ui/vbm/Boxes.js",
+				"sap/ui/vbm/Circle.js",
+				"sap/ui/vbm/Circles.js",
+				"sap/ui/vbm/Cluster.js",
+				"sap/ui/vbm/ClusterBase.js",
+				"sap/ui/vbm/ClusterContainer.js",
+				"sap/ui/vbm/ClusterDistance.js",
+				"sap/ui/vbm/ClusterGrid.js",
+				"sap/ui/vbm/ClusterRenderer.js",
+				"sap/ui/vbm/ClusterTree.js",
+				"sap/ui/vbm/Container.js",
+				"sap/ui/vbm/Containers.js",
+				"sap/ui/vbm/DragSource.js",
+				"sap/ui/vbm/DropTarget.js",
+				"sap/ui/vbm/Feature.js",
+				"sap/ui/vbm/FeatureCollection.js",
+				"sap/ui/vbm/GeoCircle.js",
+				"sap/ui/vbm/GeoCircles.js",
+				"sap/ui/vbm/GeoJsonLayer.js",
+				"sap/ui/vbm/GeoMap.js",
+				"sap/ui/vbm/GeoMapRenderer.js",
+				"sap/ui/vbm/HeatPoint.js",
+				"sap/ui/vbm/Heatmap.js",
+				"sap/ui/vbm/Legend.js",
+				"sap/ui/vbm/LegendItem.js",
+				"sap/ui/vbm/Pie.js",
+				"sap/ui/vbm/PieItem.js",
+				"sap/ui/vbm/Pies.js",
+				"sap/ui/vbm/Region.js",
+				"sap/ui/vbm/Resource.js",
+				"sap/ui/vbm/Route.js",
+				"sap/ui/vbm/Routes.js",
+				"sap/ui/vbm/Spot.js",
+				"sap/ui/vbm/Spots.js",
+				"sap/ui/vbm/VBI.js",
+				"sap/ui/vbm/VBIRenderer.js",
+				"sap/ui/vbm/Viewport.js",
+				"sap/ui/vbm/ViewportRenderer.js",
+				"sap/ui/vbm/VoAbstract.js",
+				"sap/ui/vbm/VoAggregation.js",
+				"sap/ui/vbm/VoBase.js",
+				"sap/ui/vbm/adapter3d/DragDropHandler.js",
+				"sap/ui/vbm/adapter3d/ModelHandler.js",
+				"sap/ui/vbm/adapter3d/ObjectFactory.js",
+				"sap/ui/vbm/adapter3d/PolygonHandler.js",
+				"sap/ui/vbm/adapter3d/SceneBuilder.js",
+				"sap/ui/vbm/adapter3d/Utilities.js",
+				"sap/ui/vbm/adapter3d/VBIJSONParser.js",
+				"sap/ui/vbm/lib/sapactions.js",
+				"sap/ui/vbm/lib/sapautomations.js",
+				"sap/ui/vbm/lib/sapconfig.js",
+				"sap/ui/vbm/lib/sapdataprovider.js",
+				"sap/ui/vbm/lib/sapevents.js",
+				"sap/ui/vbm/lib/sapgeolocation.js",
+				"sap/ui/vbm/lib/sapgeomath.js",
+				"sap/ui/vbm/lib/sapgeotool.js",
+				"sap/ui/vbm/lib/sapheatmap.js",
+				"sap/ui/vbm/lib/saplabels.js",
+				"sap/ui/vbm/lib/saplassotrack.js",
+				"sap/ui/vbm/lib/sapmaplayer.js",
+				"sap/ui/vbm/lib/sapmapmanager.js",
+				"sap/ui/vbm/lib/sapmapprovider.js",
+				"sap/ui/vbm/lib/sapnavigation.js",
+				"sap/ui/vbm/lib/sapparsing.js",
+				"sap/ui/vbm/lib/sappositioning.js",
+				"sap/ui/vbm/lib/sapprojection.js",
+				"sap/ui/vbm/lib/saprecttrack.js",
+				"sap/ui/vbm/lib/sapresources.js",
+				"sap/ui/vbm/lib/sapscale.js",
+				"sap/ui/vbm/lib/sapscene.js",
+				"sap/ui/vbm/lib/saputilities.js",
+				"sap/ui/vbm/lib/sapvbcluster.js",
+				"sap/ui/vbm/lib/sapvbi.js",
+				"sap/ui/vbm/lib/sapvbicontext.js",
+				"sap/ui/vbm/lib/sapvbmenu.js",
+				"sap/ui/vbm/lib/sapvobase.js",
+				"sap/ui/vbm/lib/sapvoutils.js",
+				"sap/ui/vbm/lib/sapwindow.js",
+				"sap/ui/vbm/library.js",
+				"sap/ui/vbm/manifest.json"
+			]
+		},
+		{
+			"name": "library-preload.js.map",
+			"size": 1036491,
+			"isDebug": true
+		},
+		{
+			"name": "library.js",
+			"module": "sap/ui/vbm/library.js",
+			"size": 2622,
+			"required": [
+				"sap/m/library.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/library.js",
+				"sap/ui/unified/library.js"
+			]
+		},
+		{
+			"name": "library.js.map",
+			"size": 2068,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ui/vbm/manifest.json",
+			"size": 2784
+		},
+		{
+			"name": "media/analyticmap/L0.json",
+			"module": "sap/ui/vbm/media/analyticmap/L0.json",
+			"size": 576239
+		},
+		{
+			"name": "media/analyticmap/analyticmap.json",
+			"module": "sap/ui/vbm/media/analyticmap/analyticmap.json",
+			"size": 2012
+		},
+		{
+			"name": "resources.json",
+			"size": 88677
+		},
+		{
+			"name": "themes/base/.theming",
+			"size": 64,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/AnalyticMap.less",
+			"size": 224,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/Cluster.less",
+			"size": 2777,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/DetailWindow.less",
+			"size": 645,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/GeoMap.less",
+			"size": 210,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/VBI.less",
+			"size": 17553,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/Viewport.less",
+			"size": 243,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/css_variables.css",
+			"size": 1255,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/css_variables.less",
+			"size": 240,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/css_variables.source.less",
+			"size": 124246,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/fonts/VBI-Icons.eot",
+			"size": 2708,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/fonts/VBI-Icons.ttf",
+			"size": 2528,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/fonts/VBI-Icons.woff",
+			"size": 1668,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/fonts/VBI-Icons.woff2",
+			"size": 1152,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img-RTL/sapvisualbusiness.png",
+			"size": 36298,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Blue_Pin.png",
+			"size": 850,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Green_Pin.png",
+			"size": 844,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Grey_Pin.png",
+			"size": 858,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Hidden.png",
+			"size": 68,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Orange_Pin.png",
+			"size": 1058,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Blue.png",
+			"size": 850,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Blue_0_Icon.png",
+			"size": 1599,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Blue_1-digit.png",
+			"size": 1116,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Blue_1_Icon.png",
+			"size": 1398,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Blue_3-digit_space.png",
+			"size": 1070,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Blue_5-digit_space.png",
+			"size": 1094,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Green.png",
+			"size": 844,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Green_0_Icon.png",
+			"size": 1625,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Green_1-digit.png",
+			"size": 1205,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Green_1_Icon.png",
+			"size": 1407,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Green_3-digit_space.png",
+			"size": 1079,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Green_5-digit_space.png",
+			"size": 1109,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Grey.png",
+			"size": 858,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Grey_0_Icon.png",
+			"size": 1592,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Grey_1-digit.png",
+			"size": 1124,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Grey_1_Icon.png",
+			"size": 1406,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Grey_3-digit_space.png",
+			"size": 1090,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Grey_5-digit_space.png",
+			"size": 1108,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Hidden.png",
+			"size": 68,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Orange.png",
+			"size": 1058,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Orange_0_Icon.png",
+			"size": 1726,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Orange_1-digit.png",
+			"size": 1317,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Orange_1_Icon.png",
+			"size": 1351,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Orange_3-digit_space.png",
+			"size": 1313,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Orange_5-digit_space.png",
+			"size": 1350,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Red.png",
+			"size": 1102,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Red_0_Icon.png",
+			"size": 1638,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Red_1-digit.png",
+			"size": 1595,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Red_1_Icon.png",
+			"size": 1348,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Red_3-digit_space.png",
+			"size": 1334,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_Red_5-digit_space.png",
+			"size": 1363,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Pin_images.json",
+			"module": "sap/ui/vbm/themes/base/img/Pin_images.json",
+			"size": 55202,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/Red_Pin.png",
+			"size": 1102,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/sapvisualbusiness.png",
+			"size": 44564,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/img/scrollline.png",
+			"size": 144,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library-RTL.css",
+			"size": 13698,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library-parameters.json",
+			"module": "sap/ui/vbm/themes/base/library-parameters.json",
+			"size": 509,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library.css",
+			"size": 13680,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library.less",
+			"size": 23010,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library.source.less",
+			"size": 403,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library_skeleton-RTL.css",
+			"size": 13106,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/library_skeleton.css",
+			"size": 13088,
+			"theme": "base"
+		},
+		{
+			"name": "themes/base/shared.less",
+			"size": 549,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "themes/sap_belize/.theming",
+			"size": 650,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/css_variables.css",
+			"size": 1328,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/css_variables.less",
+			"size": 130338,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/css_variables.source.less",
+			"size": 129972,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library-RTL.css",
+			"size": 23004,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_belize/library-parameters.json",
+			"size": 549,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library.css",
+			"size": 22987,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library.less",
+			"size": 469,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library.source.less",
+			"size": 283,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library_skeleton-RTL.css",
+			"size": 22573,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize/library_skeleton.css",
+			"size": 22556,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "themes/sap_belize_hcb/.theming",
+			"size": 93,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/AnalyticMap.less",
+			"size": 58,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/VBI.less",
+			"size": 1564,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/css_variables.css",
+			"size": 1337,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/css_variables.less",
+			"size": 124127,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/css_variables.source.less",
+			"size": 123753,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library-RTL.css",
+			"size": 15010,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_belize_hcb/library-parameters.json",
+			"size": 509,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library.css",
+			"size": 14993,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library.less",
+			"size": 2212,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library.source.less",
+			"size": 340,
+			"designtime": true,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library_skeleton-RTL.css",
+			"size": 14855,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcb/library_skeleton.css",
+			"size": 14838,
+			"theme": "sap_belize_hcb"
+		},
+		{
+			"name": "themes/sap_belize_hcw/.theming",
+			"size": 93,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/css_variables.css",
+			"size": 1255,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/css_variables.less",
+			"size": 123910,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/css_variables.source.less",
+			"size": 123536,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library-RTL.css",
+			"size": 13854,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_belize_hcw/library-parameters.json",
+			"size": 509,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library.css",
+			"size": 13836,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library.less",
+			"size": 480,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library.source.less",
+			"size": 290,
+			"designtime": true,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library_skeleton-RTL.css",
+			"size": 13262,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_hcw/library_skeleton.css",
+			"size": 13244,
+			"theme": "sap_belize_hcw"
+		},
+		{
+			"name": "themes/sap_belize_plus/.theming",
+			"size": 611,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/css_variables.css",
+			"size": 1332,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/css_variables.less",
+			"size": 130348,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/css_variables.source.less",
+			"size": 129972,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library-RTL.css",
+			"size": 23593,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_belize_plus/library-parameters.json",
+			"size": 553,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library.css",
+			"size": 23576,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library.less",
+			"size": 490,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library.source.less",
+			"size": 299,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library_skeleton-RTL.css",
+			"size": 23158,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_belize_plus/library_skeleton.css",
+			"size": 23141,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "themes/sap_bluecrystal/.theming",
+			"size": 137,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/AnalyticMap.less",
+			"size": 227,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/Cluster.less",
+			"size": 1715,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/VBI.less",
+			"size": 1750,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/css_variables.css",
+			"size": 1348,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/css_variables.less",
+			"size": 143402,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/css_variables.source.less",
+			"size": 143026,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library-RTL.css",
+			"size": 15494,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_bluecrystal/library-parameters.json",
+			"size": 509,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library.css",
+			"size": 15476,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library.less",
+			"size": 4337,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library.source.less",
+			"size": 364,
+			"designtime": true,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library_skeleton-RTL.css",
+			"size": 15863,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_bluecrystal/library_skeleton.css",
+			"size": 15845,
+			"theme": "sap_bluecrystal"
+		},
+		{
+			"name": "themes/sap_fiori_3/.theming",
+			"size": 90,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/css_variables.css",
+			"size": 1255,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/css_variables.less",
+			"size": 129152,
+			"designtime": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/css_variables.source.less",
+			"size": 128784,
+			"designtime": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library-RTL.css",
+			"size": 13881,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_fiori_3/library-parameters.json",
+			"size": 509,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library.css",
+			"size": 13863,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library.less",
+			"size": 472,
+			"designtime": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library.source.less",
+			"size": 285,
+			"designtime": true,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library_skeleton-RTL.css",
+			"size": 13262,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3/library_skeleton.css",
+			"size": 13244,
+			"theme": "sap_fiori_3"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/.theming",
+			"size": 95,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/AnalyticMap.less",
+			"size": 58,
+			"designtime": true,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/VBI.less",
+			"size": 1564,
+			"designtime": true,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/css_variables.css",
+			"size": 1337,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/css_variables.less",
+			"size": 126789,
+			"designtime": true,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/css_variables.source.less",
+			"size": 126411,
+			"designtime": true,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library-RTL.css",
+			"size": 15070,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_fiori_3_dark/library-parameters.json",
+			"size": 509,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library.css",
+			"size": 15053,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library.less",
+			"size": 2218,
+			"designtime": true,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library.source.less",
+			"size": 344,
+			"designtime": true,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library_skeleton-RTL.css",
+			"size": 14855,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_dark/library_skeleton.css",
+			"size": 14838,
+			"theme": "sap_fiori_3_dark"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/.theming",
+			"size": 94,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/AnalyticMap.less",
+			"size": 58,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/VBI.less",
+			"size": 1564,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/css_variables.css",
+			"size": 1337,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/css_variables.less",
+			"size": 124138,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/css_variables.source.less",
+			"size": 123762,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library-RTL.css",
+			"size": 15010,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_fiori_3_hcb/library-parameters.json",
+			"size": 509,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library.css",
+			"size": 14993,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library.less",
+			"size": 2215,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library.source.less",
+			"size": 342,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library_skeleton-RTL.css",
+			"size": 14855,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcb/library_skeleton.css",
+			"size": 14838,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/.theming",
+			"size": 94,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/css_variables.css",
+			"size": 1255,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/css_variables.less",
+			"size": 123921,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/css_variables.source.less",
+			"size": 123545,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library-RTL.css",
+			"size": 13854,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_fiori_3_hcw/library-parameters.json",
+			"size": 509,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library.css",
+			"size": 13836,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library.less",
+			"size": 484,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library.source.less",
+			"size": 293,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library_skeleton-RTL.css",
+			"size": 13262,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_fiori_3_hcw/library_skeleton.css",
+			"size": 13244,
+			"theme": "sap_fiori_3_hcw"
+		},
+		{
+			"name": "themes/sap_hcb/.theming",
+			"size": 128,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/AnalyticMap.less",
+			"size": 227,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/VBI.less",
+			"size": 1992,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/css_variables.css",
+			"size": 1255,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/css_variables.less",
+			"size": 110858,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/css_variables.source.less",
+			"size": 110558,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library-RTL.css",
+			"size": 14942,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_hcb/library-parameters.json",
+			"size": 509,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library.css",
+			"size": 14928,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library.less",
+			"size": 2643,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library.source.less",
+			"size": 261,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library_skeleton-RTL.css",
+			"size": 14791,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_hcb/library_skeleton.css",
+			"size": 14777,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "themes/sap_horizon/.theming",
+			"size": 90,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/css_variables.css",
+			"size": 1255,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/css_variables.less",
+			"size": 129086,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/css_variables.source.less",
+			"size": 128718,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library-RTL.css",
+			"size": 13884,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_horizon/library-parameters.json",
+			"size": 509,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library.css",
+			"size": 13866,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library.less",
+			"size": 471,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library.source.less",
+			"size": 284,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library_skeleton-RTL.css",
+			"size": 13262,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon/library_skeleton.css",
+			"size": 13244,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "themes/sap_horizon_dark/.theming",
+			"size": 95,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/AnalyticMap.less",
+			"size": 57,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/VBI.less",
+			"size": 1564,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/css_variables.css",
+			"size": 1340,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/css_variables.less",
+			"size": 126584,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/css_variables.source.less",
+			"size": 126206,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library-RTL.css",
+			"size": 15127,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_horizon_dark/library-parameters.json",
+			"size": 509,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library.css",
+			"size": 15110,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library.less",
+			"size": 2217,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library.source.less",
+			"size": 344,
+			"designtime": true,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library_skeleton-RTL.css",
+			"size": 14855,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_dark/library_skeleton.css",
+			"size": 14838,
+			"theme": "sap_horizon_dark"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/.theming",
+			"size": 94,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/AnalyticMap.less",
+			"size": 57,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/VBI.less",
+			"size": 1564,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/css_variables.css",
+			"size": 1337,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/css_variables.less",
+			"size": 123653,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/css_variables.source.less",
+			"size": 123277,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library-RTL.css",
+			"size": 15058,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_horizon_hcb/library-parameters.json",
+			"size": 509,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library.css",
+			"size": 15041,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library.less",
+			"size": 2215,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library.source.less",
+			"size": 343,
+			"designtime": true,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library_skeleton-RTL.css",
+			"size": 14855,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcb/library_skeleton.css",
+			"size": 14838,
+			"theme": "sap_horizon_hcb"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/.theming",
+			"size": 94,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/AnalyticMap.less",
+			"size": 57,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/VBI.less",
+			"size": 1564,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/css_variables.css",
+			"size": 1337,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/css_variables.less",
+			"size": 123699,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/css_variables.source.less",
+			"size": 123323,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library-RTL.css",
+			"size": 15010,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library-parameters.json",
+			"module": "sap/ui/vbm/themes/sap_horizon_hcw/library-parameters.json",
+			"size": 509,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library.css",
+			"size": 14993,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library.less",
+			"size": 2214,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library.source.less",
+			"size": 342,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library_skeleton-RTL.css",
+			"size": 14855,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "themes/sap_horizon_hcw/library_skeleton.css",
+			"size": 14838,
+			"theme": "sap_horizon_hcw"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+<core:FragmentDefinition
+	xmlns="sap.suite.ui.microchart"
+	xmlns:core="sap.ui.core"
+	xmlns:m="sap.m"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:macrodata="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	template:require="{
+        MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+        HELPER: 'sap/fe/macros/visualfilters/InteractiveChartHelper',
+        ID: 'sap/fe/core/helpers/StableIdHelper',
+        FieldHelper: 'sap/fe/macros/field/FieldHelper',
+        UI: 'sap/fe/core/templating/UIFormatters',
+        COMMON: 'sap/fe/macros/CommonHelper',
+        FieldTemplating: 'sap/fe/macros/field/FieldTemplating',
+        MACRO: 'sap/fe/macros/MacroTemplating'
+    }"
+>
+	<!-- Internal only -->
+	<template:with path="metaPath>" helper="HELPER.getChart" var="chartAnnotation">
+		<template:if test="{= ${this>chartMeasure} &amp;&amp; ${chartAnnotation>Dimensions/0/} }">
+			<template:then>
+				<template:with path="chartAnnotation>" helper="COMMON.getMeasureAttribute" var="DataPoint">
+					<template:with path="chartAnnotation>Dimensions/0/" var="Dimension">
+						<InteractiveBarChart
+							core:require="{VisualFilterRuntime: 'sap/fe/macros/visualfilters/VisualFilterRuntime'}"
+							visible="{= '{= ${internal>' + ID.generate([${metaPath>@@MACRO.getPath}]) + '/showError}}'}"
+							selectionChanged="VisualFilterRuntime.selectionChanged"
+							showError="{= '{= ${internal>' + ID.generate([${metaPath>@@MACRO.getPath}]) + '/showError}}'}"
+							errorMessageTitle="{= '{internal>' + ID.generate([${metaPath>@@MACRO.getPath}]) + '/errorMessageTitle}'}"
+							errorMessage="{= '{internal>' + ID.generate([${metaPath>@@MACRO.getPath}]) + '/errorMessage}'}"
+							bars="{parts:[{path:'chartAnnotation>'},{path:'contextPath>'},{path: 'Dimension>$PropertyPath@com.sap.vocabularies.Common.v1.Text'},{path:'Dimension>$PropertyPath/$Type'},{path:'metaPath>SortOrder'}, {path: 'this>selectionVariantAnnotation'}, {path:'this>bCustomAggregate'}, {path:'this>aggregateProperties'}, {path:'this>bUoMHasCustomAggregate'}, {path: 'contextPath>@@COMMON.getParameters'}, {path: 'this>filterBarEntityType'}, {path: 'this>draftSupported'},{path: 'this>chartMeasure'}],formatter:'HELPER.getAggregationBinding'}"
+							macrodata:outParameter="{= ${this>outParameter}}"
+							macrodata:valuelistProperty="{= ${this>valuelistProperty}}"
+							macrodata:multipleSelectionAllowed="{= %{this>multipleSelectionAllowed}}"
+							macrodata:dimension="{= ${Dimension>$PropertyPath}}"
+							macrodata:dimensionText="{= ${Dimension>$PropertyPath@com.sap.vocabularies.Common.v1.Text} ? ${Dimension>$PropertyPath@com.sap.vocabularies.Common.v1.Text/$Path} : undefined}"
+							macrodata:scalefactor="{= HELPER.getScaleFactor(${DataPoint>ValueFormat})}"
+							macrodata:measure="{= ${this>chartMeasure}}"
+							macrodata:uom="{parts:[{path:'chartAnnotation>'},{path:'contextPath>'},{value:'true'}, {path:'this>bCustomAggregate'}, {path:'this>aggregateProperties'}],formatter:'HELPER.getUoM'}"
+							macrodata:inParameters="{= COMMON.stringifyCustomData(${this>inParameters}) }"
+							macrodata:inParameterFilters="{= ${this>inParameters} !== undefined ? HELPER.getInParameterFiltersBinding(${this>inParameters}) : undefined}"
+							macrodata:dimensionType="{= ${Dimension>$PropertyPath/$Type}}"
+							macrodata:selectionVariantAnnotation="{= COMMON.stringifyCustomData(${this>selectionVariantAnnotation})}"
+							macrodata:required="{this>required}"
+							macrodata:showOverlayInitially="{this>showOverlayInitially}"
+							macrodata:requiredProperties="{this>requiredProperties}"
+							macrodata:infoPath="{= ID.generate([${metaPath>@@MACRO.getPath}]) }"
+							macrodata:parameters="{= COMMON.stringifyCustomData(${contextPath>@@COMMON.getParameters})}"
+							macrodata:draftSupported="{this>draftSupported}"
+						>
+							<bars>
+								<InteractiveBarChartBar
+									core:require="{VisualFilterRuntime: 'sap/fe/macros/visualfilters/VisualFilterRuntime'}"
+									label="{= FieldTemplating.getTextBinding(${Dimension>@@UI.getDataModelObjectPath})}"
+									value="{= HELPER.getChartValue(${this>chartMeasure})}"
+									displayedValue="{parts:[ {path: 'this>chartMeasure'}, {path: 'DataPoint>ValueFormat'}, {path: 'metaPath>@@MACRO.getPath'}], formatter: 'HELPER.getChartDisplayedValue'}"
+									color="{parts:[{path:'DataPoint>@@UI.getDataModelObjectPath'}, {path:'Dimension>'}], formatter: 'HELPER.getColorBinding'}"
+									selected="{path: '$field>/conditions', formatter: 'sap.fe.macros.visualfilters.VisualFilterRuntime.getAggregationSelected'}"
+								/>
+							</bars>
+						</InteractiveBarChart>
+					</template:with>
+				</template:with>
+			</template:then>
+		</template:if>
+	</template:with>
+</core:FragmentDefinition>

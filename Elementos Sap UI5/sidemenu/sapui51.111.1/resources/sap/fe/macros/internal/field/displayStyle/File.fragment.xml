@@ -1,0 +1,103 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:core="sap.ui.core"
+	xmlns:u="sap.ui.unified"
+	xmlns="sap.m"
+	xmlns:control="sap.fe.core.controls"
+	xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	template:require="{
+        MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+		FIELD: 'sap/fe/macros/field/FieldHelper'
+    }"
+>
+	<control:FileWrapper
+		core:require="{FIELDRUNTIME: 'sap/fe/macros/field/FieldRuntime'}"
+		visible="{this>visible}"
+		uploadUrl="{propertyPath>@@MODEL.format}"
+		propertyPath="{propertyPath>}"
+		filename="{propertyPath>@Org.OData.Core.V1.ContentDisposition/Filename/$Path}"
+		mediaType="{propertyPath>@Org.OData.Core.V1.MediaType/$Path}"
+		fieldGroupIds="{parts:[{path:'dataField>Value/$Path'}, {path:'entityType>'}], formatter: 'FIELD.getFieldGroupIds'}"
+		validateFieldGroup="FIELDRUNTIME.onValidateFieldGroup($controller, $event)"
+		customData:sourcePath="{this>dataSourcePath}"
+	>
+		<template:if
+			test="{= ${property>$Path@com.sap.vocabularies.UI.v1.IsImageURL} || ${property>$Path@com.sap.vocabularies.UI.v1.IsImage} || RegExp('image/','i').test(${property>$Path@Org.OData.Core.V1.MediaType})}"
+		>
+			<template:then>
+				<control:avatar>
+					<Avatar
+						visible="{this>displayVisible}"
+						src="{this>fileSrc}"
+						displaySize="S"
+						class="sapUiSmallMarginEnd"
+						displayShape="Square"
+					/>
+				</control:avatar>
+			</template:then>
+
+			<template:else>
+				<control:icon>
+					<core:Icon
+						src="{= FIELD.getPathForIconSource(${propertyPath>})}"
+						class="sapUiSmallMarginEnd"
+						visible="{= FIELD.getIsMediaContentTypeNullExpr(${propertyPath>}, '!==') }"
+					/>
+				</control:icon>
+				<control:link>
+					<Link
+						text="{= FIELD.getFilenameExpr(${propertyPath>@Org.OData.Core.V1.ContentDisposition/Filename@@MODEL.format}, '{sap.fe.i18n>M_FIELD_FILEUPLOADER_NOFILENAME_TEXT}')}"
+						target="_blank"
+						href="{= FIELD.getDownloadUrl(${propertyPath>@@MODEL.format})}"
+						visible="{= FIELD.getIsMediaContentTypeNullExpr(${propertyPath>}, '!==') }"
+						wrapping="true"
+					/>
+				</control:link>
+				<control:text>
+					<Text emptyIndicatorMode="On" text="" visible="{= FIELD.getIsMediaContentTypeNullExpr(${propertyPath>}, '===') }" />
+				</control:text>
+			</template:else>
+		</template:if>
+
+		<template:if test="{= ${this>editMode}!=='Display' &amp;&amp; !!${this>editStyle}}">
+			<template:then>
+				<control:fileUploader>
+					<u:FileUploader
+						name="FEV4FileUpload"
+						visible="{this>editableExpression}"
+						buttonOnly="true"
+						iconOnly="true"
+						multiple="false"
+						tooltip="{sap.fe.i18n>M_FIELD_FILEUPLOADER_UPLOAD_BUTTON_TOOLTIP}"
+						icon="sap-icon://upload"
+						style="Transparent"
+						sendXHR="true"
+						useMultipart="false"
+						sameFilenameAllowed="true"
+						mimeType="{propertyPath>@Org.OData.Core.V1.AcceptableMediaTypes@@MODEL.value}"
+						typeMissmatch="FIELDRUNTIME.handleTypeMissmatch"
+						maximumFileSize="{= FIELD.calculateMBfromByte(${propertyPath>$MaxLength@@MODEL.value})}"
+						fileSizeExceed="FIELDRUNTIME.handleFileSizeExceed"
+						uploadOnChange="false"
+						uploadComplete="FIELDRUNTIME.handleUploadComplete($event, {= ${propertyPath>@Org.OData.Core.V1.ContentDisposition/Filename} ? ${propertyPath>@Org.OData.Core.V1.ContentDisposition/Filename@@MODEL.format} : 'undefined'}, '{propertyPath>}', $controller)"
+						httpRequestMethod="Put"
+						change="FIELDRUNTIME.uploadStream($controller, $event)"
+						beforeDialogOpen="{= ${this>collaborationEnabled} ? 'FIELDRUNTIME.handleOpenUploader' : undefined}"
+						afterDialogClose="{= ${this>collaborationEnabled} ? 'FIELDRUNTIME.handleCloseUploader' : undefined}"
+						uploadStart="FIELDRUNTIME.handleOpenUploader"
+					/>
+				</control:fileUploader>
+				<control:deleteButton>
+					<Button
+						icon="sap-icon://sys-cancel"
+						type="Transparent"
+						press="FIELDRUNTIME.removeStream($event, {= ${propertyPath>@Org.OData.Core.V1.ContentDisposition/Filename} ? ${propertyPath>@Org.OData.Core.V1.ContentDisposition/Filename@@MODEL.format} : 'undefined'}, '{propertyPath>}', $controller)"
+						tooltip="{sap.fe.i18n>M_FIELD_FILEUPLOADER_DELETE_BUTTON_TOOLTIP}"
+						visible="{this>editableExpression}"
+						enabled="{= FIELD.getIsMediaContentTypeNullExpr(${propertyPath>}, '!==') }"
+					/>
+				</control:deleteButton>
+			</template:then>
+		</template:if>
+	</control:FileWrapper>
+</core:FragmentDefinition>

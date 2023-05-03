@@ -1,0 +1,147 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 94,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "AreaMicroChart.less",
+			"size": 380,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "BulletMicroChart.less",
+			"size": 1392,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "ColumnMicroChart.less",
+			"size": 548,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "ComparisonMicroChart.less",
+			"size": 1172,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "DeltaMicroChart.less",
+			"size": 430,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "HarveyBallMicroChart.less",
+			"size": 550,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "InteractiveBarChart.less",
+			"size": 2426,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "InteractiveDonutChart.less",
+			"size": 2978,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "InteractiveLineChart.less",
+			"size": 3035,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "LineMicroChart.less",
+			"size": 335,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "RadialMicroChart.less",
+			"size": 891,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "SharedStyles.less",
+			"size": 332,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "StackedBarMicroChart.less",
+			"size": 349,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 4509,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 127361,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 126979,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 70171,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/suite/ui/microchart/themes/sap_horizon_hcw/library-parameters.json",
+			"size": 1920,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library.css",
+			"size": 70158,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library.less",
+			"size": 16243,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library.source.less",
+			"size": 709,
+			"designtime": true,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 76330,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 76317,
+			"theme": "sap_horizon_hcw"
+		},
+		{
+			"name": "resources.json",
+			"size": 2757
+		}
+	]
+}

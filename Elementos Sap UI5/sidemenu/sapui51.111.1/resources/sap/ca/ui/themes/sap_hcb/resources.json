@@ -1,0 +1,93 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 128,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "Chart.less",
+			"size": 210,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "ChartToolBar.less",
+			"size": 129,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "ClusterListItem.less",
+			"size": 609,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "OverviewTile.less",
+			"size": 293,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 302,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 109678,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 109378,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 23807,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/ca/ui/themes/sap_hcb/library-parameters.json",
+			"size": 84,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 23808,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 1806,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 326,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 24131,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 24132,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 1546
+		}
+	]
+}

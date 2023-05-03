@@ -1,0 +1,70 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/fe/templates/AnalyticalListPage/Component.js",
+			"size": 2061,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/macros/library.js",
+				"sap/fe/templates/ListComponent.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/fe/templates/AnalyticalListPage/Component.js",
+			"size": 676,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/macros/library.js",
+				"sap/fe/templates/ListComponent.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 947,
+			"isDebug": true
+		},
+		{
+			"name": "Component.ts",
+			"size": 296
+		},
+		{
+			"name": "chart/FEChartDelegate-dbg.js",
+			"module": "sap/fe/templates/AnalyticalListPage/chart/FEChartDelegate.js",
+			"size": 4676,
+			"isDebug": true,
+			"required": [
+				"sap/fe/macros/chart/ChartDelegate.js"
+			]
+		},
+		{
+			"name": "chart/FEChartDelegate.js",
+			"module": "sap/fe/templates/AnalyticalListPage/chart/FEChartDelegate.js",
+			"size": 441,
+			"required": [
+				"sap/fe/macros/chart/ChartDelegate.js"
+			]
+		},
+		{
+			"name": "chart/FEChartDelegate.js.map",
+			"size": 589,
+			"isDebug": true
+		},
+		{
+			"name": "chart/FEChartDelegate.ts",
+			"size": 1413
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/fe/templates/AnalyticalListPage/manifest.json",
+			"size": 611
+		},
+		{
+			"name": "resources.json",
+			"size": 1462
+		}
+	]
+}

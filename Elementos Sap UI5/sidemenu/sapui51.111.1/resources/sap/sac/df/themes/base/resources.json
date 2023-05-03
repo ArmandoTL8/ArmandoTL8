@@ -1,0 +1,116 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 64,
+			"theme": "base"
+		},
+		{
+			"name": "FPA-icons.eot",
+			"size": 254902,
+			"theme": "base"
+		},
+		{
+			"name": "FPA-icons.svg",
+			"size": 974456,
+			"theme": "base"
+		},
+		{
+			"name": "FPA-icons.ttf",
+			"size": 254728,
+			"theme": "base"
+		},
+		{
+			"name": "FPA-icons.woff",
+			"size": 254804,
+			"theme": "base"
+		},
+		{
+			"name": "InATile.less",
+			"size": 224,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 156,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 240,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 122965,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "firefly.ext.less",
+			"size": 222,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "firefly.styles.css",
+			"size": 19413,
+			"theme": "base"
+		},
+		{
+			"name": "firefly.styles.sapui5.css",
+			"size": 32005,
+			"theme": "base"
+		},
+		{
+			"name": "fpaicon.styles.css",
+			"size": 27744,
+			"theme": "base"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 63033,
+			"theme": "base"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/sac/df/themes/base/library-parameters.json",
+			"size": 2,
+			"theme": "base"
+		},
+		{
+			"name": "library.css",
+			"size": 63017,
+			"theme": "base"
+		},
+		{
+			"name": "library.less",
+			"size": 80327,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library.source.less",
+			"size": 369,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 63384,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 63368,
+			"theme": "base"
+		},
+		{
+			"name": "resources.json",
+			"size": 1840
+		}
+	]
+}

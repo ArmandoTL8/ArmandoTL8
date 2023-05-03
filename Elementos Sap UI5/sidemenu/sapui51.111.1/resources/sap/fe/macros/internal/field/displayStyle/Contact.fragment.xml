@@ -1,0 +1,37 @@
+<!--
+    /**
+     * This fragment renders a DataFieldForAnnotation, e.g. Datapoint or Contact
+     * @param annotationPath context to the target of a annotation path
+     * @returns
+     */
+-->
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:macro="sap.fe.macros"
+	xmlns:core="sap.ui.core"
+	template:require="{
+		UI: 'sap/fe/core/templating/UIFormatters',
+		FieldTemplating: 'sap/fe/macros/field/FieldTemplating'
+	}"
+>
+	<template:if test="{= ${annotationPath>}.indexOf('com.sap.vocabularies.UI.v1.DataPoint') >= 0}">
+		<template:then>
+			<template:with path="annotationPath>Value" var="property">
+				<core:Fragment fragmentName="sap.fe.macros.internal.field.DataField" type="XML" />
+			</template:with>
+		</template:then>
+		<template:elseif test="{= ${annotationPath>}.indexOf('com.sap.vocabularies.Communication.v1.Contact') >= 0}">
+			<template:with path="annotationPath>" var="metaPath">
+				<macro:Contact
+					idPrefix="{this>idPrefix}"
+					ariaLabelledBy="{this>ariaLabelledBy}"
+					metaPath="{metaPath>}"
+					contextPath="{entitySet>}"
+					_flexId="{this>_flexId}"
+					visible="{= FieldTemplating.getVisibleExpression(${dataField>@@UI.getDataModelObjectPath})}"
+				/>
+			</template:with>
+		</template:elseif>
+	</template:if>
+</core:FragmentDefinition>

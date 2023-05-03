@@ -1,0 +1,89 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/sac/df/InACard/Component.js",
+			"size": 6650,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/library.js",
+				"sap/ovp/cards/custom/Component.js",
+				"sap/ovp/library.js",
+				"sap/sac/df/library.js",
+				"sap/sac/df/thirdparty/lodash.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/viz/library.js",
+				"sap/viz/ui5/controls/common/feeds/FeedItem.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/sac/df/InACard/Component.js",
+			"size": 3184,
+			"required": [
+				"sap/base/Log.js",
+				"sap/m/library.js",
+				"sap/ovp/cards/custom/Component.js",
+				"sap/ovp/library.js",
+				"sap/sac/df/library.js",
+				"sap/sac/df/thirdparty/lodash.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/viz/library.js",
+				"sap/viz/ui5/controls/common/feeds/FeedItem.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 3504,
+			"isDebug": true
+		},
+		{
+			"name": "controller/InACard-dbg.controller.js",
+			"module": "sap/sac/df/InACard/controller/InACard.controller.js",
+			"size": 2609,
+			"isDebug": true,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "controller/InACard.controller.js",
+			"module": "sap/sac/df/InACard/controller/InACard.controller.js",
+			"size": 1470,
+			"required": [
+				"jquery.sap.global.js",
+				"sap/base/Log.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "controller/InACard.controller.js.map",
+			"size": 1770,
+			"isDebug": true
+		},
+		{
+			"name": "fragment/InACard.fragment.xml",
+			"module": "sap/sac/df/InACard/fragment/InACard.fragment.xml",
+			"size": 2014,
+			"required": [
+				"sap/m/VBox.js",
+				"sap/sac/df/PivotTable.js"
+			]
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/sac/df/InACard/manifest.json",
+			"size": 1503
+		},
+		{
+			"name": "resources.json",
+			"size": 2062
+		}
+	]
+}

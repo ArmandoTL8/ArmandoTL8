@@ -1,0 +1,69 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 650,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 261437,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 189695,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 189335,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 2286088,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/fiori/themes/sap_belize/library-parameters.json",
+			"size": 194273,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library.css",
+			"size": 2285295,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library.less",
+			"size": 602,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library.source.less",
+			"size": 534,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 2194320,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 2193528,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "resources.json",
+			"size": 1192
+		}
+	]
+}

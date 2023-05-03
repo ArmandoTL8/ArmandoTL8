@@ -1,0 +1,1076 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/Component.js",
+			"size": 20898,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/f/library.js",
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/TemplateComponent.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/core/library.js",
+				"sap/fe/templates/ObjectPage/ExtendPageDefinition.js",
+				"sap/fe/templates/library.js",
+				"sap/m/library.js",
+				"sap/ui/core/library.js",
+				"sap/ui/fl/library.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/mdc/library.js",
+				"sap/ui/model/odata/v4/ODataListBinding.js",
+				"sap/uxap/library.js"
+			],
+			"condRequired": [
+				"sap/fe/macros/library.js",
+				"sap/suite/ui/microchart/library.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/fe/templates/ObjectPage/Component.js",
+			"size": 4481,
+			"required": [
+				"sap/base/Log.js",
+				"sap/f/library.js",
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/TemplateComponent.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/core/library.js",
+				"sap/fe/templates/ObjectPage/ExtendPageDefinition.js",
+				"sap/fe/templates/library.js",
+				"sap/m/library.js",
+				"sap/ui/core/library.js",
+				"sap/ui/fl/library.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/mdc/library.js",
+				"sap/ui/model/odata/v4/ODataListBinding.js",
+				"sap/uxap/library.js"
+			],
+			"condRequired": [
+				"sap/fe/macros/library.js",
+				"sap/suite/ui/microchart/library.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 6156,
+			"isDebug": true
+		},
+		{
+			"name": "Component.ts",
+			"size": 4761
+		},
+		{
+			"name": "ExtendPageDefinition-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/ExtendPageDefinition.js",
+			"size": 12001,
+			"isDebug": true,
+			"required": [
+				"sap/fe/templates/ObjectPage/ObjectPageTemplating.js"
+			]
+		},
+		{
+			"name": "ExtendPageDefinition.js",
+			"module": "sap/fe/templates/ObjectPage/ExtendPageDefinition.js",
+			"size": 1370,
+			"required": [
+				"sap/fe/templates/ObjectPage/ObjectPageTemplating.js"
+			]
+		},
+		{
+			"name": "ExtendPageDefinition.js.map",
+			"size": 2029,
+			"isDebug": true
+		},
+		{
+			"name": "ExtendPageDefinition.ts",
+			"size": 3363
+		},
+		{
+			"name": "ExtensionAPI-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/ExtensionAPI.js",
+			"size": 30030,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/ExtensionAPI.js",
+				"sap/fe/core/converters/helpers/ID.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/ui/core/InvisibleMessage.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js"
+			]
+		},
+		{
+			"name": "ExtensionAPI.js",
+			"module": "sap/fe/templates/ObjectPage/ExtensionAPI.js",
+			"size": 3591,
+			"required": [
+				"sap/base/Log.js",
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/ExtensionAPI.js",
+				"sap/fe/core/converters/helpers/ID.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/ui/core/InvisibleMessage.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/message/Message.js"
+			]
+		},
+		{
+			"name": "ExtensionAPI.js.map",
+			"size": 5036,
+			"isDebug": true
+		},
+		{
+			"name": "ExtensionAPI.ts",
+			"size": 7946
+		},
+		{
+			"name": "ObjectPage.view.xml",
+			"module": "sap/fe/templates/ObjectPage/ObjectPage.view.xml",
+			"size": 9970,
+			"required": [
+				"sap/fe/core/controls/CommandExecution.js",
+				"sap/fe/templates/ObjectPage/ObjectPageController.controller.js",
+				"sap/fe/templates/ObjectPage/view/fragments/FooterContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/Section.fragment.xml",
+				"sap/ui/core/Fragment.js",
+				"sap/uxap/ObjectPageLayout.js"
+			],
+			"condRequired": [
+				"sap/fe/macros/fcl/FlexibleColumnLayoutActions.js",
+				"sap/fe/templates/ObjectPage/view/fragments/Actions.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/HeaderContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/Heading.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/HeadingContent.fragment.xml",
+				"sap/m/Breadcrumbs.js",
+				"sap/m/FlexBox.js",
+				"sap/m/HeaderContainer.js",
+				"sap/uxap/ObjectPageDynamicHeaderTitle.js"
+			]
+		},
+		{
+			"name": "ObjectPageController-dbg.controller.js",
+			"module": "sap/fe/templates/ObjectPage/ObjectPageController.controller.js",
+			"size": 238151,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/merge.js",
+				"sap/fe/core/ActionRuntime.js",
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/PageController.js",
+				"sap/fe/core/controllerextensions/BusyLocker.js",
+				"sap/fe/core/controllerextensions/IntentBasedNavigation.js",
+				"sap/fe/core/controllerextensions/InternalIntentBasedNavigation.js",
+				"sap/fe/core/controllerextensions/InternalRouting.js",
+				"sap/fe/core/controllerextensions/MassEdit.js",
+				"sap/fe/core/controllerextensions/MessageHandler.js",
+				"sap/fe/core/controllerextensions/PageReady.js",
+				"sap/fe/core/controllerextensions/Paginator.js",
+				"sap/fe/core/controllerextensions/Placeholder.js",
+				"sap/fe/core/controllerextensions/Share.js",
+				"sap/fe/core/controllerextensions/ViewState.js",
+				"sap/fe/core/controllerextensions/collaboration/ActivitySync.js",
+				"sap/fe/core/controllerextensions/collaboration/Manage.js",
+				"sap/fe/core/controllerextensions/editFlow/draft.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/core/helpers/ModelHelper.js",
+				"sap/fe/macros/CommonHelper.js",
+				"sap/fe/macros/DelegateUtil.js",
+				"sap/fe/macros/table/Utils.js",
+				"sap/fe/navigation/SelectionVariant.js",
+				"sap/fe/templates/ObjectPage/ExtensionAPI.js",
+				"sap/fe/templates/ObjectPage/overrides/IntentBasedNavigation.js",
+				"sap/fe/templates/ObjectPage/overrides/InternalRouting.js",
+				"sap/fe/templates/ObjectPage/overrides/MessageHandler.js",
+				"sap/fe/templates/ObjectPage/overrides/Paginator.js",
+				"sap/fe/templates/ObjectPage/overrides/Share.js",
+				"sap/fe/templates/ObjectPage/overrides/ViewState.js",
+				"sap/fe/templates/TableScroller.js",
+				"sap/m/InstanceManager.js",
+				"sap/m/Link.js",
+				"sap/m/MessageBox.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/mvc/OverrideExecution.js",
+				"sap/ui/model/odata/v4/ODataListBinding.js"
+			]
+		},
+		{
+			"name": "ObjectPageController.controller.js",
+			"module": "sap/fe/templates/ObjectPage/ObjectPageController.controller.js",
+			"size": 29180,
+			"required": [
+				"sap/base/Log.js",
+				"sap/base/util/merge.js",
+				"sap/fe/core/ActionRuntime.js",
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/PageController.js",
+				"sap/fe/core/controllerextensions/BusyLocker.js",
+				"sap/fe/core/controllerextensions/IntentBasedNavigation.js",
+				"sap/fe/core/controllerextensions/InternalIntentBasedNavigation.js",
+				"sap/fe/core/controllerextensions/InternalRouting.js",
+				"sap/fe/core/controllerextensions/MassEdit.js",
+				"sap/fe/core/controllerextensions/MessageHandler.js",
+				"sap/fe/core/controllerextensions/PageReady.js",
+				"sap/fe/core/controllerextensions/Paginator.js",
+				"sap/fe/core/controllerextensions/Placeholder.js",
+				"sap/fe/core/controllerextensions/Share.js",
+				"sap/fe/core/controllerextensions/ViewState.js",
+				"sap/fe/core/controllerextensions/collaboration/ActivitySync.js",
+				"sap/fe/core/controllerextensions/collaboration/Manage.js",
+				"sap/fe/core/controllerextensions/editFlow/draft.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/core/helpers/ModelHelper.js",
+				"sap/fe/macros/CommonHelper.js",
+				"sap/fe/macros/DelegateUtil.js",
+				"sap/fe/macros/table/Utils.js",
+				"sap/fe/navigation/SelectionVariant.js",
+				"sap/fe/templates/ObjectPage/ExtensionAPI.js",
+				"sap/fe/templates/ObjectPage/overrides/IntentBasedNavigation.js",
+				"sap/fe/templates/ObjectPage/overrides/InternalRouting.js",
+				"sap/fe/templates/ObjectPage/overrides/MessageHandler.js",
+				"sap/fe/templates/ObjectPage/overrides/Paginator.js",
+				"sap/fe/templates/ObjectPage/overrides/Share.js",
+				"sap/fe/templates/ObjectPage/overrides/ViewState.js",
+				"sap/fe/templates/TableScroller.js",
+				"sap/m/InstanceManager.js",
+				"sap/m/Link.js",
+				"sap/m/MessageBox.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/mvc/OverrideExecution.js",
+				"sap/ui/model/odata/v4/ODataListBinding.js"
+			]
+		},
+		{
+			"name": "ObjectPageController.controller.js.map",
+			"size": 40405,
+			"isDebug": true
+		},
+		{
+			"name": "ObjectPageController.controller.ts",
+			"size": 61857
+		},
+		{
+			"name": "ObjectPageTemplating-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/ObjectPageTemplating.js",
+			"size": 138053,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/converters/helpers/BindingHelper.js",
+				"sap/fe/core/helpers/BindingToolkit.js",
+				"sap/fe/core/helpers/ModelHelper.js",
+				"sap/fe/core/templating/DataModelPathHelper.js",
+				"sap/fe/macros/CommonHelper.js",
+				"sap/fe/macros/field/FieldTemplating.js",
+				"sap/fe/macros/internal/form/FormTemplating.js",
+				"sap/m/library.js",
+				"sap/ui/base/ManagedObject.js",
+				"sap/ui/model/odata/v4/AnnotationHelper.js"
+			]
+		},
+		{
+			"name": "ObjectPageTemplating.js",
+			"module": "sap/fe/templates/ObjectPage/ObjectPageTemplating.js",
+			"size": 15010,
+			"required": [
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/converters/helpers/BindingHelper.js",
+				"sap/fe/core/helpers/BindingToolkit.js",
+				"sap/fe/core/helpers/ModelHelper.js",
+				"sap/fe/core/templating/DataModelPathHelper.js",
+				"sap/fe/macros/CommonHelper.js",
+				"sap/fe/macros/field/FieldTemplating.js",
+				"sap/fe/macros/internal/form/FormTemplating.js",
+				"sap/m/library.js",
+				"sap/ui/base/ManagedObject.js",
+				"sap/ui/model/odata/v4/AnnotationHelper.js"
+			]
+		},
+		{
+			"name": "ObjectPageTemplating.js.map",
+			"size": 19125,
+			"isDebug": true
+		},
+		{
+			"name": "ObjectPageTemplating.ts",
+			"size": 40161
+		},
+		{
+			"name": "components/DraftHandlerButton-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/components/DraftHandlerButton.js",
+			"size": 20999,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/buildingBlocks/BuildingBlock.js",
+				"sap/fe/core/converters/helpers/BindingHelper.js",
+				"sap/fe/core/helpers/BindingToolkit.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/core/jsx-runtime/Fragment.js",
+				"sap/fe/core/jsx-runtime/jsx.js",
+				"sap/fe/core/jsx-runtime/jsxs.js",
+				"sap/fe/templates/ObjectPage/ObjectPageTemplating.js",
+				"sap/m/Button.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SelectList.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js"
+			]
+		},
+		{
+			"name": "components/DraftHandlerButton.js",
+			"module": "sap/fe/templates/ObjectPage/components/DraftHandlerButton.js",
+			"size": 5017,
+			"required": [
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/core/buildingBlocks/BuildingBlock.js",
+				"sap/fe/core/converters/helpers/BindingHelper.js",
+				"sap/fe/core/helpers/BindingToolkit.js",
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/fe/core/jsx-runtime/Fragment.js",
+				"sap/fe/core/jsx-runtime/jsx.js",
+				"sap/fe/core/jsx-runtime/jsxs.js",
+				"sap/fe/templates/ObjectPage/ObjectPageTemplating.js",
+				"sap/m/Button.js",
+				"sap/m/ResponsivePopover.js",
+				"sap/m/SelectList.js",
+				"sap/ui/core/InvisibleText.js",
+				"sap/ui/core/Item.js"
+			]
+		},
+		{
+			"name": "components/DraftHandlerButton.js.map",
+			"size": 6396,
+			"isDebug": true
+		},
+		{
+			"name": "components/DraftHandlerButton.tsx",
+			"size": 4689
+		},
+		{
+			"name": "controls/StashableHBox-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/controls/StashableHBox.js",
+			"size": 12441,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/m/HBox.js",
+				"sap/ui/core/StashedControlSupport.js"
+			]
+		},
+		{
+			"name": "controls/StashableHBox.js",
+			"module": "sap/fe/templates/ObjectPage/controls/StashableHBox.js",
+			"size": 2876,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/m/HBox.js",
+				"sap/ui/core/StashedControlSupport.js"
+			]
+		},
+		{
+			"name": "controls/StashableHBox.js.map",
+			"size": 4047,
+			"isDebug": true
+		},
+		{
+			"name": "controls/StashableHBox.ts",
+			"size": 2474
+		},
+		{
+			"name": "controls/StashableVBox-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/controls/StashableVBox.js",
+			"size": 2456,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/StashedControlSupport.js"
+			]
+		},
+		{
+			"name": "controls/StashableVBox.js",
+			"module": "sap/fe/templates/ObjectPage/controls/StashableVBox.js",
+			"size": 795,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/StashedControlSupport.js"
+			]
+		},
+		{
+			"name": "controls/StashableVBox.js.map",
+			"size": 1018,
+			"isDebug": true
+		},
+		{
+			"name": "controls/StashableVBox.ts",
+			"size": 436
+		},
+		{
+			"name": "controls/SubSectionBlock-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/controls/SubSectionBlock.js",
+			"size": 9907,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/uxap/BlockBase.js",
+				"sap/uxap/library.js"
+			]
+		},
+		{
+			"name": "controls/SubSectionBlock.js",
+			"module": "sap/fe/templates/ObjectPage/controls/SubSectionBlock.js",
+			"size": 2639,
+			"required": [
+				"sap/fe/core/helpers/ClassSupport.js",
+				"sap/uxap/BlockBase.js",
+				"sap/uxap/library.js"
+			]
+		},
+		{
+			"name": "controls/SubSectionBlock.js.map",
+			"size": 3857,
+			"isDebug": true
+		},
+		{
+			"name": "controls/SubSectionBlock.ts",
+			"size": 1825
+		},
+		{
+			"name": "designtime/FlexBox-dbg.designtime.js",
+			"module": "sap/fe/templates/ObjectPage/designtime/FlexBox.designtime.js",
+			"size": 1357,
+			"isDebug": true,
+			"designtime": true
+		},
+		{
+			"name": "designtime/FlexBox.designtime.js",
+			"module": "sap/fe/templates/ObjectPage/designtime/FlexBox.designtime.js",
+			"size": 328,
+			"designtime": true
+		},
+		{
+			"name": "designtime/FlexBox.designtime.js.map",
+			"size": 360,
+			"isDebug": true,
+			"designtime": true
+		},
+		{
+			"name": "designtime/FlexBox.designtime.ts",
+			"size": 202,
+			"designtime": true
+		},
+		{
+			"name": "designtime/StashableHBox-dbg.designtime.js",
+			"module": "sap/fe/templates/ObjectPage/designtime/StashableHBox.designtime.js",
+			"size": 4593,
+			"isDebug": true,
+			"designtime": true,
+			"required": [
+				"sap/ui/core/Core.js"
+			]
+		},
+		{
+			"name": "designtime/StashableHBox.designtime.js",
+			"module": "sap/fe/templates/ObjectPage/designtime/StashableHBox.designtime.js",
+			"size": 856,
+			"designtime": true,
+			"required": [
+				"sap/ui/core/Core.js"
+			]
+		},
+		{
+			"name": "designtime/StashableHBox.designtime.js.map",
+			"size": 913,
+			"isDebug": true,
+			"designtime": true
+		},
+		{
+			"name": "designtime/StashableHBox.designtime.ts",
+			"size": 1015,
+			"designtime": true
+		},
+		{
+			"name": "designtime/StashableVBox-dbg.designtime.js",
+			"module": "sap/fe/templates/ObjectPage/designtime/StashableVBox.designtime.js",
+			"size": 3288,
+			"isDebug": true,
+			"designtime": true,
+			"required": [
+				"sap/ui/core/Core.js"
+			]
+		},
+		{
+			"name": "designtime/StashableVBox.designtime.js",
+			"module": "sap/fe/templates/ObjectPage/designtime/StashableVBox.designtime.js",
+			"size": 725,
+			"designtime": true,
+			"required": [
+				"sap/ui/core/Core.js"
+			]
+		},
+		{
+			"name": "designtime/StashableVBox.designtime.js.map",
+			"size": 690,
+			"isDebug": true,
+			"designtime": true
+		},
+		{
+			"name": "designtime/StashableVBox.designtime.ts",
+			"size": 724,
+			"designtime": true
+		},
+		{
+			"name": "flexibility/ScrollableHeaderContainer.flexibility-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/flexibility/ScrollableHeaderContainer.flexibility.js",
+			"size": 3276,
+			"isDebug": true,
+			"required": [
+				"sap/ui/fl/changeHandler/MoveControls.js"
+			]
+		},
+		{
+			"name": "flexibility/ScrollableHeaderContainer.flexibility.js",
+			"module": "sap/fe/templates/ObjectPage/flexibility/ScrollableHeaderContainer.flexibility.js",
+			"size": 513,
+			"required": [
+				"sap/ui/fl/changeHandler/MoveControls.js"
+			]
+		},
+		{
+			"name": "flexibility/ScrollableHeaderContainer.flexibility.js.map",
+			"size": 633,
+			"isDebug": true
+		},
+		{
+			"name": "flexibility/ScrollableHeaderContainer.flexibility.ts",
+			"size": 856
+		},
+		{
+			"name": "flexibility/StashableHBox.flexibility-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/flexibility/StashableHBox.flexibility.js",
+			"size": 1838,
+			"isDebug": true,
+			"required": [
+				"sap/ui/fl/changeHandler/BaseRename.js"
+			]
+		},
+		{
+			"name": "flexibility/StashableHBox.flexibility.js",
+			"module": "sap/fe/templates/ObjectPage/flexibility/StashableHBox.flexibility.js",
+			"size": 459,
+			"required": [
+				"sap/ui/fl/changeHandler/BaseRename.js"
+			]
+		},
+		{
+			"name": "flexibility/StashableHBox.flexibility.js.map",
+			"size": 501,
+			"isDebug": true
+		},
+		{
+			"name": "flexibility/StashableHBox.flexibility.ts",
+			"size": 356
+		},
+		{
+			"name": "flexibility/StashableVBox.flexibility-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/flexibility/StashableVBox.flexibility.js",
+			"size": 1078,
+			"isDebug": true
+		},
+		{
+			"name": "flexibility/StashableVBox.flexibility.js",
+			"module": "sap/fe/templates/ObjectPage/flexibility/StashableVBox.flexibility.js",
+			"size": 310
+		},
+		{
+			"name": "flexibility/StashableVBox.flexibility.js.map",
+			"size": 328,
+			"isDebug": true
+		},
+		{
+			"name": "flexibility/StashableVBox.flexibility.ts",
+			"size": 159
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/fe/templates/ObjectPage/manifest.json",
+			"size": 2628
+		},
+		{
+			"name": "overrides/IntentBasedNavigation-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/IntentBasedNavigation.js",
+			"size": 12081,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/navigation/SelectionVariant.js"
+			]
+		},
+		{
+			"name": "overrides/IntentBasedNavigation.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/IntentBasedNavigation.js",
+			"size": 1307,
+			"required": [
+				"sap/fe/core/CommonUtils.js",
+				"sap/fe/navigation/SelectionVariant.js"
+			]
+		},
+		{
+			"name": "overrides/IntentBasedNavigation.js.map",
+			"size": 2050,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/IntentBasedNavigation.ts",
+			"size": 3472
+		},
+		{
+			"name": "overrides/InternalRouting-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/InternalRouting.js",
+			"size": 6028,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/InternalRouting.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/InternalRouting.js",
+			"size": 842
+		},
+		{
+			"name": "overrides/InternalRouting.js.map",
+			"size": 1191,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/InternalRouting.ts",
+			"size": 1636
+		},
+		{
+			"name": "overrides/MessageHandler-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/MessageHandler.js",
+			"size": 2542,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/MessageHandler.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/MessageHandler.js",
+			"size": 523
+		},
+		{
+			"name": "overrides/MessageHandler.js.map",
+			"size": 477,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/MessageHandler.ts",
+			"size": 706
+		},
+		{
+			"name": "overrides/Paginator-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/Paginator.js",
+			"size": 3739,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/Paginator.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/Paginator.js",
+			"size": 484
+		},
+		{
+			"name": "overrides/Paginator.js.map",
+			"size": 781,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/Paginator.ts",
+			"size": 927
+		},
+		{
+			"name": "overrides/Share-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/Share.js",
+			"size": 50744,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/fe/core/helpers/ModelHelper.js",
+				"sap/fe/core/helpers/SemanticKeyHelper.js",
+				"sap/ui/core/routing/HashChanger.js",
+				"sap/ui/model/Filter.js",
+				"sap/ui/model/FilterOperator.js"
+			]
+		},
+		{
+			"name": "overrides/Share.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/Share.js",
+			"size": 5297,
+			"required": [
+				"sap/base/Log.js",
+				"sap/fe/core/helpers/ModelHelper.js",
+				"sap/fe/core/helpers/SemanticKeyHelper.js",
+				"sap/ui/core/routing/HashChanger.js",
+				"sap/ui/model/Filter.js",
+				"sap/ui/model/FilterOperator.js"
+			]
+		},
+		{
+			"name": "overrides/Share.js.map",
+			"size": 8325,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/Share.ts",
+			"size": 13335
+		},
+		{
+			"name": "overrides/ViewState-dbg.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/ViewState.js",
+			"size": 9804,
+			"isDebug": true,
+			"required": [
+				"sap/fe/core/helpers/KeepAliveHelper.js",
+				"sap/fe/core/library.js"
+			]
+		},
+		{
+			"name": "overrides/ViewState.js",
+			"module": "sap/fe/templates/ObjectPage/overrides/ViewState.js",
+			"size": 1212,
+			"required": [
+				"sap/fe/core/helpers/KeepAliveHelper.js",
+				"sap/fe/core/library.js"
+			]
+		},
+		{
+			"name": "overrides/ViewState.js.map",
+			"size": 1925,
+			"isDebug": true
+		},
+		{
+			"name": "overrides/ViewState.ts",
+			"size": 2507
+		},
+		{
+			"name": "resources.json",
+			"size": 31943
+		},
+		{
+			"name": "view/fragments/Actions.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/Actions.fragment.xml",
+			"size": 9296,
+			"required": [
+				"sap/fe/templates/ObjectPage/view/fragments/RelatedApps.fragment.xml",
+				"sap/ui/core/Fragment.js"
+			],
+			"condRequired": [
+				"sap/fe/core/helpers/FPMHelper.js",
+				"sap/fe/templates/ObjectPage/components/DraftHandlerButton.js",
+				"sap/fe/templates/ObjectPage/view/fragments/CollaborationDraft.fragment.xml",
+				"sap/m/Button.js",
+				"sap/m/Menu.js",
+				"sap/m/MenuButton.js",
+				"sap/m/MenuItem.js",
+				"sap/m/OverflowToolbarLayoutData.js",
+				"sap/m/ToolbarSpacer.js"
+			]
+		},
+		{
+			"name": "view/fragments/Chart.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/Chart.fragment.xml",
+			"size": 643,
+			"required": [
+				"sap/fe/templates/ObjectPage/view/fragments/MacroChart.fragment.xml",
+				"sap/m/MessageStrip.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Fragment.js"
+			]
+		},
+		{
+			"name": "view/fragments/CollaborationDraft.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/CollaborationDraft.fragment.xml",
+			"size": 1542,
+			"condRequired": [
+				"sap/m/Avatar.js",
+				"sap/m/HBox.js"
+			]
+		},
+		{
+			"name": "view/fragments/EditableHeaderFacet.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/EditableHeaderFacet.fragment.xml",
+			"size": 7844,
+			"required": [
+				"sap/m/Label.js",
+				"sap/ui/core/Title.js",
+				"sap/ui/layout/form/ColumnElementData.js",
+				"sap/ui/layout/form/ColumnLayout.js",
+				"sap/ui/layout/form/Form.js",
+				"sap/ui/layout/form/FormContainer.js",
+				"sap/ui/layout/form/FormElement.js"
+			]
+		},
+		{
+			"name": "view/fragments/FooterContent.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/FooterContent.fragment.xml",
+			"size": 5834,
+			"required": [
+				"sap/fe/macros/messages/MessageButton.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/ui/core/InvisibleText.js"
+			],
+			"condRequired": [
+				"sap/fe/core/helpers/FPMHelper.js",
+				"sap/m/Button.js",
+				"sap/m/DraftIndicator.js",
+				"sap/m/OverflowToolbarLayoutData.js"
+			]
+		},
+		{
+			"name": "view/fragments/FormActions.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/FormActions.fragment.xml",
+			"size": 628,
+			"condRequired": [
+				"sap/fe/macros/form/FormActionButtons.fragment.xml"
+			]
+		},
+		{
+			"name": "view/fragments/HeaderContent.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeaderContent.fragment.xml",
+			"size": 3014,
+			"condRequired": [
+				"sap/fe/templates/ObjectPage/controls/StashableVBox.js",
+				"sap/fe/templates/ObjectPage/view/fragments/HeaderFacet.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/HeaderFacetCustomContainer.fragment.xml",
+				"sap/m/Avatar.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeaderDataPoint.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeaderDataPoint.fragment.xml",
+			"size": 1218,
+			"required": [
+				"sap/fe/macros/internal/DataPoint.js",
+				"sap/fe/templates/ObjectPage/view/fragments/HeaderDataPointTitle.fragment.xml",
+				"sap/m/VBox.js",
+				"sap/ui/core/Fragment.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeaderDataPointTitle.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeaderDataPointTitle.fragment.xml",
+			"size": 3416,
+			"condRequired": [
+				"sap/m/Link.js",
+				"sap/m/Title.js",
+				"sap/ui/core/InvisibleText.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeaderFacet.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeaderFacet.fragment.xml",
+			"size": 4401,
+			"required": [
+				"sap/fe/templates/ObjectPage/controls/StashableHBox.js"
+			],
+			"condRequired": [
+				"sap/fe/templates/ObjectPage/view/fragments/HeaderDataPoint.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/ObjectPageHeaderAddress.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/ObjectPageHeaderContact.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/ObjectPageHeaderForm.fragment.xml",
+				"sap/m/Text.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeaderFacetCustomContainer.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeaderFacetCustomContainer.fragment.xml",
+			"size": 1820,
+			"required": [
+				"sap/fe/templates/ObjectPage/controls/StashableHBox.js",
+				"sap/m/VBox.js"
+			],
+			"condRequired": [
+				"sap/m/Text.js",
+				"sap/m/Title.js"
+			]
+		},
+		{
+			"name": "view/fragments/Heading.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/Heading.fragment.xml",
+			"size": 1404,
+			"required": [
+				"sap/fe/templates/ObjectPage/view/fragments/HeadingAvatar.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/HeadingTitle.fragment.xml",
+				"sap/m/FlexBox.js",
+				"sap/ui/core/Fragment.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeadingAvatar.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeadingAvatar.fragment.xml",
+			"size": 514,
+			"condRequired": [
+				"sap/m/Avatar.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeadingContent.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeadingContent.fragment.xml",
+			"size": 1158,
+			"required": [
+				"sap/m/FlexBox.js",
+				"sap/m/MessageStrip.js"
+			],
+			"condRequired": [
+				"sap/m/Label.js"
+			]
+		},
+		{
+			"name": "view/fragments/HeadingTitle.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/HeadingTitle.fragment.xml",
+			"size": 1084,
+			"condRequired": [
+				"sap/m/Title.js"
+			]
+		},
+		{
+			"name": "view/fragments/MacroChart.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/MacroChart.fragment.xml",
+			"size": 1273
+		},
+		{
+			"name": "view/fragments/ObjectPageHeaderAddress.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/ObjectPageHeaderAddress.fragment.xml",
+			"size": 859,
+			"required": [
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/VBox.js"
+			]
+		},
+		{
+			"name": "view/fragments/ObjectPageHeaderContact.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/ObjectPageHeaderContact.fragment.xml",
+			"size": 1257,
+			"required": [
+				"sap/m/VBox.js"
+			],
+			"condRequired": [
+				"sap/m/Title.js"
+			]
+		},
+		{
+			"name": "view/fragments/ObjectPageHeaderForm.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/ObjectPageHeaderForm.fragment.xml",
+			"size": 3807,
+			"required": [
+				"sap/m/VBox.js"
+			],
+			"condRequired": [
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/Label.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/ui/layout/HorizontalLayout.js"
+			]
+		},
+		{
+			"name": "view/fragments/RelatedApps.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/RelatedApps.fragment.xml",
+			"size": 766,
+			"required": [
+				"sap/m/Menu.js",
+				"sap/m/MenuButton.js",
+				"sap/m/MenuItem.js"
+			]
+		},
+		{
+			"name": "view/fragments/Section.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/Section.fragment.xml",
+			"size": 4462,
+			"condRequired": [
+				"sap/fe/templates/ObjectPage/view/fragments/EditableHeaderFacet.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionContentLazyLoader.fragment.xml",
+				"sap/ui/core/CustomData.js",
+				"sap/uxap/ObjectPageSection.js",
+				"sap/uxap/ObjectPageSubSection.js"
+			]
+		},
+		{
+			"name": "view/fragments/SectionContent.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SectionContent.fragment.xml",
+			"size": 7397,
+			"condRequired": [
+				"sap/fe/templates/ObjectPage/controls/SubSectionBlock.js",
+				"sap/fe/templates/ObjectPage/view/fragments/FormActions.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionCustomSection.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionFormContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionMoreFormContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionPresentationVisualization.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SideContentCustomContainer.fragment.xml",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/ui/layout/DynamicSideContent.js"
+			]
+		},
+		{
+			"name": "view/fragments/SectionContentLazyLoader.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SectionContentLazyLoader.fragment.xml",
+			"size": 7867,
+			"condRequired": [
+				"sap/fe/templates/ObjectPage/controls/SubSectionBlock.js",
+				"sap/fe/templates/ObjectPage/view/fragments/FormActions.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionCustomSection.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionFormContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionMoreFormContent.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SectionPresentationVisualization.fragment.xml",
+				"sap/fe/templates/ObjectPage/view/fragments/SideContentCustomContainer.fragment.xml",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/ui/layout/DynamicSideContent.js",
+				"sap/uxap/ObjectPageLazyLoader.js"
+			]
+		},
+		{
+			"name": "view/fragments/SectionCustomSection.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SectionCustomSection.fragment.xml",
+			"size": 384
+		},
+		{
+			"name": "view/fragments/SectionFormContent.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SectionFormContent.fragment.xml",
+			"size": 726
+		},
+		{
+			"name": "view/fragments/SectionMoreFormContent.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SectionMoreFormContent.fragment.xml",
+			"size": 803
+		},
+		{
+			"name": "view/fragments/SectionPresentationVisualization.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SectionPresentationVisualization.fragment.xml",
+			"size": 699
+		},
+		{
+			"name": "view/fragments/SideContentCustomContainer.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/SideContentCustomContainer.fragment.xml",
+			"size": 621,
+			"condRequired": [
+				"sap/m/HBox.js"
+			]
+		},
+		{
+			"name": "view/fragments/Table.fragment.xml",
+			"module": "sap/fe/templates/ObjectPage/view/fragments/Table.fragment.xml",
+			"size": 1318
+		}
+	]
+}

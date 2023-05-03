@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ * 
+ * (c) Copyright 2012-2014 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/apf/ui/representations/utils/displayOptionHandler","sap/apf/utils/utils","sap/apf/core/metadataProperty"],function(t,e,a){"use strict";sap.apf.ui.representations.utils.PaginationDisplayOptionHandler=function(){this.oKeyTextForProperties={};this.oDisplayValueForProperties={}};sap.apf.ui.representations.utils.PaginationDisplayOptionHandler.prototype.createDisplayValueLookupForPaginatedFilter=function(t,e,a){this.oKeyTextForProperties[t]=e;if(a){this.oDisplayValueForProperties[t]=a}};sap.apf.ui.representations.utils.PaginationDisplayOptionHandler.prototype.getDisplayNameForPaginatedFilter=function(t,e,a,i,r){var o=t,s;var p=new sap.apf.core.MetadataProperty(r.getPropertyMetadata(a));if(this.oDisplayValueForProperties[t]){o=this.oDisplayValueForProperties[t]}if(e&&e.labelDisplayOption){if(e.labelDisplayOption===sap.apf.core.constants.representationMetadata.labelDisplayOptions.TEXT&&this.oKeyTextForProperties[t]){return this.oKeyTextForProperties[t]}else if(e.labelDisplayOption===sap.apf.core.constants.representationMetadata.labelDisplayOptions.KEY_AND_TEXT&&this.oKeyTextForProperties[t]){s={key:sap.apf.utils.convertToExternalFormat(o,p),text:this.oKeyTextForProperties[t]};return i.getFormattedValueForTextProperty(a,s)}}return sap.apf.utils.convertToExternalFormat(o,p)}});
+//# sourceMappingURL=paginationDisplayOptionHandler.js.map

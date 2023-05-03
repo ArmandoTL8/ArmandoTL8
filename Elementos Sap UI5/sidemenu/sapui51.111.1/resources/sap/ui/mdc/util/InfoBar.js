@@ -1,0 +1,7 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2023 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/ui/core/Control","sap/m/OverflowToolbar","sap/ui/mdc/util/InfoBarRenderer","sap/m/Text","sap/ui/core/InvisibleText","sap/m/Label"],function(t,e,i,s,o,n){"use strict";var r=t.extend("sap.ui.mdc.util.InfoBar",{metadata:{properties:{infoText:{type:"string"}},aggregations:{_toolbar:{type:"sap.m.Toolbar",multiple:false,visibility:"hidden"}},events:{press:{parameters:{srcControl:{type:"sap.ui.core.Control"}}}}},renderer:i});r.prototype.init=function(){this.setVisible(!!this.getInfoText());this.oText=new s({text:this.getInfoText(),wrapping:false});this.oInvisibleText=new o({text:this.getInfoText()}).toStatic();var t=new e(this.getId()+"--bar",{design:"Info",active:true,content:[this.oText]});t.attachPress(function(t){this.firePress({srcControl:t})}.bind(this));this.setAggregation("_toolbar",t)};r.prototype.setInfoText=function(t){this.setProperty("infoText",t);this.setVisible(!!t);if(this.oText&&this.oInvisibleText){this.oText.setText(t);this.oInvisibleText.setText(t)}return this};r.prototype.getACCTextId=function(){return this.oInvisibleText.getId()};r.prototype.exit=function(){if(this.oInvisibleText){this.oInvisibleText.destroy();this.oInvisibleText=null}if(this.oText){this.oText.destroy();this.oText=null}};return r});
+//# sourceMappingURL=InfoBar.js.map

@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ *
+ * (c) Copyright 2012-2018 SAP SE. All rights reserved
+ */
+sap.ui.define(["sap/apf/utils/parseTextPropertyFile","sap/apf/utils/hashtable","sap/apf/utils/utils"],function(e,t,n){"use strict";var r=function(r){var i=r.instances.messageHandler;var a={};this.initApplicationTexts=function(n,r){var s=a[n]||new t(i);if(r===""||r===null){a[n]=s;return}var u=e(r,{instances:{messageHandler:i}});u.TextElements.forEach(function(e){if(e.TextElement){s.setItem(e.TextElement,e)}});a[n]=s};this.createTextFileOfApplication=function(e){if(!a[e]){return""}var t=n.renderHeaderOfTextPropertyFile(e,i);return t+n.renderTextEntries(a[e],i)};this.getTextElements=function(e){if(!a[e]){return[]}var t=[];a[e].each(function(e,n){t.push(n)});return t};this.addText=function(e){if(!e.TextElement){e.TextElement=n.createPseudoGuid(32)}var r=a[e.Application]||new t(i);r.setItem(e.TextElement,e);a[e.Application]=r;return e.TextElement};this.removeText=function(e){var n=e.application;var r=e.inputParameters[0].value;var s=a[n]||new t(i);if(s.hasItem(r)){s.removeItem(r)}}};sap.apf.utils.ProxyTextHandlerForLocalTexts=r;return r},true);
+//# sourceMappingURL=proxyTextHandlerForLocalTexts.js.map

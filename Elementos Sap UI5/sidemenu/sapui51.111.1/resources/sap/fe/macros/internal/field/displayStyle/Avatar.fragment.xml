@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:control="sap.fe.core.controls"
+	template:require="{
+		ID: 'sap/fe/core/helpers/StableIdHelper'
+	 }"
+>
+	<control:FormElementWrapper visible="{this>avatarVisible}">
+		<Avatar
+			id="{= ${this>_flexId} || (${this>idPrefix} ? ID.generate([${this>idPrefix}, 'Field-content']) : undefined) }"
+			src="{this>avatarSrc}"
+			displaySize="S"
+			class="sapUiSmallMarginEnd"
+			displayShape="Square"
+		/>
+	</control:FormElementWrapper>
+</core:FragmentDefinition>

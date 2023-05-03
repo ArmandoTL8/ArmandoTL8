@@ -1,0 +1,1 @@
+{"version":3,"file":"NavigationCommandType.js","names":["sap","ui","define","NavigationCommandType","HierarchyNavigation","CellClick","ContextMenuCmd","RowRequest","ColumnRequest"],"sources":["NavigationCommandType-dbg.js"],"mappings":";;;;;AAMAA,IAAIC,GAAGC,OACL,yCACA,GACA,WACE,aAQA,IAAIC,EAAwB,CAK1BC,oBAAqB,sBAKrBC,UAAW,YAKXC,eAAgB,iBAKhBC,WAAY,aAKZC,cAAe,iBAEjB,OAAOL,CACT"}

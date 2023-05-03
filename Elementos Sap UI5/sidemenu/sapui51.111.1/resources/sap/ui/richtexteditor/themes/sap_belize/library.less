@@ -1,0 +1,47 @@
+/* NOTE: This file was generated as an optimized version of "library.source.less" for the Theme Designer. */
+
+/*!
+ * SAPUI5
+ * (c) Copyright 2009-2023 SAP SE. All rights reserved.
+ */
+
+@import "../base/library.less";
+@import "../../../../../../Base/baseLib/sap_belize/base.less"; /* ORIGINAL IMPORT PATH: "../../../../../sap/ui/core/themes/sap_belize/base.less" */
+
+@import "../../../../../sap/ui/core/themes/sap_belize/global.less";
+
+/* START "./RichTextEditor.less" */
+/* ==================================================== */
+/* CSS for control sap.ui.richtexteditor.RichTextEditor */
+/* Belize theme                                        */
+/* ==================================================== */
+
+/*RichTextEditor with Custom toolbar*/
+.sapUiRTE.sapUiRTEWithCustomToolbar {
+	--_sap_ui_richtexteditor__toolbar_height: 3rem;
+}
+
+.sapUiRTE.sapUiRTEWithCustomToolbar .sapUiRTECustomToolbar {
+
+	.sapMBarChild ~ .sapMBarChild {
+		margin-right: 0.25rem;
+		margin-left: 0;
+	}
+
+	.sapMBarChild:first-child {
+		margin-right: 0.25rem;
+	}
+
+	.sapMSB .sapMBtn:not(.sapMSBArrow) .sapMBtnInner.sapMBtnIconFirst .sapMBtnIcon {
+		padding-right: 0.375rem;
+	}
+}
+
+.sapUiSizeCompact {
+	.sapUiRTE.sapUiRTEWithCustomToolbar .sapUiRTECustomToolbar {
+		.sapMBtnBase.sapMSBText .sapMBtnFocusDiv {
+			right: 0.25rem;
+		}
+	}
+}
+/* END "./RichTextEditor.less" */

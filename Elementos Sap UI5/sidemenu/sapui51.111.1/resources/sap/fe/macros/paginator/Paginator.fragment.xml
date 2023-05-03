@@ -1,0 +1,32 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:uxap="sap.uxap"
+	template:require="{
+		ID: 'sap/fe/core/helpers/StableIdHelper'
+	}"
+>
+	<HBox displayInline="true" id="{this>id}" visible="{=${paginator>/navUpEnabled} || ${paginator>/navDownEnabled} }">
+		<uxap:ObjectPageHeaderActionButton
+			icon="sap-icon://navigation-up-arrow"
+			visible="{= ${paginator>/navUpEnabled} || ${paginator>/navDownEnabled} }"
+			enabled="{paginator>/navUpEnabled}"
+			tooltip="{sap.fe.i18n>T_PAGINATOR_CONTROL_PAGINATOR_TOOLTIP_UP}"
+			press=".paginator.updateCurrentContext(-1)"
+			type="Transparent"
+			importance="High"
+			id="{= ID.generate([${this>id}, 'previousItem']) }"
+		/>
+		<uxap:ObjectPageHeaderActionButton
+			icon="sap-icon://navigation-down-arrow"
+			visible="{= ${paginator>/navUpEnabled} || ${paginator>/navDownEnabled} }"
+			enabled="{paginator>/navDownEnabled}"
+			tooltip="{sap.fe.i18n>T_PAGINATOR_CONTROL_PAGINATOR_TOOLTIP_DOWN}"
+			press=".paginator.updateCurrentContext(1)"
+			type="Transparent"
+			importance="High"
+			id="{= ID.generate([${this>id}, 'nextItem']) }"
+		/>
+	</HBox>
+</core:FragmentDefinition>

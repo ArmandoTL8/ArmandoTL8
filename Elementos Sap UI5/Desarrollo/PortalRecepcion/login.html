@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de inicio de sesión</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <style>
+    .centrado {
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <header style="text-align: center;">
+    <img src="portalprovgif.gif" alt="Imagen del título" style="width: 32%; margin: 15px; margin-bottom: 40px;">
+  </header>
+  <div class="contenedor" style="width: 55vw;height:  29vw;">
+    <div style="display: flex;">
+      <form style="flex: 1;">
+        <h1 style="text-align: center; font-size: 36px; font-weight: bold; color: white;">Portal Proveedores</h1>
+        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+          <img src="logopolgif.gif" alt="Imagen antes del campo de usuario" style="width: 130px; height: 100px; margin-top: -100px; margin-bottom: 30px" class="centrado">
+          <label for="usuario">Usuario:</label>
+          <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario" required>
+  
+          <label for="contraseña">Contraseña:</label>
+          <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" required>
+  
+          <div style="display: flex; flex-direction: column; align-items: flex-start; margin-top: 5px; margin-bottom: 10px;">
+            <div style="display: flex; align-items: center;">
+              <input type="checkbox" id="recordar" name="recordar">
+              <label for="recordar" style="text-align: left; margin-left: 5px; font-size: 14px; margin-top: 5px;">Recordar sesión</label>
+            </div>
+  
+            <a href="forgotpass.html" style="text-align: left; font-size: 14px; color: #0070F2; margin: 10px;">Forgot Password?</a>
+          </div>
+  
+          <button type="submit">Iniciar Sesión</button>
+        </div>
+      </form>
+      <div style="flex: 1; display: flex; justify-content: flex-end;">
+        <img src="poliolesfondoimg.png" style="width: 100%; margin-bottom: 15px;" alt="Imagen a la derecha del formulario">
+      </div>
+    </div>   
+  </div>
+  <footer style="display: flex; justify-content: space-between; align-items: center; background-color: inherit; padding: 10px;">
+    <div>
+      <img src="logowise.png" alt="Wise Technology Services" style="width: 60px;">
+      <span style="font-size: 11px; margin-left: 10px;">Powered by Wise Technology Services</span>
+    </div>
+        <div>
+          <a href="#" style="margin-right: 20px; font-size: 13px;">Copyright</a>
+          <a href="#" style="margin-right: 20px; font-size: 13px;">Help</a>
+          <a href="#" style="margin-right: 20px; font-size: 13px;">Privacidad</a>
+        </div>
+      </footer>
+  </body>
+</html>

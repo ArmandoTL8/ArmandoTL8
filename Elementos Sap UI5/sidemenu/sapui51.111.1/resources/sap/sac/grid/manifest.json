@@ -1,0 +1,93 @@
+{
+  "_version": "1.21.0",
+  "sap.app": {
+    "id": "sap.sac.grid",
+    "type": "library",
+    "embeds": [],
+    "i18n": {
+      "bundleUrl": "messagebundle.properties",
+      "supportedLocales": [
+        ""
+      ]
+    },
+    "applicationVersion": {
+      "version": "1.111.0"
+    },
+    "title": "{{title}}",
+    "description": "{{sap.sac.grid}}",
+    "ach": "LOD-ANA-TAB",
+    "resources": "resources.json",
+    "offline": false,
+    "openSourceComponents": [
+      {
+        "name": "React",
+        "packagedWithMySelf": true,
+        "version": "v16.13.1"
+      }
+    ]
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+    "supportedThemes": [
+      "base",
+      "sap_belize",
+      "sap_belize_hcb",
+      "sap_belize_hcw",
+      "sap_belize_plus",
+      "sap_fiori_3",
+      "sap_fiori_3_dark",
+      "sap_fiori_3_hcb",
+      "sap_fiori_3_hcw",
+      "sap_hcb",
+      "sap_horizon",
+      "sap_horizon_dark",
+      "sap_horizon_hcb",
+      "sap_horizon_hcw"
+    ]
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.111",
+      "libs": {
+        "sap.m": {
+          "minVersion": "1.111.0"
+        },
+        "sap.ui.core": {
+          "minVersion": "1.111.0"
+        }
+      }
+    },
+    "contentDensities": {
+      "cozy": false,
+      "compact": true
+    },
+    "library": {
+      "i18n": {
+        "bundleUrl": "messagebundle.properties",
+        "supportedLocales": [
+          ""
+        ]
+      },
+      "content": {
+        "controls": [
+          "sap.sac.grid.Grid"
+        ],
+        "elements": [
+          "sap.sac.grid.Cell",
+          "sap.sac.grid.SemanticStyle"
+        ],
+        "types": [
+          "sap.sac.grid.AlertLevel",
+          "sap.sac.grid.CellType",
+          "sap.sac.grid.Format"
+        ],
+        "interfaces": []
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ovp/cards/v4/charts/analytical/Component.js",
+			"size": 1569,
+			"isDebug": true,
+			"required": [
+				"sap/ovp/cards/jUtils.js",
+				"sap/ovp/cards/v4/charts/VizAnnotationManager.js",
+				"sap/ovp/cards/v4/generic/Component.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ovp/cards/v4/charts/analytical/Component.js",
+			"size": 878,
+			"required": [
+				"sap/ovp/cards/jUtils.js",
+				"sap/ovp/cards/v4/charts/VizAnnotationManager.js",
+				"sap/ovp/cards/v4/generic/Component.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 866,
+			"isDebug": true
+		},
+		{
+			"name": "analyticalChart-dbg.controller.js",
+			"module": "sap/ovp/cards/v4/charts/analytical/analyticalChart.controller.js",
+			"size": 23501,
+			"isDebug": true,
+			"required": [
+				"sap/base/util/each.js",
+				"sap/m/MessageBox.js",
+				"sap/ovp/app/OVPLogger.js",
+				"sap/ovp/app/resources.js",
+				"sap/ovp/cards/Filterhelper.js",
+				"sap/ovp/cards/Integration/IntegrationCard.js",
+				"sap/ovp/cards/OVPCardAsAPIUtils.js",
+				"sap/ovp/cards/v4/charts/Utils.js",
+				"sap/ovp/cards/v4/charts/VizAnnotationManager.js",
+				"sap/ovp/cards/v4/generic/Card.controller.js",
+				"sap/ovp/filter/FilterUtils.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/dom/units/Rem.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/viz/ui5/data/FlattenedDataset.js"
+			]
+		},
+		{
+			"name": "analyticalChart.controller.js",
+			"module": "sap/ovp/cards/v4/charts/analytical/analyticalChart.controller.js",
+			"size": 9326,
+			"required": [
+				"sap/base/util/each.js",
+				"sap/m/MessageBox.js",
+				"sap/ovp/app/OVPLogger.js",
+				"sap/ovp/app/resources.js",
+				"sap/ovp/cards/Filterhelper.js",
+				"sap/ovp/cards/Integration/IntegrationCard.js",
+				"sap/ovp/cards/OVPCardAsAPIUtils.js",
+				"sap/ovp/cards/v4/charts/Utils.js",
+				"sap/ovp/cards/v4/charts/VizAnnotationManager.js",
+				"sap/ovp/cards/v4/generic/Card.controller.js",
+				"sap/ovp/filter/FilterUtils.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/dom/units/Rem.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/viz/ui5/data/FlattenedDataset.js"
+			]
+		},
+		{
+			"name": "analyticalChart.controller.js.map",
+			"size": 12353,
+			"isDebug": true
+		},
+		{
+			"name": "analyticalChart.fragment.xml",
+			"module": "sap/ovp/cards/v4/charts/analytical/analyticalChart.fragment.xml",
+			"size": 6196,
+			"required": [
+				"sap/m/IllustratedMessage.js",
+				"sap/m/VBox.js",
+				"sap/ovp/ui/CustomData.js"
+			],
+			"condRequired": [
+				"sap/m/Text.js",
+				"sap/ovp/cards/v4/charts/OVPVizDataHandler.js",
+				"sap/ui/core/Element.js",
+				"sap/viz/ui5/controls/VizFrame.js",
+				"sap/viz/ui5/data/FlattenedDataset.js"
+			]
+		},
+		{
+			"name": "resources.json",
+			"size": 2925
+		}
+	]
+}

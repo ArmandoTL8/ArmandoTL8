@@ -1,0 +1,8 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+		(c) Copyright 2009-2015 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["./BaseRectangle","./BasePath","sap/gantt/misc/Utility","sap/gantt/library"],function(t,e,i,h){"use strict";var a=h.simple.shapes.ShapeAlignment;var r=t.extend("sap.gantt.simple.BaseDiamond",{metadata:{library:"sap.gantt",properties:{width:{type:"sap.gantt.SVGLength",defaultValue:"auto"},height:{type:"sap.gantt.SVGLength",defaultValue:"auto"}}},renderer:{apiVersion:2}});r.prototype.getD=function(){var t=this.getX(),e=this.getWidth(),i=this.getHeight(),h=this.getRowYCenter(),r=1;var s=function(){var t="";for(var e=0;e<arguments.length;e++){t+=arguments[e]+" "}return t};if(this._iBaseRowHeight!=undefined){if(this.getAlignShape()==a.Top){h=this.getRowYCenter()-this._iBaseRowHeight/2+i/2+r}else if(this.getAlignShape()==a.Bottom){h=this.getRowYCenter()+this._iBaseRowHeight/2-i/2-r}h=parseInt(h,10)}return s("M",t,h-i/2,"l",e/2,i/2,"l",-e/2,i/2,"l",-e/2,-i/2)+"Z"};r.prototype.getWidth=function(){var t=this.getProperty("width");if(t==="auto"){return parseFloat(this._iBaseRowHeight*.625,10)}if(t==="inherit"){return this._iBaseRowHeight}return t};r.prototype.renderElement=e.prototype.renderElement;r.prototype.getShapeAnchors=function(){var t=i.getShapeBias(this);return{head:{x:this.getX()-this.getWidth()/2+t.x,y:this.getY()+this.getHeight()/2+t.y,dx:this.getWidth()/2,dy:this.getHeight()/2},tail:{x:this.getX()+this.getWidth()/2+t.x,y:this.getY()+this.getHeight()/2+t.y,dx:this.getWidth()/2,dy:this.getHeight()/2}}};r.prototype.renderElement=function(){if(this._isValid()){e.prototype.renderElement.apply(this,arguments)}};return r},true);
+//# sourceMappingURL=BaseDiamond.js.map

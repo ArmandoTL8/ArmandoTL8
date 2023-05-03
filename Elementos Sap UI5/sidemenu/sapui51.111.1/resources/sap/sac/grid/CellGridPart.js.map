@@ -1,0 +1,1 @@
+{"version":3,"file":"CellGridPart.js","names":["sap","ui","define","CellGridPart","Rows","Columns","Data","Mixed","Empty"],"sources":["CellGridPart-dbg.js"],"mappings":";;;;AAIAA,IAAIC,GAAGC,OACL,GACA,WACE,aASA,IAAIC,EAAe,CAKjBC,KAAM,OAKNC,QAAS,UAKTC,KAAM,OAKNC,MAAO,QAKPC,MAAO,SAET,OAAOL,CACT"}

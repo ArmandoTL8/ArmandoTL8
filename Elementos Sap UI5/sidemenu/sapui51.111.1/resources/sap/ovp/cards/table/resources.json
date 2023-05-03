@@ -1,0 +1,122 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ovp/cards/table/Component.js",
+			"size": 1468,
+			"isDebug": true,
+			"required": [
+				"sap/ovp/cards/generic/Component.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ovp/cards/table/Component.js",
+			"size": 739,
+			"required": [
+				"sap/ovp/cards/generic/Component.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 787,
+			"isDebug": true
+		},
+		{
+			"name": "Table-dbg.controller.js",
+			"module": "sap/ovp/cards/table/Table.controller.js",
+			"size": 11248,
+			"isDebug": true,
+			"required": [
+				"sap/m/MessageBox.js",
+				"sap/ovp/app/OVPLogger.js",
+				"sap/ovp/app/OVPUtils.js",
+				"sap/ovp/app/resources.js",
+				"sap/ovp/cards/CommonUtils.js",
+				"sap/ovp/cards/Integration/IntegrationCard.js",
+				"sap/ovp/cards/OVPCardAsAPIUtils.js",
+				"sap/ovp/cards/generic/Card.controller.js",
+				"sap/ovp/filter/FilterUtils.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "Table.controller.js",
+			"module": "sap/ovp/cards/table/Table.controller.js",
+			"size": 4556,
+			"required": [
+				"sap/m/MessageBox.js",
+				"sap/ovp/app/OVPLogger.js",
+				"sap/ovp/app/OVPUtils.js",
+				"sap/ovp/app/resources.js",
+				"sap/ovp/cards/CommonUtils.js",
+				"sap/ovp/cards/Integration/IntegrationCard.js",
+				"sap/ovp/cards/OVPCardAsAPIUtils.js",
+				"sap/ovp/cards/generic/Card.controller.js",
+				"sap/ovp/filter/FilterUtils.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "Table.controller.js.map",
+			"size": 6322,
+			"isDebug": true
+		},
+		{
+			"name": "Table.fragment.xml",
+			"module": "sap/ovp/cards/table/Table.fragment.xml",
+			"size": 1104,
+			"required": [
+				"sap/m/Table.js",
+				"sap/ovp/ui/CustomData.js"
+			],
+			"condRequired": [
+				"sap/ovp/cards/table/TableDashBoardLayout.fragment.xml",
+				"sap/ovp/cards/table/TableEasyScanLayout.fragment.xml"
+			]
+		},
+		{
+			"name": "TableDashBoardLayout.fragment.xml",
+			"module": "sap/ovp/cards/table/TableDashBoardLayout.fragment.xml",
+			"size": 45356,
+			"required": [
+				"sap/m/ColumnListItem.js"
+			],
+			"condRequired": [
+				"sap/m/Column.js",
+				"sap/m/Link.js",
+				"sap/m/ObjectNumber.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ovp/cards/generic/ContactDetails.fragment.xml",
+				"sap/ovp/cards/generic/LineItemDetails.fragment.xml",
+				"sap/ui/comp/navpopover/SmartLink.js",
+				"sap/ui/comp/smartfield/ControlProposal.js",
+				"sap/ui/comp/smartfield/ObjectStatus.js",
+				"sap/ui/comp/smartfield/SmartField.js"
+			]
+		},
+		{
+			"name": "TableEasyScanLayout.fragment.xml",
+			"module": "sap/ovp/cards/table/TableEasyScanLayout.fragment.xml",
+			"size": 6935,
+			"condRequired": [
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/ObjectNumber.js",
+				"sap/m/Text.js",
+				"sap/ovp/cards/table/TableDashBoardLayout.fragment.xml",
+				"sap/ui/comp/smartfield/ControlProposal.js",
+				"sap/ui/comp/smartfield/ObjectStatus.js",
+				"sap/ui/comp/smartfield/SmartField.js"
+			]
+		},
+		{
+			"name": "resources.json",
+			"size": 3147
+		}
+	]
+}

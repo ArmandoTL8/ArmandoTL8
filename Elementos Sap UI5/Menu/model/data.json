@@ -1,0 +1,39 @@
+{
+	"items": [
+		{
+			"src": "sap-icon://home",
+			"title": "Inicio",
+			"subTitle": "Página de inicio"
+		},
+		{
+			"src": "sap-icon://contacts",
+			"title": "Envío de Factura",
+			"subTitle": "Con OC/ Sin OC"
+		},
+		{
+			"src": "sap-icon://credit-card",
+			"title": "Listado de facturas"
+		},
+		
+		
+		{
+			"src": "sap-icon://shipping-status",
+			"title": "Estatus de recepción"
+		},
+		
+		{
+			"src": "sap-icon://sales-notification",
+			"title": "Estado de cuenta"
+		},
+		
+		{
+			"src": "sap-icon://marketing-campaign",
+			"title": "Avisos"
+		},
+		
+		{
+			"src": "sap-icon://batch-payments",
+			"title": "Complementos de pago"
+		}
+	]
+}

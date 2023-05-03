@@ -1,0 +1,135 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 90,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "AvatarGroup.less",
+			"size": 886,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Card.less",
+			"size": 1580,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "DynamicPage.less",
+			"size": 5480,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "DynamicPageHeader.less",
+			"size": 878,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "DynamicPageTitle.less",
+			"size": 4600,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "FlexibleColumnLayout.less",
+			"size": 796,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "GridList.less",
+			"size": 399,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "GridListItem.less",
+			"size": 461,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ProductSwitchItem.less",
+			"size": 187,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ShellBar.less",
+			"size": 14206,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "SidePanel.less",
+			"size": 510,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 5052,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 133417,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 133055,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 124637,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/f/themes/sap_horizon/library-parameters.json",
+			"size": 2104,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.css",
+			"size": 124649,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.less",
+			"size": 30933,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.source.less",
+			"size": 607,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 128400,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 128413,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "resources.json",
+			"size": 2365
+		}
+	]
+}

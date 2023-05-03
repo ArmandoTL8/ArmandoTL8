@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ *
+ * (c) Copyright 2012-2014 SAP SE. All rights reserved
+ */
+sap.ui.define(["sap/ui/thirdparty/jquery","sap/base/security/encodeXML"],function(jQuery,e){"use strict";sap.ui.jsfragment("sap.apf.ui.reuse.fragment.addStepCheckDialog",{createContent:function(t){var o=t.oController;var n=new sap.m.Dialog(o.createId("idAddStepCheckDialog"),{title:o.oCoreApi.getTextNotHtmlEncoded("warning"),type:sap.m.DialogType.Message,state:sap.ui.core.ValueState.Warning,content:[new sap.m.Text({text:o.oCoreApi.getTextNotHtmlEncoded("addStepCheck")}),new sap.m.VBox({alignItems:sap.m.FlexAlignItems.End,items:[new sap.m.Link(o.createId("idShowDetailsLinkForAddStep"),{text:o.oCoreApi.getTextNotHtmlEncoded("showDetails"),press:function(){var n=new sap.m.Dialog(o.createId("idShowDetailsDialogForAddStep"),{contentWidth:jQuery(window).height()*.6+"px",contentHeight:jQuery(window).height()*.6+"px",title:o.oCoreApi.getTextNotHtmlEncoded("warning"),type:sap.m.DialogType.Message,state:sap.ui.core.ValueState.Warning,content:new sap.ui.core.HTML({content:["<div><p> "+e(t.sMessageText)+"</p></div>"].join(""),sanitizeContent:true}),beginButton:new sap.m.Button({text:o.oCoreApi.getTextNotHtmlEncoded("close"),press:function(){n.close()}}),afterClose:function(){n.destroy()}});n.setInitialFocus(n);n.open()}})]})],beginButton:new sap.m.Button({text:o.oCoreApi.getTextNotHtmlEncoded("close"),press:function(){n.close()}}),afterClose:function(){n.destroy()}});return n}})});
+//# sourceMappingURL=addStepCheckDialog.fragment.js.map

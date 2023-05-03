@@ -1,0 +1,8 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+		(c) Copyright 2009-2016 SAP SE. All rights reserved
+	
+ */
+sap.ui.define(["sap/ui/thirdparty/jquery","sap/ui/core/Configuration","sap/ui/core/syncStyleClass"],function(jQuery,e,t){"use strict";var i={apiVersion:2};i.render=function(i,r){if(r.getParent()instanceof jQuery){t("sapUiSizeCozy",r.getParent(),this.oControl)}var n=e.getAccessibility();i.openStart("div",r);i.class("sapRULDecisionTable");this.writeAccAttributes(i,r);if(n){this.writeAccessibilityState(i,r)}i.openEnd();i.renderControl(r.getAggregation("_toolbar"));i.renderControl(r.getAggregation("_errorsText"));i.renderControl(r.getAggregation("_table"));i.close("div")};i.writeAccessibilityState=function(e,t){e.accessibilityState(t,this.getAccessibilityState(t))};i.getAccessibilityState=function(e){var t=this.getRoleDescription(e),i=this.getAriaRole(e),r={};if(i){r.role=i}if(t){r.roledescription={value:t.trim(),append:true}}return r};i.getAriaRole=function(e){return"grid"};i.getRoleDescription=function(e){this.oBundle=sap.ui.getCore().getLibraryResourceBundle("sap.rules.ui.i18n");return this.oBundle.getText("decisionTableReadOutString")};i.writeAccAttributes=function(e,t){};i.renderAriaRoleDescription=function(e,t){var i=this.getDescribedByAnnouncement(t);if(i){e.openStart("span",t);e.attr("id",t.getId()+"-roledescription");e.attr("aria-hidden","true");e.class("sapUiInvisibleText");e.openEnd();e.text(i.trim());e.close("span")}};i.writeOuterAttributes=function(e,t){};i.getDescribedByAnnouncement=function(e){return""};return i},true);
+//# sourceMappingURL=DecisionTableRenderer.js.map

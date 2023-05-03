@@ -1,0 +1,3 @@
+// Copyright (c) 2009-2022 SAP SE, All Rights Reserved
+sap.ui.define(["sap/ushell/services/_MessageBroker/MessageBrokerEngine"],function(e){"use strict";var r=function(){};r.prototype.subscribe=function(r,t,n,i,c){return e.subscribe(r,t,n,i,c)};r.prototype.unsubscribe=function(r){return e.unsubscribe(r)};r.prototype.publish=function(r,t,n,i,c,o){return e.publish(r,t,n,i,c,o)};r.prototype.addAcceptedOrigin=function(r){e.addAcceptedOrigin(r)};r.prototype.removeAcceptedOrigin=function(r){e.removeAcceptedOrigin(r)};r.prototype.getAcceptedOrigins=function(){return e.getAcceptedOrigins()};r.hasNoAdapter=true;return r},false);
+//# sourceMappingURL=MessageBroker.js.map

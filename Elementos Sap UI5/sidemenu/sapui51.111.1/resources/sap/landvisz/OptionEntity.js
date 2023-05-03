@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+(c) Copyright 2009-2013 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/landvisz/library","sap/landvisz/OptionSource","sap/ui/commons/RadioButton","sap/ui/commons/TextView","./OptionEntityRenderer"],function(t,e,i,o,n){"use strict";var p=e.extend("sap.landvisz.OptionEntity",{metadata:{library:"sap.landvisz",properties:{label:{type:"string",group:"Data",defaultValue:null},selected:{type:"boolean",group:"Accessibility",defaultValue:false},enable:{type:"boolean",group:"Identification",defaultValue:true},optionTextTooltip:{type:"string",group:"Data",defaultValue:null}},aggregations:{optionSources:{type:"sap.landvisz.OptionSource",multiple:true,singularName:"optionSource"}},events:{selectOption:{}}}});p.prototype.init=function(){this.optionText="1";this.optionSrcEntityId;this.optionRepEntityId;this.optionOn;this.isSelected;this.initializationDone=false;this.left=0;this.top=0};p.prototype.initControls=function(){var t=this.getId();if(!this.optionTextView)this.optionTextView=new o(t+"-optionText");var e=this;if(!this.optionBtn){this.optionBtn=new i(t+"-optionBtn",{groupName:t+"-optionBtn"});this.optionBtn.attachSelect(function(t){e.fireEvent("optionSelected");e.fireSelectOption()})}};p.prototype.onclick=function(t){if(t.srcControl instanceof i)return;if(this.getEnable()==true){this.fireEvent("optionSelected");this.fireSelectOption()}};p.prototype.onAfterRendering=function(){if(this.getSelected()==true){this.optionBtn.setSelected(true)}}});
+//# sourceMappingURL=OptionEntity.js.map

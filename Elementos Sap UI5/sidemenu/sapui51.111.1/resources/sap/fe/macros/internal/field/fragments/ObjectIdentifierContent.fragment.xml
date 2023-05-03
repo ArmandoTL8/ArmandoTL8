@@ -1,0 +1,44 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:unittest="http://schemas.sap.com/sapui5/preprocessorextension/sap.fe.unittesting/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:control="sap.fe.core.controls"
+	xmlns:macro="sap.fe.macros"
+	template:require="{
+							FIELD: 'sap/fe/macros/field/FieldHelper',
+							MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+							UI: 'sap/fe/core/templating/UIFormatters'
+						 }"
+>
+	<template:if test="{propertyPath>@com.sap.vocabularies.Common.v1.SemanticObject}">
+		<template:then>
+			<ObjectIdentifier
+				core:require="{FieldRuntime: 'sap/fe/macros/field/FieldRuntime'}"
+				id="{this>noWrapperId}"
+				title="{this>identifierTitle}"
+				text="{this>identifierText}"
+				titleActive="{= FIELD.hasSemanticObjectTargets( ${property>@@UI.getDataModelObjectPath} )}"
+				titlePress="FieldRuntime.pressLink"
+				unittest:id="MacroDataFieldObjectIdentifier"
+				ariaLabelledBy="{this>ariaLabelledBy}"
+				modelContextChange="{= FIELD.computeSemanticLinkModelContextChange(${semanticObjects>}, ${property>$Path@@UI.getDataModelObjectPath}) }"
+				emptyIndicatorMode="{this>emptyIndicatorMode}"
+			>
+				<dependents>
+					<macro:QuickView dataField="{dataField>}" semanticObject="{this>semanticObject}" contextPath="{entitySet>}" />
+				</dependents>
+			</ObjectIdentifier>
+		</template:then>
+		<template:else>
+			<ObjectIdentifier
+				core:require="{FieldRuntime: 'sap/fe/macros/field/FieldRuntime'}"
+				id="{this>noWrapperId}"
+				visible="{this>displayVisible}"
+				title="{this>identifierTitle}"
+				text="{this>identifierText}"
+				emptyIndicatorMode="{this>emptyIndicatorMode}"
+			/>
+		</template:else>
+	</template:if>
+</core:FragmentDefinition>

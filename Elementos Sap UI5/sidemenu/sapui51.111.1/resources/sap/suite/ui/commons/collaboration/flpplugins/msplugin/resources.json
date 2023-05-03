@@ -1,0 +1,35 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/suite/ui/commons/collaboration/flpplugins/msplugin/Component.js",
+			"size": 1846,
+			"isDebug": true,
+			"required": [
+				"sap/base/Log.js",
+				"sap/suite/ui/commons/collaboration/ServiceContainer.js",
+				"sap/ui/core/Component.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/suite/ui/commons/collaboration/flpplugins/msplugin/Component.js",
+			"size": 930,
+			"required": [
+				"sap/base/Log.js",
+				"sap/suite/ui/commons/collaboration/ServiceContainer.js",
+				"sap/ui/core/Component.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 830,
+			"isDebug": true
+		},
+		{
+			"name": "resources.json",
+			"size": 744
+		}
+	]
+}

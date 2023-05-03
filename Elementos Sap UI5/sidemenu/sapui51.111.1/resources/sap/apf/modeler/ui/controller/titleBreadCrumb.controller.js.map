@@ -1,0 +1,1 @@
+{"version":3,"file":"titleBreadCrumb.controller.js","names":["sap","ui","controller","setTitleForDetailPage","sFormTitle","oController","this","byId","setText"],"sources":["titleBreadCrumb-dbg.controller.js"],"mappings":";;;;;CAWC,WACA,aACAA,IAAIC,GAAGC,WAAW,gDAAiD,CAElEC,sBAAwB,SAASC,GAChC,IAAIC,EAAcC,KAClBD,EAAYE,KAAK,eAAeC,QAAQJ,EACzC,GAEF,EATA"}

@@ -1,0 +1,63 @@
+{
+    "_version": "1.8.0",
+    "sap.app": {
+        "id": "sap.sac.df.InACard",
+        "title": "InA Card",
+        "type": "component",
+        "i18n": "messagebundle.properties",
+        "ach": "BI-RA-AD-EA",
+        "embeddedBy": "../",
+        "resources": "resources.json"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_belize",
+            "sap_hcb",
+            "sap_fiori_3"
+        ],
+        "fullWidth": true
+    },
+    "sap.ui5": {
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "resources": {
+            "js": [
+                {
+                    "uri": "Component.js"
+                }
+            ]
+        },
+        "dependencies": {
+            "libs": {
+                "sap.sac.df": {
+                    "lazy": false
+                },
+                "sap.viz": {
+                    "lazy": false
+                },
+                "sap.m": {
+                    "lazy": false
+                },
+                "sap.ovp": {
+                    "lazy": false
+                }
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "sap.sac.df.messagebundle"
+                }
+            }
+        }
+    }
+}

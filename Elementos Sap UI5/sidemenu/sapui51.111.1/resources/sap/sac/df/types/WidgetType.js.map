@@ -1,0 +1,1 @@
+{"version":3,"file":"WidgetType.js","names":["sap","ui","define","WidgetType","pivot","bar","colum","line","pie","donut"],"sources":["WidgetType-dbg.js"],"mappings":";;;;;AAQAA,IAAIC,GAAGC,OACL,8BACA,GAEA,WAQE,IAAIC,EAAa,CAKfC,MAAO,QAKPC,IAAK,MAKLC,MAAO,SAKPC,KAAM,OAKNC,IAAK,MAKLC,MAAO,SAET,OAAON,CACT"}

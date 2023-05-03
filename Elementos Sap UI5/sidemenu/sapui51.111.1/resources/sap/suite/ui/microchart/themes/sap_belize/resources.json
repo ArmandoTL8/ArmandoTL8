@@ -1,0 +1,111 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 650,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "AreaMicroChart.less",
+			"size": 392,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "BulletMicroChart.less",
+			"size": 1093,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "ComparisonMicroChart.less",
+			"size": 548,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "DeltaMicroChart.less",
+			"size": 421,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "HarveyBallMicroChart.less",
+			"size": 345,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "SharedStyles.less",
+			"size": 357,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "StackedBarMicroChart.less",
+			"size": 692,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 8842,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 134255,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 133883,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 103682,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/suite/ui/microchart/themes/sap_belize/library-parameters.json",
+			"size": 3910,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library.css",
+			"size": 103667,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library.less",
+			"size": 4807,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library.source.less",
+			"size": 492,
+			"designtime": true,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 108079,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 108064,
+			"theme": "sap_belize"
+		},
+		{
+			"name": "resources.json",
+			"size": 1968
+		}
+	]
+}

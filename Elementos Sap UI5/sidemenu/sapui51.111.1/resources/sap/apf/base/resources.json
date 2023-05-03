@@ -1,0 +1,66 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/apf/base/Component.js",
+			"size": 4157,
+			"isDebug": true,
+			"required": [
+				"sap/apf/api.js",
+				"sap/apf/cloudFoundry/uiHandler.js",
+				"sap/m/library.js",
+				"sap/suite/ui/commons/library.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/export/library.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/library.js",
+				"sap/viz/library.js"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/apf/base/Component-preload.js",
+			"size": 278,
+			"merged": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/apf/base/Component.js",
+			"size": 1528,
+			"required": [
+				"sap/apf/api.js",
+				"sap/apf/cloudFoundry/uiHandler.js",
+				"sap/m/library.js",
+				"sap/suite/ui/commons/library.js",
+				"sap/ui/comp/library.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/export/library.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/library.js",
+				"sap/viz/library.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 1776,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/apf/base/manifest.json",
+			"size": 2031
+		},
+		{
+			"name": "resources.json",
+			"size": 1493
+		}
+	]
+}

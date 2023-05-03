@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+(c) Copyright 2009-2013 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/landvisz/library","sap/ui/core/Control","sap/ui/commons/layout/VerticalLayout","sap/ui/ux3/NavigationItem","./DataContainerRenderer"],function(t,e,i,a,n){"use strict";var s=t.EntityCSSSize;var o=e.extend("sap.landvisz.internal.DataContainer",{metadata:{library:"sap.landvisz",properties:{header:{type:"string",group:"Data",defaultValue:null},selected:{type:"boolean",group:"Identification",defaultValue:true},renderingSize:{type:"sap.landvisz.EntityCSSSize",group:"Dimension",defaultValue:s.Regular},type:{type:"sap.landvisz.LandscapeObject",group:"Identification",defaultValue:null}},aggregations:{properties:{type:"sap.ui.core.Control",multiple:true,singularName:"property"}},events:{select:{}}}});o.prototype.init=function(){this.initializationDone=false;this.firstItem=false;this.lastItem=true;this.width;this.hasChangeEvent=false;this.visible=true;this.inDisplay=true};o.prototype.exit=function(){this.navItem&&this.navItem.destroy();this.oNavBar&&this.navItem.destroy()};o.prototype.initControls=function(){var t=this.getId();if(!this.oVLayoutContainer)this.oVLayoutContainer=new i(t+"-CLVEntityVLayoutContainer");this.navItem&&this.navItem.destroy();this.navItem=new a(t+"-CLVItemHeader")};o.prototype.select=function(t){alert("selected")};o.prototype.onclick=function(t){this.fireEvent("itemsChanged")};o.prototype.onsapenter=function(t){this.fireEvent("itemsChanged")};return o});
+//# sourceMappingURL=DataContainer.js.map

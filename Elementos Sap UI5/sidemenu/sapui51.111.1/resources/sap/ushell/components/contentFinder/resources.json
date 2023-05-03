@@ -1,0 +1,166 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/contentFinder/Component.js",
+			"size": 2245,
+			"isDebug": true,
+			"required": [
+				"sap/f/library.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/library.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/contentFinder/view/ContentFinderDialog.view.xml"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/contentFinder/Component.js",
+			"size": 1133,
+			"required": [
+				"sap/f/library.js",
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/library.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/library.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/model/resource/ResourceModel.js",
+				"sap/ushell/components/contentFinder/view/ContentFinderDialog.view.xml"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 1179,
+			"isDebug": true
+		},
+		{
+			"name": "controller/AppSearch-dbg.controller.js",
+			"module": "sap/ushell/components/contentFinder/controller/AppSearch.controller.js",
+			"size": 861,
+			"isDebug": true,
+			"required": [
+				"sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js"
+			]
+		},
+		{
+			"name": "controller/AppSearch.controller.js",
+			"module": "sap/ushell/components/contentFinder/controller/AppSearch.controller.js",
+			"size": 280,
+			"required": [
+				"sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js"
+			]
+		},
+		{
+			"name": "controller/AppSearch.controller.js.map",
+			"size": 274,
+			"isDebug": true
+		},
+		{
+			"name": "controller/ContentFinderDialog-dbg.controller.js",
+			"module": "sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js",
+			"size": 946,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "controller/ContentFinderDialog.controller.js",
+			"module": "sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js",
+			"size": 392,
+			"required": [
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "controller/ContentFinderDialog.controller.js.map",
+			"size": 428,
+			"isDebug": true
+		},
+		{
+			"name": "controller/WidgetGallery-dbg.controller.js",
+			"module": "sap/ushell/components/contentFinder/controller/WidgetGallery.controller.js",
+			"size": 902,
+			"isDebug": true,
+			"required": [
+				"sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js"
+			]
+		},
+		{
+			"name": "controller/WidgetGallery.controller.js",
+			"module": "sap/ushell/components/contentFinder/controller/WidgetGallery.controller.js",
+			"size": 288,
+			"required": [
+				"sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js"
+			]
+		},
+		{
+			"name": "controller/WidgetGallery.controller.js.map",
+			"size": 282,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/components/contentFinder/manifest.json",
+			"size": 1256
+		},
+		{
+			"name": "resources.json",
+			"size": 4688
+		},
+		{
+			"name": "resources/resources.properties",
+			"module": "sap/ushell/components/contentFinder/resources/resources.properties",
+			"size": 333
+		},
+		{
+			"name": "view/AppSearch.view.xml",
+			"module": "sap/ushell/components/contentFinder/view/AppSearch.view.xml",
+			"size": 1341,
+			"required": [
+				"sap/m/OverflowToolbar.js",
+				"sap/m/OverflowToolbarLayoutData.js",
+				"sap/m/SearchField.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/ushell/components/contentFinder/controller/AppSearch.controller.js"
+			]
+		},
+		{
+			"name": "view/ContentFinderDialog.view.xml",
+			"module": "sap/ushell/components/contentFinder/view/ContentFinderDialog.view.xml",
+			"size": 2227,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/NavContainer.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ushell/components/contentFinder/controller/ContentFinderDialog.controller.js",
+				"sap/ushell/components/contentFinder/view/AppSearch.view.xml",
+				"sap/ushell/components/contentFinder/view/WidgetGallery.view.xml"
+			]
+		},
+		{
+			"name": "view/WidgetGallery.view.xml",
+			"module": "sap/ushell/components/contentFinder/view/WidgetGallery.view.xml",
+			"size": 341,
+			"required": [
+				"sap/m/Title.js",
+				"sap/ushell/components/contentFinder/controller/WidgetGallery.controller.js"
+			]
+		}
+	]
+}

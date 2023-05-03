@@ -1,0 +1,7 @@
+/*!
+ * SAPUI5
+    (c) Copyright 2009-2021 SAP SE. All rights reserved
+  
+ */
+sap.ui.define("sap/sac/df/types/export/OverwriteTexts",["sap/sac/df/firefly/library","sap/sac/df/utils/ResourceBundle"],function(E,L){"use strict";var _={MEASURE_DIMENSION:E.OlapUiCommonI18n.COMMON_MEASURES,STRUCTURE_DIMENSION:E.OlapUiCommonI18n.COMMON_STRUCTURE,EXCEPTION_ERROR:E.AuGdsQueryBuilderI18n.VALUE_EXCEPTION_ERROR,EXCEPTION_NO_VALUE:E.AuGdsQueryBuilderI18n.VALUE_EXCEPTION_NO_VALUE,EXCEPTION_NULL:E.AuGdsQueryBuilderI18n.VALUE_EXCEPTION_NULL,EXCEPTION_OTHER:E.AuGdsQueryBuilderI18n.VALUE_EXCEPTION_OTHER,EXCEPTION_UNDEFINED:E.AuGdsQueryBuilderI18n.VALUE_EXCEPTION_UNDEFINED,SCALE_LONG_BILLION:E.AuGdsQueryBuilderI18n.STYLE_SCALE_LONG_BILLION,SCALE_LONG_MILLION:E.AuGdsQueryBuilderI18n.STYLE_SCALE_LONG_MILLION,SCALE_LONG_THOUSAND:E.AuGdsQueryBuilderI18n.STYLE_SCALE_LONG_THOUSAND,SCALE_SHORT_BILLION:E.AuGdsQueryBuilderI18n.STYLE_SCALE_SHORT_BILLION,SCALE_SHORT_MILLION:E.AuGdsQueryBuilderI18n.STYLE_SCALE_SHORT_MILLION,SCALE_SHORT_THOUSAND:E.AuGdsQueryBuilderI18n.STYLE_SCALE_SHORT_THOUSAND,TOTAL_INCLUDING_MEMBER:E.AuGdsQueryBuilderI18n.TOTALS_INCLUDING,TOTAL_MEMBER:E.AuGdsQueryBuilderI18n.TOTALS,TOTAL_REMAINING_MEMBER:E.AuGdsQueryBuilderI18n.TOTALS_REMAINING,getDefault:function(){var _=E.XHashMapOfStringByString.create();var O=Object.keys(this);var I=this;O.forEach(function(E){if(typeof I[E]!=="function"){var O=L.getText(I[E]);_.put(I[E],O)}});return _}};return _});
+//# sourceMappingURL=OverwriteTexts.js.map

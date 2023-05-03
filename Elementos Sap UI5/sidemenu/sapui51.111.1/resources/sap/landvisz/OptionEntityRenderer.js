@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+
+(c) Copyright 2009-2013 SAP AG. All rights reserved
+ */
+sap.ui.define(["sap/landvisz/library"],function(t){"use strict";var e=t.OptionType;var i={};i.render=function(t,i){if(!this.initializationDone){i.initControls();i.initializationDone=true;t.write("<div");t.writeControlData(i);t.addClass("sapLandviszOptionButton");t.writeClasses();if(i.left!=0)t.addStyle("left",i.left+"px");if(i.top!=0)t.addStyle("top",i.top+"px");if(i.optionOn==e.ENTITY)t.addStyle("position","absolute");if(i.getEnable()==false){t.addStyle("cursor","default");t.addStyle("color","#999999")}else{t.addStyle("cursor","pointer");t.addStyle("color","#00669c")}t.writeStyles();t.write(" >");i.optionBtn.addStyleClass("viewBtn");i.optionBtn.setText("");i.optionBtn.setTooltip(i.getOptionTextTooltip());i.optionBtn.setEnabled(i.getEnable());i.optionBtn.setSelected(i.getSelected());t.renderControl(i.optionBtn);i.optionTextView.addStyleClass("viewText");i.optionTextView.setText(i.getLabel());i.optionTextView.setTooltip(i.getOptionTextTooltip());i.optionTextView.setEnabled(i.getEnable());t.renderControl(i.optionTextView);t.write("</div>")}};return i},true);
+//# sourceMappingURL=OptionEntityRenderer.js.map

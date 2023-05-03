@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+  background: linear-gradient(to bottom, #0E468B, #FFFFFF);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.contenedor {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  margin-top: -15px;
+}
+
+h2 {
+  color: #0E468B;
+  margin-bottom: 20px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #0070F2;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Estilos específicos del HTML */
+header {
+  text-align: center;
+}
+
+header img {
+  width: 32%;
+  margin: 15px;
+  margin-bottom: 40px;
+}
+
+.contenedor {
+  width: 55vw;
+  height: 29vw;
+}
+
+.contenedor form {
+  flex: 1;
+}
+
+.contenedor form h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.contenedor form img {
+  width: 130px;
+  height: 100px;
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+.contenedor form label {
+  margin-top: 10px;
+}
+
+.contenedor form button[type="submit"] {
+  background-color: #0070F2;
+  color: white;
+}
+
+.centrado {
+  display: block;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  padding: 10px;
+}
+
+footer img {
+  width: 60px;
+  margin-left: 10px;
+}
+
+footer span {
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+footer a {
+  margin-right: 20px;
+  font-size: 13px;
+}

@@ -1,0 +1,98 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/runtimeSwitcher/Component.js",
+			"size": 339,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/UIComponent.js",
+				"sap/ushell/components/runtimeSwitcher/view/RuntimeSwitcher.view.xml"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/runtimeSwitcher/Component-preload.js",
+			"size": 4388,
+			"merged": true,
+			"required": [
+				"sap/m/NavContainer.js",
+				"sap/m/Page.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/components/pages/controller/PagesAndSpaceId.js"
+			],
+			"included": [
+				"sap/ushell/components/runtimeSwitcher/Component.js",
+				"sap/ushell/components/runtimeSwitcher/controller/RuntimeSwitcher.controller.js",
+				"sap/ushell/components/runtimeSwitcher/manifest.json",
+				"sap/ushell/components/runtimeSwitcher/view/RuntimeSwitcher.view.xml"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 2815,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/runtimeSwitcher/Component.js",
+			"size": 279,
+			"required": [
+				"sap/ui/core/UIComponent.js",
+				"sap/ushell/components/runtimeSwitcher/view/RuntimeSwitcher.view.xml"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 279,
+			"isDebug": true
+		},
+		{
+			"name": "controller/RuntimeSwitcher-dbg.controller.js",
+			"module": "sap/ushell/components/runtimeSwitcher/controller/RuntimeSwitcher.controller.js",
+			"size": 5238,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/components/pages/controller/PagesAndSpaceId.js"
+			]
+		},
+		{
+			"name": "controller/RuntimeSwitcher.controller.js",
+			"module": "sap/ushell/components/runtimeSwitcher/controller/RuntimeSwitcher.controller.js",
+			"size": 2049,
+			"required": [
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ushell/components/pages/controller/PagesAndSpaceId.js"
+			]
+		},
+		{
+			"name": "controller/RuntimeSwitcher.controller.js.map",
+			"size": 2161,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/components/runtimeSwitcher/manifest.json",
+			"size": 1213
+		},
+		{
+			"name": "resources.json",
+			"size": 2680
+		},
+		{
+			"name": "view/RuntimeSwitcher.view.xml",
+			"module": "sap/ushell/components/runtimeSwitcher/view/RuntimeSwitcher.view.xml",
+			"size": 1070,
+			"required": [
+				"sap/m/NavContainer.js",
+				"sap/m/Page.js",
+				"sap/ui/core/ComponentContainer.js",
+				"sap/ushell/components/runtimeSwitcher/controller/RuntimeSwitcher.controller.js"
+			]
+		}
+	]
+}

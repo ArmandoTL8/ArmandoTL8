@@ -1,0 +1,307 @@
+{
+	"version": 0.2,
+	"unitId": 1,
+	"startupConfig": {
+		"qualtricsInternalUri": "",
+		"productName": "",
+		"platformType": "",
+		"scopeSet": ["dynamicPush", "featurePush"],
+		"dataFormat": 2
+	},
+	"runtimeConfig": {
+		"useApiOnClick": true,
+		"daysUntilLocalStateExpiry": 180
+	},
+	"pushConfig": {
+		"general": {
+			"quietPeriodInHrs": 48,
+			"snoozePeriodInHrs": 25
+		},
+		"dynamicPush": {
+			"intervalTimerInMinutes": 30,
+			"minimumTimeToStartTimerInHrs": 12,
+			"intervalInitialPushInDays": 35,
+			"deviationInitialPushInDays": 7,
+			"intervalNextPushInDays": 90,
+			"deviationNextPushInDays": 28
+		},
+		"inAppPush": {
+			"intervalInitialPushInDays": 14,
+			"deviationInitialPushInDays": 7,
+			"intervalNextPushInDays": 45,
+			"deviationNextPushInDays": 7,
+			"configs": [
+				{
+					"areaId": "POC",
+					"triggerName": "featureTest",
+					"validFrom": "2022-01-01T00:00:01",
+					"validTo": "2023-12-31T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "001",
+					"triggerName": "manageStockPoC",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "001",
+					"triggerName": "stockMultipleMaterials",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "002",
+					"triggerName": "soCreatePoC",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "002",
+					"triggerName": "processSO",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "clearOutgoingPayments",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "makeBankTransfer",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "shortTermCashPositioning",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "projectProfitabilityOverview",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "manageSubstitutionsAndValidations",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "manageAllocations",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "projectWIPDetails_2",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "004",
+					"triggerName": "processReceivables",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "005",
+					"triggerName": "managePO_v2",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "005",
+					"triggerName": "createPurchaseRequisitions",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "006",
+					"triggerName": "planCustomerProjects",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "006",
+					"triggerName": "manageProjectBilligRequest",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				},
+				{
+					"areaId": "006",
+					"triggerName": "manageMyTimesheet",
+					"validFrom": "2022-05-01T00:00:01",
+					"validTo": "2023-05-01T00:00:01",
+					"isEnabled": true,
+					"isGeneric": false,
+					"trigger": {
+						"name": "recurringTrigger",
+						"type": "recurring",
+						"interval": 1,
+						"maxLimit": 2,
+						"startThreshold": 0
+					}
+				}
+			]
+		}
+	}
+}

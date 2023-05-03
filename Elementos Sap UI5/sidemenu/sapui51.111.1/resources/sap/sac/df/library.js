@@ -1,0 +1,7 @@
+/*!
+ * SAPUI5
+    (c) Copyright 2009-2021 SAP SE. All rights reserved
+  
+ */
+sap.ui.loader.config({async:true,shim:{"sap/sac/grid/thirdparty/sac.internal.grid.main.2.3.0-5ce62ed29d6c40846369eb8b6bca193a80d45dfb":{amd:true,exports:"sapSacGrid"},"sap/sac/df/thirdparty/interact":{amd:true,exports:"interact"}}});sap.ui.define(["sap/sac/df/types/NavigationCommandType","sap/sac/df/types/SystemType","sap/sac/grid/thirdparty/sac.internal.grid.main.2.3.0-5ce62ed29d6c40846369eb8b6bca193a80d45dfb","sap/sac/df/thirdparty/interact","sap/ui/core/library","sap/ui/layout/library","sap/ui/layout/cssgrid/GridBasicLayout","sap/ui/table/library","sap/f/library","sap/m/library","sap/sac/df/utils/FpaIcons"],function(a,s,e){var i=sap.ui.getCore().initLibrary({name:"sap.sac.df",dependencies:["sap.ui.core","sap.ui.layout","sap.ui.table","sap.m","sap.sac.grid","sap.ui.mdc","sap.ui.fl","sap.tnt"],components:[],types:["sap.sac.df.types.SystemType"],interfaces:[],controls:["sap.sac.df.PivotTable","sap.sac.df.inatile.InATile","sap.sac.df.DFProgram","sap.sac.df.FlexAnalysis","sap.sac.df.FilterBar"],models:["sap.sac.df.olap.MultiDimModel","sap.sac.df.DFKernel"],elements:["sap.sac.df.FlexAnalysisPanel"],version:"1.111.0",extensions:{flChangeHandlers:{"sap.sac.df.FilterBar":"sap/ui/mdc/flexibility/FilterBar"}}});i.types={};i.types.NavigationCmdType=a;i.NavigationCmdType=a;i.types.SystemType=s;window.sactable=e;return i});
+//# sourceMappingURL=library.js.map

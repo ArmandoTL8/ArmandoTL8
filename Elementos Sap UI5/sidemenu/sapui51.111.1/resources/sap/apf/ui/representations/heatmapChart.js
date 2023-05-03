@@ -1,0 +1,7 @@
+/*!
+ * SAP APF Analysis Path Framework
+ *
+ * (c) Copyright 2012-2014 SAP SE. All rights reserved
+ */
+sap.ui.define(["sap/apf/ui/representations/BaseVizFrameChartRepresentation","sap/apf/core/constants","sap/apf/ui/utils/constants"],function(e,t,i){"use strict";function a(t,a){e.apply(this,[t,a]);this.type=i.representationTypes.HEATMAP_CHART;this.chartType=i.vizFrameChartTypes.HEATMAP;this._addDefaultKind()}a.prototype=Object.create(e.prototype);a.prototype.constructor=a;a.prototype._addDefaultKind=function(){this.parameter.measures.forEach(function(e){if(e.kind===undefined){e.kind=t.representationMetadata.kind.SECTORCOLOR}});this.parameter.dimensions.forEach(function(e,i){if(e.kind===undefined){e.kind=i===0?t.representationMetadata.kind.XAXIS:t.representationMetadata.kind.XAXIS2}})};a.prototype.setVizPropsForSpecificRepresentation=function(){this.chart.setVizProperties({categoryAxis2:{visible:true,title:{visible:true},label:{visible:true}}})};a.prototype.setVizPropsOfThumbnailForSpecificRepresentation=function(){if(!this.thumbnailChart){return}this.thumbnailChart.setVizProperties({categoryAxis2:{visible:false,title:{visible:false}}})};a.prototype.getAxisFeedItemId=function(e){var i=t.representationMetadata.kind;var a;switch(e){case i.XAXIS:a=t.vizFrame.feedItemTypes.CATEGORYAXIS;break;case i.XAXIS2:a=t.vizFrame.feedItemTypes.CATEGORYAXIS2;break;case i.SECTORCOLOR:a=t.vizFrame.feedItemTypes.COLOR;break;default:break}return a};sap.apf.ui.representations.heatmapChart=a;return a},true);
+//# sourceMappingURL=heatmapChart.js.map

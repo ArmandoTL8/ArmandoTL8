@@ -1,0 +1,122 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ushell/components/shell/Search/Component.js",
+			"size": 1945,
+			"isDebug": true,
+			"required": [
+				"sap/base/util/ObjectPath.js",
+				"sap/m/library.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/layout/library.js",
+				"sap/ushell/components/shell/Search/ESearch.js",
+				"sap/ushell/utils.js"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "sap/ushell/components/shell/Search/Component-preload.js",
+			"size": 3706,
+			"merged": true,
+			"required": [
+				"sap/base/util/ObjectPath.js",
+				"sap/m/library.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/routing/HashChanger.js",
+				"sap/ui/layout/library.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/renderers/fiori2/search/util.js",
+				"sap/ushell/resources.js",
+				"sap/ushell/utils.js"
+			],
+			"condRequired": [
+				"sap/esh/search/ui/HashChangeHandler.js",
+				"sap/esh/search/ui/SearchShellHelper.js",
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js"
+			],
+			"included": [
+				"sap/ushell/components/shell/Search/Component.js",
+				"sap/ushell/components/shell/Search/ESearch.js",
+				"sap/ushell/components/shell/Search/manifest.json"
+			]
+		},
+		{
+			"name": "Component-preload.js.map",
+			"size": 4045,
+			"isDebug": true
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ushell/components/shell/Search/Component.js",
+			"size": 1107,
+			"required": [
+				"sap/base/util/ObjectPath.js",
+				"sap/m/library.js",
+				"sap/ui/core/Component.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/layout/library.js",
+				"sap/ushell/components/shell/Search/ESearch.js",
+				"sap/ushell/utils.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 1329,
+			"isDebug": true
+		},
+		{
+			"name": "ESearch-dbg.js",
+			"module": "sap/ushell/components/shell/Search/ESearch.js",
+			"size": 4007,
+			"isDebug": true,
+			"required": [
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/routing/HashChanger.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/renderers/fiori2/search/util.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/esh/search/ui/HashChangeHandler.js",
+				"sap/esh/search/ui/SearchShellHelper.js",
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js"
+			]
+		},
+		{
+			"name": "ESearch.js",
+			"module": "sap/ushell/components/shell/Search/ESearch.js",
+			"size": 1823,
+			"required": [
+				"sap/ui/core/IconPool.js",
+				"sap/ui/core/routing/HashChanger.js",
+				"sap/ui/thirdparty/jquery.js",
+				"sap/ushell/renderers/fiori2/search/util.js",
+				"sap/ushell/resources.js"
+			],
+			"condRequired": [
+				"sap/esh/search/ui/HashChangeHandler.js",
+				"sap/esh/search/ui/SearchShellHelper.js",
+				"sap/esh/search/ui/SearchShellHelperAndModuleLoader.js"
+			]
+		},
+		{
+			"name": "ESearch.js.map",
+			"size": 2351,
+			"isDebug": true
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ushell/components/shell/Search/manifest.json",
+			"size": 904
+		},
+		{
+			"name": "resources.json",
+			"size": 3161
+		}
+	]
+}

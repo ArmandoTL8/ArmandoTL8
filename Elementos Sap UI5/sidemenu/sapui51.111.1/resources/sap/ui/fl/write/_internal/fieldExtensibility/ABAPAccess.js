@@ -1,0 +1,7 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2023 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/ui/util/openWindow","sap/ui/fl/registry/Settings","sap/ui/fl/apply/_internal/flexState/ManifestUtils","sap/ui/fl/write/_internal/fieldExtensibility/ABAPExtensibilityVariantFactory","sap/ui/fl/write/_internal/fieldExtensibility/ServiceValidation"],function(n,t,e,i,r){"use strict";var u=null;var a=null;function l(){if(!a){return i.getInstance(u).then(function(n){a=n;return n})}return Promise.resolve(a)}var o={};o.getTexts=function(){return l(u).then(function(n){return n.getTexts().then(function(n){return n})})};o.isExtensibilityEnabled=function(n){var i=e.getFlexReferenceForControl(n);if(!i){return Promise.resolve(false)}return t.getInstance(i).then(function(n){return n.isAtoEnabled()})};o.getExtensionData=function(){return l(u).then(function(n){return n.getExtensionData().then(function(n){return n})})};o.onControlSelected=function(n){if(n!==u){u=n;a=null}};o.onTriggerCreateExtensionData=function(){return l().then(function(t){return t.getNavigationUri().then(function(t){if(t){n(t,"_blank")}})})};o.isServiceOutdated=function(n){return r.isServiceOutdated(n)};o.setServiceValid=function(n){r.setServiceValid(n)};o.setServiceInvalid=function(n){r.setServiceInvalid(n)};return o},true);
+//# sourceMappingURL=ABAPAccess.js.map

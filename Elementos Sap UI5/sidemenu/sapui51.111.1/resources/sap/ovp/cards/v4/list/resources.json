@@ -1,0 +1,158 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "sap/ovp/cards/v4/list/Component.js",
+			"size": 1408,
+			"isDebug": true,
+			"required": [
+				"sap/ovp/cards/v4/generic/Component.js"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "sap/ovp/cards/v4/list/Component.js",
+			"size": 722,
+			"required": [
+				"sap/ovp/cards/v4/generic/Component.js"
+			]
+		},
+		{
+			"name": "Component.js.map",
+			"size": 737,
+			"isDebug": true
+		},
+		{
+			"name": "CondensedBarList.fragment.xml",
+			"module": "sap/ovp/cards/v4/list/CondensedBarList.fragment.xml",
+			"size": 9679,
+			"required": [
+				"sap/m/CustomListItem.js",
+				"sap/m/HBox.js",
+				"sap/suite/ui/microchart/ComparisonMicroChart.js",
+				"sap/suite/ui/microchart/ComparisonMicroChartData.js"
+			],
+			"condRequired": [
+				"sap/m/Link.js",
+				"sap/m/ObjectNumber.js",
+				"sap/m/Text.js",
+				"sap/m/VBox.js",
+				"sap/ovp/cards/v4/generic/ContactDetails.fragment.xml",
+				"sap/ovp/cards/v4/generic/LineItemDetails.fragment.xml",
+				"sap/ui/comp/navpopover/SmartLink.js"
+			]
+		},
+		{
+			"name": "ExtendedBarList.fragment.xml",
+			"module": "sap/ovp/cards/v4/list/ExtendedBarList.fragment.xml",
+			"size": 13680,
+			"required": [
+				"sap/m/CustomListItem.js",
+				"sap/m/FlexItemData.js",
+				"sap/m/HBox.js",
+				"sap/m/VBox.js",
+				"sap/suite/ui/microchart/ComparisonMicroChart.js",
+				"sap/suite/ui/microchart/ComparisonMicroChartData.js"
+			],
+			"condRequired": [
+				"sap/m/Link.js",
+				"sap/m/ObjectNumber.js",
+				"sap/m/Text.js",
+				"sap/ovp/cards/v4/generic/ContactDetails.fragment.xml",
+				"sap/ovp/cards/v4/generic/LineItemDetails.fragment.xml",
+				"sap/ui/comp/navpopover/SmartLink.js"
+			]
+		},
+		{
+			"name": "List-dbg.controller.js",
+			"module": "sap/ovp/cards/v4/list/List.controller.js",
+			"size": 18505,
+			"isDebug": true,
+			"required": [
+				"sap/ovp/app/OVPLogger.js",
+				"sap/ovp/app/OVPUtils.js",
+				"sap/ovp/cards/CommonUtils.js",
+				"sap/ovp/cards/Filterhelper.js",
+				"sap/ovp/cards/OVPCardAsAPIUtils.js",
+				"sap/ovp/cards/v4/V4AnnotationHelper.js",
+				"sap/ovp/cards/v4/generic/Card.controller.js",
+				"sap/ovp/filter/FilterUtils.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "List.controller.js",
+			"module": "sap/ovp/cards/v4/list/List.controller.js",
+			"size": 7083,
+			"required": [
+				"sap/ovp/app/OVPLogger.js",
+				"sap/ovp/app/OVPUtils.js",
+				"sap/ovp/cards/CommonUtils.js",
+				"sap/ovp/cards/Filterhelper.js",
+				"sap/ovp/cards/OVPCardAsAPIUtils.js",
+				"sap/ovp/cards/v4/V4AnnotationHelper.js",
+				"sap/ovp/cards/v4/generic/Card.controller.js",
+				"sap/ovp/filter/FilterUtils.js",
+				"sap/ui/core/Core.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/thirdparty/jquery.js"
+			]
+		},
+		{
+			"name": "List.controller.js.map",
+			"size": 9702,
+			"isDebug": true
+		},
+		{
+			"name": "List.fragment.xml",
+			"module": "sap/ovp/cards/v4/list/List.fragment.xml",
+			"size": 3426,
+			"condRequired": [
+				"sap/m/List.js",
+				"sap/ovp/cards/v4/list/CondensedBarList.fragment.xml",
+				"sap/ovp/cards/v4/list/ExtendedBarList.fragment.xml",
+				"sap/ovp/cards/v4/list/ObjectList.fragment.xml",
+				"sap/ovp/cards/v4/list/StandardList.fragment.xml",
+				"sap/ovp/cards/v4/list/StandardListImage.fragment.xml",
+				"sap/ovp/ui/CustomData.js"
+			]
+		},
+		{
+			"name": "ObjectList.fragment.xml",
+			"module": "sap/ovp/cards/v4/list/ObjectList.fragment.xml",
+			"size": 7777,
+			"required": [
+				"sap/m/ObjectAttribute.js",
+				"sap/m/ObjectListItem.js"
+			],
+			"condRequired": [
+				"sap/m/ObjectStatus.js"
+			]
+		},
+		{
+			"name": "StandardList.fragment.xml",
+			"module": "sap/ovp/cards/v4/list/StandardList.fragment.xml",
+			"size": 1402,
+			"required": [
+				"sap/m/StandardListItem.js"
+			]
+		},
+		{
+			"name": "StandardListImage.fragment.xml",
+			"module": "sap/ovp/cards/v4/list/StandardListImage.fragment.xml",
+			"size": 2302,
+			"required": [
+				"sap/m/List.js",
+				"sap/m/StandardListItem.js",
+				"sap/ovp/ui/CustomData.js"
+			]
+		},
+		{
+			"name": "resources.json",
+			"size": 4155
+		}
+	]
+}

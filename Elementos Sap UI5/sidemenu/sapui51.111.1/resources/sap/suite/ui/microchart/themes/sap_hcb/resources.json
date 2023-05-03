@@ -1,0 +1,123 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 128,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "AreaMicroChart.less",
+			"size": 288,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "BulletMicroChart.less",
+			"size": 2862,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "ComparisonMicroChart.less",
+			"size": 841,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "DeltaMicroChart.less",
+			"size": 329,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "HarveyBallMicroChart.less",
+			"size": 428,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "InteractiveBarChart.less",
+			"size": 2837,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "InteractiveDonutChart.less",
+			"size": 3105,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "InteractiveLineChart.less",
+			"size": 2954,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "RadialMicroChart.less",
+			"size": 721,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 4491,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 114939,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 114636,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 71480,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"module": "sap/suite/ui/microchart/themes/sap_hcb/library-parameters.json",
+			"size": 1907,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 71469,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 15333,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 497,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 77419,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 77408,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "resources.json",
+			"size": 2135
+		}
+	]
+}

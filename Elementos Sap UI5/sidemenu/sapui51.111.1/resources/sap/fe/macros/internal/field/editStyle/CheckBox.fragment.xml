@@ -1,0 +1,28 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:unittest="http://schemas.sap.com/sapui5/preprocessorextension/sap.fe.unittesting/1"
+	xmlns:log="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	template:require="{
+							MODEL: 'sap/ui/model/odata/v4/AnnotationHelper',
+							COMMON: 'sap/fe/macros/CommonHelper',
+							FIELD: 'sap/fe/macros/field/FieldHelper',
+							ID: 'sap/fe/core/helpers/StableIdHelper',
+							UI: 'sap/fe/core/templating/UIFormatters'
+						 }"
+>
+	<CheckBox
+		unittest:id="MacroInput"
+		log:sourcePath="{this>dataSourcePath}"
+		core:require="{FieldRuntime: 'sap/fe/macros/field/FieldRuntime'}"
+		id="{= (${this>idPrefix} ? ID.generate([${this>idPrefix}, 'Field-edit']) : undefined) }"
+		selected="{this>valueBindingExpression}"
+		editable="{this>editableExpression}"
+		enabled="{this>enabledExpression}"
+		select="FieldRuntime.handleChange($controller, $event)"
+		fieldGroupIds="{parts:[{path:'dataField>Value/$Path'}, {path:'entityType>'}], formatter: 'FIELD.getFieldGroupIds'}"
+		validateFieldGroup="FieldRuntime.onValidateFieldGroup($controller, $event)"
+		ariaLabelledBy="{this>ariaLabelledBy}"
+	/>
+</core:FragmentDefinition>

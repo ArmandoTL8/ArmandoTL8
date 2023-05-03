@@ -1,0 +1,6 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+ *      (c) Copyright 2009-2023 SAP SE. All rights reserved
+ */
+sap.ui.define(["sap/base/Log","sap/base/util/ObjectPath","sap/ui/model/json/JSONModel"],function(t,e,n){"use strict";function i(t,e){t.prototype=Object.create(e.prototype);t.prototype.constructor=t;o(t,e)}function o(t,e){o=Object.setPrototypeOf?Object.setPrototypeOf.bind():function t(e,n){e.__proto__=n;return e};return o(t,e)}let r=function(n){i(o,n);function o(t,e,i){var o;o=n.call(this)||this;o.oNode=t;o.oProps=e;o.buildingBlockDefinition=i;o.$$valueAsPromise=true;return o}var r=o.prototype;r._getObject=function n(i,o){if(i===undefined||i===""){if(o!==undefined&&o.getPath()!=="/"){return this._getObject(o.getPath(i))}return this.oProps}if(i==="/undefinedValue"||i==="undefinedValue"){return undefined}const r=e.get(i.replace(/\//g,"."),this.oProps);if(r!==undefined){return r}if(this.oProps.hasOwnProperty(i)){return this.oProps[i]}if(i.indexOf(":")===-1&&i.indexOf("/")===-1){t.error(`Missing property ${i} on building block metadata ${this.buildingBlockDefinition.name}`)}return this.oNode.getAttribute(i)};return o}(n);return r},false);
+//# sourceMappingURL=AttributeModel.js.map

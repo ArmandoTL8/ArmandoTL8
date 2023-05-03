@@ -1,0 +1,1 @@
+{"version":3,"file":"Format.js","names":["sap","ui","define","Format","Basic","ExcelStyle","BusinessStyle","BusinessStyleFormular","CustomStyle"],"sources":["Format-dbg.js"],"mappings":";;;;AAIAA,IAAIC,GAAGC,OACL,sBAAuB,GACvB,WACE,aASC,IAAIC,EAAS,CAKZC,MAAO,QAKPC,WAAY,aAKZC,cAAe,gBAKfC,sBAAuB,wBAKtBC,YAAa,eAEhB,OAAOL,CACT"}

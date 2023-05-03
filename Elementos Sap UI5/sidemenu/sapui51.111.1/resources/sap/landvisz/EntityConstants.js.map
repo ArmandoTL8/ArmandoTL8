@@ -1,0 +1,1 @@
+{"version":3,"file":"EntityConstants.js","names":["sap","ui","define","BaseObject","EntityConstants","prototype","Object","create","internalEvent"],"sources":["EntityConstants-dbg.js"],"mappings":";;;;;AAKAA,IAAIC,GAAGC,OAAO,CACb,sBACE,SAASC,GACX,aAEA,IAAIC,EAAkB,WACtB,EAEAA,EAAgBC,UAAYC,OAAOC,OAAOJ,EAAWE,WAAa,MAElED,EAAgBI,cAAgB,MAEhC,OAAOJ,CAER,EAAmB"}

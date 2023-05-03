@@ -1,0 +1,53 @@
+<core:FragmentDefinition
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:internalMacro="sap.fe.macros.internal"
+	xmlns:control="sap.fe.core.controls"
+	xmlns:m="sap.m"
+	template:require="{
+		UI: 'sap/fe/core/templating/UIFormatters',
+		Property: 'sap/fe/core/templating/PropertyFormatters'
+
+	}"
+>
+	<template:if test="{= ${this>formatOptions/isAnalytics} &amp;&amp; ${property>@@Property.hasUnitOrCurrency} }">
+		<template:then>
+			<control:ConditionalWrapper
+				visible="{this>displayVisible}"
+				condition="{= UI.hasValidAnalyticalCurrencyOrUnit(${property>$Path@@UI.getDataModelObjectPath})}"
+			>
+				<control:contentTrue>
+					<internalMacro:DataPoint
+						idPrefix="{= ${this>idPrefix} }"
+						ariaLabelledBy="{= ${this>ariaLabelledBy} }"
+						_flexId="{= ${this>_flexId} }"
+						metaPath="{dataPoint>}"
+						contextPath="{entitySet>}"
+					>
+						<internalMacro:formatOptions
+							measureDisplayMode="{this>formatOptions/measureDisplayMode}"
+							showEmptyIndicator="{this>formatOptions/showEmptyIndicator}"
+							isAnalytics="{this>formatOptions/isAnalytics}"
+						/>
+					</internalMacro:DataPoint>
+				</control:contentTrue>
+				<control:contentFalse>
+					<m:Text text="*" />
+				</control:contentFalse>
+			</control:ConditionalWrapper>
+		</template:then>
+		<template:else>
+			<internalMacro:DataPoint
+				idPrefix="{= ${this>idPrefix} }"
+				visible="{this>displayVisible}"
+				ariaLabelledBy="{= ${this>ariaLabelledBy} }"
+				_flexId="{= ${this>_flexId} }"
+				metaPath="{dataPoint>}"
+				contextPath="{entitySet>}"
+			>
+				<internalMacro:formatOptions measureDisplayMode="{this>formatOptions/measureDisplayMode}" />
+			</internalMacro:DataPoint>
+		</template:else>
+	</template:if>
+</core:FragmentDefinition>
