@@ -1,5 +1,9 @@
 var total;
 var isVisible = true;
+var flagComponent = new Ext.form.Hidden({
+    id: 'flag',
+    value: '4'
+});
 var razonSocialStore = new Ext.data.JsonStore({
 	root: 'data',
 	fields: ['bukrs', 'butxt'],
